@@ -9,7 +9,6 @@ export default function Inicio() {
             <SwiperInicio />
             <div className="container">
             <CartasInicio /> 
-
             </div>
         </div >
     )

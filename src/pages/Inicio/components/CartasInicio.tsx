@@ -11,17 +11,19 @@ const { Paragraph } = Typography;
 export const CartasInicio = () => {
     const data = [
         {
-            title: 'Inauguración de nueva planta potabilizadora beneficiará a más de 5,000 habitantes',
+            title: 'Seguimos trabajando arduamente para mejorar las vialidades de nuestro Paraíso',
             fecha: "7 Abr",
-            imagen: "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/491328258_1258649088950249_2793354559391509090_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFOsAFdWLxk--nTrb5qPMtV-HFWlCTbfBr4cVaUJNt8GsqM7e9sGocV80YET7LnU6fYTUv_w5kL3G7LmuKIrSpK&_nc_ohc=ztfmyNsweZEQ7kNvwEh-6d9&_nc_oc=AdlFGEPpFQqZH1oXC0-4UVs5uhGyFi5trLYGzPE81u2PYFG695QMkez3Rm3Y67OVCfsGUxexWk-WgIApYhgsaTWI&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=UeuExusvfKdp_bSznmLhAw&oh=00_AfH-pMbDmPMic_CFy1x9jl2VXoL-nA5Si2LfHJ3mJUB4Mg&oe=680268B9"
+            imagen: "./public/noticia1.jpg"
         },
         {
-            title: 'Inicia programa de bacheo en colonias del centro',
-            fecha: "4 Abr"
+            title: 'Las gestiones que realizamos hoy son por el futuro y beneficio de los habitantes de Paraíso.',
+            fecha: "4 Abr",
+            imagen: "./public/noticia3.jpg"
         },
         {
-            title: 'Ayuntamiento realiza jornada de limpieza en playas',
-            fecha: '2 Abr',
+            title: '¡Tenemos excelentes noticias! Hoy Viernes 04 de abril, continuamos con la entrega de los ',
+            fecha: '4 Abr',
+            imagen: "./public/noticia2.jpg"
         },
         {
             title: 'Anuncian cursos gratuitos de capacitación para el empleo',
