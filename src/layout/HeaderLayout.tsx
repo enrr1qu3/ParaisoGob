@@ -24,7 +24,7 @@ export const HeaderLayout = () => {
             icono: <LuInstagram className="icon" />
         },
         {
-            link: "https://www.youtube.com/watch?v=fhnrrLxQEVQ",
+            link: "https://www.youtube.com",
             icono: <LuYoutube className="icon" />
         },
     ];
