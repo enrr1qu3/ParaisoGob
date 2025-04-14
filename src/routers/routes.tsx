@@ -1,12 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
-import Inicio from "../pages/Inicio";
+import Inicio from "../pages/Inicio/Inicio";
+import { ErrorPage } from "../pages/Error/ErrorPage";
+import LayoutTransparencia from "../layoutTransparencia/LayoutTransparencia";
+import { TransparenciaInicio } from "../pages/Transparencia/TransparenciaInicio";
+import { TransparenciaArchivos } from "../pages/Transparencia/TransparenciaArchivos";
+
 
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
-        errorElement: <>Error1</>,
+        errorElement: <ErrorPage />,
         children: [
             {
                 index: true,
@@ -16,9 +21,25 @@ export const router = createBrowserRouter([
                 path: "noticias",
                 element: <>Noticia</>
             },
+
+        ]
+    },
+    {
+        path: "/transparencia",
+        element: <LayoutTransparencia />,
+        errorElement: <ErrorPage />,
+        children: [
             {
-                path: "transparencia",
-                element: <>transparencia</>
+                index: true,
+                element:  <TransparenciaInicio />
+            },
+            {
+                path: "/transparencia/inicio",
+                element: <TransparenciaInicio />
+            },
+            {
+                path: "/transparencia/archivos-publicados",
+                element: <TransparenciaArchivos />
             },
 
         ]

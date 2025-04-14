@@ -1,0 +1,59 @@
+.cartasContenedor {
+  margin: 3rem 0;
+}
+.contenedorTitulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tituloSeccion {
+  color: #f26c0d;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.tituloLink {
+  /* style={{ color: "#1a4b8c", textDecoration: "inherit", display: "flex", gap: "10px" }} */
+  color: #1a4b8c;
+  text-decoration: inherit;
+  display: flex;
+  gap: 10px;
+}
+.tituloLink:hover {
+  color: #f26c0d;
+}
+.metaCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.metaCardTitulo {
+  margin: 0;
+  margin-bottom: 5px;
+  height: 56px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.metaCardFecha {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding: 0 24px 24px 0;
+}
+.metaCardFechaP {
+  margin: 0;
+}
+.botonCarta {
+  background-color: white;
+  border-radius: 5px;
+  color: #f26c0d;
+  border: #f26c0d solid 1px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.botonCarta:hover {
+    color: black;
+  background-color: #f1f5f9;
+}

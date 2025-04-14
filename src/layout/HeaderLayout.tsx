@@ -4,13 +4,14 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
 import { LuFacebook, LuInstagram, LuMail, LuTwitter, LuYoutube } from "react-icons/lu";
 import { MenuLayout } from "./MenuLayout";
+import { Link } from "react-router-dom";
 
 export const HeaderLayout = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     const redes = [
         {
-            link: "https://www.facebook.com",
+            link: "https://www.facebook.com/profile.php?id=61565179617663&mibextid=qi2Omg&rdid=jbwWs9f5IcemDaNa#",
             icono: <LuFacebook className="icon" />
         },
         {
@@ -39,16 +40,16 @@ export const HeaderLayout = () => {
             <div className="container-border">
                 <div className="container">
                     <div className="top-bar">
-                        <a href="/"
+                        <Link to="/"
                             className="contact-link"
                         >
                             <LuMail className="icon" />
                             <span className="email">contacto@municipio.gob.mx</span>
-                        </a>
+                        </Link>
                         {/* Redes */}
                         <div className="social-links">
                             {redes.map((red) =>
-                                <a href={red.link} key={red.link}>
+                                <a href={red.link} key={red.link} target="_blank">
                                     {red.icono}
                                 </a>
                             )}
@@ -72,9 +73,6 @@ export const HeaderLayout = () => {
                             </a>
 
                             <div className="desktop-nav">
-                                {/* {opciones.map((e) => <a href={e}
-                                    className="nav-link"
-                                    key={e}>{e}</a>)} */}
                                 <MenuLayout />
                             </div>
                         </div>
