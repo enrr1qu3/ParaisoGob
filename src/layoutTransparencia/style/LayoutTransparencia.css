@@ -1,6 +1,6 @@
 .contenedorTransparencia {
 
-  max-width: 100rem;
+  /* max-width: 100rem; */
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -11,6 +11,6 @@
 }
 @media (min-width: 1024px) {
   .contenedorTransparencia {
-    grid-template-columns: .7fr 3fr;
+    grid-template-columns: 1fr 3fr;
   }
 }
