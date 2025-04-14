@@ -5,6 +5,7 @@ import { IoMdClose } from "react-icons/io";
 import { LuFacebook, LuInstagram, LuMail, LuTwitter, LuYoutube } from "react-icons/lu";
 import { MenuLayout } from "./MenuLayout";
 import { Link } from "react-router-dom";
+import { MenuLayoutMovil } from "./MenuLayoutMovil";
 
 export const HeaderLayout = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,13 +27,7 @@ export const HeaderLayout = () => {
             link: "https://www.youtube.com/watch?v=fhnrrLxQEVQ",
             icono: <LuYoutube className="icon" />
         },
-    ]
-    const opciones = [
-        "MUNICIPIO",
-        "GOBIERNO",
-        "ATENCIÓN CIUDADANA",
-        "TRANSPARENCIA",
-    ]
+    ];
 
     return (
         <header className="header">
@@ -90,9 +85,7 @@ export const HeaderLayout = () => {
             {isMenuOpen && (
                 // <div className="lg:hidden bg-white border-b">
                 <div className="container-movil">
-                    <div className="menu-list">
-                        {opciones.map((e) => <a href={e} key={e} className="menu-link">{e}</a>)}
-                    </div>
+                        <MenuLayoutMovil />
                 </div>
                 // </div>
             )}
