@@ -11,17 +11,17 @@ const { Paragraph } = Typography;
 export const CartasInicio = () => {
     const data = [
         {
-            title: 'Seguimos trabajando arduamente para mejorar las vialidades de nuestro Paraíso',
+            title: 'Trabajos de Reparación en Camino hacia Dos Bocas',
             fecha: "7 Abr",
             imagen: "./public/noticia1.jpg"
         },
         {
-            title: 'Las gestiones que realizamos hoy son por el futuro y beneficio de los habitantes de Paraíso.',
+            title: 'Paraíso Presenta Proyectos Estratégicos ante CONAGUA',
             fecha: "4 Abr",
             imagen: "./public/noticia3.jpg"
         },
         {
-            title: '¡Tenemos excelentes noticias! Hoy Viernes 04 de abril, continuamos con la entrega de los ',
+            title: '¡Siguen las Pollitas! Premiamos tu Responsabilidad',
             fecha: '4 Abr',
             imagen: "./public/noticia2.jpg"
         },

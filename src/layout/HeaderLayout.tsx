@@ -16,15 +16,15 @@ export const HeaderLayout = () => {
             icono: <LuFacebook className="icon" />
         },
         {
-            link: "https://x.com/?lang=es",
+            link: "https://x.com/Ayuntamiento_24",
             icono: <LuTwitter className="icon" />
         },
         {
-            link: "https://www.instagram.com",
+            link: "https://www.instagram.com/ayuntamiento_de_paraiso?igsh=bTY5bHp4d244eHVu",
             icono: <LuInstagram className="icon" />
         },
         {
-            link: "https://www.youtube.com",
+            link: "https://www.youtube.com/@AyuntamientoDeParaiso-g8j",
             icono: <LuYoutube className="icon" />
         },
     ];

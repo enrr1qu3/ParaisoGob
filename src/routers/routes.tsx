@@ -5,6 +5,8 @@ import { ErrorPage } from "../pages/Error/ErrorPage";
 import LayoutTransparencia from "../layoutTransparencia/LayoutTransparencia";
 import { TransparenciaInicio } from "../pages/Transparencia/TransparenciaInicio";
 import { TransparenciaArchivos } from "../pages/Transparencia/TransparenciaArchivos";
+import Noticias from "../pages/Noticias/Noticias";
+import Noticia from '../pages/Noticias/Noticia';
 
 
 export const router = createBrowserRouter([
@@ -19,7 +21,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: "noticias",
-                element: <>Noticia</>
+                children: [
+                    {
+                        index: true,
+                        element: <Noticias />
+                    },
+                    {
+                        path: ":noticiaId",
+                        element: <Noticia />
+                    },
+
+                ]
             },
 
         ]
@@ -31,7 +43,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element:  <TransparenciaInicio />
+                element: <TransparenciaInicio />
             },
             {
                 path: "/transparencia/inicio",
