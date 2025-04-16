@@ -7,6 +7,7 @@ import { TransparenciaInicio } from "../pages/Transparencia/TransparenciaInicio"
 import { TransparenciaArchivos } from "../pages/Transparencia/TransparenciaArchivos";
 import Noticias from "../pages/Noticias/Noticias";
 import Noticia from '../pages/Noticias/Noticia';
+import Historia from "../pages/Historia/Historia";
 
 
 export const router = createBrowserRouter([
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
                     },
 
                 ]
+            },
+            {
+                path: "/historia",
+                element: <Historia />
             },
 
         ]
