@@ -53,25 +53,25 @@ export const TransparenciaArchivos = () => {
       title: 'Proyecto No.',
       dataIndex: 'proyecto',
       key: 'proyecto',
-      width: "5%",
+
     },
     {
       title: 'Obra',
       dataIndex: 'obra',
       key: 'obra',
-      width: "20%",
+      width: "400px",
     },
     {
       title: 'Localidad',
       dataIndex: 'localidad',
       key: 'localidad',
-      width: "10%",
+
     },
     {
       title: 'Contrato',
       dataIndex: 'contrato',
       key: 'contrato',
-      width: "6%",
+
     },
     {
       title: 'Archivo',

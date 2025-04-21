@@ -58,14 +58,14 @@ export const HeaderLayout = () => {
                 <div className="container">
                     <div className="navbar-content">
                         <div className="logo-nav">
-                            <a href="/" className="logo-link">
+                            <Link to="/" className="logo-link">
                                 <img
                                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7729.PNG-N4wQd9csCo9xGJAHC7pusSHLPWmOVN.png"
                                     alt="logo" className="logo-small"
                                     width={50} height={50}
                                 />
-                                <span className="logo-text">Paraíso</span>
-                            </a>
+                                <h1 className="logo-text" style={{ fontWeight: "bold" }}>Paraíso</h1>
+                            </Link>
 
                             <div className="desktop-nav">
                                 <MenuLayout />
@@ -85,7 +85,7 @@ export const HeaderLayout = () => {
             {isMenuOpen && (
                 // <div className="lg:hidden bg-white border-b">
                 <div className="container-movil">
-                        <MenuLayoutMovil />
+                    <MenuLayoutMovil />
                 </div>
                 // </div>
             )}

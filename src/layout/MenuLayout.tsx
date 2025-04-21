@@ -12,7 +12,7 @@ const items: MenuItem[] = [
 
             { label: 'Historia', key: 'historia' },
             { label: 'Geografía', key: 'geografia' },
-            { label: 'Población', key: 'poblacion' },
+            // { label: 'Población', key: 'poblacion' },
 
         ],
     },

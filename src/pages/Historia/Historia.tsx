@@ -223,7 +223,7 @@ export default function Historia() {
                                         <>
                                             <Image
                                                 width={"100%"}
-                                                src="https://images.adsttc.com/media/images/66a7/ebe8/df91/fa64/85ca/e307/slideshow/malecon-cangrejo-azul-puerto-ceiba-laboratorio-de-acupuntura-urbana_5.jpg?1722281022"
+                                                src="../../../public/Cangrejo_Ceiba.png"
                                             />
                                             <p>Malecón de Puerto Ceiba</p>
                                         </>
