@@ -1,4 +1,4 @@
-import { Button, Col, Row, Table } from "antd"
+import { Button, Col, List, Row, Table } from "antd"
 import { FilePdfOutlined } from '@ant-design/icons';
 export const TransparenciaArchivos = () => {
   const dataSource = [
@@ -47,7 +47,69 @@ export const TransparenciaArchivos = () => {
       contrato: "CO-PA-R23TER-008-2025"
     },
   ]
+  const dataArt46 = [
+    {
+      nombre: "Publicacion Programacion",
+      archivo: "https://paraisomovimiento.com/transparencia/PUBLICACION%20PROGRAMACION.pdf",
+    },
+    {
+      nombre: "Clasificacion de economica(por tipo de gasto)",
+      archivo: "https://paraisomovimiento.com/transparencia/clasificacion%20de%20economica%20(por%20tipo%20de%20gasto).pdf",
+    },
+    {
+      nombre: "Clasificacion funcional",
+      archivo: "https://paraisomovimiento.com/transparencia/clasificacion%20funcional.pdf",
+    },
+    {
+      nombre: "Clasificacion administrativa",
+      archivo: "https://paraisomovimiento.com/transparencia/clasificacion%20administrativa.pdf",
+    },
+    {
+      nombre: "Clasificacion por objeto del gasto",
+      archivo: "https://paraisomovimiento.com/transparencia/clasificacion%20por%20objeto%20del%20gasto.pdf",
+    },
+    {
+      nombre: "Clasificacion por categoria programatica",
+      archivo: "https://paraisomovimiento.com/transparencia/clasificacion%20por%20categoria%20programatica.pdf",
+    },
+    {
+      nombre: "Clasificacion por programas y proyectos",
+      archivo: "https://paraisomovimiento.com/transparencia/clasificacion%20de%20programas%20y%20proyectos.pdf",
+    },
+  ]
+  const dataArt72y75 = [
+    {
+      nombre: "FAIS Y FORTAMUN 2025",
+      archivo: "https://paraisomovimiento.com/transparencia/FAIS%20Y%20FORTAMUN%202025.docx",
+    },
 
+  ]
+
+  const columnsDOS = [
+    {
+      title: 'Nombre',
+      dataIndex: 'nombre',
+      key: 'nombre',
+
+    },
+    {
+      title: 'Archivo',
+      key: 'archivo',
+      dataIndex: 'archivo',
+      width: "2%",
+      render: (e: any) => (
+        (e)
+          ? < Button
+            icon={< FilePdfOutlined />}
+            href={e}
+            target="_blank"
+          >
+            Archivo
+          </ Button>
+          : <></>
+      ),
+    },
+  ];
   const columns = [
     {
       title: 'Proyecto No.',
@@ -110,6 +172,7 @@ export const TransparenciaArchivos = () => {
       ),
     },
   ];
+
   return (
     <div  >
       <h2 className="tituloInicio">
@@ -121,10 +184,36 @@ export const TransparenciaArchivos = () => {
           xl={{ flex: '100%' }}
         >
           <Table
-            title={() => <h3>'Ramo 23 Hidrocarburos.  Art. 72 LGCG'</h3>}
+            title={() => <h3>'Ramo 23 Hidrocarburos.  Art. 72 LGCG'</h3>}
             dataSource={dataSource}
             size="small" columns={columns}
             rowKey={(record) => record.proyecto}
+            scroll={{ x: 'max-content' }}
+          />
+        </Col>
+
+        <Col
+          xs={{ flex: '100%' }}
+          xl={{ flex: '100%' }}
+        >
+          <Table
+            title={() => <h3 style={{ margin: 0 }}>Articulo 46 de la ley general de contabilidad gubernamental del estado de tabasco</h3>}
+            dataSource={dataArt46}
+            size="small" columns={columnsDOS}
+            rowKey={(record) => record.nombre}
+            scroll={{ x: 'max-content' }}
+          />
+        </Col>
+
+        <Col
+          xs={{ flex: '100%' }}
+          xl={{ flex: '100%' }}
+        >
+          <Table
+            title={() => <h3 style={{ margin: 0 }}>Art. 72 y 75 de la ley general de contabilidad gubernamental del estado de tabasco</h3>}
+            dataSource={dataArt72y75}
+            size="small" columns={columnsDOS}
+            rowKey={(record) => record.nombre}
             scroll={{ x: 'max-content' }}
           />
         </Col>
