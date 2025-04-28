@@ -14,7 +14,7 @@ export const SwiperInicio = () => {
         >
             <SwiperSlide
                 style={{
-                    backgroundImage: "url(./public/Puente_Bellote.png)",
+                    backgroundImage: "url(/Puente_Bellote.png)",
                     // backgroundPosition: "center",
                     backgroundAttachment: "contain",
                     backgroundSize: "cover",
@@ -42,7 +42,7 @@ export const SwiperInicio = () => {
 
             <SwiperSlide
                 style={{
-                    backgroundImage: "url(./public/Cangrejo_Ceiba.png)",
+                    backgroundImage: "url(/Cangrejo_Ceiba.png)",
                     backgroundPosition: "center",
                     backgroundAttachment: "contain",
                     backgroundSize: "cover",
