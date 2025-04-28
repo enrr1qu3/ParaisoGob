@@ -223,7 +223,7 @@ export default function Historia() {
                                         <>
                                             <Image
                                                 width={"100%"}
-                                                src="../../../public/Cangrejo_Ceiba.png"
+                                                src="/Cangrejo_Ceiba.png"
                                             />
                                             <p>Malecón de Puerto Ceiba</p>
                                         </>
