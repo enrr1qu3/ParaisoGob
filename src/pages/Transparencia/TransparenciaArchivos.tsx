@@ -1,4 +1,4 @@
-import { Button, Col, List, Row, Table } from "antd"
+import { Button, Col, Row, Table } from "antd"
 import { FilePdfOutlined } from '@ant-design/icons';
 export const TransparenciaArchivos = () => {
   const dataSource = [
