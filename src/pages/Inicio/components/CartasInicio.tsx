@@ -13,17 +13,17 @@ export const CartasInicio = () => {
         {
             title: 'Trabajos de Reparación en Camino hacia Dos Bocas',
             fecha: "7 Abr",
-            imagen: "./public/noticia1.jpg"
+            imagen: "/noticia1.jpg"
         },
         {
             title: 'Paraíso Presenta Proyectos Estratégicos ante CONAGUA',
             fecha: "4 Abr",
-            imagen: "./public/noticia3.jpg"
+            imagen: "/noticia3.jpg"
         },
         {
             title: '¡Siguen las Pollitas! Premiamos tu Responsabilidad',
             fecha: '4 Abr',
-            imagen: "./public/noticia2.jpg"
+            imagen: "/noticia2.jpg"
         },
         {
             title: 'Anuncian cursos gratuitos de capacitación para el empleo',
