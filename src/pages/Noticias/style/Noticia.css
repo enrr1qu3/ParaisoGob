@@ -2,4 +2,13 @@
   width: 100%;
   /* max-height: 720px; */
   height: 100%;
+  border-radius: 5px;
+}
+.tituloNoticia {
+  margin: 0;
+  color: #1a4b8c;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
 }

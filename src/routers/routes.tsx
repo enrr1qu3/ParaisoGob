@@ -9,7 +9,8 @@ import Noticias from "../pages/Noticias/Noticias";
 import Noticia from '../pages/Noticias/Noticia';
 import Historia from "../pages/Historia/Historia";
 import Geografia from "../pages/Geografia/Geografia";
-// import GobiernoPage from "../pages/Gobierno/GobiernoPage";
+import CabildoPage from "../pages/Cabildo/CabildoPage";
+
 
 
 export const router = createBrowserRouter([
@@ -44,10 +45,10 @@ export const router = createBrowserRouter([
                 path: "/geografia",
                 element: <Geografia />
             },
-            // {
-            //     path: "/gobierno",
-            //     element: <GobiernoPage />
-            // },
+            {
+                path: "/cabildo",
+                element: <CabildoPage />
+            },
 
         ]
     },
