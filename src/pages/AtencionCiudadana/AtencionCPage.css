@@ -1,0 +1,88 @@
+.quejasDenuncias {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+.contenedorCartas h3 {
+  color: #1a4b8c;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.contenedorCartas p {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.iconQuejas {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 16px;
+}
+.iconQuejas h4 {
+  margin: 5px 0;
+  font-size: 2rem;
+}
+.contenedorCartas button {
+  width: 100%;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.buttonWhats {
+  background-color: #22c55e;
+}
+.buttonWhats:hover {
+  background-color: #16a34a;
+}
+.buttonMenssage {
+  background-color: #3b82f6;
+}
+.buttonMenssage:hover {
+  background-color: #2563eb;
+}
+.buttonTel {
+  background-color: #1a4b8c;
+}
+.buttonTel:hover {
+  background-color: #305d97;
+}
+.ubicanos {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #1a4b8c;
+}
+.infoGeneral {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.infoGeneral h3 {
+  color: #f26c0d;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.cajaDatos p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem; 
+}

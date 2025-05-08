@@ -30,7 +30,7 @@ const items: MenuItem[] = [
     },
     {
         label: 'ATENCIÓN CIUDADANA',
-        key: 'ATENCIÓN CIUDADANA',
+        key: 'atencionCiudadana',
     },
     {
         label: 'TRANSPARENCIA',

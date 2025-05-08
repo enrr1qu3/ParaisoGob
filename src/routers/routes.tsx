@@ -10,6 +10,7 @@ import Noticia from '../pages/Noticias/Noticia';
 import Historia from "../pages/Historia/Historia";
 import Geografia from "../pages/Geografia/Geografia";
 import CabildoPage from "../pages/Cabildo/CabildoPage";
+import AtencionCPage from "../pages/AtencionCiudadana/AtencionCPage";
 
 
 
@@ -49,6 +50,10 @@ export const router = createBrowserRouter([
                 path: "/cabildo",
                 element: <CabildoPage />
             },
+            {
+                path: "/atencionCiudadana",
+                element: <AtencionCPage />
+            },
 
         ]
     },
@@ -72,5 +77,6 @@ export const router = createBrowserRouter([
 
         ]
     },
+
 
 ]);

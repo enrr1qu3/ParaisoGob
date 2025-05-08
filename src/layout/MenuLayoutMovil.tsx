@@ -14,18 +14,25 @@ export const MenuLayoutMovil = () => {
 
                 { label: 'Historia', key: 'historia' },
                 { label: 'Geografía', key: 'geografia' },
-                { label: 'Población', key: 'poblacion' },
+                // { label: 'Población', key: 'poblacion' },
 
             ],
         },
         {
             label: 'GOBIERNO',
             key: 'GOBIERNO',
+            children: [
+
+                { label: 'Cabildo', key: 'cabildo' },
+                { label: 'Directorio', key: 'directorio' },
+                // { label: 'Población', key: 'poblacion' },
+
+            ],
 
         },
         {
             label: 'ATENCIÓN CIUDADANA',
-            key: 'ATENCIÓN CIUDADANA',
+            key: 'atencionCiudadana',
         },
         {
             label: 'TRANSPARENCIA',
@@ -44,7 +51,7 @@ export const MenuLayoutMovil = () => {
                     }}
                     mode="inline"
                     items={items}
-                    // style={{ minWidth: 522, flex: "auto" }}
+                // style={{ minWidth: 522, flex: "auto" }}
                 />
             </Col>
         </Row>
