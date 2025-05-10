@@ -29,13 +29,24 @@ const items: MenuItem[] = [
 
     },
     {
+        label: 'TRANSPARENCIA',
+        key: 'transparencia',
+        children: [
+            { label: 'PrimeraPagina', key: 'transparencia1' },
+            // { label: 'Directorio', key: 'directorio' },
+            // { label: 'Población', key: 'poblacion' },
+
+        ],
+
+    },
+    {
         label: 'ATENCIÓN CIUDADANA',
         key: 'atencionCiudadana',
     },
-    {
-        label: 'TRANSPARENCIA',
-        key: 'transparencia',
-    },
+    // {
+    //     label: 'TRANSPARENCIA',
+    //     key: 'transparencia',
+    // },
 
 ];
 export const MenuLayout = () => {

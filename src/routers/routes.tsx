@@ -11,6 +11,7 @@ import Historia from "../pages/Historia/Historia";
 import Geografia from "../pages/Geografia/Geografia";
 import CabildoPage from "../pages/Cabildo/CabildoPage";
 import AtencionCPage from "../pages/AtencionCiudadana/AtencionCPage";
+import TransparenciaPage from "../pages/Transparencia/TransparenciaPage";
 
 
 
@@ -53,6 +54,10 @@ export const router = createBrowserRouter([
             {
                 path: "/atencionCiudadana",
                 element: <AtencionCPage />
+            },
+            {
+                path: "/transparencia1",
+                element: <TransparenciaPage />
             },
 
         ]
