@@ -56,7 +56,7 @@ export const router = createBrowserRouter([
                 element: <AtencionCPage />
             },
             {
-                path: "/transparencia1",
+                path: "/sevac",
                 element: <TransparenciaPage />
             },
 

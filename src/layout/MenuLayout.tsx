@@ -32,10 +32,8 @@ const items: MenuItem[] = [
         label: 'TRANSPARENCIA',
         key: 'transparencia',
         children: [
-            { label: 'PrimeraPagina', key: 'transparencia1' },
-            // { label: 'Directorio', key: 'directorio' },
-            // { label: 'Población', key: 'poblacion' },
-
+            { label: 'SEVAC', key: 'sevac' },
+            { label: 'Archivos publicados', key: 'transparencia/archivos-publicados' },
         ],
 
     },

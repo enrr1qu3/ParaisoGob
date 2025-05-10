@@ -1,6 +1,7 @@
 import { Col, ConfigProvider, Row, Card, Breadcrumb, Tabs, Table, Button } from 'antd';
 import { FilePdfOutlined, HomeOutlined } from '@ant-design/icons';
 import type { TabsProps } from 'antd';
+import { TablaInfoContable } from './Tablas/TablaInfoContable';
 
 export default function TransparenciaPage() {
     const dataSource = [
@@ -116,19 +117,12 @@ export default function TransparenciaPage() {
         {
             key: '1',
             label: 'Informacion contable',
-            children: <Table
-                title={() => <h3>'Ramo 23 Hidrocarburos.  Art. 72 LGCG'</h3>}
-                dataSource={dataSource}
-                size="small" columns={columns}
-                rowKey={(record) => record.proyecto}
-                scroll={{ x: 'max-content' }}
-            />,
+            children: <TablaInfoContable />,
         },
         {
             key: '2',
             label: 'Informacion presupuestaria',
             children: <Table
-                title={() => <h3>'Ramo 23 Hidrocarburos.  Art. 72 LGCG'</h3>}
                 dataSource={dataSource}
                 size="small" columns={columns}
                 rowKey={(record) => record.proyecto}
@@ -139,7 +133,6 @@ export default function TransparenciaPage() {
             key: '3',
             label: 'Informacion programatica',
             children: <Table
-                title={() => <h3>'Ramo 23 Hidrocarburos.  Art. 72 LGCG'</h3>}
                 dataSource={dataSource}
                 size="small" columns={columns}
                 rowKey={(record) => record.proyecto}
@@ -150,7 +143,6 @@ export default function TransparenciaPage() {
             key: '4',
             label: 'LDF Entidades federativas y municipios',
             children: <Table
-                title={() => <h3>'Ramo 23 Hidrocarburos.  Art. 72 LGCG'</h3>}
                 dataSource={dataSource}
                 size="small" columns={columns}
                 rowKey={(record) => record.proyecto}
@@ -194,7 +186,7 @@ export default function TransparenciaPage() {
                                             </>)
                                     },
                                     {
-                                        title: 'Transparencia 1',
+                                        title: 'SEVAC',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -202,7 +194,7 @@ export default function TransparenciaPage() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Transparencia 1
+                            SEVAC
                         </h2>
                         <p className='subtituloP'>
                             Informacion para la ciudadanía
