@@ -5,59 +5,30 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoProgramatica = () => {
     const dataSource = [
         {
-            name: "ESTADO DE ACTIVIDADES",
+            name: "CLASIFICACION DE PROGRAMAS Y PROYECTOS",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE ACTIVIDADES.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion de programas y proyectos.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS",
+            name: "CLASIFICACION POR CATEGORIA PROGRAMATICA",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion por categoria programatica.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL ACTIVO",
+            name: "RECURSOS RECIBIDOS FORTAMUN",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DEL ACTIVO.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf"
             }
         },
         {
-            name: "ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA",
+            name: "OBRAS Y ACCIONES A REALIZAR. FAIS ",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf"
             }
         },
-        {
-            name: "ESTADO DE FLUJO DE EFECTIVO",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE FLUJO DE EFECTIVO.pdf"
-            }
-        },
-        {
-            name: "ESTADO DE SITUACION FINANCIERA",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE SITUACION FINANCIERA.pdf"
-            }
-        },
-        {
-            name: "ESTADO DE VARIACION DE LA HACIENDA PUBLICA",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf"
-            }
-        },
-        {
-            name: "NOTAS A LOS ESTADOS FINANCIEROS",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/NOTAS A LOS ESTADOS FINANCIEROS.pdf"
-            }
-        },
-        {
-            name: "PASIVOS CONTINGENTES",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/PASIVOS CONTINGENTES.pdf"
-            }
-        },
+
 
     ];
     const columns: ColumnsType<any> = [
@@ -190,7 +161,6 @@ export const TablaInfoProgramatica = () => {
             bordered
             size="small"
             columns={columns}
-
             dataSource={dataSource}
             rowKey={(record) => record.name}
             scroll={{ x: 'max-content' }}

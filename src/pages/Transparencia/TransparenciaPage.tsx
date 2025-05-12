@@ -4,6 +4,7 @@ import type { TabsProps } from 'antd';
 import { TablaInfoContable } from './Tablas/TablaInfoContable';
 import { TablaInfoPresupuestaria } from './Tablas/TablaInfoPresupuestaria';
 import { TablaInfoLDF } from './Tablas/TablaInfoLDF';
+import { TablaInfoProgramatica } from './Tablas/TablaInfoProgramatica';
 
 export default function TransparenciaPage() {
 
@@ -18,16 +19,11 @@ export default function TransparenciaPage() {
             label: 'Informacion presupuestaria',
             children: <TablaInfoPresupuestaria />,
         },
-        // {
-        //     key: '3',
-        //     label: 'Informacion programatica',
-        //     children: <Table
-        //         dataSource={dataSource}
-        //         size="small" columns={columns}
-        //         rowKey={(record) => record.proyecto}
-        //         scroll={{ x: 'max-content' }}
-        //     />,
-        // },
+        {
+            key: '3',
+            label: 'Informacion programatica',
+            children: < TablaInfoProgramatica />,
+        },
         {
             key: '4',
             label: 'LDF Entidades federativas y municipios',

@@ -77,13 +77,13 @@ export const TransparenciaArchivos = () => {
       archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_de_programas_y_proyectos.pdf",
     },
   ]
-  const dataArt72y75 = [
-    {
-      nombre: "FAIS Y FORTAMUN 2025",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/FAIS_Y_FORTAMUN_2025.pdf",
-    },
+  // const dataArt72y75 = [
+  //   {
+  //     nombre: "FAIS Y FORTAMUN 2025",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/FAIS_Y_FORTAMUN_2025.pdf",
+  //   },
 
-  ]
+  // ]
 
   const dataUEDM = [
     {
@@ -224,18 +224,7 @@ export const TransparenciaArchivos = () => {
           />
         </Col>
 
-        <Col
-          xs={{ flex: '100%' }}
-          xl={{ flex: '100%' }}
-        >
-          <Table
-            title={() => <h3 style={{ margin: 0 }}>Art. 72 y 75 de la ley general de contabilidad gubernamental del estado de tabasco</h3>}
-            dataSource={dataArt72y75}
-            size="small" columns={columnsDOS}
-            rowKey={(record) => record.nombre}
-            scroll={{ x: 'max-content' }}
-          />
-        </Col>
+
         <Col
           xs={{ flex: '100%' }}
           xl={{ flex: '100%' }}
