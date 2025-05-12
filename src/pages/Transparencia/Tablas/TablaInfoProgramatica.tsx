@@ -1,7 +1,8 @@
 import { Button, Table } from "antd";
 import { FilePdfOutlined } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
-export const TablaInfoContable = () => {
+
+export const TablaInfoProgramatica = () => {
     const dataSource = [
         {
             name: "ESTADO DE ACTIVIDADES",
@@ -182,6 +183,7 @@ export const TablaInfoContable = () => {
                 },
             ],
         }
+
     ];
     return (
         <Table

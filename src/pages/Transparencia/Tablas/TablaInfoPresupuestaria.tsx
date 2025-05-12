@@ -1,60 +1,24 @@
 import { Button, Table } from "antd";
 import { FilePdfOutlined } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
-export const TablaInfoContable = () => {
+export const TablaInfoPresupuestaria = () => {
     const dataSource = [
         {
-            name: "ESTADO DE ACTIVIDADES",
+            name: "ENDEUDAMIENTO NETO",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE ACTIVIDADES.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ENDEUDAMIENTO NETO.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS",
+            name: "ESTADO ANALITICO DE LOS INGRESOS",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL ACTIVO",
+            name: "INTERESES DE LA DEUDA",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DEL ACTIVO.pdf"
-            }
-        },
-        {
-            name: "ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf"
-            }
-        },
-        {
-            name: "ESTADO DE FLUJO DE EFECTIVO",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE FLUJO DE EFECTIVO.pdf"
-            }
-        },
-        {
-            name: "ESTADO DE SITUACION FINANCIERA",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE SITUACION FINANCIERA.pdf"
-            }
-        },
-        {
-            name: "ESTADO DE VARIACION DE LA HACIENDA PUBLICA",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf"
-            }
-        },
-        {
-            name: "NOTAS A LOS ESTADOS FINANCIEROS",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/NOTAS A LOS ESTADOS FINANCIEROS.pdf"
-            }
-        },
-        {
-            name: "PASIVOS CONTINGENTES",
-            2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/PASIVOS CONTINGENTES.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/INTERESES DE LA DEUDA.pdf"
             }
         },
 
@@ -188,7 +152,6 @@ export const TablaInfoContable = () => {
             bordered
             size="small"
             columns={columns}
-
             dataSource={dataSource}
             rowKey={(record) => record.name}
             scroll={{ x: 'max-content' }}
