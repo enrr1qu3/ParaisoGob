@@ -6,12 +6,18 @@ export const TablaInfoRecurFedTransferidos = () => {
     const dataSource = [
         {
             name: "APLICACIÓN DE LOS RECUROS DEL FORTAMUN",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FORTAMUN4TOTRIM.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf"
             }
         },
         {
             name: "MONTOS, OBRAS Y ACCIONES A REALIZAR CON EL FAIS",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FAIS4TOTRIM.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf"
             }
@@ -107,6 +113,15 @@ export const TablaInfoRecurFedTransferidos = () => {
                         },
                         {
                             title: '4',
+                            dataIndex: [2024, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                     ],

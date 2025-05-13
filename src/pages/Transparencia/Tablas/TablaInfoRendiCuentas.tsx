@@ -6,36 +6,54 @@ export const TablaInfoRendiCuentas = () => {
     const dataSource = [
         {
             name: "CLASIFICACIÓN ADMINISTRIVA",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-4-2024/4T24 ClasificacionAdministrativa.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion adminisrativa.pdf"
             }
         },
         {
             name: "CLASIFICACIÓN ECONOMICA",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-4-2024/4T24 ClasificacionEconómica.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion de economica (por tipo de gasto).pdf"
             }
         },
         {
             name: "CLASIFICACIÓN POR OBJETO DEL GASTO",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-4-2024/4T24 ClasificacionObjeto del gasto.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion por objeto del gasto.pdf"
             }
         },
         {
             name: "CLASIFICACIÓN FUNCIONAL",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-4-2024/4T24 ClasificacionFuncional.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion funcional.pdf"
             }
         },
         {
             name: "CLASIFICACIÓN POR CATEGORIA PROGRAMATICA",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-4-2024/4T24 ClasificacionProgramática.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion de programas y proyectos.pdf"
             }
         },
         {
             name: "CLASIFICACIÓN PROGRAMAS Y PROYECTOS",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-4-2024/4T24 ClasificacionProgramas  y Proyectos.pdf"
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion por categoria programatica.pdf"
             }
@@ -132,6 +150,15 @@ export const TablaInfoRendiCuentas = () => {
                         },
                         {
                             title: '4',
+                            dataIndex: [2024, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                     ],
