@@ -5,6 +5,7 @@ import { TablaInfoContable } from './Tablas/TablaInfoContable';
 import { TablaInfoPresupuestaria } from './Tablas/TablaInfoPresupuestaria';
 import { TablaInfoLDF } from './Tablas/TablaInfoLDF';
 import { TablaInfoProgramatica } from './Tablas/TablaInfoProgramatica';
+import { TablaInfoAyudasSubsidios } from './Tablas/TablaInfoAyudasSubsidios';
 
 export default function TransparenciaPage() {
 
@@ -28,6 +29,11 @@ export default function TransparenciaPage() {
             key: '4',
             label: 'LDF Entidades federativas y municipios',
             children: <TablaInfoLDF />,
+        },
+        {
+            key: '5',
+            label: 'Informacion financiera',
+            children: <TablaInfoAyudasSubsidios />,
         },
     ];
 
