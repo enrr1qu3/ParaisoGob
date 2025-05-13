@@ -33,9 +33,12 @@ const items: MenuItem[] = [
         key: 'transparencia',
         children: [
             { label: 'SEVAC', key: 'sevac' },
+            { label: 'Rendimiento de cuentas', key: 'rendimiento-de-cuentas' },
+            { label: 'Presupuesto lenguaje ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
+            { label: 'Informacion financiera LGCG', key: 'lgcg' },
+            { label: 'Recursos federales transferidos', key: 'recursos-federales-transferidos' },
             { label: 'Archivos publicados', key: 'transparencia/archivos-publicados' },
         ],
-
     },
     {
         label: 'ATENCIÓN CIUDADANA',

@@ -6,22 +6,22 @@ export default function CabildoPage() {
         {
             nombre: "Lic. María Eliza Hernández Flores",
             puesto: "Segunda Regidora y Sindico de Hacienda",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/02/sindico.png"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/maestra maria/mtra maria 05.jpg"
         },
         {
             nombre: "Lic. Misleida Magaña Flores",
             puesto: "Tercer Regidor",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/02/tercer.jpg"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/lic misdeila/lic 05.jpg"
         },
         {
             nombre: "C. Selena del Carmen Gómez Chacha",
             puesto: "Cuarta Regidora",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/02/cuarta.png"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC SELENA/05.jpg"
         },
         {
             nombre: "C. Israel Palma Rodríguez",
             puesto: "Quinto Regido",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/02/quinto.png"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ISRRAEL/ISRRA 05.jpg"
         },
     ]
     const inteDirecciones = [
@@ -310,9 +310,9 @@ export default function CabildoPage() {
                                 className='contenImagenes'
                             >
                                 <Image
-                                    width={200}
-                                    src="https://paraiso.gob.mx/wp-content/uploads/2025/02/primer.jpg"
-                                    style={{ borderRadius: "50%" }}
+                                    // width={200}
+                                    src="https://gobparaiso.blob.core.windows.net/fotoscabildo/Ing Baca/2.jpg"
+                                    style={{ borderRadius: "5%", width:"100%" }}
                                 />
                             </Col>
                             <Col
@@ -373,6 +373,7 @@ export default function CabildoPage() {
                                         <Image
                                             src={itegrante.imagen}
                                             style={{ borderRadius: "50%" }}
+                                            width={120}
                                         />
                                         <h4 className='tituloPuestos'>{itegrante.puesto}</h4>
                                         <p className='textoPresidente'>{itegrante.nombre}</p>

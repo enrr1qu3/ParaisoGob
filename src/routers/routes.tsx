@@ -12,6 +12,10 @@ import Geografia from "../pages/Geografia/Geografia";
 import CabildoPage from "../pages/Cabildo/CabildoPage";
 import AtencionCPage from "../pages/AtencionCiudadana/AtencionCPage";
 import TransparenciaPage from "../pages/Transparencia/TransparenciaPage";
+import TransparenciaLGCGPage from "../pages/Transparencia/TransparenciaLGCGPage";
+import TransparenciaRendiCuentas from "../pages/Transparencia/TransparenciaRendiCuentas";
+import TransparenciaLenguaCiuda from "../pages/Transparencia/TransparenciaLenguaCiuda";
+import TransparenciaRescFedTrans from "../pages/Transparencia/TransparenciaRescFedTrans";
 
 
 
@@ -58,6 +62,22 @@ export const router = createBrowserRouter([
             {
                 path: "/sevac",
                 element: <TransparenciaPage />
+            },
+            {
+                path: "/lgcg",
+                element: <TransparenciaLGCGPage />
+            },
+            {
+                path: "/rendimiento-de-cuentas",
+                element: <TransparenciaRendiCuentas />
+            },
+            {
+                path: "/presupuesto-lenguaje-ciudadano",
+                element: <TransparenciaLenguaCiuda />
+            },
+            {
+                path: "/recursos-federales-transferidos",
+                element: <TransparenciaRescFedTrans />
             },
 
         ]
