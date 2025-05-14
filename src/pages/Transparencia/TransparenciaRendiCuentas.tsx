@@ -64,7 +64,7 @@ export default function TransparenciaRendiCuentas() {
                                             </>)
                                     },
                                     {
-                                        title: 'Rendimiento de Cuentas',
+                                        title: 'Rendición de Cuentas',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -72,7 +72,7 @@ export default function TransparenciaRendiCuentas() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Rendimiento de Cuentas
+                            Rendición de Cuentas
                         </h2>
                         <p className='subtituloP'>
                             Informacion para la ciudadanía

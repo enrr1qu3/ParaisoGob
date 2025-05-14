@@ -68,7 +68,7 @@ export const router = createBrowserRouter([
                 element: <TransparenciaLGCGPage />
             },
             {
-                path: "/rendimiento-de-cuentas",
+                path: "/rendicion-de-cuentas",
                 element: <TransparenciaRendiCuentas />
             },
             {

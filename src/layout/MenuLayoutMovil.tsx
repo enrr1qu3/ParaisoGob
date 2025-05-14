@@ -31,17 +31,17 @@ export const MenuLayoutMovil = () => {
 
         },
         {
-            label: 'TRANSPARENCIA',
-            key: 'transparencia',
-            children: [
-                { label: 'SEVAC', key: 'sevac' },
-                { label: 'Informacion financiera LGCG', key: 'lgcg' },
-                { label: 'Presupuesto lenguaje ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
-                { label: 'Recursos federales transferidos', key: 'recursos-federales-transferidos' },
-                { label: 'Rendimiento de cuentas', key: 'rendimiento-de-cuentas' },
-                { label: 'Archivos publicados', key: 'transparencia/archivos-publicados' },
-            ],
-        },
+        label: 'TRANSPARENCIA',
+        key: 'transparencia',
+        children: [
+            { label: 'SEVAC', key: 'sevac' },
+            { label: 'Rendición de cuentas ', key: 'rendicion-de-cuentas' },
+            { label: 'Presupuesto lenguaje ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
+            { label: 'Informacion financiera LGCG', key: 'lgcg' },
+            { label: 'Recursos federales transferidos', key: 'recursos-federales-transferidos' },
+            { label: 'Archivos publicados', key: 'transparencia/archivos-publicados' },
+        ],
+    },
         {
             label: 'ATENCIÓN CIUDADANA',
             key: 'atencionCiudadana',
