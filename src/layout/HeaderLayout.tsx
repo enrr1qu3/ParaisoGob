@@ -62,9 +62,9 @@ export const HeaderLayout = () => {
                                 <img
                                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7729.PNG-N4wQd9csCo9xGJAHC7pusSHLPWmOVN.png"
                                     alt="logo" className="logo-small"
-                                    width={50} height={50}
+                                    width={50} height={"auto"}
                                 />
-                                <h1 className="logo-text" style={{ fontWeight: "bold" }}>Paraíso</h1>
+                                {/* <h1 className="logo-text" style={{ fontWeight: "bold" }}>Paraíso</h1> */}
                             </Link>
 
                             <div className="desktop-nav">

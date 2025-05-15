@@ -32,7 +32,7 @@ const items: MenuItem[] = [
         label: 'TRANSPARENCIA',
         key: 'transparencia',
         children: [
-            { label: 'SEVAC', key: 'sevac' },
+            { label: 'Sistema de evaluación de armonización contable', key: 'sevac' },
             { label: 'Rendición de cuentas ', key: 'rendicion-de-cuentas' },
             { label: 'Presupuesto lenguaje ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
             { label: 'Informacion financiera LGCG', key: 'lgcg' },
@@ -44,6 +44,7 @@ const items: MenuItem[] = [
         label: 'ATENCIÓN CIUDADANA',
         key: 'atencionCiudadana',
     },
+    
     // {
     //     label: 'TRANSPARENCIA',
     //     key: 'transparencia',

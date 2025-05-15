@@ -29,6 +29,14 @@ export const MenuTransparencia = () => {
                     <FilePdfOutlined />
                     Archivos publicados
                 </Link>
+                <a target="_blank" href="http://www.itaip.org.mx/site/"
+
+                >
+                    <img src="https://transparencia.comalcalco.gob.mx/src/itaip_logo.png"
+                        alt="itaip"
+                        style={{ width: "100%", border:"1px solid #000" }}
+                    />
+                </a>
             </div>
         </div>
     )

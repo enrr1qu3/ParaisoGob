@@ -28,6 +28,12 @@ export const TablaInfoLGCGAnual = () => {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO 2025 PUB.pdf"
             }
         },
+        {
+            name: "PRESUPUESTO DE INGRESOS APROBADO",
+            2025: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO DE INGRESOS APROBADO.pdf"
+            }
+        },
 
 
     ];
