@@ -200,7 +200,7 @@ export default function AtencionCPage() {
                     <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                     >
                       <LuClock className="icon-footer" />
-                      <p>Lunes a Viernes de 8:00 a 16:00 horas</p></div>
+                      <p>Lunes a Viernes de 8:00 a 15:00 horas y Sábados de 9:00 a 12:00 </p></div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                       <LuPhone className='icon-footer' />
                       <p>933 114 00 00</p>
@@ -210,9 +210,9 @@ export default function AtencionCPage() {
                       <LuMail className='icon-footer' />
                       <p>contacto@paraiso.gob.mx</p>
                     </div>
-                    <div style={{ display: "flex", width:"100%", justifyContent:"center", alignItems: "center", marginTop: "3rem", marginBottom:"1rem" }}
+                    <div style={{ display: "flex", width:"100%", justifyContent:"center", alignItems: "center", marginTop: "4rem", marginBottom:"1rem" }}
                     >
-                      <p ><span>Horario de atención: </span>Lunes a Viernes de 9:00 a 15:00 horas</p>
+                      {/* <p ><span>Horario de atención: </span>Lunes a Viernes de 9:00 a 15:00 horas</p> */}
                     </div>
                   </div>
                 </section>

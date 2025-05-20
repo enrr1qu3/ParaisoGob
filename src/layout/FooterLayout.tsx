@@ -30,7 +30,7 @@ export const FooterLayout = () => {
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuClock className="icon-footer" />
-                  <span>Lunes a Viernes de 8:00 a 16:00 horas</span></div>
+                  <span>Lunes a Viernes de 8:00 a 15:00 horas y Sábados de 9:00 a 12:00 </span></div>
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                   <LuPhone className='icon-footer' />
                   <span>933 114 00 00</span></div>

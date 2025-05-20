@@ -28,17 +28,17 @@ export default function CabildoPage() {
         {
             nombre: "Dr. Ramón Enrique Ballhaus Chávez",
             puesto: "Secretaría del Ayuntamiento",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/Secretaria-1.jpg"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/dr ballaus/05.jpg"
         },
         {
             nombre: "C.P. Mireya Mandujano Rubert",
             puesto: "Dirección de Finanzas",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/finanzas.jpg"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg"
         },
         {
             nombre: "Ing. Arturo Izquierdo Alejandro",
             puesto: "Dirección de Programación",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/programacion-1.jpg"
+            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ARTURO IZQ/LIC ARTURO 06.jpg"
         },
         {
             nombre: "Ing. Isaac López Guerra",
@@ -312,7 +312,7 @@ export default function CabildoPage() {
                                 <Image
                                     // width={200}
                                     src="https://gobparaiso.blob.core.windows.net/fotoscabildo/Ing Baca/2.jpg"
-                                    style={{ borderRadius: "5%", width:"100%" }}
+                                    style={{ borderRadius: "5%", width: "100%" }}
                                 />
                             </Col>
                             <Col
@@ -414,8 +414,7 @@ export default function CabildoPage() {
 
                                     >
                                         <Image
-                                            width={150}
-                                            height={193}
+                                            width={120}
                                             src={item.imagen}
                                             style={{ borderRadius: "50%" }}
                                         />

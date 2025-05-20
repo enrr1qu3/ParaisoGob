@@ -29,7 +29,7 @@ export const TablaInfoLGCGAnual = () => {
             }
         },
         {
-            name: "PRESUPUESTO DE INGRESOS APROBADO",
+            name: "LEY DE INGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO DE INGRESOS APROBADO.pdf"
             }
