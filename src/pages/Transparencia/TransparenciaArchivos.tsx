@@ -85,24 +85,24 @@ export const TransparenciaArchivos = () => {
 
   // ]
 
-  const dataUEDM = [
-    {
-      nombre: "PAEM2025",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/PAEM%202025.pdf",
-    },
-    {
-      nombre: "ACTA DE LA PRIMERA SESION EXTRAORDINARIA UEDM",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20LA%20PRIMERA%20SESION%20EXTRAORDINARIA%20UEDM.pdf",
-    },
-    {
-      nombre: "ACTA DE LA PRIMERA SESION DE LA UEDM.pdf",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20LA%20PRIMERA%20SESION%20DE%20LA%20UEDM.pdf",
-    },
-    {
-      nombre: "ACTA DE INSTALACION Y PUNTO DE ACUERDO.pdf",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20INSTALACION%20Y%20PUNTO%20DE%20ACUERDO.pdf",
-    },
-  ]
+  // const dataUEDM = [
+  //   {
+  //     nombre: "PAEM2025",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/PAEM%202025.pdf",
+  //   },
+  //   {
+  //     nombre: "ACTA DE LA PRIMERA SESION EXTRAORDINARIA UEDM",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20LA%20PRIMERA%20SESION%20EXTRAORDINARIA%20UEDM.pdf",
+  //   },
+  //   {
+  //     nombre: "ACTA DE LA PRIMERA SESION DE LA UEDM.pdf",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20LA%20PRIMERA%20SESION%20DE%20LA%20UEDM.pdf",
+  //   },
+  //   {
+  //     nombre: "ACTA DE INSTALACION Y PUNTO DE ACUERDO.pdf",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20INSTALACION%20Y%20PUNTO%20DE%20ACUERDO.pdf",
+  //   },
+  // ]
 
   const columnsDOS = [
     {
@@ -224,20 +224,19 @@ export const TransparenciaArchivos = () => {
           />
         </Col>
 
-
+{/* 
         <Col
           xs={{ flex: '100%' }}
           xl={{ flex: '100%' }}
         >
           <Table
-            title={() => <h3 style={{ margin: 0 }}>UNIDAD EVALUACIÓN DE DESEMPEÑO MUNICIPAL. (UEDM)</h3>}
             dataSource={dataUEDM}
             size="small"
             columns={columnsDOS}
             rowKey={(record) => record.nombre}
             scroll={{ x: 'max-content' }}
           />
-        </Col>
+        </Col> */}
       </Row>
     </div>
   )

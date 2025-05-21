@@ -32,11 +32,12 @@ const items: MenuItem[] = [
         label: 'TRANSPARENCIA',
         key: 'transparencia',
         children: [
-            { label: 'Sistema de evaluación de armonización contable', key: 'sevac' },
             { label: 'Rendición de cuentas ', key: 'rendicion-de-cuentas' },
-            { label: 'Presupuesto lenguaje ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
             { label: 'Informacion financiera LGCG', key: 'lgcg' },
             { label: 'Recursos federales transferidos', key: 'recursos-federales-transferidos' },
+            { label: 'Presupuesto en lenguaje ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
+            { label: 'Sistema de evaluación de armonización contable', key: 'sevac' },
+            { label: 'Unidad de evaluacion del desempeño municipal UEDM', key: 'uedm' },
             { label: 'Archivos publicados', key: 'transparencia/archivos-publicados' },
         ],
     },
@@ -44,7 +45,7 @@ const items: MenuItem[] = [
         label: 'ATENCIÓN CIUDADANA',
         key: 'atencionCiudadana',
     },
-    
+
     // {
     //     label: 'TRANSPARENCIA',
     //     key: 'transparencia',

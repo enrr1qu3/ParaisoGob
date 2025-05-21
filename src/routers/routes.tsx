@@ -16,6 +16,7 @@ import TransparenciaLGCGPage from "../pages/Transparencia/TransparenciaLGCGPage"
 import TransparenciaRendiCuentas from "../pages/Transparencia/TransparenciaRendiCuentas";
 import TransparenciaLenguaCiuda from "../pages/Transparencia/TransparenciaLenguaCiuda";
 import TransparenciaRescFedTrans from "../pages/Transparencia/TransparenciaRescFedTrans";
+import TransparenciaUEDMPage from "../pages/Transparencia/TransparenciaUEDMPage";
 
 
 
@@ -78,6 +79,10 @@ export const router = createBrowserRouter([
             {
                 path: "/recursos-federales-transferidos",
                 element: <TransparenciaRescFedTrans />
+            },
+            {
+                path: "/uedm",
+                element: <TransparenciaUEDMPage />
             },
 
         ]
