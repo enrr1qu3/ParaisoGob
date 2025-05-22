@@ -17,6 +17,9 @@ import TransparenciaRendiCuentas from "../pages/Transparencia/TransparenciaRendi
 import TransparenciaLenguaCiuda from "../pages/Transparencia/TransparenciaLenguaCiuda";
 import TransparenciaRescFedTrans from "../pages/Transparencia/TransparenciaRescFedTrans";
 import TransparenciaUEDMPage from "../pages/Transparencia/TransparenciaUEDMPage";
+import { TransparenciaNormaMuncipal } from "../pages/Transparencia/TransparenciaNormaMuncipal";
+import { TransparenciaHidrocarburos } from "../pages/Transparencia/TransparenciaHidrocarburos";
+import TransparenciaComite from "../pages/Transparencia/TransparenciaComite";
 
 
 
@@ -83,6 +86,18 @@ export const router = createBrowserRouter([
             {
                 path: "/uedm",
                 element: <TransparenciaUEDMPage />
+            },
+            {
+                path: "/normatividad-municipal",
+                element: <TransparenciaNormaMuncipal />
+            },
+            {
+                path: "/ramo-23-hidrocarburos",
+                element: <TransparenciaHidrocarburos />
+            },
+            {
+                path: "/informacion-publica",
+                element: <TransparenciaComite />
             },
 
         ]

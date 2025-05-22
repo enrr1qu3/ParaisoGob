@@ -72,7 +72,7 @@ export default function TransparenciaLenguaCiuda() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Presupuesto de Leguaje Ciudadano
+                            Presupuesto en Lenguaje Ciudadano
                         </h2>
                         <p className='subtituloP'>
                             Informacion para la ciudadanía

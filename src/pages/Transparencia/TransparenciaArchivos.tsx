@@ -47,36 +47,36 @@ export const TransparenciaArchivos = () => {
       contrato: "CO-PA-R23TER-008-2025"
     },
   ]
-  const dataArt46 = [
-    {
-      nombre: "Publicacion Programacion",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/PUBLICACION_PROGRAMACION.pdf",
-    },
-    {
-      nombre: "Clasificacion de economica(por tipo de gasto)",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_de_economica_(por_tipo_de_gasto).pdf",
-    },
-    {
-      nombre: "Clasificacion funcional",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_funcional.pdf",
-    },
-    {
-      nombre: "Clasificacion administrativa",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_administrativa.pdf",
-    },
-    {
-      nombre: "Clasificacion por objeto del gasto",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_por_objeto_del_gasto.pdf",
-    },
-    {
-      nombre: "Clasificacion por categoria programatica",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_por_categoria_programatica.pdf",
-    },
-    {
-      nombre: "Clasificacion por programas y proyectos",
-      archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_de_programas_y_proyectos.pdf",
-    },
-  ]
+  // const dataArt46 = [
+  //   {
+  //     nombre: "Publicacion Programacion",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/PUBLICACION_PROGRAMACION.pdf",
+  //   },
+  //   {
+  //     nombre: "Clasificacion de economica(por tipo de gasto)",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_de_economica_(por_tipo_de_gasto).pdf",
+  //   },
+  //   {
+  //     nombre: "Clasificacion funcional",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_funcional.pdf",
+  //   },
+  //   {
+  //     nombre: "Clasificacion administrativa",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_administrativa.pdf",
+  //   },
+  //   {
+  //     nombre: "Clasificacion por objeto del gasto",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_por_objeto_del_gasto.pdf",
+  //   },
+  //   {
+  //     nombre: "Clasificacion por categoria programatica",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_por_categoria_programatica.pdf",
+  //   },
+  //   {
+  //     nombre: "Clasificacion por programas y proyectos",
+  //     archivo: "https://gobparaiso.blob.core.windows.net/transparencia/clasificacion_de_programas_y_proyectos.pdf",
+  //   },
+  // ]
   // const dataArt72y75 = [
   //   {
   //     nombre: "FAIS Y FORTAMUN 2025",
@@ -104,31 +104,31 @@ export const TransparenciaArchivos = () => {
   //   },
   // ]
 
-  const columnsDOS = [
-    {
-      title: 'Nombre',
-      dataIndex: 'nombre',
-      key: 'nombre',
+  // const columnsDOS = [
+  //   {
+  //     title: 'Nombre',
+  //     dataIndex: 'nombre',
+  //     key: 'nombre',
 
-    },
-    {
-      title: 'Archivo',
-      key: 'archivo',
-      dataIndex: 'archivo',
-      width: "2%",
-      render: (e: any) => (
-        (e)
-          ? < Button
-            icon={< FilePdfOutlined />}
-            href={e}
-            target="_blank"
-          >
-            Archivo
-          </ Button>
-          : <></>
-      ),
-    },
-  ];
+  //   },
+  //   {
+  //     title: 'Archivo',
+  //     key: 'archivo',
+  //     dataIndex: 'archivo',
+  //     width: "2%",
+  //     render: (e: any) => (
+  //       (e)
+  //         ? < Button
+  //           icon={< FilePdfOutlined />}
+  //           href={e}
+  //           target="_blank"
+  //         >
+  //           Archivo
+  //         </ Button>
+  //         : <></>
+  //     ),
+  //   },
+  // ];
   const columns = [
     {
       title: 'Proyecto No.',
@@ -211,7 +211,7 @@ export const TransparenciaArchivos = () => {
           />
         </Col>
 
-        <Col
+        {/* <Col
           xs={{ flex: '100%' }}
           xl={{ flex: '100%' }}
         >
@@ -222,7 +222,7 @@ export const TransparenciaArchivos = () => {
             rowKey={(record) => record.nombre}
             scroll={{ x: 'max-content' }}
           />
-        </Col>
+        </Col> */}
 
 {/* 
         <Col
