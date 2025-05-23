@@ -2,44 +2,110 @@ import { Button, Table } from "antd";
 import { FilePdfOutlined } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
 
-export const TablaInfoRecurFedTransferidos = () => {
+export const TablaInfoHidrocarburos = () => {
     const dataSource = [
         {
-            name: "APLICACIÓN DE LOS RECUROS DEL FORTAMUN",
+            proyecto: "KAM52",
+            obra: "MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN MEDIA Y BAJA TENSION EN LA COLONIA EL BELLOTE (MIGUEL DE LA MADRID), UBICADA ENTRADA ANTES LA PANGA) DEL MUNICIPIO DE PARAISO, TABASCO",
+            localidad: "270140004. COL EL BELLOTE. (MIGUEL DE LA MADRID).",
+            contrato: "CO-PA-R23MAR-007-2025"
+        },
+        {
+            proyecto: "KAM53",
+            obra: "MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN MEDIA Y BAJA TENSION EN EL EJIDO ANDRES GARCIA (LA ISLA) DEL MUNICIPIO DE PARAISO, TABASCO",
+            localidad: "270140045. EJ. ANDRES GARCIA (LA ISLA)",
+            contrato: "CO-PA-R23TER-008-2025"
+        },
+        {
+            proyecto: "OPM56",
+            obra: "REHABILITACION DE CALLE A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2 A FINOS, (UBICACIÓN ENTRADA LOS GÓMEZ) EN LA RANCHERIA LAS FLORES PRIMERA SECCIÓN, DEL MUNICIPIO DE PARAISO; TABASCO. (MARITIMA 2023)",
+            localidad: "270140009. RA. LAS FLORES 1RA. SECCION",
+            contrato: "CO-PA-HIDRCMAR-021-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FORTAMUN4TOTRIM.pdf"
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-021-2024 OBRA OPM56_redacted.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-021-2024_OBRA_OPM56_redacted.pdf"
             }
         },
         {
-            name: "MONTOS, OBRAS Y ACCIONES A REALIZAR CON EL FAIS",
+            proyecto: "OPM57",
+            obra: "REHABILITACION DE RED DE AGUA ENTUBADA EN CALLE EL POSTECITO, EN LA RANCHERIA ORIENTE SEGUNDA SECCIÓN (PALMA HUACA), DEL MUNICIPIO DE PARAISO; TABASCO. (TERRESTRE 2023)",
+            localidad: "270140049. RA. ORIENTE 2DA. SECCION . (PALMA HUACA).",
+            contrato: "CO-PA-HIDRCTERR-022-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FAIS4TOTRIM.pdf"
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-022-2024 OBRA OPM57_redacted.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-022-2024_OBRA_OPM57_redacted.pdf"
             }
         },
         {
-            name: "SRFT",
+            proyecto: "OPM58",
+            obra: "REHABILITACION DE CAMINO A BASE DE CONCRETO ASFALTICO EN CALIENTE EN EL EJIDO OCCIDENTE SAN FRANCISCO, DEL MUNICIPIO DE PARAISO; TABASCO. (TERRESTRE 2024)",
+            localidad: "270140050. EJ. OCCIDENTE (SAN FRANCISCO).",
+            contrato: "CO-PA-HIDRCTERR-023-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-4-2024/SRFT 4TO TRIM 2024 TRANSPARENCIA-1.pdf"
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-023-2024 OBRA OPM58_redacted.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/SRFT 1er Trimestre  2025.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-023-2024_OBRA_OPM58_redacted.pdf"
+            }
+        },
+        {
+            proyecto: "OPM59",
+            obra: "REHABILITACION DE CALLE A BASE DE CONCRETO ASFALTICO EN CALIENTE (UBICACIÓN ENTRADA AL BACHILLER), EN LA RANCHERÍA POTRERITOS DEL MUNICIPIO DE PARAISO; TABASCO. (MARITIMA 2024)",
+            localidad: "270140026. RA. POTRERITOS",
+            contrato: "CO-PA-HIDRCMAR-024-2024",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-024-2024 OBRA OPM59_redacted.pdf"
+            },
+            2025: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-024-2024_OBRA_OPM59_redacted.pdf"
             }
         },
 
+
     ];
+
+    // const data = [
+    //     {
+    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf"
+    //     },
+    //     {
+    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf",
+    //     },
+    //     {
+    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf",
+    //     },
+    //     {
+    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf",
+    //     },
+    // ]
     const columns: ColumnsType<any> = [
         {
-            title: 'Nombre',
-            dataIndex: 'name',
-            key: 'name',
-            // width: "40%"
-            width: 850
+            title: 'Proyecto No.',
+            dataIndex: 'proyecto',
+            key: 'proyecto',
+
+        },
+        {
+            title: 'Obra',
+            dataIndex: 'obra',
+            key: 'obra',
+            width: "400px",
+        },
+        {
+            title: 'Localidad',
+            dataIndex: 'localidad',
+            key: 'localidad',
+
+        },
+        {
+            title: 'Contrato',
+            dataIndex: 'contrato',
+            key: 'contrato',
+
         },
         {
 

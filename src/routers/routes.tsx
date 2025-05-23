@@ -20,6 +20,7 @@ import TransparenciaUEDMPage from "../pages/Transparencia/TransparenciaUEDMPage"
 import { TransparenciaNormaMuncipal } from "../pages/Transparencia/TransparenciaNormaMuncipal";
 import { TransparenciaHidrocarburos } from "../pages/Transparencia/TransparenciaHidrocarburos";
 import TransparenciaComite from "../pages/Transparencia/TransparenciaComite";
+import AvisoPrivacidad from "../pages/AvisoPrivacidad/AvisoPrivacidad";
 
 
 
@@ -98,6 +99,10 @@ export const router = createBrowserRouter([
             {
                 path: "/informacion-publica",
                 element: <TransparenciaComite />
+            },
+            {
+                path: "/aviso-privacidad",
+                element: <AvisoPrivacidad />
             },
 
         ]

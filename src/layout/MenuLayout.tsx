@@ -32,6 +32,7 @@ const items: MenuItem[] = [
         label: 'TRANSPARENCIA',
         key: 'transparencia',
         children: [
+            { label: 'Informacion Publica', key: 'informacion-publica' },
             { label: 'Rendición de Cuentas', key: 'rendicion-de-cuentas' },
             { label: 'Normatividad Municipal', key: 'normatividad-municipal' },
             { label: 'Informacion Financiera LGCG', key: 'lgcg' },
@@ -39,8 +40,7 @@ const items: MenuItem[] = [
             { label: 'Presupuesto en Lenguaje Ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
             { label: 'Sistema de Evaluación de Armonización Contable', key: 'sevac' },
             { label: 'Unidad de Evaluacion del Desempeño Municipal UEDM', key: 'uedm' },
-            { label: 'Ramo 23 Hidrocarburos. Art. 72 LGCG', key: 'ramo-23-hidrocarburos' },
-            { label: 'Informacion Publica', key: 'informacion-publica' },
+            // { label: 'Ramo 23 Hidrocarburos. Art. 72 LGCG', key: 'ramo-23-hidrocarburos' },
             // { label: 'Información Publica', key: 'transparencia/archivos-publicados' },
 
         ],

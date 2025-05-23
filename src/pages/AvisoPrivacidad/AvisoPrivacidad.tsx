@@ -1,38 +1,10 @@
-import { Col, ConfigProvider, Row, Card, Breadcrumb, Tabs, Empty, } from 'antd';
+import { Col, ConfigProvider, Row, Card, Breadcrumb } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
-import type { TabsProps } from 'antd';
-import { TablaInfoRecurFedTransferidos } from './Tablas/TablaInfoRecurFedTransferidos';
-import { TablaInfoHidrocarburos } from './Tablas/TablaInfoHidrocarburos';
 
-
-export default function TransparenciaRescFedTrans() {
-
-    const items: TabsProps['items'] = [
-        {
-            key: '1',
-            label: 'Anual',
-            children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
-            </div>,
-        },
-        {
-            key: '2',
-            label: 'Trimestral',
-            children: <TablaInfoRecurFedTransferidos />,
-        },
-        {
-            key: '3',
-            label: 'Semestral',
-            children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
-            </div>,
-        },
-
-    ];
+export default function AvisoPrivacidad() {
 
     return (
         <ConfigProvider
-
         >
             <Row
                 style={{
@@ -45,6 +17,7 @@ export default function TransparenciaRescFedTrans() {
                 gutter={[0, 24]}
 
             >
+
                 <Col
                     xs={{ flex: '100%' }}
                     xl={{ flex: '100%' }}
@@ -65,7 +38,7 @@ export default function TransparenciaRescFedTrans() {
                                             </>)
                                     },
                                     {
-                                        title: 'Recursos Federales Transferidos',
+                                        title: 'Aviso de Privacidad',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -73,7 +46,7 @@ export default function TransparenciaRescFedTrans() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Recursos Federales Transferidos
+                            Aviso de Privacidad
                         </h2>
                         <p className='subtituloP'>
                             Informacion para la ciudadanía
@@ -86,18 +59,9 @@ export default function TransparenciaRescFedTrans() {
                     xs={{ flex: '100%' }}
                     xl={{ flex: '100%' }}
                 >
-                    <Card
-
-                    >
-                        <Tabs
-                            type='card'
-                            defaultActiveKey="2"
-                            items={items}
-                        />
-                        <h3>Ramo 23 Hidrocarburos. Art. 72 LGCG</h3>
-                        <TablaInfoHidrocarburos />
-
-                    </Card>
+                    <Card >
+                        <embed src="https://gobparaiso.blob.core.windows.net/transparencia/AVISO_PRIVACIDAD/AVISO DE PRIVACIDAD INTEGRAL.pdf" type="application/pdf" width="100%" height="630" />
+                    </Card >
                 </Col>
 
             </Row>

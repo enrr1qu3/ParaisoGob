@@ -1,6 +1,7 @@
 import { Col, ConfigProvider, Row, Card, Breadcrumb, Table, Button, Avatar, } from 'antd';
-import { FilePdfOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
+import { EnvironmentOutlined, FilePdfOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
 import { ColumnsType } from 'antd/es/table';
+import { TfiEmail } from 'react-icons/tfi';
 
 
 export default function TransparenciaComite() {
@@ -107,6 +108,40 @@ export default function TransparenciaComite() {
                     <Card
 
                     >
+                        <div className="contenedorSujetos">
+                            <h3 className="tituloSecundariInicio">
+                                <UserOutlined />
+                                Titular de la Unidad de Transparencia y Proteccion de Datos Personales.
+                            </h3>
+                            <Row gutter={[16, 16]}>
+                                <Col
+                                    xs={{ flex: "100%" }}
+                                    xl={{ flex: "100%" }}
+                                >
+                                    <Card>
+                                        <Row gutter={[24, 16]} justify={"center"}>
+                                            <Col
+                                                xs={{ flex: "20%" }}
+                                                xl={{ flex: "20%" }}
+                                            >
+                                                <Avatar size={100} icon={<UserOutlined />} />
+                                            </Col>
+                                            <Col xs={{ flex: "100%" }}
+                                                xl={{ flex: "60%" }}
+                                            >
+                                                <h3 className='tituloCarta'>L.A. Oscar Augusto Pérez Carrillo</h3>
+                                                <p className='pCarta'>
+                                                    <EnvironmentOutlined /> Calle Ignacio Comonfort s/n, Col. Centro.
+                                                    Palacio Municipal. Planta Baja.  C. P. 86600.
+                                                </p>
+                                                <p className='pCarta'><TfiEmail /> transpayuntamientoparaiso@gmail.com</p>
+                                                {/* <p>Ver más...</p> */}
+                                            </Col>
+                                        </Row>
+                                    </Card>
+                                </Col>
+                            </Row>
+                        </div>
                         <div className="contenedorSujetos">
                             <h3 className="tituloSecundariInicio">
                                 <UserOutlined />

@@ -1,7 +1,8 @@
 // import { Link } from 'react-router-dom'
-import { LuMail,  LuPhone, LuMapPin, LuClock, LuShield, LuTruck, LuFireExtinguisher, LuAmbulance, LuTriangleAlert } from "react-icons/lu";
+import { LuMail, LuPhone, LuMapPin, LuClock, LuShield, LuTruck, LuFireExtinguisher, LuAmbulance, LuTriangleAlert } from "react-icons/lu";
 
 import './style/FooterLayout.css'
+// import { UserOutlined } from '@ant-design/icons';
 
 export const FooterLayout = () => {
   return (
@@ -23,21 +24,30 @@ export const FooterLayout = () => {
 
               <div
                 className="container-info-list">
-                <div style={{ display: "flex", alignItems: "start" }}
+                {/* <div style={{ display: "flex", alignItems: "center" }}
+                >
+                  <UserOutlined className="icon-footer" />
+                  <span>Lic. Oscar Augusto Pérez Carrillo <br/> Titular de la Unidad de Transparencia y Proteccion de Datos Personales L.A</span>
+                </div> */}
+                <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuMapPin className="icon-footer" />
-                  <span>Plaza Juárez S/N, Centro, C.P. 86300, Paraíso, Tabasco, México.</span></div>
+                  <span>Calle Ignacio Comonfort s/n, Col. Centro. Palacio Municipal. Planta Baja.  C. P. 86600.</span>
+                </div>
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuClock className="icon-footer" />
-                  <span>Lunes a Viernes de 8:00 a 15:00 horas y Sábados de 9:00 a 12:00 </span></div>
+                  <span>Lunes a Viernes de 8:30 am a 15:30 y sábados de 9:30 a 12:30 horas.</span>
+                </div>
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                   <LuPhone className='icon-footer' />
-                  <span>933 114 00 00</span></div>
+                  <span>933 114 00 00</span>
+                </div>
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuMail className='icon-footer' />
-                  <span>contacto@paraiso.gob.mx</span></div>
+                  <span>transpayuntamientoparaiso@gmail.com</span>
+                </div>
               </div>
             </div>
 
