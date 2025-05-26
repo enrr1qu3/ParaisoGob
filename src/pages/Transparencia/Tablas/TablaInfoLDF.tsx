@@ -5,6 +5,12 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoLDF = () => {
     const dataSource = [
         {
+            name: "ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO)",
+            2025: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO).pdf"
+            }
+        },
+        {
             name: "BALANCE PRESUPUESTARIO.",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/BALANCE PRESUPUESTARIO.pdf"
