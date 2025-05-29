@@ -46,6 +46,10 @@ const items: MenuItem[] = [
         ],
     },
     {
+        label: 'TRÁMITES Y SERVICIOS',
+        key: 'tramitesServicios',
+    },
+    {
         label: 'ATENCIÓN CIUDADANA',
         key: 'atencionCiudadana',
     },
@@ -71,7 +75,7 @@ export const MenuLayout = () => {
                     navigate(item.key);
                 }}
                 mode="horizontal" items={items}
-                style={{ minWidth: 522, flex: "auto" }}
+                style={{ minWidth: 600, flex: "auto" }}
             />
         </Col>
     </Row>

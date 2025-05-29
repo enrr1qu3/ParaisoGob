@@ -34,6 +34,12 @@ export const TablaInfoLGCGAnual = () => {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO DE INGRESOS APROBADO.pdf"
             }
         },
+        {
+            name: "CUENTA PUBLICA ANUALIZADA",
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/ANUAL/CUENTA%20PUBLICA%20ANUALIZADA%202024.pdf"
+            }
+        },
 
 
     ];
@@ -124,6 +130,15 @@ export const TablaInfoLGCGAnual = () => {
                         },
                         {
                             title: '4',
+                            dataIndex: [2024, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                     ],

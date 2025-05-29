@@ -21,6 +21,7 @@ import { TransparenciaNormaMuncipal } from "../pages/Transparencia/Transparencia
 import { TransparenciaHidrocarburos } from "../pages/Transparencia/TransparenciaHidrocarburos";
 import TransparenciaComite from "../pages/Transparencia/TransparenciaComite";
 import AvisoPrivacidad from "../pages/AvisoPrivacidad/AvisoPrivacidad";
+import SAREPage from "../pages/SARE/SAREPage";
 
 
 
@@ -103,6 +104,10 @@ export const router = createBrowserRouter([
             {
                 path: "/aviso-privacidad",
                 element: <AvisoPrivacidad />
+            },
+            {
+                path: "/tramitesServicios",
+                element: <SAREPage />
             },
 
         ]

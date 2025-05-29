@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom'
-import { LuMail, LuPhone, LuMapPin, LuClock, LuShield, LuTruck, LuFireExtinguisher, LuAmbulance, LuTriangleAlert } from "react-icons/lu";
+import { LuMail,LuMapPin, LuClock, LuShield, LuTruck, LuFireExtinguisher, LuAmbulance, LuTriangleAlert } from "react-icons/lu";
 
 import './style/FooterLayout.css'
 // import { UserOutlined } from '@ant-design/icons';
@@ -39,10 +39,10 @@ export const FooterLayout = () => {
                   <LuClock className="icon-footer" />
                   <span>Lunes a Viernes de 8:30 am a 15:30 y sábados de 9:30 a 12:30 horas.</span>
                 </div>
-                <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
+                {/* <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                   <LuPhone className='icon-footer' />
                   <span>933 114 00 00</span>
-                </div>
+                </div> */}
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuMail className='icon-footer' />
