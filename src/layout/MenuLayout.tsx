@@ -26,7 +26,6 @@ const items: MenuItem[] = [
             // { label: 'Población', key: 'poblacion' },
 
         ],
-
     },
     {
         label: 'TRANSPARENCIA',
@@ -48,6 +47,9 @@ const items: MenuItem[] = [
     {
         label: 'TRÁMITES Y SERVICIOS',
         key: 'tramitesServicios',
+        children: [
+            { label: 'Certificado de Funcionamiento SARE', key: 'certificado-funcionamiento-SARE' },
+        ],
     },
     {
         label: 'ATENCIÓN CIUDADANA',

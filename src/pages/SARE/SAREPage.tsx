@@ -102,22 +102,53 @@ export default function SAREPage() {
                     xl={{ flex: '100%' }}
                 >
                     <Card >
-                        <Row gutter={[8, 8]}>
+                        <Row gutter={[24, 8]}>
                             <Col
                                 xs={{ flex: '100%' }}
-                                xl={{ flex: '35%' }}
+                                xl={{ flex: '50%' }}
                             >
-                                <img style={{ width: "400px", borderRadius: "10px" }}
+                                <img style={{ width: "100%", borderRadius: "10px" }}
                                     src="https://gobparaiso.blob.core.windows.net/transparencia/TRAMITES%20Y%20SERVICIOS/LOGO-SARE.jpg"
                                     alt="SARELogo"
                                 />
                             </Col>
                             <Col
                                 xs={{ flex: '100%' }}
-                                xl={{ flex: '60%' }}
+                                xl={{ flex: '50%' }}
+                            >
+                                <Card>
+                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                                        <h2>Datos de contacto</h2>
+                                        <article style={{ fontSize: "1rem", fontWeight: "600",}}>
+
+                                            <p>
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Autoridad Responsable: </span>  Dirección de Fomento Económico y Turismo.
+                                            </p>
+                                            <p>
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Teléfono de contacto: </span> 9331349243
+                                            </p>
+                                            <p>
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Horarios de Atención:</span> Lunes a Viernes de 08:00 a 16:00 hras.
+                                            </p>
+                                            <p>
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Recepción de documentos:</span> Lunes a Viernes de 09:00 a 14:00 hras.
+                                            </p>
+                                            <p>
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Dirección de Oficina de Atención:</span> Calle Santos Degollado esquina Ignacio
+                                            </p>
+                                            <p>
+                                                Comonfort, S/N,  Colonia Centro, Paraíso, Tabasco.
+                                            </p>
+                                        </article>
+                                    </div>
+                                </Card>
+                            </Col>
+                            <Col
+                                xs={{ flex: '100%' }}
+                                xl={{ flex: '100%' }}
                             >
                                 <article
-                                    style={{ fontSize: "1rem", fontWeight: "600", textAlign:"justify" }}
+                                    style={{ fontSize: "1rem", fontWeight: "600", textAlign: "justify" }}
                                 >
                                     <p style={{ marginTop: 0 }} >
                                         El SARE es el conjunto de acciones de la administración pública municipal

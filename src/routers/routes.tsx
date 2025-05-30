@@ -106,7 +106,7 @@ export const router = createBrowserRouter([
                 element: <AvisoPrivacidad />
             },
             {
-                path: "/tramitesServicios",
+                path: "/certificado-funcionamiento-SARE",
                 element: <SAREPage />
             },
 
