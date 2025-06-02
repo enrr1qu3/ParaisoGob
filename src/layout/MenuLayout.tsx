@@ -39,6 +39,7 @@ const items: MenuItem[] = [
             { label: 'Presupuesto en Lenguaje Ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
             { label: 'Sistema de Evaluación de Armonización Contable', key: 'sevac' },
             { label: 'Unidad de Evaluacion del Desempeño Municipal UEDM', key: 'uedm' },
+            { label: 'Archivo Municipal', key: 'archivo-municipal' },
             // { label: 'Ramo 23 Hidrocarburos. Art. 72 LGCG', key: 'ramo-23-hidrocarburos' },
             // { label: 'Información Publica', key: 'transparencia/archivos-publicados' },
 

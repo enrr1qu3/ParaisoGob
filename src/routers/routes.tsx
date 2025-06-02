@@ -18,10 +18,11 @@ import TransparenciaLenguaCiuda from "../pages/Transparencia/TransparenciaLengua
 import TransparenciaRescFedTrans from "../pages/Transparencia/TransparenciaRescFedTrans";
 import TransparenciaUEDMPage from "../pages/Transparencia/TransparenciaUEDMPage";
 import { TransparenciaNormaMuncipal } from "../pages/Transparencia/TransparenciaNormaMuncipal";
-import { TransparenciaHidrocarburos } from "../pages/Transparencia/TransparenciaHidrocarburos";
+// import { TransparenciaHidrocarburos } from "../pages/Transparencia/TransparenciaHidrocarburos";
 import TransparenciaComite from "../pages/Transparencia/TransparenciaComite";
 import AvisoPrivacidad from "../pages/AvisoPrivacidad/AvisoPrivacidad";
 import SAREPage from "../pages/SARE/SAREPage";
+import { TransparenciaArchivoMunicipal } from "../pages/Transparencia/TransparenciaArchivoMunicipal";
 
 
 
@@ -94,8 +95,8 @@ export const router = createBrowserRouter([
                 element: <TransparenciaNormaMuncipal />
             },
             {
-                path: "/ramo-23-hidrocarburos",
-                element: <TransparenciaHidrocarburos />
+                path: "/archivo-municipal",
+                element: <TransparenciaArchivoMunicipal />
             },
             {
                 path: "/informacion-publica",
