@@ -30,6 +30,7 @@ export const TransparenciaArchivoMunicipal = () => {
 
         },
     ]
+
     const columns: ColumnsType<any> = [
         {
             title: 'Nombre',
@@ -104,6 +105,114 @@ export const TransparenciaArchivoMunicipal = () => {
 
                     </Card>
                 </Col>
+
+                <Col
+                    xs={{ flex: '100%' }}
+                    xl={{ flex: '100%' }}
+                >   <Card>
+
+                        <Row gutter={[8, 8]} justify={"center"}>
+                            <h3 style={{ color: "#1a4b8c" }}>
+                                TITULAR DEL DEPARTAMENTO DE ARCHIVO MUNICUPAL
+                            </h3>
+                            <Col
+                                xs={{ flex: '100%' }}
+                                xl={{ flex: '100%' }}
+                            >
+                                <div style={{ display: "flex", flexDirection: "column", textAlign: "center", width: "100%" }} >
+                                    <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                        Lic. Ana Rosa Domínguez Pérez
+                                    </p>
+                                    <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                        Calle Ignacio Comonfort s/n, Col. Centro. Palacio de los Deportes C.. 86605
+                                    </p>
+                                </div>
+                            </Col>
+                            <h3 style={{ color: "#1a4b8c" }}>
+                                GRUPO INTERDISCIPLINARIO:
+                            </h3>
+                            <Col
+                                xs={{ flex: '100%' }}
+                                xl={{ flex: '100%' }}
+                            >
+                                <Row gutter={[8, 8]} justify={"center"} style={{ textAlign: "center" }}>
+
+                                    <Col
+                                        xs={{ flex: '100%' }}
+                                        xl={{ flex: '33.3%' }}
+                                    >
+                                        <h3 style={{ color: "#1a4b8c" }}>
+                                            Director de asuntos juridicos
+                                        </h3>
+                                        <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                            Lic. Javier Rodríguez Hernández
+                                        </p>
+                                    </Col>
+
+                                    <Col
+                                        xs={{ flex: '100%' }}
+                                        xl={{ flex: '33.3%' }}
+                                    >
+                                        <h3 style={{ color: "#1a4b8c" }}>
+                                            Director de programación
+                                        </h3>
+                                        <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                            Ing. Arturo Izquierdo Alejandro
+                                        </p>
+                                    </Col>
+
+                                    <Col
+                                        xs={{ flex: '100%' }}
+                                        xl={{ flex: '33.3%' }}
+                                    >
+                                        <h3 style={{ color: "#1a4b8c" }}>
+                                            Contralor Municipal
+                                        </h3>
+                                        <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                            Ing. Isaac López Guerra
+                                        </p>
+                                    </Col>
+
+                                    <Col
+                                        xs={{ flex: '100%' }}
+                                        xl={{ flex: '33.3%' }}
+                                    >
+                                        <h3 style={{ color: "#1a4b8c" }}>
+                                            Titular del departamento de mejora regulatoria
+                                        </h3>
+                                        <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                            Lic María Del Carmen Gonzalez Rabanales
+                                        </p>
+                                    </Col>
+                                    <Col
+                                        xs={{ flex: '100%' }}
+                                        xl={{ flex: '33.3%' }}
+                                    >
+                                        <h3 style={{ color: "#1a4b8c" }}>
+                                            Titular de la unidad de transparencia y protección de datos personales
+                                        </h3>
+                                        <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                            L.A. Oscar Agusto Pérez Carrillo
+                                        </p>
+                                    </Col>
+                                    <Col
+                                        xs={{ flex: '100%' }}
+                                        xl={{ flex: '33.3%' }}
+                                    >
+                                        <h3 style={{ color: "#1a4b8c" }}>
+                                            Titular del departamento de tecnologias de la información
+                                        </h3>
+                                        <p style={{ color: "#fd8108", fontWeight: "bold", }}>
+                                            L.I.A Miguel Ramón Domínguez
+                                        </p>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Card>
+
+                </Col>
+
 
                 <Col
                     xs={{ flex: '100%' }}
