@@ -28,6 +28,10 @@ export const TransparenciaNormaMuncipal = () => {
             nombre: "REGLAMENTO DE ADMINISTRACIÓN",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/9.Reglamento-de-administraciòn.pdf",
         },
+        {
+            nombre: "MANUAL DE CONTROL INTERNO",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/71.manual-de-control-interno-2024.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./style/HeaderLayout.css";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
@@ -8,7 +8,43 @@ import { Link } from "react-router-dom";
 import { MenuLayoutMovil } from "./MenuLayoutMovil";
 
 export const HeaderLayout = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [countVisit, setCountVisit] = useState<number>(0);
+
+    // 1. Definimos la función que hace el fetch
+    const visitApi = async () => {
+        try {
+            const response = await fetch(
+                'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/GetVisitsCount'
+            );
+            const data = await response.json();
+            setCountVisit(data);
+        } catch (error) {
+            console.error('Error obteniendo visitas:', error);
+            setCountVisit(0);
+        }
+    };
+    // 1. Definimos la función que hace el fetch
+    const countVisitApi = async () => {
+        try {
+            // const response =
+            await fetch(
+                'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit'
+            );
+            localStorage.setItem("visitado", "true");
+            // const data = await response.json();
+
+        } catch (error) {
+            console.error('Error publicando visitas:', error);
+        }
+    };
+
+    // 2. Con useEffect aseguramos que se llame al API sólo al montar
+    useEffect(() => {
+        const visitante = localStorage.getItem("visitado");
+        if (!visitante) countVisitApi();
+        visitApi();
+    }, []); //
 
     const redes = [
         {
@@ -41,6 +77,9 @@ export const HeaderLayout = () => {
                             <LuMail className="icon" />
                             <span className="email">contacto@municipio.gob.mx</span>
                         </Link>
+                        <div>
+                            <p style={{ margin: 0 }}>VISITAS: {countVisit.toLocaleString()}</p>
+                        </div>
                         {/* Redes */}
                         <div className="social-links">
                             {redes.map((red) =>
