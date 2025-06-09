@@ -23,6 +23,9 @@ import TransparenciaComite from "../pages/Transparencia/TransparenciaComite";
 import AvisoPrivacidad from "../pages/AvisoPrivacidad/AvisoPrivacidad";
 import SAREPage from "../pages/SARE/SAREPage";
 import { TransparenciaArchivoMunicipal } from "../pages/Transparencia/TransparenciaArchivoMunicipal";
+import { NoticiaASIPONA } from "../pages/Noticias/Notas/NoticiaASIPONA";
+import { NoticiaSumiElectri } from "../pages/Noticias/Notas/NoticiaSumiElectri";
+import { NoticiaMedioAmbiente } from "../pages/Noticias/Notas/NoticiaMedioAmbiente";
 
 
 
@@ -44,8 +47,20 @@ export const router = createBrowserRouter([
                         element: <Noticias />
                     },
                     {
-                        path: ":noticiaId",
+                        path: "Paraiso_Recibe_con_Entusiasmo_al_Ballet_Folklórico_Usim_Yeye_de_Sonora_en_Intercambio_Cultural",
                         element: <Noticia />
+                    },
+                    {
+                        path: "ASIPONA_y_Ayuntamiento_de_Paraiso_Refuerzan_Colaboracion_para_el_Progreso_del_municipi",
+                        element: <NoticiaASIPONA />
+                    },
+                    {
+                        path: "Alcalde_Alfonso_Baca_Sevilla_ImpulsaSoluciones_para_Mejorar_el_Suministro_Electrico_en_Paraiso",
+                        element: <NoticiaSumiElectri />
+                    },
+                    {
+                        path: "Paraiso_Celebra_el_Dia_Mundial_del_Medio_Ambiente_con_un_Firme_Compromiso_por_Mares_Libres_de_Plastico_y_un_Futuro_Sostenible",
+                        element: <NoticiaMedioAmbiente />
                     },
 
                 ]

@@ -1,10 +1,27 @@
-import { Col, ConfigProvider, Row, Card, Breadcrumb, Table, Button, Avatar, } from 'antd';
-import { EnvironmentOutlined, FilePdfOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
+import { Col, ConfigProvider, Row, Card, Breadcrumb, Table, Button, Avatar, Statistic, } from 'antd';
+import { EnvironmentOutlined, EyeOutlined, FilePdfOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
 import { ColumnsType } from 'antd/es/table';
 import { TfiEmail } from 'react-icons/tfi';
+import { useEffect, useState } from 'react';
 
 
 export default function TransparenciaComite() {
+    const [countVisit, setCountVisit] = useState<number>(0);
+    const visitApi = async () => {
+        try {
+            const response = await fetch(
+                'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/GetVisitsCount'
+            );
+            const data = await response.json();
+            setCountVisit(data);
+        } catch (error) {
+            console.error('Error obteniendo visitas:', error);
+            setCountVisit(0);
+        }
+    };
+    useEffect(() => {
+        visitApi();
+    }, []); //
     const dataUEDM = [
         {
             nombre: "ACTA DE INSTALACION Y TOMA DE PROTESTA",
@@ -241,6 +258,7 @@ export default function TransparenciaComite() {
                         </h3>
                         <div style={{ marginBottom: 20 }}>
                             <Row gutter={[8, 8]} justify={"center"}>
+
                                 <Col
                                     xs={{ flex: "100%" }}
                                     xl={{ flex: "20%" }}
@@ -295,6 +313,19 @@ export default function TransparenciaComite() {
                                         </Row>
                                     </Card>
                                 </Col>
+                                
+                                <Col
+                                    xs={{ flex: "100%" }}
+                                    xl={{ flex: "100%" }}
+                                >
+
+                                    <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                        <Statistic title="Cantidad de visitas" value={countVisit} prefix={<EyeOutlined />} />
+                                    </Card>
+
+                                </Col>
+
+
                             </Row>
                         </div>
                     </Card>

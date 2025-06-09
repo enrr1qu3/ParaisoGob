@@ -11,4 +11,18 @@
   font-size: 1.875rem;
   line-height: 2.25rem;
   margin-bottom: 1rem;
+  text-align: justify;
+}
+.tituloGaleria {
+  color: #1a4b8c;
+  font-size: large;
+  font-weight: 600;
+}
+.textoNota {
+  color: #374151;
+  font-size: medium;
+  max-width: none;
+  text-align: justify;
+  font-weight: 600;
+  line-height: 1.7rem;
 }
