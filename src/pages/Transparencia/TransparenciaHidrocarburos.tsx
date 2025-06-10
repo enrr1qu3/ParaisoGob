@@ -151,7 +151,7 @@ export const TransparenciaHidrocarburos = () => {
                             Ramo 23 Hidrocarburos. Art. 72 LGCG
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

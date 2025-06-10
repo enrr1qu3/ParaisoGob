@@ -5,7 +5,7 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoRecurFedTransferidos = () => {
     const dataSource = [
         {
-            name: "APLICACIÓN DE LOS RECUROS DEL FORTAMUN",
+            name: "APLICACIÓN DE LOS RECURSOS DEL FORTAMUN",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FORTAMUN4TOTRIM.pdf"
             },

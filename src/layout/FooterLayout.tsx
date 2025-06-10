@@ -32,12 +32,12 @@ export const FooterLayout = () => {
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuMapPin className="icon-footer" />
-                  <span>Calle Ignacio Comonfort s/n, Col. Centro. Palacio Municipal. Planta Baja.  C. P. 86600.</span>
+                  <span>Calle Ignacio Comonfort S/N, Col. Centro. Palacio Municipal. Planta Baja.  C. P. 86600.</span>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuClock className="icon-footer" />
-                  <span>Lunes a Viernes de 8:30 am a 15:30 y sábados de 9:30 a 12:30 horas.</span>
+                  <span>Lunes a viernes de 8:30 am a 15:30 y sábados de 9:30 a 12:30 horas.</span>
                 </div>
                 {/* <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                   <LuPhone className='icon-footer' />

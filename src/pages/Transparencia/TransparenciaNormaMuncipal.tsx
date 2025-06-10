@@ -17,7 +17,7 @@ export const TransparenciaNormaMuncipal = () => {
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/6.Reglamento-de-cabildo.pdf",
         },
         {
-            nombre: "BANDO BANDO DE POLICIA Y GOBIERNO 2024-2027",
+            nombre: "BANDO DE POLICÍA Y GOBIERNO 2024–2027",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/7.Bando-de-policìa.pdf",
         },
         {
@@ -102,7 +102,7 @@ export const TransparenciaNormaMuncipal = () => {
                             Normatividad Municipal
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

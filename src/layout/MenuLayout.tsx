@@ -31,14 +31,14 @@ const items: MenuItem[] = [
         label: 'TRANSPARENCIA',
         key: 'transparencia',
         children: [
-            { label: 'Informacion Publica', key: 'informacion-publica' },
+            { label: 'Información Pública', key: 'informacion-publica' },
             { label: 'Rendición de Cuentas', key: 'rendicion-de-cuentas' },
             { label: 'Normatividad Municipal', key: 'normatividad-municipal' },
-            { label: 'Informacion Financiera LGCG', key: 'lgcg' },
+            { label: 'Información Financiera LGCG', key: 'lgcg' },
             { label: 'Recursos Federales Transferidos', key: 'recursos-federales-transferidos' },
             { label: 'Presupuesto en Lenguaje Ciudadano', key: 'presupuesto-lenguaje-ciudadano' },
             { label: 'Sistema de Evaluación de Armonización Contable', key: 'sevac' },
-            { label: 'Unidad de Evaluacion del Desempeño Municipal UEDM', key: 'uedm' },
+            { label: 'Unidad de Evaluación del Desempeño Municipal (UEDM)', key: 'uedm' },
             { label: 'Archivo Municipal', key: 'archivo-municipal' },
             // { label: 'Ramo 23 Hidrocarburos. Art. 72 LGCG', key: 'ramo-23-hidrocarburos' },
             // { label: 'Información Publica', key: 'transparencia/archivos-publicados' },
@@ -56,12 +56,10 @@ const items: MenuItem[] = [
         label: 'ATENCIÓN CIUDADANA',
         key: 'atencionCiudadana',
     },
-
-    // {
-    //     label: 'TRANSPARENCIA',
-    //     key: 'transparencia',
-    // },
-
+    {
+        label: 'CONTRALORÍA MUNICIPAL',
+        key: 'contraloria_municipal',
+    },
 ];
 export const MenuLayout = () => {
 
@@ -78,7 +76,7 @@ export const MenuLayout = () => {
                     navigate(item.key);
                 }}
                 mode="horizontal" items={items}
-                style={{ minWidth: 600, flex: "auto" }}
+                style={{ minWidth: 750, flex: "auto" }}
             />
         </Col>
     </Row>

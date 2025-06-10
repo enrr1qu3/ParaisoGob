@@ -26,6 +26,7 @@ import { TransparenciaArchivoMunicipal } from "../pages/Transparencia/Transparen
 import { NoticiaASIPONA } from "../pages/Noticias/Notas/NoticiaASIPONA";
 import { NoticiaSumiElectri } from "../pages/Noticias/Notas/NoticiaSumiElectri";
 import { NoticiaMedioAmbiente } from "../pages/Noticias/Notas/NoticiaMedioAmbiente";
+import ContraloriaMunicipal from "../pages/ContraloriaMunicipal/ContraloriaMunicipal";
 
 
 
@@ -124,6 +125,10 @@ export const router = createBrowserRouter([
             {
                 path: "/certificado-funcionamiento-SARE",
                 element: <SAREPage />
+            },
+            {
+                path: "/contraloria_municipal",
+                element: <ContraloriaMunicipal />
             },
 
         ]

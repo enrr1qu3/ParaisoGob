@@ -12,7 +12,7 @@ export default function TransparenciaRescFedTrans() {
             key: '1',
             label: 'Anual',
             children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
+                <Empty description={"Sin Información"} />
             </div>,
         },
         {
@@ -24,7 +24,7 @@ export default function TransparenciaRescFedTrans() {
             key: '3',
             label: 'Semestral',
             children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
+                <Empty description={"Sin Información"} />
             </div>,
         },
 
@@ -76,7 +76,7 @@ export default function TransparenciaRescFedTrans() {
                             Recursos Federales Transferidos
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

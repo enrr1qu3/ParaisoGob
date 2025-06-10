@@ -10,19 +10,19 @@ export const TablaInfoContable = () => {
             }
         },
         {
-            name: "ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS",
+            name: "ESTADO ANALÍTICO DE LA DEUDA Y OTROS PASIVOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL ACTIVO",
+            name: "ESTADO ANALÍTICO DEL ACTIVO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DEL ACTIVO.pdf"
             }
         },
         {
-            name: "ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA",
+            name: "ESTADO DE CAMBIOS EN LA SITUACIÓN FINANCIERA",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf"
             }
@@ -34,13 +34,13 @@ export const TablaInfoContable = () => {
             }
         },
         {
-            name: "ESTADO DE SITUACION FINANCIERA",
+            name: "ESTADO DE SITUACIÓN FINANCIERA",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE SITUACION FINANCIERA.pdf"
             }
         },
         {
-            name: "ESTADO DE VARIACION DE LA HACIENDA PUBLICA",
+            name: "ESTADO DE VARIACIÓN DE LA HACIENDA PUBLICA",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf"
             }

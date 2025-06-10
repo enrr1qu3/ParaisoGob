@@ -151,7 +151,7 @@ export default function AtencionCPage() {
 
             >
               <h2 className='ubicanos'>
-                Ubicanos
+                Ubícanos
               </h2>
             </Col>
 
@@ -200,7 +200,7 @@ export default function AtencionCPage() {
                     <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                     >
                       <LuClock className="icon-footer" />
-                      <p>Lunes a Viernes de 8:00 a 15:00 horas y Sábados de 9:00 a 12:00 </p></div>
+                      <p>Lunes a viernes de 8:00 a 15:00 horas y Sábados de 9:00 a 12:00 </p></div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                       <LuPhone className='icon-footer' />
                       <p>933 114 00 00</p>

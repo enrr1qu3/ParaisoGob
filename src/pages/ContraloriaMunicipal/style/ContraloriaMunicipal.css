@@ -1,0 +1,32 @@
+.contenTextContraloria h2 {
+  text-align: center;
+  color: #f26c0d;
+  font-size: 1.5rem;
+}
+.contenTextContraloria p {
+  /* margin: 0; */
+  text-align: justify;
+  font-size: medium;
+
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.listContraloria li {
+  /* margin: 0; */
+  font-size: medium;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.listContraloria {
+  list-style: upper-roman;
+}
+.contenBotonContraloria {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 1rem;
+  /* margin-: 1rem; */
+}

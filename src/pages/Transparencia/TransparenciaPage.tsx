@@ -12,17 +12,17 @@ export default function TransparenciaPage() {
     const items: TabsProps['items'] = [
         {
             key: '1',
-            label: 'Informacion contable',
+            label: 'Información contable',
             children: <TablaInfoContable />,
         },
         {
             key: '2',
-            label: 'Informacion presupuestaria',
+            label: 'Información presupuestaria',
             children: <TablaInfoPresupuestaria />,
         },
         {
             key: '3',
-            label: 'Informacion programatica',
+            label: 'Información programatica',
             children: < TablaInfoProgramatica />,
         },
         {
@@ -32,7 +32,7 @@ export default function TransparenciaPage() {
         },
         {
             key: '5',
-            label: 'Informacion financiera',
+            label: 'Información financiera',
             children: <TablaInfoAyudasSubsidios />,
         },
     ];
@@ -83,7 +83,7 @@ export default function TransparenciaPage() {
                             SEVAC
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

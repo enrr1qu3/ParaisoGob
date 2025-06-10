@@ -5,7 +5,7 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoRendiCuentas = () => {
     const dataSource = [
         {
-            name: "CLASIFICACIÓN ADMINISTRIVA",
+            name: "CLASIFICACIÓN ADMINISTRATIVA",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-4-2024/4T24 ClasificacionAdministrativa.pdf"
             },
@@ -14,7 +14,7 @@ export const TablaInfoRendiCuentas = () => {
             }
         },
         {
-            name: "CLASIFICACIÓN ECONOMICA",
+            name: "CLASIFICACIÓN ECONÓMICA",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-4-2024/4T24 ClasificacionEconómica.pdf"
             },
@@ -41,7 +41,7 @@ export const TablaInfoRendiCuentas = () => {
             }
         },
         {
-            name: "CLASIFICACIÓN POR CATEGORIA PROGRAMATICA",
+            name: "CLASIFICACIÓN POR CATEGORÍA PROGRAMÁTICA",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-4-2024/4T24 ClasificacionProgramática.pdf"
             },
@@ -50,7 +50,7 @@ export const TablaInfoRendiCuentas = () => {
             }
         },
         {
-            name: "CLASIFICACIÓN PROGRAMAS Y PROYECTOS",
+            name: "CLASIFICACIÓN POR CATEGORÍA PROGRAMÁTICA Y PROYECTOS",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-4-2024/4T24 ClasificacionProgramas  y Proyectos.pdf"
             },

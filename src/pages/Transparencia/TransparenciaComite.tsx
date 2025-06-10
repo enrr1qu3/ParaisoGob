@@ -24,7 +24,7 @@ export default function TransparenciaComite() {
     }, []); //
     const dataUEDM = [
         {
-            nombre: "ACTA DE INSTALACION Y TOMA DE PROTESTA",
+            nombre: "ACTA DE INSTALACIÓN Y TOMA DE PROTESTA",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA DE INSTALACION Y TOMA DE PROTESTA.pdf",
         },
         {
@@ -109,7 +109,7 @@ export default function TransparenciaComite() {
                                             </>)
                                     },
                                     {
-                                        title: 'Informacion Publica',
+                                        title: 'Información Pública',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -117,10 +117,10 @@ export default function TransparenciaComite() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Informacion Publica
+                            Información Pública
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>
@@ -136,7 +136,7 @@ export default function TransparenciaComite() {
                         <div className="contenedorSujetos">
                             <h3 className="tituloSecundariInicio">
                                 <UserOutlined />
-                                Titular de la Unidad de Transparencia y Proteccion de Datos Personales.
+                                Titular de la Unidad de Transparencia y Protección de Datos Personales.
                             </h3>
                             <Row gutter={[16, 16]}>
                                 <Col
@@ -289,8 +289,7 @@ export default function TransparenciaComite() {
                                                     del municipio de Paraíso
                                                 </h2>
                                                 <p className='pLinkT'>
-                                                    Ley de Transparencia y Acceso a la
-                                                    Información, Artículo 76 y 78
+                                                    Ley de Transparencia y Acceso a la Información, artículos 76 y 78
                                                 </p>
                                                 <div style={{ display: "flex", justifyContent: "center" }}>
                                                     <a
@@ -313,7 +312,7 @@ export default function TransparenciaComite() {
                                         </Row>
                                     </Card>
                                 </Col>
-                                
+
                                 <Col
                                     xs={{ flex: "100%" }}
                                     xl={{ flex: "100%" }}

@@ -16,14 +16,14 @@ export default function TransparenciaLenguaCiuda() {
             key: '2',
             label: 'Trimestral',
             children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
+                <Empty description={"Sin Información"} />
             </div>,
         },
         {
             key: '3',
             label: 'Semestral',
             children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
+                <Empty description={"Sin Información"} />
             </div>,
         },
 
@@ -64,7 +64,7 @@ export default function TransparenciaLenguaCiuda() {
                                             </>)
                                     },
                                     {
-                                        title: 'Presupuesto de Leguaje Ciudadano',
+                                        title: 'Presupuesto de Lenguaje Ciudadano',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -75,7 +75,7 @@ export default function TransparenciaLenguaCiuda() {
                             Presupuesto en Lenguaje Ciudadano
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

@@ -80,7 +80,7 @@ export default function TransparenciaUEDMPage() {
                                             </>)
                                     },
                                     {
-                                        title: 'Unidad de Evaluacion del Desempeño Municipal UEDM',
+                                        title: 'Unidad de Evaluación del Desempeño Municipal UEDM',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -88,10 +88,10 @@ export default function TransparenciaUEDMPage() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Unidad de Evaluacion del Desempeño Municipal UEDM
+                            Unidad de Evaluación del Desempeño Municipal UEDM
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

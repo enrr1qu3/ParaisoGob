@@ -35,7 +35,7 @@ export const TablaInfoLGCGAnual = () => {
             }
         },
         {
-            name: "CUENTA PUBLICA ANUALIZADA",
+            name: "CUENTA PÚBLICA ANUALIZADA",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/ANUAL/CUENTA%20PUBLICA%20ANUALIZADA%202024.pdf"
             }

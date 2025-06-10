@@ -5,7 +5,7 @@ export default function CabildoPage() {
     const inteCabildo = [
         {
             nombre: "Lic. María Eliza Hernández Flores",
-            puesto: "Segunda Regidora y Sindico de Hacienda",
+            puesto: "Segunda Regidora y Síndico de Hacienda",
             imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/maestra maria/mtra maria 05.jpg"
         },
         {
@@ -20,7 +20,7 @@ export default function CabildoPage() {
         },
         {
             nombre: "C. Israel Palma Rodríguez",
-            puesto: "Quinto Regido",
+            puesto: "Quinto Regidor",
             imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ISRRAEL/ISRRA 05.jpg"
         },
     ]
@@ -203,7 +203,7 @@ export default function CabildoPage() {
             imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
         },
         {
-            nombre: "---",
+            nombre: "",
             puesto: "Coordinación de Recursos Materiales",
             imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
         },
@@ -354,7 +354,7 @@ export default function CabildoPage() {
                     <Card
                     >
                         <h2 className='tituloCartas'>
-                            Integrantes del H.Cabildo
+                            Integrantes del H. Cabildo
                         </h2>
                         <Row gutter={[8, 8]}>
                             {inteCabildo.map((itegrante) =>

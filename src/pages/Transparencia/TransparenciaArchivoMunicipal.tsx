@@ -100,7 +100,7 @@ export const TransparenciaArchivoMunicipal = () => {
                             Archivo Municipal
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>
@@ -113,7 +113,7 @@ export const TransparenciaArchivoMunicipal = () => {
 
                         <Row gutter={[8, 8]} justify={"center"}>
                             <h3 style={{ color: "#1a4b8c" }}>
-                                TITULAR DEL DEPARTAMENTO DE ARCHIVO MUNICUPAL
+                                TITULAR DEL DEPARTAMENTO DE ARCHIVO MUNICIPAL
                             </h3>
                             <Col
                                 xs={{ flex: '100%' }}
@@ -124,7 +124,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                         Lic. Ana Rosa Domínguez Pérez
                                     </p>
                                     <p style={{ color: "#fd8108", fontWeight: "bold", }}>
-                                        Calle Ignacio Comonfort s/n, Col. Centro. Palacio de los Deportes C.. 86605
+                                        Calle Ignacio Comonfort S/N, Col. Centro. Palacio Municipal. Planta Baja.  C. P. 86605
                                     </p>
                                 </div>
                             </Col>
@@ -142,7 +142,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                         xl={{ flex: '33.3%' }}
                                     >
                                         <h3 style={{ color: "#1a4b8c" }}>
-                                            Director de asuntos juridicos
+                                            Director de asuntos jurídicos
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
                                             Lic. Javier Rodríguez Hernández
@@ -192,7 +192,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                             Titular de la unidad de transparencia y protección de datos personales
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
-                                            L.A. Oscar Agusto Pérez Carrillo
+                                            L.A. Oscar Augusto Pérez Carrillo
                                         </p>
                                     </Col>
                                     <Col
@@ -200,7 +200,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                         xl={{ flex: '33.3%' }}
                                     >
                                         <h3 style={{ color: "#1a4b8c" }}>
-                                            Titular del departamento de tecnologias de la información
+                                            Titular del departamento de tecnologías de la información
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
                                             L.I.A Miguel Ramón Domínguez

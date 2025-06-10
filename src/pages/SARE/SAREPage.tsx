@@ -128,10 +128,10 @@ export default function SAREPage() {
                                                 <span style={{fontWeight: "700", color:"#691a30"}}>Teléfono de contacto: </span> 9331349243
                                             </p>
                                             <p>
-                                                <span style={{fontWeight: "700", color:"#691a30"}}>Horarios de Atención:</span> Lunes a Viernes de 08:00 a 16:00 hras.
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Horarios de Atención:</span> Lunes a viernes de 08:00 a 16:00 h.
                                             </p>
                                             <p>
-                                                <span style={{fontWeight: "700", color:"#691a30"}}>Recepción de documentos:</span> Lunes a Viernes de 09:00 a 14:00 hras.
+                                                <span style={{fontWeight: "700", color:"#691a30"}}>Recepción de documentos:</span> Lunes a viernes de 09:00 a 14:00 h.
                                             </p>
                                             <p>
                                                 <span style={{fontWeight: "700", color:"#691a30"}}>Dirección de Oficina de Atención:</span> Calle Santos Degollado esquina Ignacio

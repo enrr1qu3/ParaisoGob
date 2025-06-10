@@ -22,7 +22,7 @@ export default function TransparenciaLGCGPage() {
             key: '3',
             label: 'Semestral',
             children: <div style={{ height: 300, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <Empty description={"Sin Informacion"} />
+                <Empty description={"Sin Información"} />
             </div>,
         },
 
@@ -63,7 +63,7 @@ export default function TransparenciaLGCGPage() {
                                             </>)
                                     },
                                     {
-                                        title: 'Informacion Financiera LGCG',
+                                        title: 'Información Financiera LGCG',
                                         className: "tituloPincipalColor"
                                     },
                                 ]
@@ -71,10 +71,10 @@ export default function TransparenciaLGCGPage() {
                             style={{ margin: 0, marginBottom: 16 }}
                         />
                         <h2 className='tituloP tituloPincipalColor'>
-                            Informacion Financiera LGCG
+                            Información Financiera LGCG
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

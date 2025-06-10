@@ -49,7 +49,7 @@ export default function AvisoPrivacidad() {
                             Aviso de Privacidad
                         </h2>
                         <p className='subtituloP'>
-                            Informacion para la ciudadanía
+                            Información para la ciudadanía
                         </p>
 
                     </Card>

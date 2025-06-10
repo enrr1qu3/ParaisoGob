@@ -10,7 +10,7 @@ export const TablaInfoPresupuestaria = () => {
             }
         },
         {
-            name: "ESTADO ANALITICO DE LOS INGRESOS",
+            name: "ESTADO ANALÍTICO DE LOS INGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf"
             }

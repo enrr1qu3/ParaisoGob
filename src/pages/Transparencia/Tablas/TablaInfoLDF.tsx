@@ -5,61 +5,61 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoLDF = () => {
     const dataSource = [
         {
-            name: "ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO)",
+            name: "ESTADO ANALÍTICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO)",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO).pdf"
             }
         },
         {
-            name: "BALANCE PRESUPUESTARIO.",
+            name: "BALANCE PRESUPUESTARIO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/BALANCE PRESUPUESTARIO.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DE INGRESOS DETALLADOS",
+            name: "ESTADO ANALÍTICO DE INGRESOS DETALLADOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DE INGRESOS DETALLADOS.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACION ADMINISTRATIVA",
+            name: "ESTADO ANALÍTICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACIÓN ADMINISTRATIVA",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ADMINISTRATIVA.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACION DE SERVICIOS PERSONALES",
+            name: "ESTADO ANALÍTICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACIÓN DE SERVICIOS PERSONALES",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION DE SERVICIOS PERSONALES.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACION FUNCIONAL",
+            name: "ESTADO ANALÍTICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACIÓN FUNCIONAL",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION FUNCIONAL.pdf"
             }
         },
         {
-            name: "ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACION POR OBJETO DEL GASTO",
+            name: "ESTADO ANALÍTICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS CLASIFICACIÓN POR OBJETO DEL GASTO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION POR OBJETO DEL GASTO.pdf"
             }
         },
         {
-            name: "ESTADO DE SITUACION FINANCIERA DETALLADO",
+            name: "ESTADO DE SITUACIÓN FINANCIERA DETALLADO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO DE SITUACION FINANCIERA DETALLADO.pdf"
             }
         },
         {
-            name: "INFORME ANALITICO DE LA DEUDA Y OTROS PASIVOS",
+            name: "INFORME ANALÍTICO DE LA DEUDA Y OTROS PASIVOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/INFORME ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf"
             }
         },
         {
-            name: "INFORME ANALITICO DE OBLIGACIONES DE FINANCIAMIENTO",
+            name: "INFORME ANALÍTICO DE OBLIGACIONES DE FINANCIAMIENTO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/INFORME ANALITICO DE OBLIGACIONES DE FINANCIAMIENTO.pdf"
             }

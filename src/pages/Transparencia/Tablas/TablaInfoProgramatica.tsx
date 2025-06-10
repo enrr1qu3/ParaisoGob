@@ -5,13 +5,13 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoProgramatica = () => {
     const dataSource = [
         {
-            name: "CLASIFICACION DE PROGRAMAS Y PROYECTOS",
+            name: "CLASIFICACIÓN DE PROGRAMAS Y PROYECTOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion de programas y proyectos.pdf"
             }
         },
         {
-            name: "CLASIFICACION POR CATEGORIA PROGRAMATICA",
+            name: "CLASIFICACIÓN POR CATEGORÍA PROGRAMÁTICA",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion por categoria programatica.pdf"
             }
@@ -23,7 +23,7 @@ export const TablaInfoProgramatica = () => {
             }
         },
         {
-            name: "OBRAS Y ACCIONES A REALIZAR. FAIS ",
+            name: "OBRAS Y ACCIONES A REALIZAR, FAIS ",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf"
             }
