@@ -179,9 +179,9 @@ export default function ContraloriaMunicipal() {
                                 </div>
                             </Col>
                         </Row>
-                        <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                        <div style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center", marginTop:40 }}>
                             <Statistic title="Cantidad de visitas" value={countVisit} prefix={<EyeOutlined />} />
-                        </Card>
+                        </div>
                     </Card>
                 </Col>
 
