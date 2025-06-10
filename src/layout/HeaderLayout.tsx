@@ -9,21 +9,6 @@ import { MenuLayoutMovil } from "./MenuLayoutMovil";
 
 export const HeaderLayout = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    // const [countVisit, setCountVisit] = useState<number>(0);
-
-
-    // const visitApi = async () => {
-    //     try {
-    //         const response = await fetch(
-    //             'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/GetVisitsCount'
-    //         );
-    //         const data = await response.json();
-    //         setCountVisit(data);
-    //     } catch (error) {
-    //         console.error('Error obteniendo visitas:', error);
-    //         setCountVisit(0);
-    //     }
-    // };
 
     const countVisitApi = async () => {
         try {

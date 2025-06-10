@@ -1,7 +1,39 @@
-import { Col, ConfigProvider, Row, Card, Breadcrumb } from 'antd';
-import { HomeOutlined } from '@ant-design/icons';
+import { Col, ConfigProvider, Row, Card, Breadcrumb, Statistic } from 'antd';
+import { EyeOutlined, HomeOutlined } from '@ant-design/icons';
 import './style/ContraloriaMunicipal.css'
+import { useEffect, useState } from 'react';
 export default function ContraloriaMunicipal() {
+    const [countVisit, setCountVisit] = useState<number>(0);
+    const visitApi = async () => {
+        try {
+            const response = await fetch(
+                'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/Contraloria/GetVisitsCount'
+            );
+            const data = await response.json();
+            setCountVisit(data);
+        } catch (error) {
+            console.error('Error obteniendo visitas:', error);
+            setCountVisit(0);
+        }
+    };
+    const countVisitApi = async () => {
+        try {
+            // const response =
+            await fetch(
+                'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/Contraloria'
+            );
+            localStorage.setItem("visitadoContraloria", "true");
+            // const data = await response.json();
+
+        } catch (error) {
+            console.error('Error publicando visitas:', error);
+        }
+    };
+    useEffect(() => {
+        const visitante = localStorage.getItem("visitadoContraloria");
+        if (!visitante) countVisitApi();
+        visitApi();
+    }, []); //
     return (
         <ConfigProvider
 
@@ -147,6 +179,9 @@ export default function ContraloriaMunicipal() {
                                 </div>
                             </Col>
                         </Row>
+                        <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                            <Statistic title="Cantidad de visitas" value={countVisit} prefix={<EyeOutlined />} />
+                        </Card>
                     </Card>
                 </Col>
 
