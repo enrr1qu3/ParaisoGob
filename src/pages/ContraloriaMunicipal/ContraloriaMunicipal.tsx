@@ -175,7 +175,7 @@ export default function ContraloriaMunicipal() {
                                     className='contenBotonContraloria'
                                 >
                                     <h4 style={{ margin: 0 }}>Carta Compromiso</h4>
-                                    <a href="https://gobparaiso.blob.core.windows.net/contraloria/Paraíso  Código de Conducta    Carta Compromiso.docx" target="_blank">Descargar</a>
+                                    <a href="https://gobparaiso.blob.core.windows.net/contraloria/Paraíso Código de Conducta Carta Compromiso.pdf" target="_blank">Descargar</a>
                                 </div>
                             </Col>
                         </Row>
