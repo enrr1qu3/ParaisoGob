@@ -55,12 +55,12 @@ const items: MenuItem[] = [
         ],
     },
     {
-        label: 'ATENCIÓN CIUDADANA',
-        key: 'atencionCiudadana',
+        label: 'CONTRALORÍA MUNICIPAL',
+        key: 'contraloria',
     },
     {
-        label: 'CONTRALORÍA MUNICIPAL',
-        key: 'contraloria_municipal',
+        label: 'ATENCIÓN CIUDADANA',
+        key: 'atencionCiudadana',
     },
 ];
     return (

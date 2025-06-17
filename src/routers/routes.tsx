@@ -27,6 +27,7 @@ import { NoticiaASIPONA } from "../pages/Noticias/Notas/NoticiaASIPONA";
 import { NoticiaSumiElectri } from "../pages/Noticias/Notas/NoticiaSumiElectri";
 import { NoticiaMedioAmbiente } from "../pages/Noticias/Notas/NoticiaMedioAmbiente";
 import ContraloriaMunicipal from "../pages/ContraloriaMunicipal/ContraloriaMunicipal";
+import { EticaServicioPage } from "../pages/ContraloriaMunicipal/EticaServicioPage";
 
 
 
@@ -127,8 +128,17 @@ export const router = createBrowserRouter([
                 element: <SAREPage />
             },
             {
-                path: "/contraloria_municipal",
-                element: <ContraloriaMunicipal />
+                path: "contraloria",
+                children: [
+                    {
+                        index: true,
+                        element: <ContraloriaMunicipal />
+                    },
+                    {
+                        path: "etica",
+                        element: <EticaServicioPage />
+                    },
+                ]
             },
 
         ]
