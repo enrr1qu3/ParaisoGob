@@ -79,10 +79,10 @@ export const router = createBrowserRouter([
                 path: "/cabildo",
                 element: <CabildoPage />
             },
-            {
-                path: "/atencionCiudadana",
-                element: <AtencionCPage />
-            },
+            // {
+            //     path: "/atencionCiudadana",
+            //     element: <AtencionCPage />
+            // },
             {
                 path: "/sevac",
                 element: <TransparenciaPage />

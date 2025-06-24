@@ -58,10 +58,10 @@ const items: MenuItem[] = [
         label: 'CONTRALORÍA MUNICIPAL',
         key: 'contraloria',
     },
-    {
-        label: 'ATENCIÓN CIUDADANA',
-        key: 'atencionCiudadana',
-    },
+    // {
+    //     label: 'ATENCIÓN CIUDADANA',
+    //     key: 'atencionCiudadana',
+    // },
 ];
     return (
         <Row>
