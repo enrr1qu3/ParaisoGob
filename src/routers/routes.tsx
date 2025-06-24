@@ -10,7 +10,7 @@ import Noticia from '../pages/Noticias/Noticia';
 import Historia from "../pages/Historia/Historia";
 import Geografia from "../pages/Geografia/Geografia";
 import CabildoPage from "../pages/Cabildo/CabildoPage";
-import AtencionCPage from "../pages/AtencionCiudadana/AtencionCPage";
+// import AtencionCPage from "../pages/AtencionCiudadana/AtencionCPage";
 import TransparenciaPage from "../pages/Transparencia/TransparenciaPage";
 import TransparenciaLGCGPage from "../pages/Transparencia/TransparenciaLGCGPage";
 import TransparenciaRendiCuentas from "../pages/Transparencia/TransparenciaRendiCuentas";
