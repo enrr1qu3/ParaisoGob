@@ -167,92 +167,106 @@ export default function TransparenciaComite() {
                                 </Col>
                             </Row>
                         </div>
-                        <div className="contenedorSujetos">
-                            <h3 className="tituloSecundariInicio">
-                                <UserOutlined />
-                                Comité de Transparencia
-                            </h3>
-                            <Row gutter={[16, 16]}>
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "33%" }}
-                                >
-                                    <Card>
-                                        <Row gutter={[24, 16]} justify={"center"}>
-                                            <Col
-                                                xs={{ flex: "20%" }}
-                                                xl={{ flex: "20%" }}
-                                            >
-                                                <Avatar size={100} icon={<UserOutlined />} />
-                                            </Col>
-                                            <Col xs={{ flex: "100%" }}
-                                                xl={{ flex: "60%" }}
-                                            >
-                                                <h3 className='tituloCarta'>Presidente del Comité de Transparencia</h3>
-                                                <p className='pCarta'>Ing. Isaac López Guerra</p>
-                                                {/* <p>Ver más...</p> */}
-                                            </Col>
-                                        </Row>
-                                    </Card>
-                                </Col>
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "33%" }}
-                                >
-                                    <Card>
-                                        <Row gutter={[24, 16]} justify={"center"}>
-                                            <Col
-                                                xs={{ flex: "20%" }}
-                                                xl={{ flex: "20%" }}
-                                            >
-                                                <Avatar size={100} icon={<UserOutlined />} />
-                                            </Col>
-                                            <Col xs={{ flex: "100%" }}
-                                                xl={{ flex: "60%" }}
-                                            >
-                                                <h3 className='tituloCarta'>Secretario Técnico</h3>
-                                                <p className='pCarta'>Lic. Javier Hernández Rodríguez</p>
-                                                {/* <p>Ver más...</p> */}
-                                            </Col>
-                                        </Row>
-                                    </Card>
-                                </Col>
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "33%" }}
-                                >
-                                    <Card>
-                                        <Row gutter={[24, 16]} justify={"center"}>
-                                            <Col
-                                                xs={{ flex: "20%" }}
-                                                xl={{ flex: "20%" }}
-                                            >
-                                                <Avatar size={100} icon={<UserOutlined />} />
-                                            </Col>
-                                            <Col xs={{ flex: "100%" }}
-                                                xl={{ flex: "60%" }}
-                                            >
-                                                <h3 className='tituloCarta'>Vocal del Comité</h3>
-                                                <p className='pCarta'>Ing. Arturo Izquierdo Alejandro</p>
-                                                {/* <p>Ver más...</p> */}
-                                            </Col>
-                                        </Row>
-                                    </Card>
-                                </Col>
-                            </Row>
-                        </div>
+                        <Row>
+                            <Col
+                                xs={{ flex: '100%' }}
+                                xl={12}
+                            >
 
-                        <h3 className="tituloSecundariInicio">
-                            Resoluciones del Comité de Transparencia
-                        </h3>
-                        <Table
-                            dataSource={dataUEDM}
-                            size="small"
-                            columns={columns}
-                            rowKey={(record) => record.nombre}
-                            scroll={{ x: 'max-content' }}
-                        />
-
+                                <div className="contenedorSujetos">
+                                    <h3 className="tituloSecundariInicio">
+                                        <UserOutlined />
+                                        Comité de Transparencia
+                                    </h3>
+                                    <Row gutter={[16, 16]} >
+                                        <Col
+                                            xs={{ flex: "100%" }}
+                                            xl={{ flex: "33%" }}
+                                        >
+                                            <Card style={{ height: "100%" }}>
+                                                <Row gutter={[8, 8]} justify={"center"}>
+                                                    <Col
+                                                        xs={{ flex: "20%" }}
+                                                        xl={{ flex: "20%" }}
+                                                    >
+                                                        <Avatar size={100} icon={<UserOutlined />} />
+                                                    </Col>
+                                                    <Col xs={{ flex: "100%" }}
+                                                        xl={{ flex: "100%" }}
+                                                        style={{ textAlign: "center" }}
+                                                    >
+                                                        <h3 className='comiTransTitulo'>Presidente del Comité de Transparencia</h3>
+                                                        <p className='pCarta'>Ing. Isaac López Guerra</p>
+                                                        {/* <p>Ver más...</p> */}
+                                                    </Col>
+                                                </Row>
+                                            </Card>
+                                        </Col>
+                                        <Col
+                                            xs={{ flex: "100%" }}
+                                            xl={{ flex: "33%" }}
+                                        >
+                                            <Card style={{ height: "360px" }}>
+                                                <Row gutter={[8, 8]} justify={"center"}>
+                                                    <Col
+                                                        xs={{ flex: "20%" }}
+                                                        xl={{ flex: "20%" }}
+                                                    >
+                                                        <Avatar size={100} icon={<UserOutlined />} />
+                                                    </Col>
+                                                    <Col xs={{ flex: "100%" }}
+                                                        xl={{ flex: "100%" }}
+                                                        style={{ textAlign: "center" }}
+                                                    >
+                                                        <h3 className='comiTransTitulo'>Secretario Técnico</h3>
+                                                        <p className='pCarta'>Lic. Javier Hernández Rodríguez</p>
+                                                        {/* <p>Ver más...</p> */}
+                                                    </Col>
+                                                </Row>
+                                            </Card>
+                                        </Col>
+                                        <Col
+                                            xs={{ flex: "100%" }}
+                                            xl={{ flex: "33%" }}
+                                        >
+                                            <Card style={{ height: "360px" }}>
+                                                <Row gutter={[8, 8]} justify={"center"}>
+                                                    <Col
+                                                        xs={{ flex: "20%" }}
+                                                        xl={{ flex: "20%" }}
+                                                    >
+                                                        <Avatar size={100} icon={<UserOutlined />} />
+                                                    </Col>
+                                                    <Col xs={{ flex: "100%" }}
+                                                        xl={{ flex: "100%" }}
+                                                        style={{ textAlign: "center" }}
+                                                    >
+                                                        <h3 className='comiTransTitulo'>Vocal del Comité</h3>
+                                                        <p className='pCarta'>Ing. Arturo Izquierdo Alejandro</p>
+                                                        {/* <p>Ver más...</p> */}
+                                                    </Col>
+                                                </Row>
+                                            </Card>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </Col>
+                            <Col
+                                xs={{ flex: '100%' }}
+                                xl={12}
+                            >
+                                <h3 className="tituloSecundariInicio">
+                                    Resoluciones del Comité de Transparencia
+                                </h3>
+                                <Table
+                                    dataSource={dataUEDM}
+                                    size="small"
+                                    columns={columns}
+                                    rowKey={(record) => record.nombre}
+                                    scroll={{ x: 'max-content' }}
+                                />
+                            </Col>
+                        </Row>
                         <h3 className="tituloSecundariInicio">
                             Estrados Electrónicos
                         </h3>
@@ -263,11 +277,11 @@ export default function TransparenciaComite() {
                                     xs={{ flex: "100%" }}
                                     xl={{ flex: "20%" }}
                                 >
-                                    <a target="_blank" href="http://www.itaip.org.mx/site/"
+                                    <a target="_blank" href="https://tabasco.gob.mx/buen-gobierno"
                                     >
-                                        <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                            <img src="https://transparencia.comalcalco.gob.mx/src/itaip_logo.png"
-                                                alt="itaip"
+                                        <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "#981447" }}>
+                                            <img src="https://tabasco.gob.mx/sites/default/files/inline-images/Logo_Cacao_Footer.png"
+                                                alt="Buen-Gobierno"
                                                 style={{ width: "100%" }}
                                             />
                                         </Card>
@@ -276,7 +290,7 @@ export default function TransparenciaComite() {
 
                                 <Col
                                     xs={{ flex: "100%" }}
-                                    xl={{ flex: "70%" }}
+                                    xl={{ flex: "80%" }}
                                 >
                                     <Card style={{ backgroundColor: "#e3effe" }}>
                                         <Row gutter={[8, 8]} justify={"center"}>
@@ -328,9 +342,9 @@ export default function TransparenciaComite() {
                             </Row>
                         </div>
                     </Card>
-                </Col>
+                </Col >
 
-            </Row>
-        </ConfigProvider>
+            </Row >
+        </ConfigProvider >
     )
 }
