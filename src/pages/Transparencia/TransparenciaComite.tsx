@@ -51,6 +51,10 @@ export default function TransparenciaComite() {
             nombre: "SO-01-2025",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA SO-01-2025 (1).pdf",
         },
+        {
+            nombre: "SE-06-2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-06-2025.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {
@@ -259,8 +263,8 @@ export default function TransparenciaComite() {
                                     Resoluciones del Comité de Transparencia
                                 </h3>
                                 <Table
-                                    dataSource={dataUEDM}
                                     size="small"
+                                    dataSource={dataUEDM}
                                     columns={columns}
                                     rowKey={(record) => record.nombre}
                                     scroll={{ x: 'max-content' }}

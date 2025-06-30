@@ -11,6 +11,7 @@
   font-weight: 700;
   font-size: 1.875rem;
   line-height: 2.25rem;
+  margin-top: 0;
 }
 .tituloLink {
   /* style={{ color: "#1a4b8c", textDecoration: "inherit", display: "flex", gap: "10px" }} */
