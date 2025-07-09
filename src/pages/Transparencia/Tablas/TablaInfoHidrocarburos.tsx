@@ -22,10 +22,10 @@ export const TablaInfoHidrocarburos = () => {
             localidad: "270140009. RA. LAS FLORES 1RA. SECCION",
             contrato: "CO-PA-HIDRCMAR-021-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-021-2024 OBRA OPM56_redacted.pdf"
+                4: ["https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-021-2024 OBRA OPM56_redacted.pdf", "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf"]
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-021-2024_OBRA_OPM56_redacted.pdf"
+                1: ["https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-021-2024_OBRA_OPM56_redacted.pdf", "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf"]
             }
         },
         {
@@ -34,10 +34,10 @@ export const TablaInfoHidrocarburos = () => {
             localidad: "270140049. RA. ORIENTE 2DA. SECCION . (PALMA HUACA).",
             contrato: "CO-PA-HIDRCTERR-022-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-022-2024 OBRA OPM57_redacted.pdf"
+                4:[ "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-022-2024 OBRA OPM57_redacted.pdf","https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf"]
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-022-2024_OBRA_OPM57_redacted.pdf"
+                1: ["https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-022-2024_OBRA_OPM57_redacted.pdf", "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf"]
             }
         },
         {
@@ -46,10 +46,10 @@ export const TablaInfoHidrocarburos = () => {
             localidad: "270140050. EJ. OCCIDENTE (SAN FRANCISCO).",
             contrato: "CO-PA-HIDRCTERR-023-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-023-2024 OBRA OPM58_redacted.pdf"
+                4: ["https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-023-2024 OBRA OPM58_redacted.pdf", "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf"]
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-023-2024_OBRA_OPM58_redacted.pdf"
+                1: ["https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-023-2024_OBRA_OPM58_redacted.pdf", "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf"]
             }
         },
         {
@@ -58,10 +58,10 @@ export const TablaInfoHidrocarburos = () => {
             localidad: "270140026. RA. POTRERITOS",
             contrato: "CO-PA-HIDRCMAR-024-2024",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-024-2024 OBRA OPM59_redacted.pdf"
+                4: ["https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-024-2024 OBRA OPM59_redacted.pdf","https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf"]
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-024-2024_OBRA_OPM59_redacted.pdf"
+                1: ["https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-024-2024_OBRA_OPM59_redacted.pdf", "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf"]
             }
         },
 
@@ -191,11 +191,18 @@ export const TablaInfoHidrocarburos = () => {
                             dataIndex: [2024, 4],
                             width: "10px",
                             render: (e: any) => (
-                                (e) && < Button
-                                    icon={< FilePdfOutlined />}
-                                    href={e}
-                                    target="_blank"
-                                />
+                                <>
+                                    {(e?.length >= 1) && < Button
+                                        icon={< FilePdfOutlined />}
+                                        href={e[0]}
+                                        target="_blank"
+                                    />}
+                                    {(e?.length >= 1) && < Button
+                                        icon={< FilePdfOutlined />}
+                                        href={e[1]}
+                                        target="_blank"
+                                    />}
+                                </>
                             ),
                             align: 'center',
                         },
@@ -209,11 +216,18 @@ export const TablaInfoHidrocarburos = () => {
                             dataIndex: [2025, 1],
                             width: "10px",
                             render: (e: any) => (
-                                (e) && < Button
-                                    icon={< FilePdfOutlined />}
-                                    href={e}
-                                    target="_blank"
-                                />
+                                <>
+                                    {(e?.length >= 1) && < Button
+                                        icon={< FilePdfOutlined />}
+                                        href={e[0]}
+                                        target="_blank"
+                                    />}
+                                    {(e?.length >= 1) && < Button
+                                        icon={< FilePdfOutlined />}
+                                        href={e[1]}
+                                        target="_blank"
+                                    />}
+                                </>
                             ),
                             align: 'center',
                         },
