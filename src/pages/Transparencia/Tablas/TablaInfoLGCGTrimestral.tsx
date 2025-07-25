@@ -10,7 +10,8 @@ export const TablaInfoLGCGTrimestral = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-4-2024/4T24 formato de programas con recursos concurrente.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/formato de programas con recursos concurrente.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/formato de programas con recursos concurrente.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/2DO_TRIM_2025/FORMATO DE PROGRAMAS CON RECURSOS CONCURRENTES POR ORDEN DE GOBIERNO DE ABRIL A JUNIO 2025.pdf",
             }
         },
         {
@@ -19,7 +20,9 @@ export const TablaInfoLGCGTrimestral = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-4-2024/FAIS4TOTRIM.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/2DO_TRIM_2025/CONAC2DOTRIM2025FAIS.pdf",
+
             }
         },
         {
@@ -28,7 +31,8 @@ export const TablaInfoLGCGTrimestral = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-4-2024/FORTAMUN4TOTRIM.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/TRIMESTRE-1/CONAC%20FONDOIV1ERTRIM2025.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/TRIMESTRE-1/CONAC%20FONDOIV1ERTRIM2025.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/2DO_TRIM_2025/CONAC2DOTRIM2025FORTAMUN.pdf",
             }
         },
         {
@@ -37,7 +41,9 @@ export const TablaInfoLGCGTrimestral = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-4-2024/4T24 formato de obligaciones pagadas.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/formato de obligaciones pagadas.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/formato de obligaciones pagadas.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/2DO_TRIM_2025/formato de obligaciones pagadas o garantizadas con fondos federales de abril a junio 2025.pdf",
+
             }
         },
         {
@@ -46,7 +52,8 @@ export const TablaInfoLGCGTrimestral = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/TRIMESTRE-4-2024/4T24%20clasificacion%20del%20ejercicio%20y%20destino%20de%20gasto.pdf"
             },
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/clasificacion del ejercicio y destino de gasto.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/TRIMESTRE-1/clasificacion del ejercicio y destino de gasto.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/2DO_TRIM_2025/FORMATO DEL EJERCICIO Y DESTINO DE GASTO FEDERALIZADO Y REINTEGROS DE ABRIL A JUNIO 2025.pdf",
             }
         },
 
@@ -61,49 +68,11 @@ export const TablaInfoLGCGTrimestral = () => {
             width: 850
         },
         {
-
             title: 'Trimestres',
             align: 'center',
             children: [
-                // {
-                //     title: '2021',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
-                // {
-                //     title: '2022',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
                 {
                     title: '2023',
-
                     children: [
                         {
                             title: '1',
@@ -172,6 +141,15 @@ export const TablaInfoLGCGTrimestral = () => {
                         },
                         {
                             title: '2',
+                            dataIndex: [2025, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {

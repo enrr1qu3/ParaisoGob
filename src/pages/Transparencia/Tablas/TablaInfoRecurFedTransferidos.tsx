@@ -4,6 +4,7 @@ import type { ColumnsType } from "antd/es/table";
 
 export const TablaInfoRecurFedTransferidos = () => {
     const dataSource = [
+
         {
             name: "APLICACIÓN DE LOS RECURSOS DEL FORTAMUN",
             2024: {
@@ -15,6 +16,7 @@ export const TablaInfoRecurFedTransferidos = () => {
                 1: [
                     "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf",
                 ],
+                2: ["https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/CONAC2DOTRIM2025FAIS.pdf"]
             },
         },
         {
@@ -28,6 +30,7 @@ export const TablaInfoRecurFedTransferidos = () => {
                 1: [
                     "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf",
                 ],
+                2: ["https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/CONAC2DOTRIM2025FAIS.pdf"]
             },
         },
         {
@@ -196,42 +199,6 @@ export const TablaInfoRecurFedTransferidos = () => {
             title: "Trimestres",
             align: "center",
             children: [
-                // {
-                //     title: '2021',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
-                // {
-                //     title: '2022',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
                 {
                     title: "2023",
 
@@ -332,6 +299,30 @@ export const TablaInfoRecurFedTransferidos = () => {
                         },
                         {
                             title: "2",
+                            dataIndex: [2025, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                <>
+                                    {e?.length >= 1 && (
+                                        <Tooltip title={e[0].name}>
+                                            <Button
+                                                icon={<FilePdfOutlined />}
+                                                href={e[0].url}
+                                                target="_blank"
+                                            />
+                                        </Tooltip>
+                                    )}
+                                    {e?.length === 2 && (
+                                        <Tooltip title={e[1].name}>
+                                            <Button
+                                                icon={<FilePdfOutlined />}
+                                                href={e[1].url}
+                                                target="_blank"
+                                            />
+                                        </Tooltip>
+                                    )}
+                                </>
+                            ),
                             align: "center",
                         },
                         {
