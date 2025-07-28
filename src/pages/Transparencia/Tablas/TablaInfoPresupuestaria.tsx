@@ -6,19 +6,22 @@ export const TablaInfoPresupuestaria = () => {
         {
             name: "ENDEUDAMIENTO NETO",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ENDEUDAMIENTO NETO.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ENDEUDAMIENTO NETO.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PRESUPUESTARIA/ENDEUDAMIENTO NETO.pdf"
             }
         },
         {
             name: "ESTADO ANALÍTICO DE LOS INGRESOS",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf"
             }
         },
         {
             name: "INTERESES DE LA DEUDA",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/INTERESES DE LA DEUDA.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION PRESUPUESTARIA/INTERESES DE LA DEUDA.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PRESUPUESTARIA/INTERESES DE LA DEUDA.pdf"
             }
         },
 
@@ -132,6 +135,15 @@ export const TablaInfoPresupuestaria = () => {
                         },
                         {
                             title: '2',
+                            dataIndex: [2025,2],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {

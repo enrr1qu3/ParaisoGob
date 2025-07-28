@@ -7,7 +7,8 @@ export const TablaInfoAyudasSubsidios = () => {
         {
             name: "AYUDAS Y SUBSIDIOS",
             2025: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/AYUDAS Y SUBSIDIOS/AYUDAS Y SUBSIDIOS.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/AYUDAS Y SUBSIDIOS/AYUDAS Y SUBSIDIOS.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/AYUDAS Y SUBSIDIOS/AYUDAS Y SUBSIDIOS.pdf"
             }
         },
 
@@ -123,6 +124,15 @@ export const TablaInfoAyudasSubsidios = () => {
                         },
                         {
                             title: '2',
+                            dataIndex: [2025, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {
