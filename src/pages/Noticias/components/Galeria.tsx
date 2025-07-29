@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import '../style/Galeria.css'
-export const Galeria = ({ imagenes }: any) => {
+export const Galeria = ({ imagenes = [] }: any) => {
     // Estado para saber si el modal está abierto o cerrado
     const [modalAbierto, setModalAbierto] = useState(false);
     // Estado para saber el índice de la imagen actual que se muestra en el modal

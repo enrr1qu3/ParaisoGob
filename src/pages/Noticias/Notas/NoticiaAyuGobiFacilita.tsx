@@ -3,14 +3,14 @@ import { Button, Col, ConfigProvider, Row, Card } from 'antd';
 import "../style/Noticia.css"
 import { ArrowLeftOutlined } from '@ant-design/icons';
 import { Galeria } from '../components/Galeria';
+import { FaFacebook } from 'react-icons/fa';
 
-export const NoticiaASIPONA = () => {
-
-     const navigate = useNavigate();
-    const imagenesGaleria = [
-        { id: 1, src: 'https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM.jpeg', alt: 'imagen1' },
-        { id: 2, src: 'https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM(2).jpeg', alt: 'imagen2' },
-        { id: 3, src: 'https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM(3).jpeg', alt: 'imagen3' },
+export const NoticiaAyuGobiFacilita = () => {
+    const navigate = useNavigate();
+    const imagenesGaleria: any = [
+        // { id: 1, src: 'https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM.jpeg', alt: 'imagen1' },
+        // { id: 2, src: 'https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM(2).jpeg', alt: 'imagen2' },
+        // { id: 3, src: 'https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM(3).jpeg', alt: 'imagen3' },
     ];
 
     return (
@@ -48,57 +48,46 @@ export const NoticiaASIPONA = () => {
                         >
                             <Card>
                                 <h2 className='tituloNoticia'>
-                                    ASIPONA y Ayuntamiento de Paraíso Refuerzan Colaboración para el
-                                    Progreso del municipio
+                                    AYUNTAMIENTO Y GOBIERNO DEL PUEBLO
+                                    FACILITAN TRÁMITES VEHICULARES EN PARAÍSO
+
                                 </h2>
 
                                 <img
                                     src={
-                                        "https://gobparaiso.blob.core.windows.net/noticias/ASIPONA y Ayuntamiento de Paraíso/WhatsApp Image 2025-06-09 at 10.40.40 AM.jpeg"
+                                        "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/525984218_122183410310505987_7172928550211851012_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHDL1fGQNSy5CA-PWTljcG0VGefh-V5uYBUZ5-H5Xm5gKd5CK6PA1iT85T8HxfrVnISm5lDUP9pfpgS4kcawVDl&_nc_ohc=DnSCRmwP_tMQ7kNvwEr6m7H&_nc_oc=AdmsZH8Z-BGxB00n95sy_jMCqj7N5E5hnxXZAH29nv_-N0_-fHm8OiW8eleEJgsPqkQ13Hb33Ci-wYvTVdY-_CgC&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=AC2kqyYWNcSLKdNXPHr9ew&oh=00_AfQa7oSG1t2212LVP9KtuK-RxIUom24BF1mSSg-ywyCQDg&oe=688DFAD9"
                                     }
                                     className='noticiaImgPrincipal'
                                 />
 
                                 <article className='textoNota'>
                                     <p>
-                                        La Administración del Sistema Portuario Nacional (ASIPONA) en Paraíso
-                                        y el Ayuntamiento local reafirmaron hoy su compromiso de trabajo
-                                        conjunto durante un encuentro clave celebrado en las instalaciones
-                                        de ASIPONA. Esta reunión, que busca fortalecer los lazos de
-                                        cooperación interinstitucional, contó con la presencia del
-                                        presidente municipal, Alfonso Jesús Baca Sevilla, y el director
-                                        general de ASIPONA Paraíso, almirante retirado Gregorio Martínez Núñez.
-
+                                        Con gran participación se desarrolla la Jornada de Atención Ciudadana
+                                        impulsada por el Gobierno del Estado, en coordinación con el Ayuntamiento de
+                                        Paraíso, con el objetivo de acercar servicios que permitan facilitar
+                                        trámites vehiculares y de motocicletas a la población.
                                     </p>
                                     <p>
-                                        Durante la sesión, el presidente Baca Sevilla presentó los avances y obras
-                                        más significativas de su administración, destacando logros en áreas estratégicas
-                                        como la seguridad pública, la infraestructura, la mejora de servicios
-                                        públicos y las gestiones comunitarias.
-                                        También resaltó el aumento en la confianza
-                                        de los inversionistas, lo que augura futuros proyectos para el municipio.
+                                        Esta actividad tiene lugar en la Escuela Primaria “Dalila Hernández Olivé”,
+                                        ubicada en la colonia Moctezuma, donde personal de la Delegación Paraíso de
+                                        la Policía Estatal de Caminos, a cargo de Sergio Simón Montalvo Wilson, atiende
+                                        directamente a la ciudadanía.
                                     </p>
                                     <p>
-                                        Estos encuentros son fundamentales para fortalecer la colaboración y generar
-                                        nuevas oportunidades que impulsen el desarrollo sostenido de Paraíso.
+                                        Durante la jornada se brindan servicios como alta de vehículos, refrendo vehicular, verificación vehicular, cambio de propietario y expedición de licencias de conducir, todo en un mismo espacio y de manera ágil.
                                     </p>
                                     <p>
-                                        El presidente municipal expresó su gratitud por la hospitalidad
-                                        y la oportunidad de dialogar, y reiteró el compromiso de su
-                                        gobierno con todas las empresas y dependencias establecidas en la región.
-
+                                        Durante la jornada se brindan servicios como alta de vehículos, refrendo vehicular, verificación vehicular, cambio de propietario y expedición de licencias de conducir, todo en un mismo espacio y de manera ágil.
                                     </p>
                                     <p>
-                                        Por su parte, el almirante Gregorio Martínez Núñez reconoció los notables
-                                        avances de la administración municipal y la visible mejora en las acciones
-                                        que benefician directamente a los ciudadanos de Paraíso. Subrayó la plena
-                                        disposición de ASIPONA para seguir contribuyendo activamente al bienestar
-                                        de los paraiseños.
+                                        Asimismo, personal de la Dirección de Tránsito Municipal imparte cursos de vialidad, un requisito indispensable para obtener la constancia de educación vial, contribuyendo así a una mejor cultura ciudadana y de seguridad en las calles.
                                     </p>
-                                    <p>
-                                        Directivos de ambas instituciones estuvieron presentes en esta importante
-                                        reunión, consolidando una alianza estratégica en favor del progreso de Paraíso.
-                                    </p>
+                                    <Button size='large'
+                                        type='link'
+                                        href="https://www.facebook.com/share/p/1A8ecSKiQ7/?mibextid=wwXIfr"
+                                        target="_blank"
+                                        icon={<FaFacebook />}
+                                    />
                                 </article>
                                 <p></p>
                                 <Row>

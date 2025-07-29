@@ -28,6 +28,9 @@ import { NoticiaSumiElectri } from "../pages/Noticias/Notas/NoticiaSumiElectri";
 import { NoticiaMedioAmbiente } from "../pages/Noticias/Notas/NoticiaMedioAmbiente";
 import ContraloriaMunicipal from "../pages/ContraloriaMunicipal/ContraloriaMunicipal";
 import { EticaServicioPage } from "../pages/ContraloriaMunicipal/EticaServicioPage";
+import { NoticiaAyuGobiFacilita } from "../pages/Noticias/Notas/NoticiaAyuGobiFacilita";
+import { NoticiaLanzaDeHonor } from "../pages/Noticias/Notas/NoticiaLanzaDeHonor";
+import { NoticiaMueveUnFinSemana } from "../pages/Noticias/Notas/NoticiaMueveUnFinSemana";
 
 
 
@@ -63,6 +66,18 @@ export const router = createBrowserRouter([
                     {
                         path: "Paraiso_Celebra_el_Dia_Mundial_del_Medio_Ambiente_con_un_Firme_Compromiso_por_Mares_Libres_de_Plastico_y_un_Futuro_Sostenible",
                         element: <NoticiaMedioAmbiente />
+                    },
+                    {
+                        path: "AYUNTAMIENTO_Y_GOBIERNO_DEL_PUEBLO_FACILITAN_TRAMITES_VEHICULARES_EN_PARAISO",
+                        element: <NoticiaAyuGobiFacilita />
+                    },
+                    {
+                        path: "PARAISO_SE_MUEVE_UN_FIN_DE_SEMANA_QUE_REFLEJA_ORGULLO_PASION_Y_FUTURO",
+                        element: <NoticiaMueveUnFinSemana />
+                    },
+                    {
+                        path: "PRESIDENTE_MUNICIPAL_DE_PARAISO_REALIZA_LANZAMIENTO_DE_HONOR_EN_JUEGO_DE_LOS_OLMECAS_DE_TABASCO",
+                        element: <NoticiaLanzaDeHonor />
                     },
 
                 ]
