@@ -16,7 +16,7 @@ export const SwiperInicio = () => {
             title: "PUERTO DEL SOL",
             subtitle: "PARAISO",
             description: "Un recorrido increíble por nuestros paisajes.",
-            buttonText: "Más informacio",
+            buttonText: "Más información",
             buttonLink: "#",
         },
         {
