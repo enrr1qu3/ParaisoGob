@@ -8,6 +8,7 @@ import { Anuncios } from './components/Anuncios';
 import {
     DownloadOutlined
 } from '@ant-design/icons';
+import { ReleaseComponent } from './components/ReleaseComponent';
 
 export default function Inicio() {
 
@@ -26,6 +27,7 @@ export default function Inicio() {
     return (
         <div>
             <SwiperInicio />
+            <ReleaseComponent />
             <div className="container">
                 <Card
                     style={{ margin: "3rem 0rem 0rem 0rem ", }}
