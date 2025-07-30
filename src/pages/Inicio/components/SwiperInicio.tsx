@@ -12,10 +12,21 @@ export const SwiperInicio = () => {
     const slides = [
         {
             type: "video",
-            src: "https://gobparaiso.blob.core.windows.net/home/Playa%20del%20Sol.mp4", // demo video
-            title: "PUERTO DEL SOL",
-            subtitle: "PARAISO",
+            src: "https://gobparaiso.blob.core.windows.net/home/Playa%20del%20Sol.mp4",
+            alt: "playa",
+            title: "PLAYA DEL SOL",
+            subtitle: "PARAÍSO",
             description: "Un recorrido increíble por nuestros paisajes.",
+            buttonText: "Más información",
+            buttonLink: "#",
+        },
+        {
+            type: "video",
+            src: "https://youtu.be/04F4xlWSFh0?si=qR-fQQtuow1lX2tG",
+            alt: "copa",
+            title: "COPA PARAISO 2025",
+            subtitle: "FOMENTANDO EL DEPORTE",
+            description: "¡Ven a Paraíso y vive la pasión del deporte!",
             buttonText: "Más información",
             buttonLink: "#",
         },
@@ -133,7 +144,7 @@ export const SwiperInicio = () => {
                                         {slide.buttonText}
                                     </a>
                                 ) : (
-                                    <button className="btn-slide" onClick={showModal} style={{ border: 'none', cursor: "pointer", fontWeight: 'bold', fontSize:"1rem"}}>{slide.buttonText}</button>
+                                    <button className="btn-slide" onClick={showModal} style={{ border: 'none', cursor: "pointer", fontWeight: 'bold', fontSize: "1rem" }}>{slide.buttonText}</button>
                                 )}
                             </div>
                         </div>

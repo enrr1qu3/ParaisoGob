@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Modal, Image, ConfigProvider, Carousel } from 'antd';
 
 export const ReleaseComponent = () => {
-    const [isModalOpen, setIsModalOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleOk = () => {
         setIsModalOpen(false);
