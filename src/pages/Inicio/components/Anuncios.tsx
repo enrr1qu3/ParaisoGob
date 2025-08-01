@@ -1,6 +1,6 @@
 import { Button, Card, Col, Image, Row, Typography } from 'antd';
 //  w
-const { Title, Paragraph } = Typography;
+const { Title } = Typography;
 
 const anuncios = [
     {
