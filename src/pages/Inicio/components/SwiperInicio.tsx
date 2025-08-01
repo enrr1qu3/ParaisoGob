@@ -22,6 +22,16 @@ export const SwiperInicio = () => {
         },
         {
             type: "video",
+            src: "https://gobparaiso.blob.core.windows.net/home/Prevencion_Bomberos.mp4",
+            alt: "fuego",
+            title: "CAMPAÑA DE PREVENCIÓN DE INCENDIOS",
+            subtitle: "TRABAJANDO PARA PROTEGER PARAÍSO",
+            description: "¡Protege tu hogar y tu comunidad!",
+            buttonText: "Ver más",
+            buttonLink: "#",
+        },
+        {
+            type: "video",
             src: "https://youtu.be/04F4xlWSFh0?si=qR-fQQtuow1lX2tG",
             alt: "copa",
             title: "COPA PARAISO 2025",
@@ -53,17 +63,25 @@ export const SwiperInicio = () => {
     ];
 
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isModalOpenFuego, setIsModalOpenFuego] = useState(false);
 
-    const showModal = () => {
-        setIsModalOpen(true);
+    const showModal = (params: string) => {
+        if (params === "playa") {
+            setIsModalOpen(true);
+        }
+        else {
+            setIsModalOpenFuego(true);
+        }
     };
 
     const handleOk = () => {
         setIsModalOpen(false);
+        setIsModalOpenFuego(false);
     };
 
     const handleCancel = () => {
         setIsModalOpen(false);
+        setIsModalOpenFuego(false);
     };
     return (
         <div style={{ width: "100%", height: "35rem" }}>
@@ -101,6 +119,17 @@ export const SwiperInicio = () => {
                     <p>
                         La administración municipal invita a las y los tabasqueños a disfrutar de este espacio diseñado para el descanso, la convivencia y el desarrollo turístico del estado.
                     </p>
+                </Modal>
+                <Modal
+                    title="CAMPAÑA DE PREVENCIÓN DE INCENDIOS"
+                    closable={{ 'aria-label': 'Custom Close Button' }}
+                    open={isModalOpenFuego}
+                    onOk={handleOk}
+                    onCancel={handleCancel}
+                    footer={false}
+                    destroyOnClose={true}
+                >
+                    <video src="https://gobparaiso.blob.core.windows.net/home/Prevencion_Bomberos.mp4" controls style={{ width: "100%" }} />
                 </Modal>
             </ConfigProvider>
             <Swiper
@@ -144,7 +173,7 @@ export const SwiperInicio = () => {
                                         {slide.buttonText}
                                     </a>
                                 ) : (
-                                    <button className="btn-slide" onClick={showModal} style={{ border: 'none', cursor: "pointer", fontWeight: 'bold', fontSize: "1rem" }}>{slide.buttonText}</button>
+                                    <button className="btn-slide" onClick={() => showModal(slide.alt)} style={{ border: 'none', cursor: "pointer", fontWeight: 'bold', fontSize: "1rem" }}>{slide.buttonText}</button>
                                 )}
                             </div>
                         </div>
