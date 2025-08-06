@@ -64,6 +64,15 @@ export const TablaInfoRendiCuentas = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR OBJETO DEL GASTO 2DOTRIM.pdf",
             }
         },
+        {
+            name: "CLASIFICACIÓN POR FUENTE DE FINANCIAMIENTO",
+            // 2024: {
+                
+            // },
+            2025: {
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR FUENTE DE FINANCIAMIENTO 2DOTRIM.pdf",
+            }
+        },
 
 
     ];
