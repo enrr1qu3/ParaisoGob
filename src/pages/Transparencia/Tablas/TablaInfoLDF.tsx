@@ -78,42 +78,42 @@ export const TablaInfoLDF = () => {
             name: "INFORME SOBRE ESTUDIOS ACTUARIALES",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/INFORME SOBRE ESTUDIOS ACTUARIALES.pdf",
-                // 2: ""
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/INFORME SOBRE ESTUDIOS ACTUARIALES.pdf"
             }
         },
         {
             name: "OBLIGACIONES A CORTO PLAZO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/OBLIGACIONES A CORTO PLAZO.pdf",
-                // 2: ""
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/OBLIGACIONES A CORTO PLAZO.pdf"
             }
         },
         {
             name: "PROYECCIONES DE EGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/PROYECCIONES DE EGRESOS.pdf",
-                // 2: ""
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/PROYECCIONES DE EGRESOS.pdf"
             }
         },
         {
             name: "PROYECCIONES DE INGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/PROYECCIONES DE INGRESOS.pdf",
-                // 2: ""
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/PROYECCIONES DE INGRESOS.pdf"
             }
         },
         {
             name: "RESULTADOS DE EGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/RESULTADOS DE EGRESOS.pdf",
-                // 2: ""
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/RESULTADOS DE EGRESOS.pdf"
             }
         },
         {
             name: "RESULTADOS DE INGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/RESULTADOS DE INGRESOS.pdf",
-                // 2: ""
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/RESULTADOS DE INGRESOS.pdf"
             }
         },
 
