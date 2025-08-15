@@ -26,11 +26,6 @@ export default function CabildoPage() {
     ]
     const inteDirecciones = [
         {
-            nombre: "Dr. Ramón Enrique Ballhaus Chávez",
-            puesto: "Secretaría del Ayuntamiento",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/dr ballaus/05.jpg"
-        },
-        {
             nombre: "C.P. Mireya Mandujano Rubert",
             puesto: "Dirección de Finanzas",
             imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg"
