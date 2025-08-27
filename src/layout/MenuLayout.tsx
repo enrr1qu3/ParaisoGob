@@ -1,7 +1,6 @@
 import type { MenuProps } from 'antd';
-import { Button, Col, Menu, Row } from 'antd';
+import { Col, Menu, Row } from 'antd';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { CopyOutlined } from '@ant-design/icons';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
