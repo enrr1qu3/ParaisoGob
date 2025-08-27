@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom'
-import { LuMail,LuMapPin, LuClock, LuShield, LuTruck, LuFireExtinguisher, LuAmbulance, LuTriangleAlert } from "react-icons/lu";
+import { LuMail,LuMapPin, LuClock, LuShield, LuAmbulance, LuLifeBuoy, LuCar } from "react-icons/lu";
 
 import './style/FooterLayout.css'
 // import { UserOutlined } from '@ant-design/icons';
@@ -32,12 +32,12 @@ export const FooterLayout = () => {
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuMapPin className="icon-footer" />
-                  <span>Calle Ignacio Comonfort S/N, Col. Centro. Palacio Municipal. Planta Baja.  C. P. 86600.</span>
+                  <span>Calle Ignacio Comonfort, Colonia Centro, C.P. 86605</span>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuClock className="icon-footer" />
-                  <span>Lunes a viernes de 8:30 am a 15:30 y sábados de 9:30 a 12:30 horas.</span>
+                  <span>Lunes a Viernes de 8:00am a 16:00 horas y sábados de 9:00 a 13:00 horas.</span>
                 </div>
                 {/* <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}>
                   <LuPhone className='icon-footer' />
@@ -46,7 +46,7 @@ export const FooterLayout = () => {
                 <div style={{ display: "flex", alignItems: "center", marginTop: 12 }}
                 >
                   <LuMail className='icon-footer' />
-                  <span>transpayuntamientoparaiso@gmail.com</span>
+                  <span>atencionciudadana@paraiso2427.gob.mx</span>
                 </div>
               </div>
             </div>
@@ -55,45 +55,31 @@ export const FooterLayout = () => {
               <h3 className="title-footer">Teléfonos de Emergencia</h3>
               <div className="contactos">
                 <div className="contactos-info">
-                  <LuTriangleAlert className="icon-footer" />
-                  <div>
-                    <div className="contactos-info-title">Emergencias</div>
-                    <div>911</div>
-                  </div>
-                </div>
-                <div className="contactos-info">
                   <LuShield className="icon-footer" />
                   <div>
-                    <div className="contactos-info-title">Denuncia Ciudadana</div>
-                    <div>089</div>
+                    <div className="contactos-info-title">Seguridad Pública</div>
+                    <div>933 135 44 24</div>
                   </div>
                 </div>
                 <div className="contactos-info">
-                  <LuTruck className="icon-footer" />
+                  <LuCar  className="icon-footer" />
                   <div>
-                    <div className="contactos-info-title">Tránsito Municipal</div>
-                    <div>933 334 1219</div>
+                    <div className="contactos-info-title">Transito Municipal</div>
+                    <div>933 137 64 47</div>
                   </div>
                 </div>
                 <div className="contactos-info">
-                  <LuShield className="icon-footer" />
+                  <LuLifeBuoy className="icon-footer" />
                   <div>
-                    <div className="contactos-info-title">Policía Estatal</div>
-                    <div>933 334 1601</div>
-                  </div>
-                </div>
-                <div className="contactos-info">
-                  <LuFireExtinguisher className="icon-footer" />
-                  <div>
-                    <div className="contactos-info-title">Bomberos</div>
-                    <div>933 315 5670</div>
+                    <div className="contactos-info-title">Protección Civil</div>
+                    <div>933 135 41 99</div>
                   </div>
                 </div>
                 <div className="contactos-info">
                   <LuAmbulance className="icon-footer" />
                   <div>
-                    <div className="text-[#F26C0D] font-medium">Cruz Roja</div>
-                    <div>933 334 3004</div>
+                    <div className="contactos-info-title">Coordinación de Salud</div>
+                    <div>933 135 41 53</div>
                   </div>
                 </div>
               </div>

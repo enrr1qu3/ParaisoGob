@@ -31,6 +31,7 @@ import { EticaServicioPage } from "../pages/ContraloriaMunicipal/EticaServicioPa
 import { NoticiaAyuGobiFacilita } from "../pages/Noticias/Notas/NoticiaAyuGobiFacilita";
 import { NoticiaLanzaDeHonor } from "../pages/Noticias/Notas/NoticiaLanzaDeHonor";
 import { NoticiaMueveUnFinSemana } from "../pages/Noticias/Notas/NoticiaMueveUnFinSemana";
+import DirectorioPage from "../pages/Directorio/DirectorioPage";
 
 
 
@@ -91,8 +92,12 @@ export const router = createBrowserRouter([
                 element: <Geografia />
             },
             {
-                path: "/cabildo",
-                element: <CabildoPage />
+                // path: "/cabildo",
+                // element: <CabildoPage />
+            },
+            {
+                path: "/directorio",
+                element: <DirectorioPage />
             },
             // {
             //     path: "/atencionCiudadana",

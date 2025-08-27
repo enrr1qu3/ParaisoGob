@@ -22,8 +22,8 @@ const items: MenuItem[] = [
         key: 'GOBIERNO',
         children: [
 
-            { label: 'Cabildo', key: 'cabildo' },
             { label: 'Directorio', key: 'directorio' },
+            { label: 'Cabildo', key: 'cabildo' },
             // { label: 'Población', key: 'poblacion' },
 
         ],
