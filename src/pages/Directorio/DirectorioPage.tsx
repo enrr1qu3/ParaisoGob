@@ -63,7 +63,7 @@ export default function DirectorioPage() {
       direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab.",
     },
     {
-      nombre: "TSU. Carlos Mario de la Cruz Hernández",
+      nombre: "Lic. Julio Cesar Jimenez Cruz.",
       puesto: "Dirección de Fomento Económico y Turismo",
       imagen: "/public/user.png",
       correo: "fomentoyturismo@paraiso2427.gob.mx",
@@ -117,7 +117,7 @@ export default function DirectorioPage() {
         "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86615",
     },
     {
-      nombre: "Tec. Felipe Alejandro Alejandro",
+      nombre: "Ing. Daniel Pérez Angulo",
       puesto: "Dirección de Atención Ciudadana",
       imagen: "/public/user.png",
       correo: "atencionciudadana@paraiso2427.gob.mx",
@@ -131,7 +131,7 @@ export default function DirectorioPage() {
       direccion: "Gregorio Méndez Magaña 218a, Centro, 86600 Paraíso, Tab.",
     },
     {
-      nombre: "Quim. Leonardo Caamal Yam",
+      nombre: "Ing. Antonio Jehova Javier Angulo",
       puesto: "Dirección de Protección Ambiental y Desarrollo Sustentable",
       imagen: "/public/user.png",
       correo: "proteccionambiental@paraiso2427.gob.mx",
@@ -154,15 +154,15 @@ export default function DirectorioPage() {
     direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
   },
   {
-    nombre: "Ing. Limberg Domínguez Hernández",
+    nombre: "Biol. Yuri Alberto Alamilla Schrunder",
     puesto: "Coordinación de Protección Civil",
     imagen: "/public/user.png",
     correo: "proteccioncivil@paraiso2427.gob.mx",
     direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
   },
   {
-    nombre: "Tec. Concepción Pérez Márquez",
-    puesto: "Coordinación del DIF",
+    nombre: "Nury del Carmen Mendoza Pérez",
+    puesto: "Coordinación del DIF Municipal",
     imagen: "/public/user.png",
     correo: "dif@paraiso.gob.mx",
     direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
@@ -175,7 +175,7 @@ export default function DirectorioPage() {
     direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
   },
   {
-    nombre: "Lic. Julia Janeth Madrigal Domínguez",
+    nombre: "Lic. Javier Pérez Villegas",
     puesto: "Coordinación de Comunicación Social",
     imagen: "/public/user.png",
     correo: "comunicacionsocial@paraiso2427.gob.mx",
@@ -217,6 +217,13 @@ export default function DirectorioPage() {
     direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
   },
   {
+    nombre: "L.A. Maria del Carmen Gonzalez Rabanales",
+    puesto: "Departamento de Mejora Regulatoria",
+    imagen: "/public/user.png",
+    correo: "mejoraregulatoria@paraiso2427.gob.mx",
+    direccion: "Palacio Municipal. Calle Ignacio Comonfort. La Candelaria. C.P. 86605"
+  },
+  {
     nombre: "Lic. Ana Rosa Domínguez Pérez",
     puesto: "Archivo Municipal",
     imagen: "/public/user.png",
@@ -224,7 +231,7 @@ export default function DirectorioPage() {
     direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
   },
   {
-    nombre: "Lic. Julio César Jiménez Cruz",
+    nombre: "Lic. Martín de la Cruz Carrillo",
     puesto: "Registro Civil 01",
     imagen: "/public/user.png",
     correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
@@ -259,7 +266,7 @@ export default function DirectorioPage() {
     direccion: "2 de Abril 210, El Carmen, 86605 Paraíso, Tab."
   },
   {
-    nombre: "Ing. William Hernández Javier",
+    nombre: "Lic. Marco Arturo Javier Madrigal",
     puesto: "Coordinación de Fiscalización y Normatividad",
     imagen: "/public/user.png",
     correo: "finanzas@paraiso2427.gob.mx",
@@ -273,7 +280,7 @@ export default function DirectorioPage() {
     direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab."
   },
   {
-    nombre: "Lic. Geovani Cruz Angulo",
+    nombre: "Lic. Mariana Gomez Madrigal",
     puesto: "Coordinación de Fomento Deportivo",
     imagen: "/public/user.png",
     correo: "decur@paraiso2427.gob.mx",
@@ -301,7 +308,7 @@ export default function DirectorioPage() {
     direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
   },
   {
-    nombre: "Lic. Adalberto Domínguez Vargas",
+    nombre: "Grisela del Carmen Sosa Gomez",
     puesto: "Departamento de Recursos Humanos",
     imagen: "/public/user.png",
     correo: "recursoshumanos@paraiso2427.gob.mx",
