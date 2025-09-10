@@ -55,7 +55,7 @@ export const NoticiaAyuGobiFacilita = () => {
 
                                 <img
                                     src={
-                                        "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/525984218_122183410310505987_7172928550211851012_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHDL1fGQNSy5CA-PWTljcG0VGefh-V5uYBUZ5-H5Xm5gKd5CK6PA1iT85T8HxfrVnISm5lDUP9pfpgS4kcawVDl&_nc_ohc=DnSCRmwP_tMQ7kNvwEr6m7H&_nc_oc=AdmsZH8Z-BGxB00n95sy_jMCqj7N5E5hnxXZAH29nv_-N0_-fHm8OiW8eleEJgsPqkQ13Hb33Ci-wYvTVdY-_CgC&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=AC2kqyYWNcSLKdNXPHr9ew&oh=00_AfQa7oSG1t2212LVP9KtuK-RxIUom24BF1mSSg-ywyCQDg&oe=688DFAD9"
+                                        "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/525984218_122183410310505987_7172928550211851012_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qW25ivGMo0sQ7kNvwH2foyd&_nc_oc=AdkshXJrC3DmucgeUd_HL2EEcmEGLEalpWf-wVMlwnNsY6BmPRwJp198v1PjBDSE9vc&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=Qby0c0o7Rg-k3DK5oY-0XA&oh=00_AfbS7oWPUpqKLtNl5osdi1gMIPBp8HkTDHN1XOMnRkkbQw&oe=68C7C499"
                                     }
                                     className='noticiaImgPrincipal'
                                 />

@@ -20,6 +20,10 @@
 .listContraloria {
   list-style: upper-roman;
 }
+
+.listContraloria li::marker {
+  color: #f26c0d !important;
+}
 .contenBotonContraloria {
   width: 100%;
   display: flex;

@@ -91,102 +91,149 @@ export default function ContraloriaMunicipal() {
                     xs={{ flex: '100%' }}
                     xl={{ flex: '100%' }}
                 >
-                    <Card >
-                        <article className='contenTextContraloria'>
-                            <h2>
-                                CONTRALORÍA MUNICIPAL
-                            </h2>
-                            <p>
-                                La Contraloría Municipal hace las funciones del órgano interno de control
-                                del Ayuntamiento Constitucional del municipio de Paraíso, Tabasco.
-                            </p>
-                            <p>
-                                Sus atribuciones son las que le confiere el artículo 81
-                                de la Ley Orgánica de los Municipios y ordenamientos jurídicos
-                                aplicables, entre ellas:
-                            </p>
+                    <Card style={{ border: 'none', boxShadow: 'none' }}>
+                        <div style={{ padding: '1.5rem' }}>
+                            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+                                <h2 style={{
+                                    color: '#f26c0d',
+                                    fontSize: '1.8rem',
+                                    fontWeight: '600',
+                                    margin: '0',
+                                    textTransform: 'uppercase'
+                                }}>
+                                    CONTRALORÍA MUNICIPAL
+                                </h2>
+                                <div style={{
+                                    width: '80%',
+                                    maxWidth: '400px',
+                                    height: '4px',
+                                    backgroundColor: '#1a4b8c',
+                                    margin: '0.5rem auto'
+                                }}></div>
+                            </div>
 
-                            <ul className='listContraloria'>
-                                <li>
-                                    Planear, programar, organizar y coordinar el sistema de
-                                    control y evaluación municipal.
-                                </li>
-                                <li>
-                                    Supervisar y vigilar el cumplimiento de la normatividad en las adquisiciones,
-                                    arrendamientos, servicios y obra pública, así como del ejercicio y aplicación del gasto.
-                                </li>
-                                <li>
-                                    Prevenir, auditar, investigar, instaurar procedimientos administrativos y sancionar
-                                    en términos de la Ley de Responsabilidades de los Servidores Públicos del Estado de
-                                    Tabasco las faltas administrativas o prácticas de corrupción al interior del Ayuntamiento.
-                                </li>
-                            </ul>
-                            <p>
-                                <span style={{ fontWeight: "bold" }}>
-                                    Atentamente:
-                                </span>
-                                <br />
-                                <span style={{ fontWeight: "bold" }}>
-                                    Ing. Isaac López Guerra
-                                </span>
-                                <br />
-                                <span style={{ fontWeight: "bold" }}>
-                                    Contralor Municipal
-                                </span>
-                            </p>
+                            <div style={{ marginBottom: '2rem' }}>
+                                <p style={{
+                                    color: '#4b5563',
+                                    fontSize: '1rem',
+                                    lineHeight: '1.6',
+                                    textAlign: 'justify',
+                                    margin: '0 0 1rem 0'
+                                }}>
+                                    La Contraloría Municipal hace las funciones del órgano interno de control
+                                    del Ayuntamiento Constitucional del municipio de Paraíso, Tabasco.
+                                </p>
+                                <p style={{
+                                    color: '#4b5563',
+                                    fontSize: '1rem',
+                                    lineHeight: '1.6',
+                                    textAlign: 'justify',
+                                    margin: '0'
+                                }}>
+                                    Sus atribuciones son las que le confiere el artículo 81
+                                    de la Ley Orgánica de los Municipios y ordenamientos jurídicos aplicables:
+                                </p>
+                            </div>
 
-                            {/* <h4>Temas de interés</h4> */}
-                            <Row>
-                                <Col
-                                    xs={{ flex: '100%' }}
-                                    md={{ flex: '33.3%' }}
-                                    xl={{ flex: '33.3%' }}
-                                >
-                                    <div
-                                        className='contenBotonContraloria'
-                                    >
-                                        {/* <h4 style={{ margin: 0 }}>Código de Ética</h4>
-                                        <a href="https://gobparaiso.blob.core.windows.net/contraloria/Paraíso Código de Ética 2024.pdf" target="_blank">Descargar</a> */}
-                                    </div>
-                                </Col>
-                                <Col
-                                    xs={{ flex: '100%' }}
-                                    md={{ flex: '33.3%' }}
-                                    xl={{ flex: '33.3%' }}
-                                >
-                                    <div
-                                        className='contenBotonContraloria'
-                                    >
-                                        <Link to={"/contraloria/etica"}>
-                                            <h4 style={{ margin: 0 }}>
+                            <div style={{ 
+                                backgroundColor: '#f8f9fa', 
+                                padding: '1.5rem', 
+                                borderRadius: '6px',
+                                marginBottom: '2rem'
+                            }}>
+                                <ol style={{
+                                    color: '#4b5563',
+                                    fontSize: '1rem',
+                                    lineHeight: '1.6',
+                                    paddingLeft: '1.5rem',
+                                    margin: '0'
+                                }} className="listContraloria">
+                                    <li style={{ marginBottom: '1rem' }}>
+                                        Planear, programar, organizar y coordinar el sistema de control y evaluación municipal.
+                                    </li>
+                                    <li style={{ marginBottom: '1rem' }}>
+                                        Supervisar y vigilar el cumplimiento de la normatividad en las adquisiciones, arrendamientos, servicios y obra pública.
+                                    </li>
+                                    <li style={{ marginBottom: '0' }}>
+                                        Prevenir, auditar, investigar e instaurar procedimientos administrativos conforme a la Ley de Responsabilidades de los Servidores Públicos del Estado de Tabasco.
+                                    </li>
+                                </ol>
+                            </div>
 
-                                                Ética del servidor público
+                            <div style={{
+                                backgroundColor: '#FFF',
+                                padding: '1rem',
+                                borderRadius: '6px',
+                                border: '1px solid #e5e7eb',
+                                textAlign: 'right',
+                                marginBottom: '2rem'
+                            }}>
+                                <p style={{
+                                    color: '#4b5563',
+                                    margin: '0',
+                                    fontSize: '0.95rem'
+                                }}>
+                                    Atentamente:<br/>
+                                    <strong style={{ color: '#f26c0d' }}>Ing. Isaac López Guerra</strong><br/>
+                                    <em style={{ color: '#1a4b8c' }}>Contralor Municipal</em>
+                                </p>
+                            </div>
+
+                            <Row gutter={[16, 16]} style={{ marginBottom: '1.5rem' }}>
+                                <Col xs={24} md={12}>
+                                    <Link to={"/contraloria/etica"} style={{ textDecoration: 'none' }}>
+                                        <div style={{
+                                            backgroundColor: '#1a4b8c',
+                                            color: '#FFF',
+                                            padding: '1rem',
+                                            borderRadius: '6px',
+                                            textAlign: 'center',
+                                            cursor: 'pointer',
+                                            transition: 'opacity 0.3s'
+                                        }}>
+                                            <h4 style={{ margin: '0', fontSize: '1rem' }}>
+                                                Ética del Servidor Público
                                             </h4>
-                                        </Link>
-                                        {/* <a href="https://gobparaiso.blob.core.windows.net/contraloria/Paraíso Código de Conducta  Paraíso.pdf" target="_blank">Descargar</a> */}
-                                    </div>
+                                        </div>
+                                    </Link>
                                 </Col>
-                                <Col
-                                    xs={{ flex: '100%' }}
-                                    md={{ flex: '33.3%' }}
-                                    xl={{ flex: '33.3%' }}
-                                >
-                                    <div
-                                        className='contenBotonContraloria'
-                                    >
-                                        <Link to={"/contraloria/etica"}>
-                                            <h4 style={{ margin: 0 }}>
-                                                <BsMailboxFlag />  Reporte ciudadano
+                                <Col xs={24} md={12}>
+                                    <Link to={"/contraloria/reporteCiudadano"} style={{ textDecoration: 'none' }}>
+                                        <div style={{
+                                            backgroundColor: '#f26c0d',
+                                            color: '#FFF',
+                                            padding: '1rem',
+                                            borderRadius: '6px',
+                                            textAlign: 'center',
+                                            cursor: 'pointer',
+                                            transition: 'opacity 0.3s',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            gap: '0.5rem'
+                                        }}>
+                                            <BsMailboxFlag />
+                                            <h4 style={{ margin: '0', fontSize: '1rem' }}>
+                                                Reporte Ciudadano
                                             </h4>
-                                        </Link>
-                                    </div>
+                                        </div>
+                                    </Link>
                                 </Col>
                             </Row>
 
-                        </article>
-
-                        <div style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center", marginTop: 40 }}>
-                            <Statistic title="Cantidad de visitas" value={countVisit} prefix={<EyeOutlined />} />
+                            <div style={{ 
+                                backgroundColor: '#f8f9fa',
+                                padding: '1rem',
+                                borderRadius: '6px',
+                                textAlign: 'center'
+                            }}>
+                                <Statistic 
+                                    title="Cantidad de visitas" 
+                                    value={countVisit} 
+                                    prefix={<EyeOutlined style={{ color: '#1a4b8c' }} />}
+                                    valueStyle={{ color: '#f26c0d', fontWeight: '600' }}
+                                />
+                            </div>
                         </div>
                     </Card>
                 </Col>

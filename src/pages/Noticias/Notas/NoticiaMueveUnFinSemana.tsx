@@ -53,7 +53,7 @@ export const NoticiaMueveUnFinSemana = () => {
 
                                 <img
                                     src={
-                                        "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/524577970_122183255012505987_3480124234158256541_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGEArzUiY1DmKWjjEfvDhzS-xJNjp5BLbr7Ek2OnkEtukvKqTKt4Pg0fmeYtfnE2v74eWdVT6HqfPmzy2Ag07Y5&_nc_ohc=G-Zotm2Du5QQ7kNvwFcx_r6&_nc_oc=Adn2NI_206JZXmOTnZeHe158XfwPacje2fkDac8Q0z2KkivtV7y6PplWSYyweaj02RuWYLwPF5Ns7HmmOrgR2HCi&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=otNR4y7Ffg1nmbqEeI6czQ&oh=00_AfS_RTX4Zjjn3d6zidfvFRchnjaoQ8jClXzpMaQjv5Vk9Q&oe=688E21B1"
+                                        "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/524995466_122183258066505987_8280541788545535346_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF48bAnhi9O2eHpGyUU48NsneYysHIuried5jKwci6uJxFPNhe5KC6DHy9C12Z1m_C2fqvlBUVuQjR7WNSLzOg4&_nc_ohc=nYyMW-qZX8wQ7kNvwH64mrq&_nc_oc=AdnyU9g-Pt608rtKDKfW1Yf-DqT_MP39MIMjgvJx76agHLCAXQCrnXYgj_eQKjCEwM8&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=Gc4vzBk1ZKYDcTTkESINcg&oh=00_AfbDpWVPWAlMSlG6YDbe_deoR4NYlNoHz1sEcDQCfG4fNQ&oe=68C7E3FB"
                                     }
                                     className='noticiaImgPrincipal'
                                 />

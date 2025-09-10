@@ -15,19 +15,19 @@ export const CartasInicio = () => {
         {
             title: 'AYUNTAMIENTO Y GOBIERNO DEL PUEBLO FACILITAN TRÁMITES VEHICULARES EN PARAÍSO',
             fecha: "28 Jun",
-            imagen: "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/524996808_122183410100505987_8906654654230327905_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHgRUu56VI_PcRH05N0F_natIfuKyRi9VO0h-4rJGL1U4jqMo-wG2lpp1J4eIKjCNs-agmV6SX6qKWoudiLyBwY&_nc_ohc=ns17qEZ-6_oQ7kNvwEzmRkt&_nc_oc=AdlwlrKgjh3Mx2UUnRqCTh-PCE2ScitGnQ_4KbEw08eFrYeyUYT7mnD6tMYSPG00Pb73XtsYnRQOKM92Mrj0YTpI&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=lNxJPMtpp56g4e3JfoMF-w&oh=00_AfQ1aou8ckKWpzjn7ySTIEOZZ624lYbbfrzuX6W0dHauzQ&oe=688E1CC2",
+            imagen: "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/525984218_122183410310505987_7172928550211851012_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qW25ivGMo0sQ7kNvwH2foyd&_nc_oc=AdkshXJrC3DmucgeUd_HL2EEcmEGLEalpWf-wVMlwnNsY6BmPRwJp198v1PjBDSE9vc&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=Qby0c0o7Rg-k3DK5oY-0XA&oh=00_AfbS7oWPUpqKLtNl5osdi1gMIPBp8HkTDHN1XOMnRkkbQw&oe=68C7C499",
             link: "noticias/AYUNTAMIENTO_Y_GOBIERNO_DEL_PUEBLO_FACILITAN_TRAMITES_VEHICULARES_EN_PARAISO"
         },
         {
             title: 'PARAÍSO SE MUEVE: UN FIN DE SEMANA QUE REFLEJA ORGULLO, PASIÓN Y FUTURO',
             fecha: "27 Jun",
-            imagen: "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/524577970_122183255012505987_3480124234158256541_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGEArzUiY1DmKWjjEfvDhzS-xJNjp5BLbr7Ek2OnkEtukvKqTKt4Pg0fmeYtfnE2v74eWdVT6HqfPmzy2Ag07Y5&_nc_ohc=G-Zotm2Du5QQ7kNvwFcx_r6&_nc_oc=Adn2NI_206JZXmOTnZeHe158XfwPacje2fkDac8Q0z2KkivtV7y6PplWSYyweaj02RuWYLwPF5Ns7HmmOrgR2HCi&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=otNR4y7Ffg1nmbqEeI6czQ&oh=00_AfS_RTX4Zjjn3d6zidfvFRchnjaoQ8jClXzpMaQjv5Vk9Q&oe=688E21B1",
+            imagen: "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/524995466_122183258066505987_8280541788545535346_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF48bAnhi9O2eHpGyUU48NsneYysHIuried5jKwci6uJxFPNhe5KC6DHy9C12Z1m_C2fqvlBUVuQjR7WNSLzOg4&_nc_ohc=nYyMW-qZX8wQ7kNvwH64mrq&_nc_oc=AdnyU9g-Pt608rtKDKfW1Yf-DqT_MP39MIMjgvJx76agHLCAXQCrnXYgj_eQKjCEwM8&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=Gc4vzBk1ZKYDcTTkESINcg&oh=00_AfbDpWVPWAlMSlG6YDbe_deoR4NYlNoHz1sEcDQCfG4fNQ&oe=68C7E3FB",
             link: "noticias/PARAISO_SE_MUEVE_UN_FIN_DE_SEMANA_QUE_REFLEJA_ORGULLO_PASION_Y_FUTURO"
         },
         {
             title: 'PRESIDENTE MUNICIPAL DE PARAÍSO REALIZA LANZAMIENTO DE HONOR EN JUEGO DE LOS OLMECAS DE TABASCO',
             fecha: "27 Jun",
-            imagen: "https://scontent.fvsa2-1.fna.fbcdn.net/v/t39.30808-6/524306314_122183241044505987_6685868173445221665_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGrOPN0d53YWV1ZhsylL5uwGf638Fdk0FoZ_rfwV2TQWtU2pZY-ZxkhQW4hMuoqcGodF_Mav7vAZCjLqJUhDyWb&_nc_ohc=7skiVxBJdX4Q7kNvwF7JZaO&_nc_oc=AdmQRGFebdE9Pymko_e33s3-2R4mXWF4D_1N9LdHzHhQoTcIe6T7lvDzzYmn2IZDE0r6_q02UxGU_Zhx_6KBaiYC&_nc_zt=23&_nc_ht=scontent.fvsa2-1.fna&_nc_gid=9clYRezj-3HUxp1JC1IDHg&oh=00_AfTtoc7DFzy77gdKZ7X8N0dwfYdJ4UmYFMjbvrFUuH-udQ&oe=688E12BF",
+            imagen: "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/524306314_122183241044505987_6685868173445221665_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGrOPN0d53YWV1ZhsylL5uwGf638Fdk0FoZ_rfwV2TQWtU2pZY-ZxkhQW4hMuoqcGodF_Mav7vAZCjLqJUhDyWb&_nc_ohc=FfVTLw5oIfYQ7kNvwEYP8jC&_nc_oc=AdmKOe2FS1GGW0y8BdksSTFOb7tGqqUgb9wnT1F5DijLwsmkbe_CbwWK69I5FEOSa4E&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=Pszy4WQVwHMGvnEMejL7gw&oh=00_AfZrS1LICyfXOv2ESgDogYrk6gKD16uiowV3ewf-WP32gQ&oe=68C7DC7F",
             link: "noticias/PRESIDENTE_MUNICIPAL_DE_PARAISO_REALIZA_LANZAMIENTO_DE_HONOR_EN_JUEGO_DE_LOS_OLMECAS_DE_TABASCO"
         },
         // Noticias de Junio 2025
