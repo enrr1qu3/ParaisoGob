@@ -3,6 +3,7 @@ import { Col, ConfigProvider, Row, Card, Breadcrumb, Statistic } from 'antd';
 import { EyeOutlined, HomeOutlined } from '@ant-design/icons';
 import './style/ContraloriaMunicipal.css'
 import { useEffect, useState } from 'react';
+import { BsMailboxFlag } from 'react-icons/bs';
 export default function ContraloriaMunicipal() {
     const [countVisit, setCountVisit] = useState<number>(0);
     const visitApi = async () => {
@@ -173,8 +174,11 @@ export default function ContraloriaMunicipal() {
                                     <div
                                         className='contenBotonContraloria'
                                     >
-                                        {/* <h4 style={{ margin: 0 }}>Carta Compromiso</h4>
-                                        <a href="https://gobparaiso.blob.core.windows.net/contraloria/Paraíso Código de Conducta Carta Compromiso.pdf" target="_blank">Descargar</a> */}
+                                        <Link to={"/contraloria/etica"}>
+                                            <h4 style={{ margin: 0 }}>
+                                                <BsMailboxFlag />  Reporte ciudadano
+                                            </h4>
+                                        </Link>
                                     </div>
                                 </Col>
                             </Row>

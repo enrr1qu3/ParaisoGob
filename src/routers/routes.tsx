@@ -32,6 +32,7 @@ import { NoticiaAyuGobiFacilita } from "../pages/Noticias/Notas/NoticiaAyuGobiFa
 import { NoticiaLanzaDeHonor } from "../pages/Noticias/Notas/NoticiaLanzaDeHonor";
 import { NoticiaMueveUnFinSemana } from "../pages/Noticias/Notas/NoticiaMueveUnFinSemana";
 import DirectorioPage from "../pages/Directorio/DirectorioPage";
+import ContraloriaForm from "../pages/ContraloriaMunicipal/ContraloriaForm";
 
 
 
@@ -157,6 +158,10 @@ export const router = createBrowserRouter([
                     {
                         path: "etica",
                         element: <EticaServicioPage />
+                    },
+                    {
+                        path: "reporteCiudadano",
+                        element: <ContraloriaForm />
                     },
                 ]
             },
