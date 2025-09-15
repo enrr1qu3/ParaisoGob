@@ -296,12 +296,13 @@ export default function ContraloriaForm() {
                                                     { required: true, message: 'Colocar descripción de los hechos' },
                                                 ]}
                                             >
-                                                <Input placeholder="Descripción de los hechos"
-                                                    maxLength={50}
+                                                <Input.TextArea placeholder="Descripción de los hechos"
+                                                    maxLength={500}
                                                     minLength={2}
+                                                    rows={6}
                                                     count={{
                                                         show: true,
-                                                        max: 50,
+                                                        max: 500,
                                                     }}
                                                 />
                                             </Form.Item>
