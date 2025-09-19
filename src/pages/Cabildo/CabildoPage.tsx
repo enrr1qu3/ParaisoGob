@@ -6,224 +6,322 @@ export default function CabildoPage() {
         {
             nombre: "Lic. María Eliza Hernández Flores",
             puesto: "Segunda Regidora y Síndico de Hacienda",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/maestra maria/mtra maria 05.jpg"
+            imagen:
+                "https://gobparaiso.blob.core.windows.net/fotoscabildo/maestra maria/mtra maria 05.jpg",
         },
         {
             nombre: "Lic. Misleida Magaña Flores",
-            puesto: "Tercer Regidor",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/lic misdeila/lic 05.jpg"
+            puesto: "Tercera Regidora",
+            imagen:
+                "https://gobparaiso.blob.core.windows.net/fotoscabildo/lic misdeila/lic 05.jpg",
         },
         {
             nombre: "C. Selena del Carmen Gómez Chacha",
             puesto: "Cuarta Regidora",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC SELENA/05.jpg"
+            imagen:
+                "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC SELENA/05.jpg",
         },
         {
             nombre: "C. Israel Palma Rodríguez",
             puesto: "Quinto Regidor",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ISRRAEL/ISRRA 05.jpg"
+            imagen:
+                "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ISRRAEL/ISRRA 05.jpg",
         },
-    ]
+    ];
     const inteDirecciones = [
         {
-            nombre: "C.P. Mireya Mandujano Rubert",
+            nombre: "C.P y A. Miguel Angel Cruz Sanchez.",
             puesto: "Dirección de Finanzas",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg"
+            // imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg"
+            imagen: "/public/user.png",
+            correo: "finanzas@paraiso2427.gob.mx",
+            direccion:
+                "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86609",
         },
         {
             nombre: "Ing. Arturo Izquierdo Alejandro",
             puesto: "Dirección de Programación",
-            imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ARTURO IZQ/LIC ARTURO 06.jpg"
+            imagen:
+                "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ARTURO IZQ/LIC ARTURO 06.jpg",
+            correo: "programaciónypresupuesto@paraiso2427.gob.mx",
+            direccion:
+                "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86611",
         },
         {
             nombre: "Ing. Isaac López Guerra",
             puesto: "Contraloría Municipal",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "contraloria@paraiso.gob.mx",
+            direccion:
+                "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605",
         },
         {
             nombre: "Lic. Santiago Magaña Burelo",
             puesto: "Dirección de Desarrollo",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/desarrollo.jpg"
+            imagen: "/public/user.png",
+            correo: "desarrollo@paraiso2427.gob.mx",
+            direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab.",
         },
         {
-            nombre: "TSU. Carlos Mario de la Cruz Hernández",
+            nombre: "Lic. Julio Cesar Jimenez Cruz.",
             puesto: "Dirección de Fomento Económico y Turismo",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/fomento-1.jpg"
+            imagen: "/public/user.png",
+            correo: "fomentoyturismo@paraiso2427.gob.mx",
+            direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab.",
         },
         {
             nombre: "Ing. Edison García Wilzon",
-            puesto: "Dirección de Obras, Ordenamiento Territorial y Servicios Municipales",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/obras.jpg"
+            puesto:
+                "Dirección de Obras, Ordenamiento Territorial y Servicios Municipales",
+            imagen: "/public/user.png",
+            correo: "obraspublicas@paraiso2427.gob.mx",
+            direccion:
+                "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86614",
         },
         {
             nombre: "Lic. Marco Ernesto Pérez Torres",
             puesto: "Dirección de Educación, Cultura y Recreación",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/decur-1.jpg"
+            imagen: "/public/user.png",
+            correo: "decur@paraiso2427.gob.mx",
+            direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab.",
         },
         {
             nombre: "Lic. Demetrio Velázquez Castellanos",
             puesto: "Dirección de Administración",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/Administracion-1.jpg"
+            imagen: "/public/user.png",
+            correo: "administración@paraiso.gob.mx",
+            direccion:
+                "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86613",
         },
-        {
-            nombre: "Arq. Rafael Lezama Javier",
-            puesto: "Dirección de Seguridad Pública",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/seguridad-publica.jpg"
-        },
-        {
-            nombre: "Tec. Otilio Baeza Ocampo",
-            puesto: "Dirección de Tránsito",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/transito.jpg"
-        },
+        // {
+        //   nombre: "Arq. Rafael Lezama Javier",
+        //   puesto: "Dirección de Seguridad Pública",
+        //   imagen: "/public/user.png",
+        //   correo: "seguridadpublica@paraiso2427.gob.mx",
+        //   direccion: "Benito Juárez 3, Centro, 86600 Paraíso, Tab.",
+        // },
+        // {
+        //   nombre: "Tec. Otilio Baeza Ocampo",
+        //   puesto: "Dirección de Tránsito",
+        //   imagen: "/public/user.png",
+        //   correo: "transito@paraiso2427.gob.mx",
+        //   direccion:
+        //     "La Central Comonera, Buenos Aires 1292, Centro, 86605 Paraíso, Tab.",
+        // },
         {
             nombre: "Lic. Javier Rodríguez Hernández",
             puesto: "Dirección de Asuntos Jurídicos",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/asuntos-juridicos.jpg"
+            imagen: "/public/user.png",
+            correo: "juridico@paraiso.gob.mx",
+            direccion:
+                "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86615",
         },
         {
-            nombre: "Tec. Felipe Alejandro Alejandro",
+            nombre: "Ing. Daniel Pérez Angulo",
             puesto: "Dirección de Atención Ciudadana",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/atencion-ciudadana.jpg"
+            imagen: "/public/user.png",
+            correo: "atencionciudadana@paraiso2427.gob.mx",
+            direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab.",
         },
         {
             nombre: "Lic. Claudia Lorena Montalvo Wilson",
             puesto: "Dirección de Atención a las Mujeres",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/atencion-mujer.jpg"
+            imagen: "/public/user.png",
+            correo: "dam@paraiso2427.gob.mx",
+            direccion: "Gregorio Méndez Magaña 218a, Centro, 86600 Paraíso, Tab.",
         },
         {
-            nombre: "Quim. Leonardo Caamal Yam",
+            nombre: "Ing. Antonio Jehova Javier Angulo",
             puesto: "Dirección de Protección Ambiental y Desarrollo Sustentable",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/porteccion-ambiental.jpg"
-        }
+            imagen: "/public/user.png",
+            correo: "proteccionambiental@paraiso2427.gob.mx",
+            direccion: "Calle Ignacio Comonfort 6, La Ceiba, 86607 Paraíso, Tab.",
+        },
     ];
     const inteUnidadesApoyo = [
         {
             nombre: "Lic. Nelson Alonso Pérez Pérez",
             puesto: "Secretaría Técnica",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/02/tecnico.png"
+            imagen: "/public/user.png",
+            correo: "secretariotecnicco@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86608"
         },
         {
             nombre: "Ing. Ronny Castellanos Magaña",
             puesto: "Secretaría Particular",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/particular.jpg"
+            imagen: "/public/user.png",
+            correo: "secretarioparticular@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
         },
         {
-            nombre: "Ing. Limberg Domínguez Hernández",
+            nombre: "Biol. Yuri Alberto Alamilla Schrunder",
             puesto: "Coordinación de Protección Civil",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "proteccioncivil@paraiso2427.gob.mx",
+            direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
         },
         {
-            nombre: "Tec. Concepción Pérez Márquez",
-            puesto: "Coordinación del DIF",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            nombre: "Nury del Carmen Mendoza Pérez",
+            puesto: "Coordinación del DIF Municipal",
+            imagen: "/public/user.png",
+            correo: "dif@paraiso.gob.mx",
+            direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
         },
         {
             nombre: "Dr. Guillermo Valencia Gómez",
             puesto: "Coordinación de Atención a la Salud",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "salud@paraiso2427.gob.mx",
+            direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
         },
         {
-            nombre: "Lic. Julia Janeth Madrigal Domínguez",
+            nombre: "Lic. Javier Pérez Villegas",
             puesto: "Coordinación de Comunicación Social",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "comunicacionsocial@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
         },
         {
             nombre: "Lic. Andrés Izquierdo Morales",
             puesto: "Coordinación de Evaluación de Resultados",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "evaluacion@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
         },
-        {
-            nombre: "Arq. Emilio Gómez Gallegos",
-            puesto: "Instituto Municipal de Planeación",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
-        },
-        {
-            nombre: "Biol. Jorge Enrique Oyosa Ortiz",
-            puesto: "Coordinación de Eventos Especiales",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
-        },
+        //   {
+        //     nombre: "Arq. Emilio Gómez Gallegos",
+        //     puesto: "Instituto Municipal de Planeación",
+        //     imagen: "/public/user.png",
+        //     correo: "", // No aparece en la lista
+        //     direccion: "" // No aparece en la lista
+        //   },
+        //   {
+        //     nombre: "Biol. Jorge Enrique Oyosa Ortiz",
+        //     puesto: "Coordinación de Eventos Especiales",
+        //     imagen: "/public/user.png",
+        //     correo: "", // No aparece
+        //     direccion: "" // No aparece
+        //   },
         {
             nombre: "Lic. Marian Kayle Alejandro de la Cruz",
             puesto: "Coordinación Administrativa",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "presidencia@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
         },
         {
             nombre: "Lic. Óscar Augusto Pérez Carrillo",
             puesto: "Unidad de Transparencia y Protección de Datos Personales",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "transparencia@paraiso.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
+        },
+        {
+            nombre: "L.A. Maria del Carmen Gonzalez Rabanales",
+            puesto: "Departamento de Mejora Regulatoria",
+            imagen: "/public/user.png",
+            correo: "mejoraregulatoria@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal. Calle Ignacio Comonfort. La Candelaria. C.P. 86605"
         },
         {
             nombre: "Lic. Ana Rosa Domínguez Pérez",
             puesto: "Archivo Municipal",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+            direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
         },
         {
-            nombre: "Lic. Julio César Jiménez Cruz",
+            nombre: "Lic. Martín de la Cruz Carrillo",
             puesto: "Registro Civil 01",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
         },
         {
             nombre: "Lic. Marta Angélica Mendiola Gutiérrez",
             puesto: "Registro Civil 02",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+            direccion: "86610 Puerto Ceiba, Tab."
         },
         {
             nombre: "Tec. Luis Lázaro Hernández",
             puesto: "Departamento de Delegados",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+            direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
         },
         {
             nombre: "Tec. Freddy Martínez Aguilar",
             puesto: "Departamento de Asuntos Religiosos",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "decur@paraiso2427.gob.mx",
+            direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
         },
         {
             nombre: "Lic. Michelle Andrea Escobar Camacho",
             puesto: "Subdirección de Catastro",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "catastro@paraiso2427.gob.mx",
+            direccion: "2 de Abril 210, El Carmen, 86605 Paraíso, Tab."
         },
         {
-            nombre: "Ing. William Hernández Javier",
+            nombre: "Lic. Marco Arturo Javier Madrigal",
             puesto: "Coordinación de Fiscalización y Normatividad",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "finanzas@paraiso2427.gob.mx",
+            direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
         },
         {
             nombre: "Profr. Celso Fernando Cauich May",
             puesto: "Coordinación de Cultura",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "decur@paraiso2427.gob.mx",
+            direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab."
         },
         {
-            nombre: "Lic. Geovani Cruz Angulo",
+            nombre: "Lic. Mariana Gomez Madrigal",
             puesto: "Coordinación de Fomento Deportivo",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "decur@paraiso2427.gob.mx",
+            direccion: "Ignacio Comonfort 20, La Ceiba, 86607 Paraíso, Tab."
         },
-        {
-            nombre: "",
-            puesto: "Coordinación de Recursos Materiales",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
-        },
+        //   {
+        //     nombre: "",
+        //     puesto: "Coordinación de Recursos Materiales",
+        //     imagen: "/public/user.png",
+        //     correo: "", // No aparece
+        //     direccion: "" // No aparece
+        //   },
         {
             nombre: "Ing. Otoniel Palma Santiago",
             puesto: "Departamento de Licitaciones",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "administracion@paraiso.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
         },
         {
             nombre: "Lic. María del Rosario Jesús Arias",
             puesto: "Departamento de Bienes Patrimoniales",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "administracion@paraiso.gob.mx",
+            direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
         },
         {
-            nombre: "Lic. Adalberto Domínguez Vargas",
+            nombre: "Grisela del Carmen Sosa Gomez",
             puesto: "Departamento de Recursos Humanos",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
+            imagen: "/public/user.png",
+            correo: "recursoshumanos@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
         },
         {
             nombre: "Eladio Trujillo Alejandro",
             puesto: "Ramo 33",
-            imagen: "https://paraiso.gob.mx/wp-content/uploads/2025/01/paraiso-1024x1024.jpg"
-        },
-    ]
-
+            imagen: "/public/user.png",
+            correo: "obraspublicas@paraiso2427.gob.mx",
+            direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
+        }
+    ];
     return (
         <ConfigProvider
         // theme={{
@@ -282,27 +380,19 @@ export default function CabildoPage() {
                     </Card>
                 </Col>
 
-                <Col
-                    xs={{ flex: '100%' }}
-                    xl={{ flex: '100%' }}
-                >
+                <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
                     <Card>
-                        <Row
-                            gutter={[8, 8]}
-                        >
-                            <Col
-                                xs={{ flex: '100%' }}
-                                xl={{ flex: '100%' }}
-                            >
-                                <h2 className='tituloCartas' >
+                        <Row gutter={[8, 8]}>
+                            <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                                <h2 className="tituloCartas">
                                     Primer Regidor y Presidente Municipal
                                 </h2>
                             </Col>
                             <Col
-                                xs={{ flex: '100%' }}
-                                md={{ flex: '30%' }}
-                                xl={{ flex: '20%' }}
-                                className='contenImagenes'
+                                xs={{ flex: "100%" }}
+                                md={{ flex: "30%" }}
+                                xl={{ flex: "20%" }}
+                                className="contenImagenes"
                             >
                                 <Image
                                     // width={200}
@@ -311,30 +401,26 @@ export default function CabildoPage() {
                                 />
                             </Col>
                             <Col
-                                xs={{ flex: '100%' }}
-                                md={{ flex: '70%' }}
-                                xl={{ flex: '80%' }}
+                                xs={{ flex: "100%" }}
+                                md={{ flex: "70%" }}
+                                xl={{ flex: "80%" }}
                             >
-                                <h3
-                                    className='nombrePresidete'
-                                >
+                                <h3 className="nombrePresidete">
                                     Ing. Alfonso Jesús Baca Sevilla
                                 </h3>
-                                <p className='textoPresidente'>
-                                    Presidente Municipal Constitucional de Paraíso, Tabasco para el periodo 2024-2027.
+                                <p className="textoPresidente">
+                                    Presidente Municipal Constitucional de Paraíso, Tabasco para
+                                    el periodo 2024-2027.
                                 </p>
-                                <Card
-                                    style={{ backgroundColor: "#f9fafb" }}
-                                >
-                                    <h4 className='tituloMensaje'>
-                                        Mensaje del Presidente:
-                                    </h4>
-                                    <p className='textMensaje'>
-                                        "Trabajamos con transparencia y compromiso para hacer de Paraíso un municipio
-                                        próspero, seguro y con mejores oportunidades para todos sus habitantes.
-                                        Nuestra administración está enfocada en el desarrollo sustentable, la
-                                        modernización de los servicios públicos y el bienestar de las familias
-                                        paraiseñas."
+                                <Card style={{ backgroundColor: "#f9fafb" }}>
+                                    <h4 className="tituloMensaje">Mensaje del Presidente:</h4>
+                                    <p className="textMensaje">
+                                        "Trabajamos con transparencia y compromiso para hacer de
+                                        Paraíso un municipio próspero, seguro y con mejores
+                                        oportunidades para todos sus habitantes. Nuestra
+                                        administración está enfocada en el desarrollo sustentable,
+                                        la modernización de los servicios públicos y el bienestar de
+                                        las familias paraiseñas."
                                     </p>
                                 </Card>
                             </Col>
@@ -342,54 +428,39 @@ export default function CabildoPage() {
                     </Card>
                 </Col>
 
-                <Col
-                    xs={{ flex: '100%' }}
-                    xl={{ flex: '100%' }}
-                >
-                    <Card
-                    >
-                        <h2 className='tituloCartas'>
-                            Integrantes del H. Cabildo
-                        </h2>
+                <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                    <Card>
+                        <h2 className="tituloCartas">Integrantes</h2>
                         <Row gutter={[8, 8]}>
-                            {inteCabildo.map((itegrante) =>
+                            {inteCabildo.map((itegrante) => (
                                 <Col
-                                    xs={{ flex: '100%' }}
-                                    md={{ flex: '50%' }}
-                                    xl={{ flex: '50%' }}
+                                    xs={{ flex: "100%" }}
+                                    md={{ flex: "50%" }}
+                                    xl={{ flex: "50%" }}
                                     key={itegrante.nombre}
                                 >
                                     <Card
                                         style={{
                                             textAlign: "center",
                                         }}
-
                                     >
                                         <Image
                                             src={itegrante.imagen}
                                             style={{ borderRadius: "50%" }}
                                             width={120}
                                         />
-                                        <h4 className='tituloPuestos'>{itegrante.puesto}</h4>
-                                        <p className='textoPresidente'>{itegrante.nombre}</p>
+                                        <h4 className="tituloPuestos">{itegrante.puesto}</h4>
+                                        <p className="textoPresidente">{itegrante.nombre}</p>
                                     </Card>
                                 </Col>
-                            )}
-
+                            ))}
                         </Row>
-
                     </Card>
                 </Col>
 
-                <Col
-                    xs={{ flex: '100%' }}
-                    xl={{ flex: '100%' }}
-                >
-                    <Card
-                    >
-                        <h2 className='tituloCartas'>
-                            DIRECCIONES
-                        </h2>
+                <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                    <Card>
+                        <h2 className="tituloCartas">DIRECCIONES</h2>
                         <List
                             grid={{
                                 gutter: 16,
@@ -406,32 +477,27 @@ export default function CabildoPage() {
                                         style={{
                                             textAlign: "center",
                                         }}
-
                                     >
                                         <Image
-                                            width={120}
+                                            width={150}
+                                            height={193}
                                             src={item.imagen}
                                             style={{ borderRadius: "50%" }}
                                         />
-                                        <h4 className='tituloPuestos'>{item.puesto}</h4>
-                                        <p className='textoPresidente'>{item.nombre}</p>
+                                        <h4 className="tituloPuestos">{item.puesto}</h4>
+                                        <p className="textoPresidente">{item.nombre}</p>
+                                        <p className="textoPresidente">{item.correo}</p>
+                                        <p className="textoPresidente">{item.direccion}</p>
                                     </Card>
                                 </List.Item>
                             )}
                         />
-
                     </Card>
                 </Col>
 
-                <Col
-                    xs={{ flex: '100%' }}
-                    xl={{ flex: '100%' }}
-                >
-                    <Card
-                    >
-                        <h2 className='tituloCartas'>
-                            UNIDADES DE APOYO
-                        </h2>
+                <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                    <Card>
+                        <h2 className="tituloCartas">UNIDADES DE APOYO</h2>
                         <List
                             grid={{
                                 gutter: 16,
@@ -448,7 +514,6 @@ export default function CabildoPage() {
                                         style={{
                                             textAlign: "center",
                                         }}
-
                                     >
                                         <Image
                                             width={150}
@@ -456,16 +521,16 @@ export default function CabildoPage() {
                                             src={item.imagen}
                                             style={{ borderRadius: "50%" }}
                                         />
-                                        <h4 className='tituloPuestos'>{item.puesto}</h4>
-                                        <p className='textoPresidente'>{item.nombre}</p>
+                                        <h4 className="tituloPuestos">{item.puesto}</h4>
+                                        <p className="textoPresidente">{item.nombre}</p>
+                                        <p className="textoPresidente">{item.correo}</p>
+                                        <p className="textoPresidente">{item.direccion}</p>
                                     </Card>
                                 </List.Item>
                             )}
                         />
-
                     </Card>
                 </Col>
-
             </Row>
         </ConfigProvider>
     )

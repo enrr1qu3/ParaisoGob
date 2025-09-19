@@ -1,4 +1,4 @@
-import { Col, ConfigProvider, Row, Card, Breadcrumb, Image, List} from "antd";
+import { Col, ConfigProvider, Row, Card, Breadcrumb, Image, List } from "antd";
 import { HomeOutlined } from "@ant-design/icons";
 import "./DirectorioPage.css";
 export default function DirectorioPage() {
@@ -23,17 +23,17 @@ export default function DirectorioPage() {
     },
     {
       nombre: "C. Israel Palma Rodríguez",
-      puesto: "Quinta Regidora",
+      puesto: "Quinto Regidor",
       imagen:
         "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ISRRAEL/ISRRA 05.jpg",
     },
   ];
   const inteDirecciones = [
     {
-      nombre: "C.P. Mireya Mandujano Rubert",
+      nombre: "C.P y A. Miguel Angel Cruz Sanchez.",
       puesto: "Dirección de Finanzas",
-      imagen:
-        "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg",
+      // imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg"
+      imagen: "/public/user.png",
       correo: "finanzas@paraiso2427.gob.mx",
       direccion:
         "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86609",
@@ -139,189 +139,189 @@ export default function DirectorioPage() {
     },
   ];
   const inteUnidadesApoyo = [
-  {
-    nombre: "Lic. Nelson Alonso Pérez Pérez",
-    puesto: "Secretaría Técnica",
-    imagen: "/public/user.png",
-    correo: "secretariotecnicco@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86608"
-  },
-  {
-    nombre: "Ing. Ronny Castellanos Magaña",
-    puesto: "Secretaría Particular",
-    imagen: "/public/user.png",
-    correo: "secretarioparticular@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
-  },
-  {
-    nombre: "Biol. Yuri Alberto Alamilla Schrunder",
-    puesto: "Coordinación de Protección Civil",
-    imagen: "/public/user.png",
-    correo: "proteccioncivil@paraiso2427.gob.mx",
-    direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Nury del Carmen Mendoza Pérez",
-    puesto: "Coordinación del DIF Municipal",
-    imagen: "/public/user.png",
-    correo: "dif@paraiso.gob.mx",
-    direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
-  },
-  {
-    nombre: "Dr. Guillermo Valencia Gómez",
-    puesto: "Coordinación de Atención a la Salud",
-    imagen: "/public/user.png",
-    correo: "salud@paraiso2427.gob.mx",
-    direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Lic. Javier Pérez Villegas",
-    puesto: "Coordinación de Comunicación Social",
-    imagen: "/public/user.png",
-    correo: "comunicacionsocial@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-  },
-  {
-    nombre: "Lic. Andrés Izquierdo Morales",
-    puesto: "Coordinación de Evaluación de Resultados",
-    imagen: "/public/user.png",
-    correo: "evaluacion@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-  },
-//   {
-//     nombre: "Arq. Emilio Gómez Gallegos",
-//     puesto: "Instituto Municipal de Planeación",
-//     imagen: "/public/user.png",
-//     correo: "", // No aparece en la lista
-//     direccion: "" // No aparece en la lista
-//   },
-//   {
-//     nombre: "Biol. Jorge Enrique Oyosa Ortiz",
-//     puesto: "Coordinación de Eventos Especiales",
-//     imagen: "/public/user.png",
-//     correo: "", // No aparece
-//     direccion: "" // No aparece
-//   },
-  {
-    nombre: "Lic. Marian Kayle Alejandro de la Cruz",
-    puesto: "Coordinación Administrativa",
-    imagen: "/public/user.png",
-    correo: "presidencia@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-  },
-  {
-    nombre: "Lic. Óscar Augusto Pérez Carrillo",
-    puesto: "Unidad de Transparencia y Protección de Datos Personales",
-    imagen: "/public/user.png",
-    correo: "transparencia@paraiso.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
-  },
-  {
-    nombre: "L.A. Maria del Carmen Gonzalez Rabanales",
-    puesto: "Departamento de Mejora Regulatoria",
-    imagen: "/public/user.png",
-    correo: "mejoraregulatoria@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal. Calle Ignacio Comonfort. La Candelaria. C.P. 86605"
-  },
-  {
-    nombre: "Lic. Ana Rosa Domínguez Pérez",
-    puesto: "Archivo Municipal",
-    imagen: "/public/user.png",
-    correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-    direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Lic. Martín de la Cruz Carrillo",
-    puesto: "Registro Civil 01",
-    imagen: "/public/user.png",
-    correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
-  },
-  {
-    nombre: "Lic. Marta Angélica Mendiola Gutiérrez",
-    puesto: "Registro Civil 02",
-    imagen: "/public/user.png",
-    correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-    direccion: "86610 Puerto Ceiba, Tab."
-  },
-  {
-    nombre: "Tec. Luis Lázaro Hernández",
-    puesto: "Departamento de Delegados",
-    imagen: "/public/user.png",
-    correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-    direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Tec. Freddy Martínez Aguilar",
-    puesto: "Departamento de Asuntos Religiosos",
-    imagen: "/public/user.png",
-    correo: "decur@paraiso2427.gob.mx",
-    direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Lic. Michelle Andrea Escobar Camacho",
-    puesto: "Subdirección de Catastro",
-    imagen: "/public/user.png",
-    correo: "catastro@paraiso2427.gob.mx",
-    direccion: "2 de Abril 210, El Carmen, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Lic. Marco Arturo Javier Madrigal",
-    puesto: "Coordinación de Fiscalización y Normatividad",
-    imagen: "/public/user.png",
-    correo: "finanzas@paraiso2427.gob.mx",
-    direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Profr. Celso Fernando Cauich May",
-    puesto: "Coordinación de Cultura",
-    imagen: "/public/user.png",
-    correo: "decur@paraiso2427.gob.mx",
-    direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Lic. Mariana Gomez Madrigal",
-    puesto: "Coordinación de Fomento Deportivo",
-    imagen: "/public/user.png",
-    correo: "decur@paraiso2427.gob.mx",
-    direccion: "Ignacio Comonfort 20, La Ceiba, 86607 Paraíso, Tab."
-  },
-//   {
-//     nombre: "",
-//     puesto: "Coordinación de Recursos Materiales",
-//     imagen: "/public/user.png",
-//     correo: "", // No aparece
-//     direccion: "" // No aparece
-//   },
-  {
-    nombre: "Ing. Otoniel Palma Santiago",
-    puesto: "Departamento de Licitaciones",
-    imagen: "/public/user.png",
-    correo: "administracion@paraiso.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-  },
-  {
-    nombre: "Lic. María del Rosario Jesús Arias",
-    puesto: "Departamento de Bienes Patrimoniales",
-    imagen: "/public/user.png",
-    correo: "administracion@paraiso.gob.mx",
-    direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
-  },
-  {
-    nombre: "Grisela del Carmen Sosa Gomez",
-    puesto: "Departamento de Recursos Humanos",
-    imagen: "/public/user.png",
-    correo: "recursoshumanos@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-  },
-  {
-    nombre: "Eladio Trujillo Alejandro",
-    puesto: "Ramo 33",
-    imagen: "/public/user.png",
-    correo: "obraspublicas@paraiso2427.gob.mx",
-    direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
-  }
-];
+    {
+      nombre: "Lic. Nelson Alonso Pérez Pérez",
+      puesto: "Secretaría Técnica",
+      imagen: "/public/user.png",
+      correo: "secretariotecnicco@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86608"
+    },
+    {
+      nombre: "Ing. Ronny Castellanos Magaña",
+      puesto: "Secretaría Particular",
+      imagen: "/public/user.png",
+      correo: "secretarioparticular@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
+    },
+    {
+      nombre: "Biol. Yuri Alberto Alamilla Schrunder",
+      puesto: "Coordinación de Protección Civil",
+      imagen: "/public/user.png",
+      correo: "proteccioncivil@paraiso2427.gob.mx",
+      direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Nury del Carmen Mendoza Pérez",
+      puesto: "Coordinación del DIF Municipal",
+      imagen: "/public/user.png",
+      correo: "dif@paraiso.gob.mx",
+      direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
+    },
+    {
+      nombre: "Dr. Guillermo Valencia Gómez",
+      puesto: "Coordinación de Atención a la Salud",
+      imagen: "/public/user.png",
+      correo: "salud@paraiso2427.gob.mx",
+      direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Lic. Javier Pérez Villegas",
+      puesto: "Coordinación de Comunicación Social",
+      imagen: "/public/user.png",
+      correo: "comunicacionsocial@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
+    },
+    {
+      nombre: "Lic. Andrés Izquierdo Morales",
+      puesto: "Coordinación de Evaluación de Resultados",
+      imagen: "/public/user.png",
+      correo: "evaluacion@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
+    },
+    //   {
+    //     nombre: "Arq. Emilio Gómez Gallegos",
+    //     puesto: "Instituto Municipal de Planeación",
+    //     imagen: "/public/user.png",
+    //     correo: "", // No aparece en la lista
+    //     direccion: "" // No aparece en la lista
+    //   },
+    //   {
+    //     nombre: "Biol. Jorge Enrique Oyosa Ortiz",
+    //     puesto: "Coordinación de Eventos Especiales",
+    //     imagen: "/public/user.png",
+    //     correo: "", // No aparece
+    //     direccion: "" // No aparece
+    //   },
+    {
+      nombre: "Lic. Marian Kayle Alejandro de la Cruz",
+      puesto: "Coordinación Administrativa",
+      imagen: "/public/user.png",
+      correo: "presidencia@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
+    },
+    {
+      nombre: "Lic. Óscar Augusto Pérez Carrillo",
+      puesto: "Unidad de Transparencia y Protección de Datos Personales",
+      imagen: "/public/user.png",
+      correo: "transparencia@paraiso.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
+    },
+    {
+      nombre: "L.A. Maria del Carmen Gonzalez Rabanales",
+      puesto: "Departamento de Mejora Regulatoria",
+      imagen: "/public/user.png",
+      correo: "mejoraregulatoria@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal. Calle Ignacio Comonfort. La Candelaria. C.P. 86605"
+    },
+    {
+      nombre: "Lic. Ana Rosa Domínguez Pérez",
+      puesto: "Archivo Municipal",
+      imagen: "/public/user.png",
+      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Lic. Martín de la Cruz Carrillo",
+      puesto: "Registro Civil 01",
+      imagen: "/public/user.png",
+      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
+    },
+    {
+      nombre: "Lic. Marta Angélica Mendiola Gutiérrez",
+      puesto: "Registro Civil 02",
+      imagen: "/public/user.png",
+      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+      direccion: "86610 Puerto Ceiba, Tab."
+    },
+    {
+      nombre: "Tec. Luis Lázaro Hernández",
+      puesto: "Departamento de Delegados",
+      imagen: "/public/user.png",
+      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Tec. Freddy Martínez Aguilar",
+      puesto: "Departamento de Asuntos Religiosos",
+      imagen: "/public/user.png",
+      correo: "decur@paraiso2427.gob.mx",
+      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Lic. Michelle Andrea Escobar Camacho",
+      puesto: "Subdirección de Catastro",
+      imagen: "/public/user.png",
+      correo: "catastro@paraiso2427.gob.mx",
+      direccion: "2 de Abril 210, El Carmen, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Lic. Marco Arturo Javier Madrigal",
+      puesto: "Coordinación de Fiscalización y Normatividad",
+      imagen: "/public/user.png",
+      correo: "finanzas@paraiso2427.gob.mx",
+      direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Profr. Celso Fernando Cauich May",
+      puesto: "Coordinación de Cultura",
+      imagen: "/public/user.png",
+      correo: "decur@paraiso2427.gob.mx",
+      direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Lic. Mariana Gomez Madrigal",
+      puesto: "Coordinación de Fomento Deportivo",
+      imagen: "/public/user.png",
+      correo: "decur@paraiso2427.gob.mx",
+      direccion: "Ignacio Comonfort 20, La Ceiba, 86607 Paraíso, Tab."
+    },
+    //   {
+    //     nombre: "",
+    //     puesto: "Coordinación de Recursos Materiales",
+    //     imagen: "/public/user.png",
+    //     correo: "", // No aparece
+    //     direccion: "" // No aparece
+    //   },
+    {
+      nombre: "Ing. Otoniel Palma Santiago",
+      puesto: "Departamento de Licitaciones",
+      imagen: "/public/user.png",
+      correo: "administracion@paraiso.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
+    },
+    {
+      nombre: "Lic. María del Rosario Jesús Arias",
+      puesto: "Departamento de Bienes Patrimoniales",
+      imagen: "/public/user.png",
+      correo: "administracion@paraiso.gob.mx",
+      direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
+    },
+    {
+      nombre: "Grisela del Carmen Sosa Gomez",
+      puesto: "Departamento de Recursos Humanos",
+      imagen: "/public/user.png",
+      correo: "recursoshumanos@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
+    },
+    {
+      nombre: "Eladio Trujillo Alejandro",
+      puesto: "Ramo 33",
+      imagen: "/public/user.png",
+      correo: "obraspublicas@paraiso2427.gob.mx",
+      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
+    }
+  ];
   return (
     <ConfigProvider
     // theme={{
