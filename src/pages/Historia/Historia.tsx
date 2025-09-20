@@ -27,7 +27,7 @@ export default function Historia() {
                     xl={{ flex: '100%' }}
                 >
                     <Card
-                        className='cardContainerTitulo'
+                        // className='cardContainerTitulo'
                     >
                         <Breadcrumb
                             separator=">"

@@ -24,7 +24,7 @@ export const MenuLayoutMovil = () => {
             children: [
 
                 { label: 'Cabildo', key: 'cabildo' },
-                // { label: 'Directorio', key: 'directorio' },
+                { label: 'Directorio', key: 'directorio' },
                 // { label: 'Población', key: 'poblacion' },
 
             ],

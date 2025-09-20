@@ -25,7 +25,7 @@ export default function Geografia() {
                     xl={{ flex: '100%' }}
                 >
                     <Card
-                        className='cardContainerTitulo'
+                        // className='cardContainerTitulo'
                     >
                         <Breadcrumb
                             separator=">"

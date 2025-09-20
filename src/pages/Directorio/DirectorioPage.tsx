@@ -1,34 +1,17 @@
-import { Col, ConfigProvider, Row, Card, Breadcrumb, Image, List } from "antd";
-import { HomeOutlined } from "@ant-design/icons";
+import { Col, ConfigProvider, Row, Card, Breadcrumb, List, Divider, Avatar, Tag, Badge } from 'antd';
+import { HomeOutlined, UserOutlined, MailOutlined, EnvironmentOutlined } from '@ant-design/icons';
 import "./DirectorioPage.css";
 export default function DirectorioPage() {
-  const inteCabildo = [
-    {
-      nombre: "Lic. María Eliza Hernández Flores",
-      puesto: "Segunda Regidora y Síndico de Hacienda",
-      imagen:
-        "https://gobparaiso.blob.core.windows.net/fotoscabildo/maestra maria/mtra maria 05.jpg",
-    },
-    {
-      nombre: "Lic. Misleida Magaña Flores",
-      puesto: "Tercera Regidora",
-      imagen:
-        "https://gobparaiso.blob.core.windows.net/fotoscabildo/lic misdeila/lic 05.jpg",
-    },
-    {
-      nombre: "C. Selena del Carmen Gómez Chacha",
-      puesto: "Cuarta Regidora",
-      imagen:
-        "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC SELENA/05.jpg",
-    },
-    {
-      nombre: "C. Israel Palma Rodríguez",
-      puesto: "Quinto Regidor",
-      imagen:
-        "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ISRRAEL/ISRRA 05.jpg",
-    },
-  ];
+
   const inteDirecciones = [
+    {
+      nombre: "Dr. Carlos Alberto Ramon Gûemes ",
+      puesto: " Secretario del Ayuntamiento",
+      imagen: "/public/user.png",
+      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
+      direccion:
+        "Palacio Municipal. Calle Ignacio Comonfort S/N C.P. 86605",
+    },
     {
       nombre: "C.P y A. Miguel Angel Cruz Sanchez.",
       puesto: "Dirección de Finanzas",
@@ -324,13 +307,7 @@ export default function DirectorioPage() {
   ];
   return (
     <ConfigProvider
-    // theme={{
-    //     components: {
-    //         Divider: {
-    //             marginLG: 16
-    //         },
-    //     },
-    // }}
+
     >
       <Row
         style={{
@@ -338,127 +315,61 @@ export default function DirectorioPage() {
           width: "100%",
           margin: "2rem auto",
           padding: " 0 1rem ",
+
         }}
         gutter={[0, 24]}
+
       >
-        <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
-          <Card className="cardContainerTitulo">
+        <Col
+          xs={{ flex: '100%' }}
+          xl={{ flex: '100%' }}
+        >
+          <Card
+          // className='cardContainerTitulo'
+          >
             <Breadcrumb
               separator=">"
-              items={[
-                {
-                  href: "/",
-                  title: (
-                    <>
-                      <HomeOutlined />
-                      <span>Inicio</span>
-                    </>
-                  ),
-                },
-                {
-                  title: "Directorio Municipal",
-                  className: "tituloPincipalColor",
-                },
-              ]}
+              items={
+                [
+                  {
+                    href: '/',
+                    title: (
+                      <>
+                        <HomeOutlined />
+                        <span>Inicio</span>
+                      </>)
+                  },
+                  {
+                    title: 'Directorio Municipal',
+                    className: "tituloPincipalColor"
+                  },
+                ]
+              }
               style={{ margin: 0, marginBottom: 16 }}
             />
-            <h2 className="tituloP tituloPincipalColor">
+            <h2 className='tituloP tituloPincipalColor'>
               Directorio Municipal
             </h2>
-            <p className="subtituloP">
-              Conoce a los integrantes del Honorable Cabildo del Municipio de
-              Paraíso
+            <p className='subtituloP'>
+              Conoce a los integrantes del Honorable Directorio del Municipio de Paraíso
             </p>
+
           </Card>
         </Col>
 
         <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
-          <Card>
-            <Row gutter={[8, 8]}>
-              <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
-                <h2 className="tituloCartas">
-                  Primer Regidor y Presidente Municipal
-                </h2>
-              </Col>
-              <Col
-                xs={{ flex: "100%" }}
-                md={{ flex: "30%" }}
-                xl={{ flex: "20%" }}
-                className="contenImagenes"
-              >
-                <Image
-                  // width={200}
-                  src="https://gobparaiso.blob.core.windows.net/fotoscabildo/Ing Baca/2.jpg"
-                  style={{ borderRadius: "5%", width: "100%" }}
-                />
-              </Col>
-              <Col
-                xs={{ flex: "100%" }}
-                md={{ flex: "70%" }}
-                xl={{ flex: "80%" }}
-              >
-                <h3 className="nombrePresidete">
-                  Ing. Alfonso Jesús Baca Sevilla
-                </h3>
-                <p className="textoPresidente">
-                  Presidente Municipal Constitucional de Paraíso, Tabasco para
-                  el periodo 2024-2027.
-                </p>
-                <Card style={{ backgroundColor: "#f9fafb" }}>
-                  <h4 className="tituloMensaje">Mensaje del Presidente:</h4>
-                  <p className="textMensaje">
-                    "Trabajamos con transparencia y compromiso para hacer de
-                    Paraíso un municipio próspero, seguro y con mejores
-                    oportunidades para todos sus habitantes. Nuestra
-                    administración está enfocada en el desarrollo sustentable,
-                    la modernización de los servicios públicos y el bienestar de
-                    las familias paraiseñas."
-                  </p>
-                </Card>
-              </Col>
-            </Row>
-          </Card>
-        </Col>
-
-        <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
-          <Card>
-            <h2 className="tituloCartas">Integrantes</h2>
-            <Row gutter={[8, 8]}>
-              {inteCabildo.map((itegrante) => (
-                <Col
-                  xs={{ flex: "100%" }}
-                  md={{ flex: "50%" }}
-                  xl={{ flex: "50%" }}
-                  key={itegrante.nombre}
-                >
-                  <Card
-                    style={{
-                      textAlign: "center",
-                    }}
-                  >
-                    <Image
-                      src={itegrante.imagen}
-                      style={{ borderRadius: "50%" }}
-                      width={120}
-                    />
-                    <h4 className="tituloPuestos">{itegrante.puesto}</h4>
-                    <p className="textoPresidente">{itegrante.nombre}</p>
-                  </Card>
-                </Col>
-              ))}
-            </Row>
-          </Card>
-        </Col>
-
-        <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
-          <Card>
-            <h2 className="tituloCartas">DIRECCIONES</h2>
+          <Card className="gobierno-card">
+            <div className="section-header">
+              <h2 className="tituloCartas">Direcciones Administrativas</h2>
+              <Divider className="divider-gobierno" />
+              <p className="section-subtitle">Estructura organizacional del gobierno municipal</p>
+            </div>
             <List
               grid={{
-                gutter: 16,
+                gutter: [20, 24],
                 xs: 1,
                 sm: 2,
-                md: 3,
+                md: 2,
                 lg: 3,
                 xxl: 3,
               }}
@@ -466,20 +377,45 @@ export default function DirectorioPage() {
               renderItem={(item) => (
                 <List.Item>
                   <Card
+                    className="direccion-card"
+                    hoverable
                     style={{
-                      textAlign: "center",
+                      borderRadius: "16px",
+                      boxShadow: "0 6px 20px rgba(0,0,0,0.08)",
+                      border: "2px solid #f0f2f5",
+                      background: "linear-gradient(135deg, #ffffff 0%, #fafbfc 100%)",
+                      transition: "all 0.3s ease"
                     }}
                   >
-                    <Image
-                      width={150}
-                      height={193}
-                      src={item.imagen}
-                      style={{ borderRadius: "50%" }}
-                    />
-                    <h4 className="tituloPuestos">{item.puesto}</h4>
-                    <p className="textoPresidente">{item.nombre}</p>
-                    <p className="textoPresidente">{item.correo}</p>
-                    <p className="textoPresidente">{item.direccion}</p>
+                    <div className="direccion-content">
+                      <div className="director-foto">
+                        <Avatar
+                          size={120}
+                          src={item.imagen}
+                          icon={<UserOutlined />}
+                          className="director-avatar"
+                        />
+                        <Badge
+                          count={<Tag color="#1890ff" style={{ borderRadius: "12px", fontSize: "10px" }}>Director</Tag>}
+                          offset={[15, 15]}
+                        />
+                      </div>
+                      <div className="director-info">
+                        <h4 className="puesto-director">{item.puesto}</h4>
+                        <p className="nombre-director">{item.nombre}</p>
+                        <Divider style={{ margin: "12px 0" }} />
+                        <div className="contacto-info">
+                          <div className="contacto-item">
+                            <MailOutlined style={{ color: "#f26c0d", marginRight: "8px" }} />
+                            <span className="contacto-text">{item.correo}</span>
+                          </div>
+                          <div className="contacto-item">
+                            <EnvironmentOutlined style={{ color: "#f26c0d", marginRight: "8px" }} />
+                            <span className="contacto-text">{item.direccion}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </Card>
                 </List.Item>
               )}
@@ -488,14 +424,18 @@ export default function DirectorioPage() {
         </Col>
 
         <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
-          <Card>
-            <h2 className="tituloCartas">UNIDADES DE APOYO</h2>
+          <Card className="gobierno-card">
+            <div className="section-header">
+              <h2 className="tituloCartas">Unidades de Apoyo y Coordinaciones</h2>
+              <Divider className="divider-gobierno" />
+              <p className="section-subtitle">Servicios especializados y coordinaciones municipales</p>
+            </div>
             <List
               grid={{
-                gutter: 16,
+                gutter: [20, 24],
                 xs: 1,
                 sm: 2,
-                md: 3,
+                md: 2,
                 lg: 3,
                 xxl: 3,
               }}
@@ -503,20 +443,45 @@ export default function DirectorioPage() {
               renderItem={(item) => (
                 <List.Item>
                   <Card
+                    className="coordinacion-card"
+                    hoverable
                     style={{
-                      textAlign: "center",
+                      borderRadius: "16px",
+                      boxShadow: "0 6px 20px rgba(0,0,0,0.08)",
+                      border: "2px solid #f0f2f5",
+                      background: "linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)",
+                      transition: "all 0.3s ease"
                     }}
                   >
-                    <Image
-                      width={150}
-                      height={193}
-                      src={item.imagen}
-                      style={{ borderRadius: "50%" }}
-                    />
-                    <h4 className="tituloPuestos">{item.puesto}</h4>
-                    <p className="textoPresidente">{item.nombre}</p>
-                    <p className="textoPresidente">{item.correo}</p>
-                    <p className="textoPresidente">{item.direccion}</p>
+                    <div className="coordinacion-content">
+                      <div className="coordinador-foto">
+                        <Avatar
+                          size={110}
+                          src={item.imagen}
+                          icon={<UserOutlined />}
+                          className="coordinador-avatar"
+                        />
+                        <Badge
+                          count={<Tag color="#52c41a" style={{ borderRadius: "12px", fontSize: "10px" }}>Coordinador</Tag>}
+                          offset={[12, 12]}
+                        />
+                      </div>
+                      <div className="coordinador-info">
+                        <h4 className="puesto-coordinador">{item.puesto}</h4>
+                        <p className="nombre-coordinador">{item.nombre}</p>
+                        <Divider style={{ margin: "10px 0" }} />
+                        <div className="contacto-info">
+                          <div className="contacto-item">
+                            <MailOutlined style={{ color: "#f26c0d", marginRight: "6px" }} />
+                            <span className="contacto-text-small">{item.correo}</span>
+                          </div>
+                          <div className="contacto-item">
+                            <EnvironmentOutlined style={{ color: "#f26c0d", marginRight: "6px" }} />
+                            <span className="contacto-text-small">{item.direccion}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </Card>
                 </List.Item>
               )}
@@ -525,5 +490,5 @@ export default function DirectorioPage() {
         </Col>
       </Row>
     </ConfigProvider>
-  );
+  )
 }
