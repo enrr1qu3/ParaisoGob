@@ -23,6 +23,17 @@ export default function Inicio() {
         // Simula un clic en el enlace
         link.click();
     };
+    const handleDownloadAtlas = () => {
+        // Crea un elemento <a>
+        const link = document.createElement('a');
+        // Establece la ruta del archivo
+        link.target = "_blank"
+        link.href = 'https://gobparaiso.blob.core.windows.net/transparencia/PAGINA_PRINCIPAL/Atlas_de_Peligros_Paraiso.pdf'
+        // Establece el nombre del archivo para la descarga
+        link.download = 'Plan Municipal de Desarrollo 2024 - 2027';
+        // Simula un clic en el enlace
+        link.click();
+    };
 
     return (
         <div>
@@ -39,6 +50,22 @@ export default function Inicio() {
                         </h2>
                         <Button color="orange" variant="outlined"
                             onClick={handleDownload}
+                            type='link' icon={<DownloadOutlined />} >
+                            Descargar
+                        </Button>
+                    </div>
+                </Card>
+
+                <Card
+                    style={{ margin: "3rem 0rem 0rem 0rem ", }}
+                >
+                    <div style={{ width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+
+                        <h2 style={{ margin: 0, color: "#f26c0d" }}>
+                            Atlas de Peligros del Municipio de Paraíso
+                        </h2>
+                        <Button color="orange" variant="outlined"
+                            onClick={handleDownloadAtlas}
                             type='link' icon={<DownloadOutlined />} >
                             Descargar
                         </Button>
