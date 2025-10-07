@@ -112,7 +112,6 @@ export const CollapseDocs = () => {
     size="large"
       style={{ marginBottom: "1.5rem" }}
       items={items}
-      defaultActiveKey={["1"]}
     />
   );
 };
