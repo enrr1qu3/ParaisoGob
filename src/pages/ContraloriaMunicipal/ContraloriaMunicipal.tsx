@@ -4,6 +4,7 @@ import { EyeOutlined, HomeOutlined } from '@ant-design/icons';
 import './style/ContraloriaMunicipal.css'
 import { useEffect, useState } from 'react';
 import { BsMailboxFlag } from 'react-icons/bs';
+import { CollapseDocs } from './components/CollapseDocs';
 export default function ContraloriaMunicipal() {
     const [countVisit, setCountVisit] = useState<number>(0);
     const visitApi = async () => {
@@ -178,6 +179,8 @@ export default function ContraloriaMunicipal() {
                                     <em style={{ color: '#1a4b8c' }}>Contralor Municipal</em>
                                 </p>
                             </div>
+
+                            <CollapseDocs />
 
                             <Row gutter={[16, 16]} style={{ marginBottom: '1.5rem' }}>
                                 <Col xs={24} md={12}>
