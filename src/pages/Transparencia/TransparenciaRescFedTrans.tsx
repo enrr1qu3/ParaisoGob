@@ -3,6 +3,7 @@ import { HomeOutlined } from '@ant-design/icons';
 import type { TabsProps } from 'antd';
 import { TablaInfoRecurFedTransferidos } from './Tablas/TablaInfoRecurFedTransferidos';
 import { TablaInfoHidrocarburos } from './Tablas/TablaInfoHidrocarburos';
+import { TablaActadeEntregaRA } from './Tablas/TablaActadeEntregaRA';
 
 
 export default function TransparenciaRescFedTrans() {
@@ -94,8 +95,14 @@ export default function TransparenciaRescFedTrans() {
                             defaultActiveKey="2"
                             items={items}
                         />
-                        <h3>Ramo 23 Hidrocarburos. Art. 72 LGCG</h3>
-                        <TablaInfoHidrocarburos />
+
+                        <div style={{marginTop: 40}}>
+                           <TablaActadeEntregaRA/> 
+                        </div>
+
+                        <div style={{marginTop: 40}}>
+                           <TablaInfoHidrocarburos /> 
+                        </div>
 
                     </Card>
                 </Col>
