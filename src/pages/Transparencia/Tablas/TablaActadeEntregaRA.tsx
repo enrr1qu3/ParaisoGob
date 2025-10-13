@@ -438,7 +438,7 @@ export const TablaActadeEntregaRA = () => {
       2025: {
         1: [
           {
-            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP386_redacted.pdf",
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONTRATO OP386.pdf",
             name: "Contrato",
           },
           {
@@ -454,7 +454,7 @@ export const TablaActadeEntregaRA = () => {
       2025: {
         1: [
           {
-            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP387_redacted.pdf",
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONTRATO OP387.pdf",
             name: "Contrato",
           },
           {

@@ -64,7 +64,7 @@ export const TablaInfoRecurFedTransferidos = () => {
         1: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/SRFT 1er Trimestre  2025.pdf",
-          }
+          },
         ],
         2: [
           {
@@ -95,6 +95,10 @@ export const TablaInfoRecurFedTransferidos = () => {
               "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/KA351_CONTRATO_COL. QUINTIN ARAUZ_VASCONCELOS_ELECTRIFICACION.pdf",
             name: "Contrato",
           },
+           {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/KA351_COL. QUINTIN ARAUZ_VASCONCELOS_ELECTRIFICACION.pdf",
+            name: "Acta Entrega",
+          }
         ],
       },
     },
