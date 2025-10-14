@@ -32,6 +32,10 @@ const items: MenuItem[] = [
         key: 'transparencia',
         children: [
             { label: 'Información Pública', key: 'informacion-publica' },
+            {
+              label: <a href="https://gobparaiso.blob.core.windows.net/transparencia/ADENDUM MODIFICATORIO.pdf" target="_blank" >Adendum Modificatorio( Diciembre 2024 )</a>,
+              key: '#-1'
+            },
             { label: 'Rendición de Cuentas', key: 'rendicion-de-cuentas' },
             { label: 'Normatividad Municipal', key: 'normatividad-municipal' },
             { label: 'Información Financiera LGCG', key: 'lgcg' },
