@@ -60,6 +60,12 @@ export default function TransparenciaComite() {
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-06-2025.pdf",
         },
     ]
+    const dataEE = [
+        {
+            nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA_NOTIF_ESTRADO_ELECTRONICO_2705108000013125.pdf",
+        },
+    ]
     const columns: ColumnsType<any> = [
         {
             title: 'Nombre',
@@ -360,9 +366,16 @@ export default function TransparenciaComite() {
                                 </div>
                             </Col>
                         </Row>
-                        <h3 className="tituloSecundariInicio">
+                                 <h3 className="tituloSecundariInicio">
                             Estrados Electrónicos
                         </h3>
+                                <Table
+                                    size="small"
+                                    dataSource={dataEE}
+                                    columns={columns}
+                                    rowKey={(record) => record.nombre}
+                                    scroll={{ x: 'max-content' }}
+                                />
                         <div style={{ marginBottom: 20 }}>
                             <Row gutter={[8, 8]} justify={"center"}>
 
