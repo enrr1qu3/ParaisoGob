@@ -62,8 +62,12 @@ export default function TransparenciaComite() {
     ]
     const dataEE = [
         {
-            nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO",
+            nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO 270510800013125",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA_NOTIF_ESTRADO_ELECTRONICO_2705108000013125.pdf",
+        },
+        {
+            nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 270510800014125",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/270510800014125.pdf",
         },
     ]
     const columns: ColumnsType<any> = [
