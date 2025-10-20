@@ -196,7 +196,7 @@ export default function DirectorioPage() {
       nombre: "Lic. Óscar Augusto Pérez Carrillo",
       puesto: "Unidad de Transparencia y Protección de Datos Personales",
       imagen: "/public/user.png",
-      correo: "transparencia@paraiso.gob.mx",
+      correo: "transparencia@paraiso2427.gob.mx",
       direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
     },
     {
