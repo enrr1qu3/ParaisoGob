@@ -8,28 +8,32 @@ export const TablaInfoProgramatica = () => {
             name: "CLASIFICACIÓN DE PROGRAMAS Y PROYECTOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion de programas y proyectos.pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/programas y proyectos 2DOTRIM.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/programas y proyectos 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/PROGRAMAS Y PROYECTOS.pdf"
             }
         },
         {
             name: "CLASIFICACIÓN POR CATEGORÍA PROGRAMÁTICA",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion por categoria programatica.pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CLASIFICACION POR CATEGORIA PROGRAMATICA 2DOTRIM.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CLASIFICACION POR CATEGORIA PROGRAMATICA 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/GASTO POR CATEGORIA PROGRAMATICA.pdf"
             }
         },
         {
             name: "RECURSOS RECIBIDOS FORTAMUN",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FORTAMUN.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FORTAMUN.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FORTAMUN TERCER TRIMESTRE.pdf"
             }
         },
         {
             name: "OBRAS Y ACCIONES A REALIZAR, FAIS ",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FAIS.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FAIS.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FAIS TERCER TRIMESTRE.pdf"
             }
         },
 
@@ -156,6 +160,14 @@ export const TablaInfoProgramatica = () => {
                         },
                         {
                             title: '3',
+                            dataIndex: [2025, 3],
+                            render: (e: any) => (
+                                (e) && <Button
+                                  icon={< FilePdfOutlined />}
+                                  href={e}
+                                  target="_blank"  
+                                />
+                            ),
                             align: 'center',
                         },
                         {

@@ -11,7 +11,8 @@ export const TablaInfoRendiCuentas = () => {
             },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion adminisrativa.pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION ADMINISTRATIVA 2DOTRIM.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION ADMINISTRATIVA 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/CLASIFICACION ADMINISTRATIVA.pdf"
             }
         },
         {
@@ -21,7 +22,8 @@ export const TablaInfoRendiCuentas = () => {
             },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion de economica (por tipo de gasto).pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION ECONOMICA (POR TIPO DE GASTO) 2DOTRIM.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION ECONOMICA (POR TIPO DE GASTO) 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/CLASIFICACION ECONOMICA (POR TIPO DE GASTO).pdf"
             }
         },
         {
@@ -32,6 +34,7 @@ export const TablaInfoRendiCuentas = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion por objeto del gasto.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR OBJETO DEL GASTO 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/CLASIFICACION POR OBJETO DEL GASTO (CAPITULO Y CONCEPTO).pdf"
             }
         },
         {
@@ -42,6 +45,7 @@ export const TablaInfoRendiCuentas = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PRESUPUESTARIA/TRIMESTRE-1/clasificacion funcional.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION FUNCIONAL (FINALIDAD Y FUNCION) 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/CLASIFICACION FUNCIONAL (FINALIDAD Y FUNCION).pdf"
             }
         },
         {
@@ -51,7 +55,8 @@ export const TablaInfoRendiCuentas = () => {
             },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion de programas y proyectos.pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR CATEGORIA PROGRAMATICA 2DOTRIM.pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR CATEGORIA PROGRAMATICA 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/GASTO POR CATEGORIA PROGRAMATICA.pdf"
             }
         },
         {
@@ -62,6 +67,7 @@ export const TablaInfoRendiCuentas = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion por categoria programatica.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR OBJETO DEL GASTO 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/PROGRAMAS Y PROYECTOS.pdf"
             }
         },
         {
@@ -71,6 +77,7 @@ export const TablaInfoRendiCuentas = () => {
             // },
             2025: {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/2DO_TRIM_2025/CLASIFICACION POR FUENTE DE FINANCIAMIENTO 2DOTRIM.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendición de Cuentas 3er Trimestre 2025/CLASIFICACION POR FUENTE DE FINANCIAMIENTO.pdf"
             }
         },
 
@@ -173,6 +180,15 @@ export const TablaInfoRendiCuentas = () => {
                         },
                         {
                             title: '3',
+                            dataIndex: [2025, 3],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {
