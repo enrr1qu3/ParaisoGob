@@ -8,7 +8,8 @@ export const TablaInfoLDF = () => {
             name: "ESTADO ANALÍTICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO)",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO).pdf",
-                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_(POR TIPO DE GASTO).pdf"
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_(POR TIPO DE GASTO).pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ECONOMICA.pdf"
             }
         },
         {
