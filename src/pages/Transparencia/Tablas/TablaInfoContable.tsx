@@ -75,6 +75,12 @@ export const TablaInfoContable = () => {
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/PASIVOS CONTINGENTES.pdf"
             }
         },
+        {
+            name: "CUENTAS ACTIVAS DE BANCOS",
+            2025: {
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2025/INFORMACION_CONTABLE/CUENTAS ACTIVAS DE BANCOS.pdf"
+            }
+        },
 
     ];
     const columns: ColumnsType<any> = [

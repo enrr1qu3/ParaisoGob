@@ -38,7 +38,20 @@ export const TablaInfoLGCGAnual = () => {
             name: "CUENTA PÚBLICA ANUALIZADA",
             2024: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/ANUAL/CUENTA%20PUBLICA%20ANUALIZADA%202024.pdf"
-            }
+            },
+            2020: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública 2020_Censurado-1.pdf"
+            },
+            2021: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública Anualizada 2021.pdf"
+            },
+            2022: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/INFORMACION CONTABLE ANUALIZADA 2022.pdf"
+            },
+            2023: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública Anualizada 2023_Censurado.pdf"
+            },
+
         },
 
 
@@ -54,48 +67,112 @@ export const TablaInfoLGCGAnual = () => {
             title: 'Trimestres',
             align: 'center',
             children: [
-                // {
-                //     title: '2021',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
-                // {
-                //     title: '2022',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
+                {
+                    title: '2020',
+                    children: [
+                        {
+                            title: '1',
+                            align: 'center',
+                            dataIndex: [2020, 1],
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                        },
+                        {
+                            title: '2',
+                            align: 'center',
+                        },
+
+                        {
+                            title: '3',
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            align: 'center',
+                        },
+                    ],
+                    align: "center",
+                },
+                {
+                    title: '2021',
+                    children: [
+                        {
+                            title: '1',
+                            align: 'center',
+                            dataIndex: [2021, 1],
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                        },
+
+                        {
+                            title: '2',
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            align: 'center',
+                        },
+                    ],
+                    align: "center",
+                },
+                {
+                    title: '2022',
+                    children: [
+                        {
+                            title: '1',
+                            align: 'center',
+                            dataIndex: [2022, 1],
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                        },
+                        {
+                            title: '2',
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            align: 'center',
+                        },
+                    ],
+                    align: "center",
+                },
                 {
                     title: '2023',
 
                     children: [
                         {
                             title: '1',
+                            dataIndex: [2023, 1],
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {
