@@ -21,6 +21,38 @@ export default function TransparenciaUEDMPage() {
             nombre: "ACTA DE INSTALACION Y PUNTO DE ACUERDO.pdf",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA%20DE%20INSTALACION%20Y%20PUNTO%20DE%20ACUERDO.pdf",
         },
+        {
+            nombre: "FAISMUN - TDR FAISMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/1. Tdr FAISMUN.pdf",
+        },
+        {
+            nombre: "FAISMUN - RESUMEN EJECUTIVO EEP FAISMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/2. Resumen ejecutivo EEP FAISMUN Paraiso.pdf",
+        },
+        {
+            nombre: "FAISMUN - FORMATO DE DIFUSION FAISMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/3. FORMATO DE DIFUSION FAISMUN.pdf",
+        },
+        {
+            nombre: "FAISMUN - EEP PARAISO FISM 2024",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/4. EEP_Paraiso_FISM_2024_V12.pdf",
+        },
+        {
+            nombre: "FORTAMUN - TDR FORTAMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/1. Tdr FORTAMUN.pdf",
+        },
+        {
+            nombre: "FORTAMUN - RESUMEN EJECUTIVO EVALUACION DESEMPEÑO FORTAMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/2. Resumen ejecutivo EVALUACION DESEMPEÑO FORTAMUN.pdf",
+        },
+        {
+            nombre: "FORTAMUN - FORMATO DE DIFUSION FORTAMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/3. FORMATO DE DIFUSION FORTAMUN.pdf",
+        },
+        {
+            nombre: "FORTAMUN - EVALUACION ESPECIFICA DE DESEMPEÑO FORTAMUN",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/4. EVALUACION ESPECIFICA DE DESEMPEÑO FORTAMUN.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {

@@ -37,7 +37,7 @@ export const TablaInfoLGCGAnual = () => {
         {
             name: "CUENTA PÚBLICA ANUALIZADA",
             2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION%20PROGRAMATICA/INFORMACION%20FINANCIERA%20LGCG/ANUAL/CUENTA%20PUBLICA%20ANUALIZADA%202024.pdf"
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/CUENTA PUBLICA ANUALIZADA 2024.pdf"
             },
             2020: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública 2020_Censurado-1.pdf"
@@ -46,10 +46,10 @@ export const TablaInfoLGCGAnual = () => {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública Anualizada 2021.pdf"
             },
             2022: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/INFORMACION CONTABLE ANUALIZADA 2022.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/CUENTA PUBLICA ANUALIZADA 2022.pdf"
             },
             2023: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública Anualizada 2023_Censurado.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/CUENTA PUBLICA ANUALIZADA 2023.pdf"
             },
 
         },
