@@ -69,6 +69,9 @@ export const TablaInfoContable = () => {
         },
         {
             name: "PASIVOS CONTINGENTES",
+            2024: {
+             4: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-4-2024/PASIVOS CONTINGENTES.pdf"   
+            },
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/PASIVOS CONTINGENTES.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/PASIVOS CONTINGENTES.pdf",
@@ -170,6 +173,15 @@ export const TablaInfoContable = () => {
                         },
                         {
                             title: '4',
+                             dataIndex: [2024, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                     ],

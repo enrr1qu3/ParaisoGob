@@ -81,6 +81,11 @@ export const TablaInfoRecurFedTransferidos = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/SRFT 2do. TRIM. 2025.pdf",
           }
         ],
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/SRFT_3ER.T.2025.pdf",
+          }
+        ],
       },
     },
     {
