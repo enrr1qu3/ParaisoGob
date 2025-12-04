@@ -298,6 +298,20 @@ export const TablaInfoHidrocarburos = () => {
                 ]
             }
         },
+        {
+            proyecto: "OPM60",
+            obra: 'REHABILITACIÓN DE ALUMBRADO PÚBLICO EN LA COLONIA NUEVO TORNO LARGO, DEL MUNICIPIO DE PARAÍSO, TABASCO.',
+            localidad: "270140028.- COL. NUEVO TORNO LARGO",
+            contrato: "R23mar-068-2025",
+            2025: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/3ER_TRIMESTRE_2025/CONTTATO_FIRMADO_OPM60.pdf",
+                        name: "Contrato"
+                    },
+                ]
+            }
+        },
 
     ];
 
@@ -532,6 +546,36 @@ export const TablaInfoHidrocarburos = () => {
                         },
                         {
                             title: '4',
+                            dataIndex: [2025, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                <>
+                                    <Row gutter={[5, 5]}>
+                                        <Col span={24}>
+                                            {e?.length >= 1 && (
+                                                <Tooltip title={e[0].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[0].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                        <Col span={24}>
+                                            {e?.length === 2 && (
+                                                <Tooltip title={e[1].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[1].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                    </Row>
+                                </>
+                            ),
                             align: 'center',
                         },
                     ]
