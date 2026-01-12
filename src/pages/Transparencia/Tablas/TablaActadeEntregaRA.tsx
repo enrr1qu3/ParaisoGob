@@ -13,6 +13,10 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO KA352_redacted.pdf",
             name: "Contrato",
           },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/KA352_ACTA DE ENTREGA_NICOLAS BRAVO 5TA. PUNTA BRAVA_MEJORA DE RED.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -489,10 +493,10 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP389_redacted.pdf",
             name: "Contrato",
           },
-          // {
-          //   url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/OP384_RA. UNION 2DA SEC_ALUMBRADO PUBLICO.pdf",
-          //   name: "Acta de entrega",
-          // },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP389_ACTA ENTREGA_RA. MOCTEZUMA 1RA. SEC_AGUA POTABLE.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -505,10 +509,10 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP390_redacted.pdf",
             name: "Contrato",
           },
-          // {
-          //   url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/OP384_RA. UNION 2DA SEC_ALUMBRADO PUBLICO.pdf",
-          //   name: "Acta de entrega",
-          // },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP390_ACTA ENTREGA_RA. NICOCLAS BRAVO 3RA. SEC_DIVERSAS ENTRADAS_ASFALTO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -521,10 +525,10 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP391_redacted.pdf",
             name: "Contrato",
           },
-          // {
-          //   url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/OP384_RA. UNION 2DA SEC_ALUMBRADO PUBLICO.pdf",
-          //   name: "Acta de entrega",
-          // },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP391_ACTA ENTREGA_RA. NICOLAS BRAVO 3RA. SEC_ISABELES_ASFALTO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -537,10 +541,10 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP392_redacted.pdf",
             name: "Contrato",
           },
-          // {
-          //   url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/OP384_RA. UNION 2DA SEC_ALUMBRADO PUBLICO.pdf",
-          //   name: "Acta de entrega",
-          // },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP392_ACTA ENTREGA_EJ. LIBERTAD 1RA. SEC (EL CHIVERO)_DIVERSAS ENTRADAS_ASFALTO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -553,10 +557,10 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP393_redacted.pdf",
             name: "Contrato",
           },
-          // {
-          //   url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/OP384_RA. UNION 2DA SEC_ALUMBRADO PUBLICO.pdf",
-          //   name: "Acta de entrega",
-          // },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP393_ACTA ENTREGA_CD. PARAISO_DISPENSARIO MEDICO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -569,10 +573,42 @@ export const TablaActadeEntregaRA = () => {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/CONTRATO OP394_redacted.pdf",
             name: "Contrato",
           },
-          // {
-          //   url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Acta_de_Entrega_RA_Nicolas_Bravo_3RA/OP384_RA. UNION 2DA SEC_ALUMBRADO PUBLICO.pdf",
-          //   name: "Acta de entrega",
-          // },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP394_ACTA ENTREGA_COL. QUINTIN ARAUZ_AGUA ENTUBADA.pdf",
+            name: "Acta de entrega",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 395",
+      description: "REHABILITACION DE RED DE AGUA ENTUBADA, EN LA COLONIA QUINTIN ARAUZ, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2025: {
+        1: [
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/CONTRATO OP395_redacted.pdf",
+            name: "Contrato",
+          },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP395_ACTA ENTREGA_EJ. FRANCISCO I. MADERO_LOS SANCHEZ_REVESTIMIENTO.pdf",
+            name: "Acta de entrega",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 396",
+      description: "REHABILITACION DE RED DE AGUA ENTUBADA, EN LA COLONIA QUINTIN ARAUZ, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2025: {
+        1: [
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/CONTRATO OP396.pdf",
+            name: "Contrato",
+          },
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/publicaciones-en-recursos-federales-transferidos_2026-01-12_1754/OP396_ACTA DE ENTREGA_EJ. PUERTO CEIBA (CARRIZAL)_MANUEL ALEJANDRO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },

@@ -23,6 +23,17 @@ export default function Inicio() {
         // Simula un clic en el enlace
         link.click();
     };
+    const handleDownloadConvocatory = () => {
+        // Crea un elemento <a>
+        const link = document.createElement('a');
+        // Establece la ruta del archivo
+        link.target = "_blank"
+        link.href = 'https://gobparaiso.blob.core.windows.net/transparencia/CONVOCATORIA PARA LA ENAJENACION DE 493 BIENES MUEBLES PROPIEDAD DEL AYUNTAMIENTO DE PARAISO.pdf'
+        // Establece el nombre del archivo para la descarga
+        link.download = 'CONVOCATORIA PARA LA ENAJENACION DE 493 BIENES';
+        // Simula un clic en el enlace
+        link.click();
+    };
     const handleDownloadAtlas = () => {
         // Crea un elemento <a>
         const link = document.createElement('a');
@@ -73,7 +84,7 @@ export default function Inicio() {
                 </Card>
                 <Anuncios />
                 <CartasInicio />
-                <Card
+                {/* <Card
                     style={{ margin: "3rem 0rem 0rem 0rem ", }}
                 >
                     <Row gutter={[8, 8]} style={{ marginTop: 10 }}>
@@ -103,6 +114,21 @@ export default function Inicio() {
                         </Col>
 
                     </Row>
+                </Card> */}
+                <Card
+                    style={{ marginBottom: 20 }}
+                >
+                    <div style={{ width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+
+                        <h2 style={{ margin: 0, color: "#f26c0d" }}>
+                            Convocatoria para la  enajenación de 493 bienes muebles
+                        </h2>
+                        <Button color="orange" variant="outlined"
+                            onClick={handleDownloadConvocatory}
+                            type='link' icon={<DownloadOutlined />} >
+                            Descargar
+                        </Button>
+                    </div>
                 </Card>
             </div>
         </div >
