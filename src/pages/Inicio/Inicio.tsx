@@ -1,4 +1,4 @@
-import { Button, Card, Col, Image, Row } from 'antd';
+import { Button, Card } from 'antd';
 
 import 'swiper/swiper-bundle.css';
 
