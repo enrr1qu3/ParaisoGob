@@ -209,6 +209,20 @@ export const TablaInfoHidrocarburos = () => {
             }
         },
         {
+            proyecto: "KAM58",
+            obra: "MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN  MEDIA Y BAJA TENSION EN CALLE ALDEMIR MAGAÑA Y CALLE FRANCISCO VILLA EN EL EJIDO ORIENTE (SAN CAYETANO), DEL MUNICIPIO DE PARAISO, TABASCO.",
+            localidad: "270140024 EJ ORIENTE (SAN CAYETANO)",
+            contrato: "CO-PA-R23TER-075-2025",
+            2025: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CTTO. FIRMADO KAM58_redacted.pdf",
+                        name: "Contrato"
+                    }
+                ]
+            }
+        },
+        {
             proyecto: "OPM55",
             obra: "REHABILITACION DE CARCAMO DE AGUAS PLUVIALES (UBIC CALLE 2 DE ABRIL ), EN LA CIUDAD DE PARAISO, DEL MUNICIPIO DE PARAISO, TABASCO",
             localidad: "270140001.  CD DE PARAISO",
@@ -307,6 +321,52 @@ export const TablaInfoHidrocarburos = () => {
                 4: [
                     {
                         url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/3ER_TRIMESTRE_2025/CONTTATO_FIRMADO_OPM60.pdf",
+                        name: "Contrato"
+                    },
+                ]
+            }
+        },
+        {
+            proyecto: "OPM61",
+            obra: 'REHABILITACIÓN A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2" A FINOS EN (UBIC. ENTRADA 1, ENTRADA 2 Y ENTRADA EL ALUCHERO) DEL EJIDO PUERTO CEIBA (CARRIZAL) DEL MUNICIPIO DE PARAISO; TABASCO',
+            localidad: "270140005.- EJ. PUERTO CEIBA (CARRIZAL)",
+            contrato: "CO-PA-R23MAR-072-2025",
+            2025: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CTTO FIRMADO OPM61_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/OPM61 ACTA DE ENTREGA.pdf",
+                        name: "Acta de entrega"
+                    },
+                ]
+            }
+        },
+        {
+            proyecto: "OPM62",
+            obra: 'REHABILITACION DE ALUMBRADO PUBLICO EN EL EJIDO PALESTINA DEL MUNICIPIO DE PARAISO, TABASCO.',
+            localidad: "270140056 -  EJIDO PALESTINA",
+            contrato: "CO-PA- R23MAR-073-2025",
+            2025: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CCTO. FIRMADO OPM62_redacted.pdf",
+                        name: "Contrato"
+                    },
+                ]
+            }
+        },
+        {
+            proyecto: "OPM63",
+            obra: 'REHABILITACION DE ALUMBRADO PUBLICO PARA INHIBIR LOS DELITOS EN LA RANCHERIA NICOLAS BRAVO CUARTA SECCION (TILAPA) DEL MUNICIPÍO DE PARAISO, TABASCO. ',
+            localidad: "270140037 RIA NICOLAS BRAVO 4TA SECCION (TILAPA)",
+            contrato: "CO-PA- R23MAR-074-2025",
+            2025: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CTTO. FIRMADO OPM63_redacted.pdf",
                         name: "Contrato"
                     },
                 ]
@@ -547,6 +607,117 @@ export const TablaInfoHidrocarburos = () => {
                         {
                             title: '4',
                             dataIndex: [2025, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                <>
+                                    <Row gutter={[5, 5]}>
+                                        <Col span={24}>
+                                            {e?.length >= 1 && (
+                                                <Tooltip title={e[0].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[0].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                        <Col span={24}>
+                                            {e?.length === 2 && (
+                                                <Tooltip title={e[1].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[1].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                    </Row>
+                                </>
+                            ),
+                            align: 'center',
+                        },
+                    ]
+                },
+                {
+                    title: '2026',
+                    children: [
+                        {
+                            title: '1',
+                            dataIndex: [2026, 1],
+                            width: "10px",
+                            render: (e: any) => (
+                                <>
+                                    <Row gutter={[5, 5]}>
+                                        <Col span={24}>
+                                            {e?.length >= 1 && (
+                                                <Tooltip title={e[0].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[0].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                        <Col span={24}>
+                                            {e?.length === 2 && (
+                                                <Tooltip title={e[1].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[1].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                    </Row>
+                                </>
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '2',
+                            dataIndex: [2026, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                <>
+                                    <Row gutter={[5, 5]}>
+                                        <Col span={24}>
+                                            {e?.length >= 1 && (
+                                                <Tooltip title={e[0].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[0].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                        <Col span={24}>
+                                            {e?.length === 2 && (
+                                                <Tooltip title={e[1].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[1].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                    </Row>
+                                </>
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            dataIndex: [2026, 4],
                             width: "10px",
                             render: (e: any) => (
                                 <>
