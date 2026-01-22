@@ -34,6 +34,14 @@ export const MenuLayoutMovil = () => {
             key: 'transparencia',
             children: [
                 { label: 'Información Pública', key: 'informacion-publica' },
+                {
+              label: <a href="https://gobparaiso.blob.core.windows.net/transparencia/ADENDUM MODIFICATORIO.pdf" target="_blank" >Adendum Modificatorio( Diciembre 2024 )</a>,
+              key: '#-1'
+            },
+            {
+              label: <a href="https://gobparaiso.blob.core.windows.net/transparencia/TEM_PATXCT06TEOFANI_20260119110821.xlsx" target="_blank" >Inventario de Bienes Muebles (Segundo Semestre 2025)</a>,
+              key: '#-3'
+            },
                 { label: 'Rendición de Cuentas', key: 'rendicion-de-cuentas' },
                 { label: 'Normatividad Municipal', key: 'normatividad-municipal' },
                 { label: 'Información Financiera LGCG', key: 'lgcg' },
@@ -42,6 +50,10 @@ export const MenuLayoutMovil = () => {
                 { label: 'Sistema de Evaluación de Armonización Contable', key: 'sevac' },
                 { label: 'Unidad de Evaluación del Desempeño Municipal (UEDM)', key: 'uedm' },
                 { label: 'Archivo Municipal', key: 'archivo-municipal' },
+                {
+                  label: <a href="https://gobparaiso.blob.core.windows.net/transparencia/INVENTARIO_GENERAL/INVENTARIO GENERAL AL 30 DE JUNIO DE 2025 FORMATO PATXCT06.pdf" target="_blank" >Inventario General</a>,
+                  key: '#-2'
+                },
                 // { label: 'Ramo 23 Hidrocarburos. Art. 72 LGCG', key: 'ramo-23-hidrocarburos' },
                 // { label: 'Información Publica', key: 'transparencia/archivos-publicados' },
 

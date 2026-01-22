@@ -25,7 +25,8 @@ export const TablaInfoProgramatica = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FORTAMUN.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FORTAMUN TERCER TRIMESTRE.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FORTAMUN TERCER TRIMESTRE.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONACFIV4TOTRIM2025.pdf"
             }
         },
         {
@@ -33,7 +34,8 @@ export const TablaInfoProgramatica = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FAIS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FAIS TERCER TRIMESTRE.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FAIS TERCER TRIMESTRE.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONACFIII4TOTRIM2025.pdf"
             }
         },
 
@@ -172,6 +174,14 @@ export const TablaInfoProgramatica = () => {
                         },
                         {
                             title: '4',
+                            dataIndex: [2025, 4],
+                            render: (e: any) => (
+                                (e) && <Button
+                                  icon={< FilePdfOutlined />}
+                                  href={e}
+                                  target="_blank"  
+                                />
+                            ),
                             align: 'center',
                         },
                     ]
