@@ -31,6 +31,11 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONAC FORTAMUN TERCER TRIMESTRE.pdf"
           }
+        ],
+        4: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONACFIV4TOTRIM2025.pdf"
+          }
         ]
       },
     },
@@ -57,6 +62,11 @@ export const TablaInfoRecurFedTransferidos = () => {
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONAC FAIS TERCER TRIMESTRE.pdf"
+          }
+        ],
+        4: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONACFIII4TOTRIM2025.pdf"
           }
         ]
       },
@@ -423,7 +433,31 @@ export const TablaInfoRecurFedTransferidos = () => {
             },
             {
               title: "4",
+               dataIndex: [2025, 4],
+              width: "10px",
               align: "center",
+              render: (e: any) => (
+                <>
+                  {e?.length >= 1 && (
+                    <Tooltip title={e[0].name}>
+                      <Button
+                        icon={<FilePdfOutlined />}
+                        href={e[0].url}
+                        target="_blank"
+                      />
+                    </Tooltip>
+                  )}
+                  {e?.length === 2 && (
+                    <Tooltip title={e[1].name}>
+                      <Button
+                        icon={<FilePdfOutlined />}
+                        href={e[1].url}
+                        target="_blank"
+                      />
+                    </Tooltip>
+                  )}
+                </>
+              ),
             },
           ],
         },

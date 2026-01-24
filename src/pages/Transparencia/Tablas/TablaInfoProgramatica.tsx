@@ -9,7 +9,8 @@ export const TablaInfoProgramatica = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion de programas y proyectos.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/programas y proyectos 2DOTRIM.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/PROGRAMAS Y PROYECTOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/PROGRAMAS Y PROYECTOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/4to semstre/PROGRAMAS Y PROYECTOS.pdf"
             }
         },
         {
@@ -17,7 +18,14 @@ export const TablaInfoProgramatica = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RENDICION DE CUENTAS/INFORMACION PROGRAMATICA/TRIMESTRE-1/clasificacion por categoria programatica.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CLASIFICACION POR CATEGORIA PROGRAMATICA 2DOTRIM.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/GASTO POR CATEGORIA PROGRAMATICA.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/GASTO POR CATEGORIA PROGRAMATICA.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/4to semstre/GASTO POR CATEGORIA PROGRAMATICA.pdf"
+            }
+        },
+        {
+            name: "PROGRAMAS Y PROYECTOS DE INVERSIÓN",
+            2025: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/4to semstre/PROGRAMAS Y PROYECTOS DE INVERSION.pdf"
             }
         },
         {
