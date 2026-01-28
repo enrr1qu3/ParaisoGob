@@ -29,6 +29,26 @@ export const TransparenciaArchivoMunicipal = () => {
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/ACTA 2DA SESIÓN ORDINARIA DEL GI.pdf",
 
         },
+        {
+            name: "PUBLICACION DE ARCHIVO",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/Descargas-28-01-26/PUBLICACION DE ARCHIVO.pdf",
+
+        },
+        {
+            name: "ACTA REINSTALACION DEL GI",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/Descargas-28-01-26/ACTA REINSTALACION DEL GI.pdf",
+
+        },
+        {
+            name: "INFORME PADA 2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/Descargas-28-01-26/INFORME PADA 2025.docx",
+
+        },
+        {
+            name: "PADA 2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/Descargas-28-01-26/PADA 2026.docx",
+
+        },
     ]
 
     const columns: ColumnsType<any> = [
