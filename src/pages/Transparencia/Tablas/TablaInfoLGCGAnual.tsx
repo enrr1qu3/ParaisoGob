@@ -8,24 +8,36 @@ export const TablaInfoLGCGAnual = () => {
             name: "INFORMACIÓN ADICIONAL PARA PRESENTAR EL PROYECTO DE PRESUPUESTO DE EGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PERIODICOFICIALPRESUPUESTO2025.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/PRESUPUESTO 2026 PUB.docx"
             }
         },
         {
             name: "CALENDARIO DEL PRESUPUESTO DE EGRESOS BASE MENSUAL",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/CALENDARIZADOPRESUPUESTO2025.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/calendario del presupuesto 2026.pdf"
             }
         },
         {
             name: "PRESUPUESTO DE EGRESOS APROBADO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO 2025 PUB.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/APROBADOPRESUPUESTO 2026.pdf"
             }
         },
         {
             name: "DOCUMENTOS DE APROBACIÓN DEL PRESUPUESTO DE EGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO 2025 PUB.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/PRESUPUESTO2026.pdf"
             }
         },
         {
@@ -226,6 +238,36 @@ export const TablaInfoLGCGAnual = () => {
                         {
                             title: '1',
                             dataIndex: [2025, 1],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '2',
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            align: 'center',
+                        },
+                    ]
+                },
+                {
+                    title: '2026',
+                    children: [
+                        {
+                            title: '1',
+                            dataIndex: [2026, 1],
                             width: "10px",
                             render: (e: any) => (
                                 (e) && < Button

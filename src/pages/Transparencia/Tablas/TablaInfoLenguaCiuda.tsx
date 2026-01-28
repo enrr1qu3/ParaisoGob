@@ -8,6 +8,9 @@ export const TablaInfoLenguaCiuda = () => {
             name: "PRESUPUESTO DE LENGUAJE CIUDADANO",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/PRESUPUESTO LENGUAJE CIUDADANO/ANUAL/POA version ciudadana.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Lenguaje Ciudadano/version ciudadana 2026.pdf"
             }
         },
     ];
@@ -110,6 +113,36 @@ export const TablaInfoLenguaCiuda = () => {
                         {
                             title: '1',
                             dataIndex: [2025, 1],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '2',
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            align: 'center',
+                        },
+                    ]
+                },
+                {
+                    title: '2026',
+                    children: [
+                        {
+                            title: '1',
+                            dataIndex: [2026, 1],
                             width: "10px",
                             render: (e: any) => (
                                 (e) && < Button
