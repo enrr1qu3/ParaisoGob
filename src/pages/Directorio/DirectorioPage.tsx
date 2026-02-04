@@ -144,14 +144,14 @@ export default function DirectorioPage() {
       direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
     },
     {
-      nombre: "Nury del Carmen Mendoza Pérez",
+      nombre: "Tec. Nelly Carrillo Carrillo",
       puesto: "Coordinación del DIF Municipal",
       imagen: "/public/user.png",
       correo: "dif@paraiso.gob.mx",
       direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
     },
     {
-      nombre: "Dr. Guillermo Valencia Gómez",
+      nombre: "Dr. Alejandro Antonio Calderon Alipi",
       puesto: "Coordinación de Atención a la Salud",
       imagen: "/public/user.png",
       correo: "salud@paraiso2427.gob.mx",

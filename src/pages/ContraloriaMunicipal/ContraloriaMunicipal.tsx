@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Col, ConfigProvider, Row, Card, Breadcrumb, Statistic } from 'antd';
-import { EyeOutlined, HomeOutlined } from '@ant-design/icons';
+import { EyeOutlined, FilePdfOutlined, HomeOutlined } from '@ant-design/icons';
 import './style/ContraloriaMunicipal.css'
 import { useEffect, useState } from 'react';
 import { BsMailboxFlag } from 'react-icons/bs';
@@ -179,7 +179,7 @@ export default function ContraloriaMunicipal() {
                                     <em style={{ color: '#1a4b8c' }}>Contralor Municipal</em>
                                 </p>
                             </div>
-
+        
                             <CollapseDocs />
 
                             <Row gutter={[16, 16]} style={{ marginBottom: '1.5rem' }}>
@@ -221,6 +221,35 @@ export default function ContraloriaMunicipal() {
                                             </h4>
                                         </div>
                                     </Link>
+                                </Col>
+                            </Row>
+                            <Row gutter={[16, 16]} style={{ marginBottom: '1.5rem' }}>
+                                <Col span={24}>
+                                    <a
+                                        href="https://gobparaiso.blob.core.windows.net/contraloria/requisitos contratistas 2026 FEB.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{ textDecoration: 'none' }}
+                                    >
+                                        <div style={{
+                                            backgroundColor: '#1a4b8c',
+                                            color: '#FFF',
+                                            padding: '1rem',
+                                            borderRadius: '6px',
+                                            textAlign: 'center',
+                                            cursor: 'pointer',
+                                            transition: 'opacity 0.3s',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            gap: '0.5rem'
+                                        }}>
+                                            <FilePdfOutlined />
+                                            <h4 style={{ margin: '0', fontSize: '1rem' }}>
+                                                Requisitos de contratistas
+                                            </h4>
+                                        </div>
+                                    </a>
                                 </Col>
                             </Row>
 
