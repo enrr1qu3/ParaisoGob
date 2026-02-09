@@ -9,7 +9,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS (POR TIPO DE GASTO).pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_(POR TIPO DE GASTO).pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ECONOMICA.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ECONOMICA.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO_ANALITICO_DEL_EJERCICIO_DEL_PRESUPUESTO_DE_EGRESO_ DETALLADO_(CLASIFICACION_POR_OBJETO_DE_GASTO)_LDF_01-01-25-31-12-25.pdf",
             }
         },
         {
@@ -17,7 +18,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/BALANCE PRESUPUESTARIO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/BALANCE PRESUPUESTARIO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/BALANCE PRESUPUESTARIO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/BALANCE PRESUPUESTARIO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/BALANCE_PRESUPUESTARIO_LDF_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -25,7 +27,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DE INGRESOS DETALLADOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DE INGRESOS DETALLADOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DE INGRESOS DETALLADO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DE INGRESOS DETALLADO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO_ANAITICO_DE_LOS_INGRESOS_DETALLADOS_LDF_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -33,7 +36,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ADMINISTRATIVA.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ADMINISTRATIVA.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ADMINISTRATIVA.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION ADMINISTRATIVA.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO_ANALITICO_DEL_EJERCICIO_DEL_PRESUPUESTO_DE_EGRESOS_DETALLADO_(CLASIFICACION_ADMINISTRATIVA)_LDF_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -41,7 +45,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION DE SERVICIOS PERSONALES.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION DE SERVICIOS PERSONALES.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION DE SERVICIOS PERSONALES.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION DE SERVICIOS PERSONALES.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO~4.PDF",
             }
         },
         {
@@ -49,7 +54,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION FUNCIONAL.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION FUNCIONAL.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION FUNCIONAL.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION FUNCIONAL.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO_ANALITICO_DEL_EJERCICIO_DEL_PRESUPUESTO_DE_EGRESOS_DETALLADO_(CLASIFICACION_FUNCIONAL)_LDF_01-12-25-31-12-25.pdf",
             }
         },
         {
@@ -57,7 +63,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION POR OBJETO DEL GASTO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION POR OBJETO DEL GASTO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION POR OBJETO DEL GASTO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO ANALITICO DEL EJERCICIO DEL PRESUPUESTO DE EGRESOS_CLASIFICACION POR OBJETO DEL GASTO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO_ANALITICO_DEL_EJERCICIO_DEL_PRESUPUESTO_DE_EGRESO_ DETALLADO_(CLASIFICACION_POR_OBJETO_DE_GASTO)_LDF_01-01-25-31-12-25.pdf",
             }
         },
         {
@@ -65,7 +72,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/ESTADO DE SITUACION FINANCIERA DETALLADO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/ESTADO DE SITUACION FINANCIERA DETALLADO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO DE SITUACION FINANCIERA DETALLADO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/ESTADO DE SITUACION FINANCIERA DETALLADO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/ESTADO_DE_SITUACION_FINANCIERA_DETALLADO_LDF_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -73,7 +81,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/INFORME ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/INFORME ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/INFORME ANALITICO DE LA DEUDA PUBLICA Y OTROS PASIVOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/INFORME ANALITICO DE LA DEUDA PUBLICA Y OTROS PASIVOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/INFORME_ANALITICO_DE_LA_DEUDA_PUBLICA_Y_OTROS_PASIVOS_LDF_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -81,7 +90,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/INFORME ANALITICO DE OBLIGACIONES DE FINANCIAMIENTO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/INFORME ANALITICO DE OBLIGACIONES DE FINANCIAMIENTO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/INFORME ANALITICO DE OBLIGACIONESDIFERENTES DE FINANCIAMIENTOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/INFORME ANALITICO DE OBLIGACIONESDIFERENTES DE FINANCIAMIENTOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/INFORME_ANALITICO_DE_OBLIGACIONES_DIFERENTES_DE_FINANCIAMIENTO_LDF_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -89,7 +99,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/INFORME SOBRE ESTUDIOS ACTUARIALES.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/INFORME SOBRE ESTUDIOS ACTUARIALES.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/INFORME SOBRE ESTUDIOS ACTUARIALES.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/INFORME SOBRE ESTUDIOS ACTUARIALES.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/INFORME_SOBRE_ESTUDIOS_ACTUARIALES_LDF_01-10-2025-31-12-2025.pdf",
             }
         },
         {
@@ -97,7 +108,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/OBLIGACIONES A CORTO PLAZO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/OBLIGACIONES A CORTO PLAZO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/OBLIGACIONES A CORTO PLAZO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/OBLIGACIONES A CORTO PLAZO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/OBLIGACIONES_A_CORTO_PLAZO_LDF_01-10-2025-31-12-2025.pdf",
             }
         },
         {
@@ -105,7 +117,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/PROYECCIONES DE EGRESOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/PROYECCIONES DE EGRESOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/PROYECCIONES DE EGRESOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/PROYECCIONES DE EGRESOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/PROYECCIONES_DE_EGRESOS_LDF.pdf",
             }
         },
         {
@@ -113,7 +126,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/PROYECCIONES DE INGRESOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/PROYECCIONES DE INGRESOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/PROYECCIONES DE INGRESOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/PROYECCIONES DE INGRESOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/PROYECCIONES_DE_INGRESOS_LDF.pdf",
             }
         },
         {
@@ -121,7 +135,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/RESULTADOS DE EGRESOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/RESULTADOS DE EGRESOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/RESULTADOS DE EGRESOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/RESULTADOS DE EGRESOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/RESULTADOS_DE_EGRESOS_LDF.pdf",
             }
         },
         {
@@ -129,7 +144,8 @@ export const TablaInfoLDF = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/LDF/RESULTADOS DE INGRESOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/LDF/RESULTADOS DE INGRESOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/RESULTADOS DE INGRESOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/RESULTADOS DE INGRESOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/LDF Entidades Federativas y Municipios/LDF-ENTIDADES-FEDERATIVAS-Y-MUNICIPIOS-09-02-2026/RESULTADOS_DE_INGRESOS_LDF.pdf",
             }
         },
 
@@ -145,24 +161,6 @@ export const TablaInfoLDF = () => {
             title: 'Trimestres',
             align: 'center',
             children: [
-                // {
-                //     title: '2021',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
                 // {
                 //     title: '2022',
                 //     children: [
@@ -246,9 +244,9 @@ export const TablaInfoLDF = () => {
                             dataIndex: [2025, 2],
                             render: (e: any) => (
                                 (e) && <Button
-                                icon={< FilePdfOutlined />}
-                                href={e}
-                                target="_blank"
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
                                 />
                             ),
                             align: 'center',
@@ -258,15 +256,23 @@ export const TablaInfoLDF = () => {
                             dataIndex: [2025, 3],
                             render: (e: any) => (
                                 (e) && <Button
-                                icon={< FilePdfOutlined />}
-                                href={e}
-                                target="_blank"
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
                                 />
                             ),
                             align: 'center',
                         },
                         {
                             title: '4',
+                            dataIndex: [2025, 4],
+                            render: (e: any) => (
+                                (e) && <Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                     ]

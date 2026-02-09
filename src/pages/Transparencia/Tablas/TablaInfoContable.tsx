@@ -8,7 +8,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE ACTIVIDADES.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO DE ACTIVIDADES.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE ACTIVIDADES.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE ACTIVIDADES.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_DE_ACTIVIDADES_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -16,7 +17,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO ANALITICO DE LA DEUDA Y OTROS PASIVOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_ANALITICO_DE_LA_DEUDA_Y_OTROS_PASIVOS_01-12-2025-31-12-2025.pdf",
             }
         },
         {
@@ -24,7 +26,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO ANALITICO DEL ACTIVO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO ANALITICO DEL ACTIVO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO ANALITICO DEL ACTIVO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO ANALITICO DEL ACTIVO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_ANALITICO_DEL_ACTIVO_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -32,7 +35,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE CAMBIOS EN LA SITUACION FINANCIERA.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_DE_CAMBIOS_EN_LA_SITUACION_FINANCIERA_01-12-2025-31-12-2025.pdf",
             }
         },
         {
@@ -40,7 +44,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE FLUJO DE EFECTIVO.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO DE FLUJO EFECTIVO.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE FLUJO EFECTIVO.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE FLUJO EFECTIVO.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_DE_FLUJOS_DE_EFECTIVO_01-01-2025-31-12-2025.pdf",
             }
         },
         {
@@ -48,7 +53,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE SITUACION FINANCIERA.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO DE SITUACION FINANCIERA.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE SITUACION FINANCIERA.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE SITUACION FINANCIERA.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_DE_SITUACION_FINANCIERA_31-12-2025.pdf",
             }
         },
         {
@@ -56,7 +62,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/ESTADO DE VARIACION DE LA HACIENDA PUBLICA.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/ESTADO_DE_VARIACION_EN_LA_HACIENDA_PUBLICA_01-12-2025-31-12-2025.pdf",
             }
         },
         {
@@ -64,7 +71,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/NOTAS A LOS ESTADOS FINANCIEROS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/NOTAS A LOS ESTADOS FINANCIEROS.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/NOTAS A LOS ESTADOS FINANCIEROS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/NOTAS A LOS ESTADOS FINANCIEROS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/NOTAS_A_LOS_ESTADOS_FINANCIEROS_01-12-2025-31-12-2025.pdf",
             }
         },
         {
@@ -75,7 +83,8 @@ export const TablaInfoContable = () => {
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/INFORMACION CONTABLE/PASIVOS CONTINGENTES.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION CONTABLE/PASIVOS CONTINGENTES.pdf",
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/PASIVOS CONTINGENTES.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/PASIVOS CONTINGENTES.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/Sistema de Evaluación de Armonización Contable/INFORMACION_CONTABLE_31-12-2025/INFORME_SOBRE_PASIVOS_CONTINGENTES_01-12-2025-31-12-2025.pdf",
             }
         },
         {
@@ -97,24 +106,6 @@ export const TablaInfoContable = () => {
             title: 'Trimestres',
             align: 'center',
             children: [
-                // {
-                //     title: '2021',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
                 // {
                 //     title: '2022',
                 //     children: [
@@ -230,7 +221,16 @@ export const TablaInfoContable = () => {
                             align: 'center',
                         },
                         {
-                            title: '4',
+                            title: '4', 
+                            dataIndex: [2025, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && <Button
+                                icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                     ]
