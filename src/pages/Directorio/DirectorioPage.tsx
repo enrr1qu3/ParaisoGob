@@ -31,7 +31,7 @@ export default function DirectorioPage() {
         "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86611",
     },
     {
-      nombre: "Ing. Isaac López Guerra",
+      nombre: "C.P. Alfonso de la Cruz Garcia",
       puesto: "Contraloría Municipal",
       imagen: "/public/user.png",
       correo: "contraloria@paraiso.gob.mx",
