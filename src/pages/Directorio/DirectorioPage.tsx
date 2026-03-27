@@ -151,7 +151,7 @@ export default function DirectorioPage() {
       direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
     },
     {
-      nombre: "Dr. Alejandro Antonio Calderon Alipi",
+      nombre: "Dr. Francisco Calderón Dorantes",
       puesto: "Coordinación de Atención a la Salud",
       imagen: "/public/user.png",
       correo: "salud@paraiso2427.gob.mx",
