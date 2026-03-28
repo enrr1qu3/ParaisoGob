@@ -372,6 +372,20 @@ export const TablaInfoHidrocarburos = () => {
                 ]
             }
         },
+        {
+            proyecto: "OPM01",
+            obra: 'Rehabilitación de Red de Drenaje Sanitario en diversas calles del Ejido Oriente, (San Cayetano), del Municipio de Paraiso, Tabasco.',
+            localidad: "270140024.  Ej,. Oriente San Cayetano.",
+            contrato: "CO-PA-R23MAR-003-2026",
+            2026: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CONTRATO%20FIRMADO%20OPM01.pdf",
+                        // name: "Contrato"
+                    },
+                ]
+            }
+        },
 
     ];
 
