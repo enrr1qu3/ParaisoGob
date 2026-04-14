@@ -283,42 +283,9 @@ export const TablaInfoRecurFedTransferidos = () => {
       align: "center",
       children: [
         {
-          title: "2023",
-
-          children: [
-            {
-              title: "1",
-              align: "center",
-            },
-            {
-              title: "2",
-              align: "center",
-            },
-            {
-              title: "3",
-              align: "center",
-            },
-            {
-              title: "4",
-              align: "center",
-            },
-          ],
-        },
-        {
           title: "2024",
           children: [
-            {
-              title: "1",
-              align: "center",
-            },
-            {
-              title: "2",
-              align: "center",
-            },
-            {
-              title: "3",
-              align: "center",
-            },
+
             {
               title: "4",
               dataIndex: [2024, 4],

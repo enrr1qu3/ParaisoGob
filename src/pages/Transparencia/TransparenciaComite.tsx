@@ -21,8 +21,12 @@ export default function TransparenciaComite() {
     };
     useEffect(() => {
         visitApi();
-    }, []); //
+    }, []); 
     const dataUEDM = [
+        {
+            nombre: "CEDULA DE NOTIFICACION POR ESTRADO ELECTRONICO",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/CEDULA_DE_NOTIFICACION_POR_ESTRADO_ELECTRONICO.pdf",
+        },
         {
             nombre: "ACTA DE INSTALACION DEL COMITE DE TRANSPARENCIA NUEVA LEY",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/ACTA DE INSTALACION DEL COMITE DE TRANSPARENCIA NUEVA LEY.pdf",
@@ -59,7 +63,7 @@ export default function TransparenciaComite() {
             nombre: "SE-06-2025",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-06-2025.pdf",
         },
-    ]
+    ];
     const dataEE = [
         {
             nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO 270510800013125",
@@ -69,7 +73,7 @@ export default function TransparenciaComite() {
             nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 270510800014125",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/270510800014125.pdf",
         },
-    ]
+    ];
     const columns: ColumnsType<any> = [
         {
             title: 'Nombre',
@@ -93,8 +97,7 @@ export default function TransparenciaComite() {
         },
     ];
     return (
-        <ConfigProvider
-        >
+        <ConfigProvider>
             <Row
                 style={{
                     maxWidth: "87.5rem",
@@ -104,7 +107,6 @@ export default function TransparenciaComite() {
 
                 }}
                 gutter={[0, 24]}
-
             >
 
                 <Col
@@ -370,16 +372,16 @@ export default function TransparenciaComite() {
                                 </div>
                             </Col>
                         </Row>
-                                 <h3 className="tituloSecundariInicio">
+                        <h3 className="tituloSecundariInicio">
                             Estrados Electrónicos
                         </h3>
-                                <Table
-                                    size="small"
-                                    dataSource={dataEE}
-                                    columns={columns}
-                                    rowKey={(record) => record.nombre}
-                                    scroll={{ x: 'max-content' }}
-                                />
+                        <Table
+                            size="small"
+                            dataSource={dataEE}
+                            columns={columns}
+                            rowKey={(record) => record.nombre}
+                            scroll={{ x: 'max-content' }}
+                        />
                         <div style={{ marginBottom: 20 }}>
                             <Row gutter={[8, 8]} justify={"center"}>
 
@@ -452,9 +454,9 @@ export default function TransparenciaComite() {
                             </Row>
                         </div>
                     </Card>
-                </Col >
+                </Col>
 
             </Row >
-        </ConfigProvider >
+        </ConfigProvider>
     )
 }

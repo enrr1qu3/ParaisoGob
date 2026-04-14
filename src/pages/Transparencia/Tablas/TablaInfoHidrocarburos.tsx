@@ -17,126 +17,6 @@ export const TablaInfoHidrocarburos = () => {
             contrato: "CO-PA-R23TER-008-2025"
         },
         {
-            proyecto: "OPM56",
-            obra: "REHABILITACION DE CALLE A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2 A FINOS, (UBICACIÓN ENTRADA LOS GÓMEZ) EN LA RANCHERIA LAS FLORES PRIMERA SECCIÓN, DEL MUNICIPIO DE PARAISO; TABASCO. (MARITIMA 2023)",
-            localidad: "270140009. RA. LAS FLORES 1RA. SECCION",
-            contrato: "CO-PA-HIDRCMAR-021-2024",
-            2024: {
-                4: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-021-2024 OBRA OPM56_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            },
-            2025: {
-                1: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-021-2024_OBRA_OPM56_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            }
-        },
-        {
-            proyecto: "OPM57",
-            obra: "REHABILITACION DE RED DE AGUA ENTUBADA EN CALLE EL POSTECITO, EN LA RANCHERIA ORIENTE SEGUNDA SECCIÓN (PALMA HUACA), DEL MUNICIPIO DE PARAISO; TABASCO. (TERRESTRE 2023)",
-            localidad: "270140049. RA. ORIENTE 2DA. SECCION . (PALMA HUACA).",
-            contrato: "CO-PA-HIDRCTERR-022-2024",
-            2024: {
-                4: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-022-2024 OBRA OPM57_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            },
-            2025: {
-                1: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-022-2024_OBRA_OPM57_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            }
-        },
-        {
-            proyecto: "OPM58",
-            obra: "REHABILITACION DE CAMINO A BASE DE CONCRETO ASFALTICO EN CALIENTE EN EL EJIDO OCCIDENTE SAN FRANCISCO, DEL MUNICIPIO DE PARAISO; TABASCO. (TERRESTRE 2024)",
-            localidad: "270140050. EJ. OCCIDENTE (SAN FRANCISCO).",
-            contrato: "CO-PA-HIDRCTERR-023-2024",
-            2024: {
-                4: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-023-2024 OBRA OPM58_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            },
-            2025: {
-                1: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-023-2024_OBRA_OPM58_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            }
-        },
-        {
-            proyecto: "OPM59",
-            obra: "REHABILITACION DE CALLE A BASE DE CONCRETO ASFALTICO EN CALIENTE (UBICACIÓN ENTRADA AL BACHILLER), EN LA RANCHERÍA POTRERITOS DEL MUNICIPIO DE PARAISO; TABASCO. (MARITIMA 2024)",
-            localidad: "270140026. RA. POTRERITOS",
-            contrato: "CO-PA-HIDRCMAR-024-2024",
-            2024: {
-                4: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-024-2024 OBRA OPM59_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            },
-            2025: {
-                1: [
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-024-2024_OBRA_OPM59_redacted.pdf",
-                        name: "Contrato"
-                    },
-                    {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf",
-                        name: "Acta de entrega"
-                    }
-                ]
-            }
-        },
-        {
             proyecto: "KAM54",
             obra: "MEJORA DE RED DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA EN MEDIA Y BAJA TENSION (ENTRADA MELIDA DOMÍNGUEZ), (FRENTE AL TALLER EL COFRE), Y (ENTRADA EMÉRITA), EN EL EJIDO CHILTEPEC SECCIÓN TANQUE, DEL MUNICIPIO DE PARAISO, TABASCO",
             localidad: "270140061. EJ. CHILTEPEC. SECCION TANQUE",
@@ -220,6 +100,28 @@ export const TablaInfoHidrocarburos = () => {
                         name: "Contrato"
                     }
                 ]
+            },
+            2026: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/KAM58.pdf",
+                        name: "Acta de entrega"
+                    },
+                ]
+            }
+        },
+        {
+            proyecto: "OPM01",
+            obra: 'Rehabilitación de Red de Drenaje Sanitario en diversas calles del Ejido Oriente, (San Cayetano), del Municipio de Paraiso, Tabasco.',
+            localidad: "270140024.  Ej,. Oriente San Cayetano.",
+            contrato: "CO-PA-R23MAR-003-2026",
+            2026: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CONTRATO%20FIRMADO%20OPM01.pdf",
+                        name: "Contrato"
+                    },
+                ]
             }
         },
         {
@@ -235,6 +137,36 @@ export const TablaInfoHidrocarburos = () => {
                     },
                     {
                         url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/OPM55,- ACTA ENTREGA RECEPCIÓN.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            }
+        },
+        {
+            proyecto: "OPM56",
+            obra: "REHABILITACION DE CALLE A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2 A FINOS, (UBICACIÓN ENTRADA LOS GÓMEZ) EN LA RANCHERIA LAS FLORES PRIMERA SECCIÓN, DEL MUNICIPIO DE PARAISO; TABASCO. (MARITIMA 2023)",
+            localidad: "270140009. RA. LAS FLORES 1RA. SECCION",
+            contrato: "CO-PA-HIDRCMAR-021-2024",
+            2024: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-021-2024 OBRA OPM56_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            },
+            2025: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-021-2024_OBRA_OPM56_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf",
                         name: "Acta de entrega"
                     }
                 ]
@@ -260,6 +192,36 @@ export const TablaInfoHidrocarburos = () => {
         },
         {
             proyecto: "OPM57",
+            obra: "REHABILITACION DE RED DE AGUA ENTUBADA EN CALLE EL POSTECITO, EN LA RANCHERIA ORIENTE SEGUNDA SECCIÓN (PALMA HUACA), DEL MUNICIPIO DE PARAISO; TABASCO. (TERRESTRE 2023)",
+            localidad: "270140049. RA. ORIENTE 2DA. SECCION . (PALMA HUACA).",
+            contrato: "CO-PA-HIDRCTERR-022-2024",
+            2024: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-022-2024 OBRA OPM57_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            },
+            2025: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-022-2024_OBRA_OPM57_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            }
+        },
+        {
+            proyecto: "OPM57",
             obra: "REHABILITACION DE CARCAMO DE BOMBEO DE AGUAS NEGRAS, (UBIC COLONIA LOS COCOS ), EN LA CIUDAD DE PARAISO, DEL MUNICIPIO DE PARAISO, TABASCO",
             localidad: "270140001. CIUDAD DE PARAISO",
             contrato: "CO-PAR-R23MAR-042-2025",
@@ -278,6 +240,36 @@ export const TablaInfoHidrocarburos = () => {
         },
         {
             proyecto: "OPM58",
+            obra: "REHABILITACION DE CAMINO A BASE DE CONCRETO ASFALTICO EN CALIENTE EN EL EJIDO OCCIDENTE SAN FRANCISCO, DEL MUNICIPIO DE PARAISO; TABASCO. (TERRESTRE 2024)",
+            localidad: "270140050. EJ. OCCIDENTE (SAN FRANCISCO).",
+            contrato: "CO-PA-HIDRCTERR-023-2024",
+            2024: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCTERR-023-2024 OBRA OPM58_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            },
+            2025: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCTERR-023-2024_OBRA_OPM58_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            }
+        },
+        {
+            proyecto: "OPM58",
             obra: "REHABILITACION DE AGUA ENTUBADA EN DIVERSAS ENTRADAS DEL EJIDO LIBERTAD  PRIMERA SECCION, EL CHIVERO DEL MUNICIPIO DE PARAISO, TABASCO",
             localidad: "270140014. EJ. LIBERTAD 1A SECCION (EL CHIVERO).",
             contrato: "CO-PA-R23TER-060-2025",
@@ -289,6 +281,36 @@ export const TablaInfoHidrocarburos = () => {
                     },
                     {
                         url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/OPM58,- ACTA DE ENTEGRA  RECEPCION.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            }
+        },
+        {
+            proyecto: "OPM59",
+            obra: "REHABILITACION DE CALLE A BASE DE CONCRETO ASFALTICO EN CALIENTE (UBICACIÓN ENTRADA AL BACHILLER), EN LA RANCHERÍA POTRERITOS DEL MUNICIPIO DE PARAISO; TABASCO. (MARITIMA 2024)",
+            localidad: "270140026. RA. POTRERITOS",
+            contrato: "CO-PA-HIDRCMAR-024-2024",
+            2024: {
+                4: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RAMO 23/4TO TRIMESTRE 2024/Contrato No. CO-PA-HIDRCMAR-024-2024 OBRA OPM59_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            },
+            2025: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/Contrato_No._CO-PA-HIDRCMAR-024-2024_OBRA_OPM59_redacted.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf",
                         name: "Acta de entrega"
                     }
                 ]
@@ -356,6 +378,14 @@ export const TablaInfoHidrocarburos = () => {
                         name: "Contrato"
                     },
                 ]
+            },
+            2026: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OPM62.pdf",
+                        name: "Acta de entrega"
+                    },
+                ]
             }
         },
         {
@@ -370,45 +400,55 @@ export const TablaInfoHidrocarburos = () => {
                         name: "Contrato"
                     },
                 ]
-            }
-        },
-        {
-            proyecto: "OPM01",
-            obra: 'Rehabilitación de Red de Drenaje Sanitario en diversas calles del Ejido Oriente, (San Cayetano), del Municipio de Paraiso, Tabasco.',
-            localidad: "270140024.  Ej,. Oriente San Cayetano.",
-            contrato: "CO-PA-R23MAR-003-2026",
+            },
             2026: {
                 1: [
                     {
-                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/recursos-federales-transferidos_2026-01-15_2140/CONTRATO%20FIRMADO%20OPM01.pdf",
-                        // name: "Contrato"
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OPM63.pdf",
+                        name: "Acta de entrega"
                     },
                 ]
             }
         },
-
+        {
+            proyecto: "OPM64",
+            obra: 'REHABILITACION DE RED DE AGUA ENTUBADA EN LA CALLE PROLONGACIÓN JUAN BAUTISTA DEL EJIDO PUERTO CEIBA (CARRIZAL), DEL MUNICIPIO DE PARAÍSO, TABASCO.',
+            localidad: "270140005.- EJIDO PUERTO CEIBA CARRIZAL.",
+            contrato: "CO-PA-R223TER-001-2026",
+            2026: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OPM64.pdf",
+                        name: "Acta de entrega"
+                    },
+                ]
+            }
+        },
+        {
+            proyecto: "OPM65",
+            obra: 'REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2 FINOS EN LA CALLE PROLONGACION JUAN BAUTISTA DEL EJIDO PUERTO CEIBA (CARRIZAL), DEL MUNICIPIO DE PARAISO, TABASCO.',
+            localidad: "270140005- EJIDO PUERTO CEIBA (CARRIZAL).",
+            contrato: "CO-PA- R23MAR-002-2026.",
+            2026: {
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OPM65.pdf",
+                        name: "Acta de entrega"
+                    },
+                ]
+            }
+        },
     ];
-
-    // const data = [
-    //     {
-    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POSTECITO.pdf"
-    //     },
-    //     {
-    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_RECEPCION_FISICA_LOS_GOMEZ.pdf",
-    //     },
-    //     {
-    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_POTRERITO.pdf",
-    //     },
-    //     {
-    //         archivoFisico: "https://gobparaiso.blob.core.windows.net/transparencia/ACTA_ENTREGA_FISICA_SAN_FRANCISCO.pdf",
-    //     },
-    // ]
     const columns: ColumnsType<any> = [
         {
-            title: 'Proyecto No.',
-            dataIndex: 'proyecto',
+            title: 'Proyecto / Contrato',
             key: 'proyecto',
-
+            render: (_: any, record: any) => (
+                <>
+                    <div><strong>{record.proyecto}</strong></div>
+                    <div>{record.contrato}</div>
+                </>
+            ),
         },
         {
             title: 'Obra',
@@ -420,93 +460,15 @@ export const TablaInfoHidrocarburos = () => {
             title: 'Localidad',
             dataIndex: 'localidad',
             key: 'localidad',
-
-        },
-        {
-            title: 'Contrato',
-            dataIndex: 'contrato',
-            key: 'contrato',
-
         },
         {
 
             title: 'Trimestres',
             align: 'center',
             children: [
-                // {
-                //     title: '2021',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
-                // {
-                //     title: '2022',
-                //     children: [
-                //         {
-                //             title: '1',
-                //         },
-                //         {
-                //             title: '2',
-                //         },
-                //         {
-                //             title: '3',
-                //         },
-                //         {
-                //             title: '4',
-                //         },
-                //     ],
-                //     align: "center",
-                // },
-                {
-                    title: '2023',
-
-                    children: [
-                        {
-                            title: '1',
-                            align: 'center',
-                        },
-                        {
-                            title: '2',
-                            align: 'center',
-                        },
-                        {
-                            title: '3',
-                            align: 'center',
-                        },
-                        {
-                            title: '4',
-                            align: 'center',
-                        },
-                    ],
-
-                },
                 {
                     title: '2024',
                     children: [
-                        {
-                            title: '1',
-                            align: 'center',
-                        },
-                        {
-                            title: '2',
-                            align: 'center',
-                        },
-                        {
-                            title: '3',
-                            align: 'center',
-                        },
                         {
                             title: '4',
                             dataIndex: [2024, 4],
@@ -773,6 +735,7 @@ export const TablaInfoHidrocarburos = () => {
         <Table
             bordered
             size="small"
+            // title={() => <>Contratos y Actas de entrega</>}
             columns={columns}
             dataSource={dataSource}
             rowKey={(record) => record.name}
