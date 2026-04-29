@@ -63,6 +63,10 @@ export default function TransparenciaComite() {
             nombre: "SE-06-2025",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-06-2025.pdf",
         },
+        {
+            nombre: "SO-04-2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SO-04-2026.pdf",
+        },
     ];
     const dataEE = [
         {

@@ -6,31 +6,43 @@ export const TransparenciaNormaMuncipal = () => {
     const dataUEDM = [
         {
             nombre: "REGLAMENTO DE PROTECCIÓN CIVIL",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/10.Reglamento-de-protecciòn-civil.pdf",
         },
         {
             nombre: "CÓDIGO DE ÉTICA",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/5.Còdigo-de-ètica.pdf",
         },
         {
             nombre: "REGLAMENTO DE CABILDO",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/6.Reglamento-de-cabildo.pdf",
         },
         {
-            nombre: "BANDO DE POLICÍA Y GOBIERNO 2024–2027",
+            nombre: "BANDO DE POLICÍA Y GOBIERNO",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/7.Bando-de-policìa.pdf",
         },
         {
             nombre: "REGLAMENTO DE TRÁNSITO",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/8.Reglamento-de-trànsito.pdf",
         },
         {
             nombre: "REGLAMENTO DE ADMINISTRACIÓN",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/9.Reglamento-de-administraciòn.pdf",
         },
         {
             nombre: "MANUAL DE CONTROL INTERNO",
+            ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD MUNICIPAL/71.manual-de-control-interno-2024.pdf",
+        },
+        {
+            nombre: "TABULADOR DE SUELDOS Y REMUNERACIONES",
+            ano: "2024",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/Tabulador%20de%20Sueldos%20y%20Remuneraciones%20de%20los%20Servidores%20Publicos%202024/TABULADOR%20DE%20SUELDOS%20Y%20REMUNERACIONES%20DE%20LOS%20SERVIDORES%20PUBLICOS%20EJERCICIO%20FISCAL%202024.pdf",
         },
     ]
     const columns: ColumnsType<any> = [
@@ -38,6 +50,12 @@ export const TransparenciaNormaMuncipal = () => {
             title: 'Nombre',
             dataIndex: 'nombre',
             key: 'nombre',
+
+        },
+        {
+            title: 'Año',
+            dataIndex: 'ano',
+            key: 'ano',
 
         },
         {
