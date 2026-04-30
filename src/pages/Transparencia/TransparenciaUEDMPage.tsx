@@ -53,6 +53,18 @@ export default function TransparenciaUEDMPage() {
             nombre: "FORTAMUN - EVALUACION ESPECIFICA DE DESEMPEÑO FORTAMUN",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPEÑO_MUNICIPAL/4. EVALUACION ESPECIFICA DE DESEMPEÑO FORTAMUN.pdf",
         },
+        {
+            nombre: "PAEM 2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/PAEM_2026.pdf",
+        },
+        {
+            nombre: "TdR FAISMUN 2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/TdR%20FAISMUN%202026.pdf",
+        },
+        {
+            nombre: "TdR FORTAMUN 2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/TdR%20FORTAMUN%202026.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {
