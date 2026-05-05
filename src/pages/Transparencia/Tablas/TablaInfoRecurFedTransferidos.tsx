@@ -9,34 +9,31 @@ export const TablaInfoRecurFedTransferidos = () => {
       2024: {
         4: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FORTAMUN4TOTRIM.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FORTAMUN4TOTRIM.pdf",
           },
         ],
       },
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONAC FONDOIV1ERTRIM2025.pdf",
           },
         ],
         2: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/CONAC2DOTRIM2025FAIS.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/CONAC2DOTRIM2025FAIS.pdf",
           },
         ],
         3: [
           {
-            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONAC FORTAMUN TERCER TRIMESTRE.pdf"
-          }
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONAC FORTAMUN TERCER TRIMESTRE.pdf",
+          },
         ],
         4: [
           {
-            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONACFIV4TOTRIM2025.pdf"
-          }
-        ]
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONACFIV4TOTRIM2025.pdf",
+          },
+        ],
       },
     },
     {
@@ -45,30 +42,30 @@ export const TablaInfoRecurFedTransferidos = () => {
         4: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-4-2024/FAIS4TOTRIM.pdf",
-          }
+          },
         ],
       },
       2025: {
         1: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/RECURSOS FEDERALES TRANSFERIDOS/TRIMESTRE-1/CONACFIII1ERTRIM2025.pdf",
-          }
+          },
         ],
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/CONAC2DOTRIM2025FAIS.pdf",
-          }
+          },
         ],
         3: [
           {
-            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONAC FAIS TERCER TRIMESTRE.pdf"
-          }
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONAC FAIS TERCER TRIMESTRE.pdf",
+          },
         ],
         4: [
           {
-            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONACFIII4TOTRIM2025.pdf"
-          }
-        ]
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/CONACFIII4TOTRIM2025.pdf",
+          },
+        ],
       },
     },
     {
@@ -77,7 +74,7 @@ export const TablaInfoRecurFedTransferidos = () => {
         4: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-4-2024/SRFT 4TO TRIM 2024 TRANSPARENCIA-1.pdf",
-          }
+          },
         ],
       },
       2025: {
@@ -89,17 +86,17 @@ export const TablaInfoRecurFedTransferidos = () => {
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/2DO_TRIMESTRE_2025/SRFT 2do. TRIM. 2025.pdf",
-          }
+          },
         ],
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/SRFT_3ER.T.2025.pdf",
-          }
+          },
         ],
         4: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/SSRF-2024/SRFT%204to.TRIM.%202025.pdf",
-          }
+          },
         ],
       },
     },
@@ -109,7 +106,7 @@ export const TablaInfoRecurFedTransferidos = () => {
         4: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/SSRF-2024/Cierre definitivo 2024.pdf",
-          }
+          },
         ],
       },
     },
@@ -121,66 +118,56 @@ export const TablaInfoRecurFedTransferidos = () => {
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/KA351_CONTRATO_COL. QUINTIN ARAUZ_VASCONCELOS_ELECTRIFICACION.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/KA351_CONTRATO_COL. QUINTIN ARAUZ_VASCONCELOS_ELECTRIFICACION.pdf",
             name: "Contrato",
           },
-           {
+          {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/KA351_COL. QUINTIN ARAUZ_VASCONCELOS_ELECTRIFICACION.pdf",
             name: "Acta Entrega",
-          }
+          },
         ],
       },
     },
     {
-      name:
-        "OP351 ACTA ENTREGA RA. LAS FLORES 3RA. SEC EL CERRO KINDER,TELE,TORRE ASFALTO",
+      name: "OP351 ACTA ENTREGA RA. LAS FLORES 3RA. SEC EL CERRO KINDER,TELE,TORRE ASFALTO",
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP351_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_KINDER,TELE,TORRE_ASFALTO_redacted.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP351_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_KINDER,TELE,TORRE_ASFALTO_redacted.pdf",
             name: "Contrato",
           },
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP351_ACTA ENTREGA_RA. LAS FLORES 3RA. SEC EL CERRO_KINDER,TELE,TORRE_ASFALTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP351_ACTA ENTREGA_RA. LAS FLORES 3RA. SEC EL CERRO_KINDER,TELE,TORRE_ASFALTO.pdf",
             name: "Acta Entrega",
           },
         ],
       },
     },
     {
-      name:
-        "OP352 ACTA ENTREGA RA. LAS FLORES 3RA. SEC EL CERRO DGUEZ Y CASTELLANOS REVESTIMIENTO",
+      name: "OP352 ACTA ENTREGA RA. LAS FLORES 3RA. SEC EL CERRO DGUEZ Y CASTELLANOS REVESTIMIENTO",
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP352_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_DGUEZ Y CASTELLANOS_REVESTIMIENTO_redacted.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP352_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_DGUEZ Y CASTELLANOS_REVESTIMIENTO_redacted.pdf",
             name: "Contrato",
           },
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP352_ACTA ENTREGA_RA. LAS FLORES 3RA. SEC EL CERRO_DGUEZ Y CASTELLANOS_REVESTIMIENTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP352_ACTA ENTREGA_RA. LAS FLORES 3RA. SEC EL CERRO_DGUEZ Y CASTELLANOS_REVESTIMIENTO.pdf",
             name: "Acta Entrega",
           },
         ],
       },
     },
     {
-      name:
-        "OP353 ACTA ENTREGA RA. LAS FLORES 3RA. SEC EL CERRO LOS OLAN REVESTIMIENTO",
+      name: "OP353 ACTA ENTREGA RA. LAS FLORES 3RA. SEC EL CERRO LOS OLAN REVESTIMIENTO",
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP353_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_LOS OLAN_REVESTIMIENTO_redacted.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP353_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_LOS OLAN_REVESTIMIENTO_redacted.pdf",
             name: "Contrato",
           },
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP353_ACTA ENTREGA_RA. LAS FLORES 3RA. SEC EL CERRO_LOS OLAN_REVESTIMIENTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP353_ACTA ENTREGA_RA. LAS FLORES 3RA. SEC EL CERRO_LOS OLAN_REVESTIMIENTO.pdf",
             name: "Acta Entrega",
           },
         ],
@@ -191,28 +178,22 @@ export const TablaInfoRecurFedTransferidos = () => {
       2024: {
         4: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP354_ACTA ENTREGA_COL. QUINTIN ARAUZ_LAS PALMAS_ASFALTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP354_ACTA ENTREGA_COL. QUINTIN ARAUZ_LAS PALMAS_ASFALTO.pdf",
             name: "Acta Entrega",
           },
         ],
       },
-      // 2025: {
-      //     1: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP353_CONTRATO_RA. LAS FLORES 3RA. SEC EL CERRO_LOS OLAN_REVESTIMIENTO_redacted.pdf"
-      // }
     },
     {
       name: "OP355 ACTA ENTREGA COL. QUINTIN ARAUZ MERCED REAL ASFALTO",
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP355_CONTRATO_COL. QUINTIN ARAUZ_MERCED REAL_ASFALTO_redacted.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP355_CONTRATO_COL. QUINTIN ARAUZ_MERCED REAL_ASFALTO_redacted.pdf",
             name: "Contrato",
           },
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP355_ACTA ENTREGA_COL. QUINTIN ARAUZ_MERCED REAL_ASFALTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP355_ACTA ENTREGA_COL. QUINTIN ARAUZ_MERCED REAL_ASFALTO.pdf",
             name: "Acta Entrega",
           },
         ],
@@ -223,8 +204,7 @@ export const TablaInfoRecurFedTransferidos = () => {
       2024: {
         4: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP356_ACTA ETREGA_RA. MONTE ADENTRO_GUERO YAIR_ASFALTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP356_ACTA ETREGA_RA. MONTE ADENTRO_GUERO YAIR_ASFALTO.pdf",
             name: "Acta Entrega",
           },
         ],
@@ -234,18 +214,15 @@ export const TablaInfoRecurFedTransferidos = () => {
       // }
     },
     {
-      name:
-        "OP357 ACTA ENTREGA COL. CHILTEPEC SEC PENJAMO PLAYA BRUJA REVESTIMIENTO",
+      name: "OP357 ACTA ENTREGA COL. CHILTEPEC SEC PENJAMO PLAYA BRUJA REVESTIMIENTO",
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP357_CONTRATO_COL. CHILTEPEC SEC PENJAMO_ PLAYA BRUJA_REVESTIMIENTO_redacted.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP357_CONTRATO_COL. CHILTEPEC SEC PENJAMO_ PLAYA BRUJA_REVESTIMIENTO_redacted.pdf",
             name: "Contrato",
           },
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP357_ACTA ENTREGA_COL. CHILTEPEC SEC PENJAMO_ PLAYA BRUJA_REVESTIMIENTO.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP357_ACTA ENTREGA_COL. CHILTEPEC SEC PENJAMO_ PLAYA BRUJA_REVESTIMIENTO.pdf",
             name: "Acta Entrega",
           },
         ],
@@ -256,14 +233,32 @@ export const TablaInfoRecurFedTransferidos = () => {
       2025: {
         1: [
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP358_CONTRATO_ RA. NICOLAS BRAVO 3RA. SEC_AGUA POTABLE.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP358_CONTRATO_ RA. NICOLAS BRAVO 3RA. SEC_AGUA POTABLE.pdf",
             name: "Contrato",
           },
           {
-            url:
-              "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP358_ACTA ENTREGA_ RA. NICOLAS BRAVO 3RA. SEC_AGUA POTABLE.pdf",
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP358_ACTA ENTREGA_ RA. NICOLAS BRAVO 3RA. SEC_AGUA POTABLE.pdf",
             name: "Acta Entrega",
+          },
+        ],
+      },
+    },
+    {
+      name: "CONAC FONDO III 1ER.TRIM2026",
+      2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/CONAC_FONDO_III_1ER.TRIM2026.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "CONAC FONDO IV 1ER.TRIM2026",
+      2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/CONAC_FONDO_IV_1ER.TRIM2026.pdf",
           },
         ],
       },
@@ -285,7 +280,6 @@ export const TablaInfoRecurFedTransferidos = () => {
         {
           title: "2024",
           children: [
-
             {
               title: "4",
               dataIndex: [2024, 4],
@@ -405,7 +399,7 @@ export const TablaInfoRecurFedTransferidos = () => {
             },
             {
               title: "4",
-               dataIndex: [2025, 4],
+              dataIndex: [2025, 4],
               width: "10px",
               align: "center",
               render: (e: any) => (
@@ -430,6 +424,36 @@ export const TablaInfoRecurFedTransferidos = () => {
                   )}
                 </>
               ),
+            },
+          ],
+        },
+        {
+          title: "2026",
+          children: [
+            {
+              title: "1",
+              dataIndex: [2026, 1],
+              width: "10px",
+              render: (e: any) =>
+                e && (
+                  <Button icon={<FilePdfOutlined />} href={e} target="_blank" />
+                ),
+              align: "center",
+            },
+            {
+              title: "2",
+              align: "center",
+              width: "10px",
+            },
+            {
+              title: "3",
+              align: "center",
+              width: "10px",
+            },
+            {
+              title: "4",
+              align: "center",
+              width: "10px",
             },
           ],
         },
