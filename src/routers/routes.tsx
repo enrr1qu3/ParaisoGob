@@ -33,6 +33,7 @@ import { NoticiaLanzaDeHonor } from "../pages/Noticias/Notas/NoticiaLanzaDeHonor
 import { NoticiaMueveUnFinSemana } from "../pages/Noticias/Notas/NoticiaMueveUnFinSemana";
 import DirectorioPage from "../pages/Directorio/DirectorioPage";
 import ContraloriaForm from "../pages/ContraloriaMunicipal/ContraloriaForm";
+import RegistroCivilPage from "../pages/RegistroCivil/RegistroCivilPage";
 
 
 
@@ -147,6 +148,10 @@ export const router = createBrowserRouter([
             {
                 path: "/certificado-funcionamiento-SARE",
                 element: <SAREPage />
+            },
+            {
+                path: "/tramites-registro-civil",
+                element: <RegistroCivilPage />
             },
             {
                 path: "contraloria",

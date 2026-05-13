@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm run:*)",
+      "Bash(npx vite:*)",
+      "Bash(cat C:\\\\Users\\\\ISABEL~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--workspace-RCPG-ParaisoGob\\\\fc73fe07-59e1-4072-adc1-72d15c88988d\\\\tasks\\\\b1o9h36fy.output)",
+      "Bash(jobs -l)",
+      "Bash(python3 -c \"import docx; print\\('ok'\\)\")",
+      "Bash(python -c \"import docx; print\\('ok'\\)\")",
+      "Bash(cd /tmp)",
+      "Bash(npm install:*)",
+      "Bash(node /tmp/generate_bitacoras.mjs)",
+      "Bash(node generate_bitacoras.mjs)",
+      "Bash(grep -E \"\\\\.\\(json|tsx|ts\\)$\")",
+      "Bash(xxd \"d:/workspace/RCPG/ParaisoGob/src/layout/MenuLayout.tsx\")",
+      "Bash(python3 -c ':*)",
+      "Bash(node -e ':*)",
+      "Bash(curl -s -o /tmp/directorio.pdf \"https://gobparaiso.blob.core.windows.net/tramites-y-servicios/Tr%C3%A1mites%20de%20las%20Oficial%C3%ADas%20del%20Registro%20Civil/Directorio%20oficial%C3%ADas.pdf\")",
+      "Read(//tmp/**)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}

@@ -63,6 +63,7 @@ const items: MenuItem[] = [
         key: 'tramitesServicios',
         children: [
             { label: 'Certificado de Funcionamiento SARE', key: 'certificado-funcionamiento-SARE' },
+            { label: 'Trámites del Registro Civil', key: 'tramites-registro-civil' },
         ],
     },
     {

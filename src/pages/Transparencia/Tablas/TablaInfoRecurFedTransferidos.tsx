@@ -2,8 +2,38 @@ import { Button, Table, Tooltip } from "antd";
 import { FilePdfOutlined } from "@ant-design/icons";
 import type { ColumnsType } from "antd/es/table";
 
+interface PdfDoc {
+  url: string;
+  name?: string;
+}
+
+interface TrimestresAnio {
+  [trimestre: number]: PdfDoc[];
+}
+
+interface RecursoFederal {
+  name: string;
+  2024?: TrimestresAnio;
+  2025?: TrimestresAnio;
+  2026?: TrimestresAnio;
+}
+
+const renderPdfButtons = (docs: PdfDoc[] | undefined) => (
+  <>
+    {docs?.map((doc, index) => (
+      <Tooltip title={doc.name} key={index}>
+        <Button
+          icon={<FilePdfOutlined />}
+          href={doc.url}
+          target="_blank"
+        />
+      </Tooltip>
+    ))}
+  </>
+);
+
 export const TablaInfoRecurFedTransferidos = () => {
-  const dataSource = [
+  const dataSource: RecursoFederal[] = [
     {
       name: "APLICACIÓN DE LOS RECURSOS DEL FORTAMUN",
       2024: {
@@ -99,6 +129,13 @@ export const TablaInfoRecurFedTransferidos = () => {
           },
         ],
       },
+      2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/SRFT_PARAISO_1ER.%20TRIM.%202026.pdf",
+          },
+        ],
+      },
     },
     {
       name: "CIERRE DEFINITIVO 2024",
@@ -112,9 +149,6 @@ export const TablaInfoRecurFedTransferidos = () => {
     },
     {
       name: "KA351  COL. QUINTIN ARAUZ VASCONCELOS ELECTRIFICACION",
-      // 2024: {
-      //     4: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/KA351_CONTRATO_COL. QUINTIN ARAUZ_VASCONCELOS_ELECTRIFICACION.pdf"
-      // },
       2025: {
         1: [
           {
@@ -209,9 +243,6 @@ export const TablaInfoRecurFedTransferidos = () => {
           },
         ],
       },
-      // 2025: {
-      //     1: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/OP355_CONTRATO_COL. QUINTIN ARAUZ_MERCED REAL_ASFALTO_redacted.pdf"
-      // }
     },
     {
       name: "OP357 ACTA ENTREGA COL. CHILTEPEC SEC PENJAMO PLAYA BRUJA REVESTIMIENTO",
@@ -265,12 +296,19 @@ export const TablaInfoRecurFedTransferidos = () => {
     },
   ];
 
-  const columns: ColumnsType<any> = [
+  const trimestreColumn = (anio: number, trimestre: number) => ({
+    title: `${trimestre}`,
+    dataIndex: [anio, trimestre],
+    width: "10px",
+    align: "center" as const,
+    render: (docs: PdfDoc[] | undefined) => renderPdfButtons(docs),
+  });
+
+  const columns: ColumnsType<RecursoFederal> = [
     {
       title: "Nombre",
       dataIndex: "name",
       key: "name",
-      // width: "40%"
       width: 850,
     },
     {
@@ -279,201 +317,19 @@ export const TablaInfoRecurFedTransferidos = () => {
       children: [
         {
           title: "2024",
-          children: [
-            {
-              title: "4",
-              dataIndex: [2024, 4],
-              width: "10px",
-              render: (e: any) => (
-                <>
-                  {e?.length >= 1 && (
-                    <Tooltip title={e[0].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[0].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                  {e?.length === 2 && (
-                    <Tooltip title={e[1].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[1].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                </>
-              ),
-              align: "center",
-            },
-          ],
+          children: [trimestreColumn(2024, 4)],
         },
         {
           title: "2025",
-          children: [
-            {
-              title: "1",
-              dataIndex: [2025, 1],
-              width: "10px",
-              render: (e: any) => (
-                <>
-                  {e?.length >= 1 && (
-                    <Tooltip title={e[0].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[0].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                  {e?.length === 2 && (
-                    <Tooltip title={e[1].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[1].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                </>
-              ),
-              align: "center",
-            },
-            {
-              title: "2",
-              dataIndex: [2025, 2],
-              width: "10px",
-              render: (e: any) => (
-                <>
-                  {e?.length >= 1 && (
-                    <Tooltip title={e[0].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[0].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                  {e?.length === 2 && (
-                    <Tooltip title={e[1].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[1].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                </>
-              ),
-              align: "center",
-            },
-            {
-              title: "3",
-              dataIndex: [2025, 3],
-              width: "10px",
-              align: "center",
-              render: (e: any) => (
-                <>
-                  {e?.length >= 1 && (
-                    <Tooltip title={e[0].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[0].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                  {e?.length === 2 && (
-                    <Tooltip title={e[1].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[1].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                </>
-              ),
-            },
-            {
-              title: "4",
-              dataIndex: [2025, 4],
-              width: "10px",
-              align: "center",
-              render: (e: any) => (
-                <>
-                  {e?.length >= 1 && (
-                    <Tooltip title={e[0].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[0].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                  {e?.length === 2 && (
-                    <Tooltip title={e[1].name}>
-                      <Button
-                        icon={<FilePdfOutlined />}
-                        href={e[1].url}
-                        target="_blank"
-                      />
-                    </Tooltip>
-                  )}
-                </>
-              ),
-            },
-          ],
+          children: [1, 2, 3, 4].map((t) => trimestreColumn(2025, t)),
         },
         {
           title: "2026",
-          children: [
-            {
-              title: "1",
-              dataIndex: [2026, 1],
-              width: "10px",
-              render: (e: any) =>
-                e && (
-                  <Button icon={<FilePdfOutlined />} href={e} target="_blank" />
-                ),
-              align: "center",
-            },
-            {
-              title: "2",
-              align: "center",
-              width: "10px",
-            },
-            {
-              title: "3",
-              align: "center",
-              width: "10px",
-            },
-            {
-              title: "4",
-              align: "center",
-              width: "10px",
-            },
-          ],
+          children: [1, 2, 3, 4].map((t) => trimestreColumn(2026, t)),
         },
       ],
     },
   ];
-  // typeof e === 'string' ? (
-  //     <Button
-  //         icon={<FilePdfOutlined />}
-  //         href={e}
-  //         target="_blank"
-  //     />
-  // ) : (
-  //     e?.length >= 0 && (
-  //         <Button
-  //             icon={<FilePdfOutlined />}
-  //             href={e[1] || e[0]}
-  //         />
-  //     )
-  // )
   return (
     <Table
       bordered
