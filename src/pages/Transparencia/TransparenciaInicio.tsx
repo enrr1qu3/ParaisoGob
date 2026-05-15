@@ -30,7 +30,7 @@ export const TransparenciaInicio = () => {
                                     xl={{ flex: "60%" }}
                                 >
                                     <h3 className='tituloCarta'>Presidente del Comité de Transparencia</h3>
-                                    <p className='pCarta'>Ing. Isaac López Guerra</p>
+                                    <p className='pCarta'>CP. Alfonso de la Cruz Garcia</p>
                                     {/* <p>Ver más...</p> */}
                                 </Col>
                             </Row>

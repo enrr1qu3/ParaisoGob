@@ -1,466 +1,385 @@
-import { Col, ConfigProvider, Row, Card, Breadcrumb, Table, Button, Avatar, Statistic, } from 'antd';
-import { EnvironmentOutlined, EyeOutlined, FilePdfOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
-import { ColumnsType } from 'antd/es/table';
-import { TfiEmail } from 'react-icons/tfi';
-import { useEffect, useState } from 'react';
-
+import {
+  Col,
+  ConfigProvider,
+  Row,
+  Card,
+  Breadcrumb,
+  Table,
+  Button,
+  Avatar,
+  Statistic,
+} from "antd";
+import {
+  EnvironmentOutlined,
+  EyeOutlined,
+  FilePdfOutlined,
+  HomeOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
+import { ColumnsType } from "antd/es/table";
+import { TfiEmail } from "react-icons/tfi";
+import { useEffect, useState } from "react";
 
 export default function TransparenciaComite() {
-    const [countVisit, setCountVisit] = useState<number>(0);
-    const visitApi = async () => {
-        try {
-            const response = await fetch(
-                'https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/GetVisitsCount'
-            );
-            const data = await response.json();
-            setCountVisit(data);
-        } catch (error) {
-            console.error('Error obteniendo visitas:', error);
-            setCountVisit(0);
-        }
-    };
-    useEffect(() => {
-        visitApi();
-    }, []); 
-    const dataUEDM = [
-        {
-            nombre: "CEDULA DE NOTIFICACION POR ESTRADO ELECTRONICO",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/CEDULA_DE_NOTIFICACION_POR_ESTRADO_ELECTRONICO.pdf",
-        },
-        {
-            nombre: "ACTA DE INSTALACION DEL COMITE DE TRANSPARENCIA NUEVA LEY",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/ACTA DE INSTALACION DEL COMITE DE TRANSPARENCIA NUEVA LEY.pdf",
-        },
-        {
-            nombre: "ACTA DE INSTALACIÓN Y TOMA DE PROTESTA",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA DE INSTALACION Y TOMA DE PROTESTA.pdf",
-        },
-        {
-            nombre: "ACTA SO-01-2025",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA SO-01-2025 (1).pdf",
-        },
-        {
-            nombre: "SE-01-2025",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-01-2025.pdf",
-        },
-        {
-            nombre: "SE-02-2025",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-02-2025.pdf",
-        },
-        {
-            nombre: "SE/05/2025",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-05-2025.pdf",
-        },
-        {
-            nombre: "SO-01-2024",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SO-01-2024.pdf",
-        },
-        {
-            nombre: "SO-01-2025",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA SO-01-2025 (1).pdf",
-        },
-        {
-            nombre: "SE-06-2025",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-06-2025.pdf",
-        },
-        {
-            nombre: "SO-04-2026",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SO-04-2026.pdf",
-        },
-    ];
-    const dataEE = [
-        {
-            nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO 270510800013125",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA_NOTIF_ESTRADO_ELECTRONICO_2705108000013125.pdf",
-        },
-        {
-            nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 270510800014125",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/270510800014125.pdf",
-        },
-    ];
-    const columns: ColumnsType<any> = [
-        {
-            title: 'Nombre',
-            dataIndex: 'nombre',
-            key: 'nombre',
+  const [countVisit, setCountVisit] = useState<number>(0);
+  const visitApi = async () => {
+    try {
+      const response = await fetch(
+        "https://ev-dealership-apidev.azurewebsites.net/api/ParaisoWebVisit/GetVisitsCount",
+      );
+      const data = await response.json();
+      setCountVisit(data);
+    } catch (error) {
+      console.error("Error obteniendo visitas:", error);
+      setCountVisit(0);
+    }
+  };
+  useEffect(() => {
+    visitApi();
+  }, []);
+  const dataUEDM = [
+    {
+      nombre: "CEDULA DE NOTIFICACION POR ESTRADO ELECTRONICO",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/CEDULA_DE_NOTIFICACION_POR_ESTRADO_ELECTRONICO.pdf",
+    },
+    {
+      nombre: "ACTA DE INSTALACION DEL COMITE DE TRANSPARENCIA NUEVA LEY",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ARCHIVO MUNICIPAL/ACTA DE INSTALACION DEL COMITE DE TRANSPARENCIA NUEVA LEY.pdf",
+    },
+    {
+      nombre: "ACTA DE INSTALACIÓN Y TOMA DE PROTESTA",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA DE INSTALACION Y TOMA DE PROTESTA.pdf",
+    },
+    {
+      nombre: "ACTA SO-01-2025",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA SO-01-2025 (1).pdf",
+    },
+    {
+      nombre: "SE-01-2025",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-01-2025.pdf",
+    },
+    {
+      nombre: "SE-02-2025",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-02-2025.pdf",
+    },
+    {
+      nombre: "SE/05/2025",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-05-2025.pdf",
+    },
+    {
+      nombre: "SO-01-2024",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SO-01-2024.pdf",
+    },
+    {
+      nombre: "SO-01-2025",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA SO-01-2025 (1).pdf",
+    },
+    {
+      nombre: "SE-06-2025",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-06-2025.pdf",
+    },
+    {
+      nombre: "SO-04-2026",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SO-04-2026.pdf",
+    },
+    {
+      nombre: "SE-03-2026",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE-03-2026.pdf",
+    },
+  ];
+  const dataEE = [
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO 270510800013125",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA_NOTIF_ESTRADO_ELECTRONICO_2705108000013125.pdf",
+    },
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 270510800014125",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/270510800014125.pdf",
+    },
+  ];
+  const columns: ColumnsType<any> = [
+    {
+      title: "Nombre",
+      dataIndex: "nombre",
+      key: "nombre",
+    },
+    {
+      title: "Archivo",
+      key: "archivo",
+      dataIndex: "archivo",
+      width: "2%",
+      render: (e: any) =>
+        e && <Button icon={<FilePdfOutlined />} href={e} target="_blank" />,
+      align: "center",
+    },
+  ];
+  return (
+    <ConfigProvider>
+      <Row
+        style={{
+          maxWidth: "87.5rem",
+          width: "100%",
+          margin: "2rem auto",
+          padding: " 0 1rem ",
+        }}
+        gutter={[0, 24]}
+      >
+        <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+          <Card>
+            <Breadcrumb
+              separator=">"
+              items={[
+                {
+                  href: "/",
+                  title: (
+                    <>
+                      <HomeOutlined />
+                      <span>Inicio</span>
+                    </>
+                  ),
+                },
+                {
+                  title: "Información Pública",
+                  className: "tituloPincipalColor",
+                },
+              ]}
+              style={{ margin: 0, marginBottom: 16 }}
+            />
+            <h2 className="tituloP tituloPincipalColor">Información Pública</h2>
+            <p className="subtituloP">Información para la ciudadanía</p>
+          </Card>
+        </Col>
 
-        },
-        {
-            title: 'Archivo',
-            key: 'archivo',
-            dataIndex: 'archivo',
-            width: "2%",
-            render: (e: any) => (
-                (e) && < Button
-                    icon={< FilePdfOutlined />}
-                    href={e}
-                    target="_blank"
-                />
-            ),
-            align: 'center',
-        },
-    ];
-    return (
-        <ConfigProvider>
-            <Row
-                style={{
-                    maxWidth: "87.5rem",
-                    width: "100%",
-                    margin: "2rem auto",
-                    padding: " 0 1rem ",
-
-                }}
-                gutter={[0, 24]}
-            >
-
-                <Col
-                    xs={{ flex: '100%' }}
-                    xl={{ flex: '100%' }}
-                >
-                    <Card
-
-                    >
-                        <Breadcrumb
-                            separator=">"
-                            items={
-                                [
-                                    {
-                                        href: '/',
-                                        title: (
-                                            <>
-                                                <HomeOutlined />
-                                                <span>Inicio</span>
-                                            </>)
-                                    },
-                                    {
-                                        title: 'Información Pública',
-                                        className: "tituloPincipalColor"
-                                    },
-                                ]
-                            }
-                            style={{ margin: 0, marginBottom: 16 }}
-                        />
-                        <h2 className='tituloP tituloPincipalColor'>
-                            Información Pública
-                        </h2>
-                        <p className='subtituloP'>
-                            Información para la ciudadanía
-                        </p>
-
-                    </Card>
-                </Col>
-
-                <Col
-                    xs={{ flex: '100%' }}
-                    xl={{ flex: '100%' }}
-                >
-                    <Card
-
-                    >
-                        <div className="contenedorSujetos">
-                            <h3 className="tituloSecundariInicio">
-                                <UserOutlined />
-                                Titular de la Unidad de Transparencia y Protección de Datos Personales.
-                            </h3>
-                            <Row gutter={[16, 16]}>
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "100%" }}
-                                >
-                                    <Card>
-                                        <Row gutter={[24, 16]} justify={"center"}>
-                                            <Col
-                                                xs={{ flex: "20%" }}
-                                                xl={{ flex: "20%" }}
-                                            >
-                                                <Avatar size={100} icon={<UserOutlined />} />
-                                            </Col>
-                                            <Col xs={{ flex: "100%" }}
-                                                xl={{ flex: "60%" }}
-                                            >
-                                                <h3 className='tituloCarta'>L.A. Oscar Augusto Pérez Carrillo</h3>
-                                                <p className='pCarta'>
-                                                    <EnvironmentOutlined /> Calle Ignacio Comonfort s/n, Col. Centro.
-                                                    Palacio Municipal. Planta Baja.  C. P. 86600.
-                                                </p>
-                                                <p className='pCarta'><TfiEmail /> transpayuntamientoparaiso@gmail.com</p>
-                                            </Col>
-                                        </Row>
-                                    </Card>
-                                </Col>
-                            </Row>
-                        </div>
-                        <Row>
-                            <Col
-                                xs={{ flex: '100%' }}
-                                xl={{ flex: '100%' }}
-                            >
-                                <div className="contenedorSujetos">
-                                    <h3 className="tituloSecundariInicio">
-                                        <UserOutlined />
-                                        Comité de Transparencia
-                                    </h3>
-                                    <Row gutter={[16, 16]} >
-                                        <Col
-                                            xs={{ flex: "100%" }}
-                                            xl={{ flex: "33%" }}
-                                        >
-                                            <Card style={{ height: "100%" }}>
-                                                <Row gutter={[8, 8]} justify={"center"}>
-                                                    <Col
-                                                        xs={{ flex: "20%" }}
-                                                        xl={{ flex: "20%" }}
-                                                    >
-                                                        <Avatar size={100} icon={<UserOutlined />} />
-                                                    </Col>
-                                                    <Col xs={{ flex: "100%" }}
-                                                        xl={{ flex: "100%" }}
-                                                        style={{ textAlign: "center" }}
-                                                    >
-                                                        <h3 className='comiTransTitulo'>Presidente del Comité de Transparencia</h3>
-                                                        <p className='pCarta'>Ing. Isaac López Guerra</p>
-
-                                                    </Col>
-                                                </Row>
-                                            </Card>
-                                        </Col>
-
-                                        <Col
-                                            xs={{ flex: "100%" }}
-                                            xl={{ flex: "33%" }}
-                                        >
-                                            <Card style={{ height: "100%" }}>
-                                                <Row gutter={[8, 8]} justify={"center"}>
-                                                    <Col
-                                                        xs={{ flex: "20%" }}
-                                                        xl={{ flex: "20%" }}
-                                                    >
-                                                        <Avatar size={100} icon={<UserOutlined />} />
-                                                    </Col>
-                                                    <Col xs={{ flex: "100%" }}
-                                                        xl={{ flex: "100%" }}
-                                                        style={{ textAlign: "center" }}
-                                                    >
-                                                        <h3 className='comiTransTitulo'>Secretario Técnico</h3>
-                                                        <p className='pCarta'>L.A. Oscar Augusto Pérez Carrillo</p>
-
-                                                    </Col>
-                                                </Row>
-                                            </Card>
-                                        </Col>
-
-                                        <Col
-                                            xs={{ flex: "100%" }}
-                                            xl={{ flex: "33%" }}
-                                        >
-                                            <Card style={{ height: "100%" }}>
-                                                <Row gutter={[8, 8]} justify={"center"}>
-                                                    <Col
-                                                        xs={{ flex: "20%" }}
-                                                        xl={{ flex: "20%" }}
-                                                    >
-                                                        <Avatar size={100} icon={<UserOutlined />} />
-                                                    </Col>
-                                                    <Col xs={{ flex: "100%" }}
-                                                        xl={{ flex: "100%" }}
-                                                        style={{ textAlign: "center" }}
-                                                    >
-                                                        <h3 className='comiTransTitulo'>Vocal del Comité</h3>
-                                                        <p className='pCarta'>Lic. Ana Rosa Dominguez Pérez </p>
-
-                                                    </Col>
-                                                </Row>
-                                            </Card>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </Col>
-                        </Row>
-                        {/* Comite viejo */}
-                        <Row gutter={[8, 8]}>
-                            <Col
-                                xs={{ flex: '100%' }}
-                                xl={12}
-                            >
-                                <h3 className="tituloSecundariInicio">
-                                    Resoluciones del Comité de Transparencia
-                                </h3>
-                                <Table
-                                    size="small"
-                                    dataSource={dataUEDM}
-                                    columns={columns}
-                                    rowKey={(record) => record.nombre}
-                                    scroll={{ x: 'max-content' }}
-                                />
-                            </Col>
-                            <Col
-                                xs={{ flex: '100%' }}
-                                xl={12}
-                            >
-                                <div className="contenedorSujetos">
-                                    <h3 className="tituloSecundariInicio">
-                                        <UserOutlined />
-                                        Comité de Transparencia Ley Abrogada
-                                    </h3>
-                                    <Row gutter={[16, 16]} >
-                                        <Col
-                                            xs={{ flex: "100%" }}
-                                            xl={{ flex: "33%" }}
-                                        >
-                                            <Card >
-                                                <Row gutter={[8, 8]} justify={"center"}>
-                                                    <Col
-                                                        xs={{ flex: "20%" }}
-                                                        xl={{ flex: "20%" }}
-                                                    >
-                                                        <Avatar size={100} icon={<UserOutlined />} />
-                                                    </Col>
-                                                    <Col xs={{ flex: "100%" }}
-                                                        xl={{ flex: "100%" }}
-                                                        style={{ textAlign: "center" }}
-                                                    >
-                                                        <h3 className='comiTransTitulo'>Presidente del Comité de Transparencia</h3>
-                                                        <p className='pCarta'>Ing. Isaac López Guerra</p>
-
-                                                    </Col>
-                                                </Row>
-                                            </Card>
-                                        </Col>
-                                        <Col
-                                            xs={{ flex: "100%" }}
-                                            xl={{ flex: "33%" }}
-                                        >
-                                            <Card>
-                                                <Row gutter={[8, 8]} justify={"center"}>
-                                                    <Col
-                                                        xs={{ flex: "20%" }}
-                                                        xl={{ flex: "20%" }}
-                                                    >
-                                                        <Avatar size={100} icon={<UserOutlined />} />
-                                                    </Col>
-                                                    <Col xs={{ flex: "100%" }}
-                                                        xl={{ flex: "100%" }}
-                                                        style={{ textAlign: "center" }}
-                                                    >
-                                                        <h3 className='comiTransTitulo'>Secretario Técnico</h3>
-                                                        <p className='pCarta'>Lic. Javier Hernández Rodríguez</p>
-
-                                                    </Col>
-                                                </Row>
-                                            </Card>
-                                        </Col>
-                                        <Col
-                                            xs={{ flex: "100%" }}
-                                            xl={{ flex: "33%" }}
-                                        >
-                                            <Card>
-                                                <Row gutter={[8, 8]} justify={"center"}>
-                                                    <Col
-                                                        xs={{ flex: "20%" }}
-                                                        xl={{ flex: "20%" }}
-                                                    >
-                                                        <Avatar size={100} icon={<UserOutlined />} />
-                                                    </Col>
-                                                    <Col xs={{ flex: "100%" }}
-                                                        xl={{ flex: "100%" }}
-                                                        style={{ textAlign: "center" }}
-                                                    >
-                                                        <h3 className='comiTransTitulo'>Vocal del Comité</h3>
-                                                        <p className='pCarta'>Ing. Arturo Izquierdo Alejandro</p>
-
-                                                    </Col>
-                                                </Row>
-                                            </Card>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </Col>
-                        </Row>
-                        <h3 className="tituloSecundariInicio">
-                            Estrados Electrónicos
+        <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+          <Card>
+            <div className="contenedorSujetos">
+              <h3 className="tituloSecundariInicio">
+                <UserOutlined />
+                Titular de la Unidad de Transparencia y Protección de Datos
+                Personales.
+              </h3>
+              <Row gutter={[16, 16]}>
+                <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                  <Card>
+                    <Row gutter={[24, 16]} justify={"center"}>
+                      <Col xs={{ flex: "20%" }} xl={{ flex: "20%" }}>
+                        <Avatar size={100} icon={<UserOutlined />} />
+                      </Col>
+                      <Col xs={{ flex: "100%" }} xl={{ flex: "60%" }}>
+                        <h3 className="tituloCarta">
+                          L.A. Oscar Augusto Pérez Carrillo
                         </h3>
-                        <Table
-                            size="small"
-                            dataSource={dataEE}
-                            columns={columns}
-                            rowKey={(record) => record.nombre}
-                            scroll={{ x: 'max-content' }}
-                        />
-                        <div style={{ marginBottom: 20 }}>
-                            <Row gutter={[8, 8]} justify={"center"}>
+                        <p className="pCarta">
+                          <EnvironmentOutlined /> Calle Ignacio Comonfort s/n,
+                          Col. Centro. Palacio Municipal. Planta Baja. C. P.
+                          86600.
+                        </p>
+                        <p className="pCarta">
+                          <TfiEmail /> transpayuntamientoparaiso@gmail.com
+                        </p>
+                      </Col>
+                    </Row>
+                  </Card>
+                </Col>
+              </Row>
+            </div>
+            <Row>
+              <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                <div className="contenedorSujetos">
+                  <h3 className="tituloSecundariInicio">
+                    <UserOutlined />
+                    Comité de Transparencia
+                  </h3>
+                  <Row gutter={[16, 16]}>
+                    <Col xs={{ flex: "100%" }} xl={{ flex: "33%" }}>
+                      <Card style={{ height: "100%" }}>
+                        <Row gutter={[8, 8]} justify={"center"}>
+                          <Col xs={{ flex: "20%" }} xl={{ flex: "20%" }}>
+                            <Avatar size={100} icon={<UserOutlined />} />
+                          </Col>
+                          <Col
+                            xs={{ flex: "100%" }}
+                            xl={{ flex: "100%" }}
+                            style={{ textAlign: "center" }}
+                          >
+                            <h3 className="comiTransTitulo">
+                              Presidente del Comité de Transparencia
+                            </h3>
+                            <p className="pCarta">
+                              CP. Alfonso de la Cruz Garcia
+                            </p>
+                          </Col>
+                        </Row>
+                      </Card>
+                    </Col>
 
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "20%" }}
-                                >
-                                    <a target="_blank" href="https://tabasco.gob.mx/buen-gobierno"
-                                    >
-                                        <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "#981447" }}>
-                                            <img src="https://tabasco.gob.mx/sites/default/files/inline-images/Logo_Cacao_Footer.png"
-                                                alt="Buen-Gobierno"
-                                                style={{ width: "100%" }}
-                                            />
-                                        </Card>
-                                    </a>
-                                </Col>
+                    <Col xs={{ flex: "100%" }} xl={{ flex: "33%" }}>
+                      <Card style={{ height: "100%" }}>
+                        <Row gutter={[8, 8]} justify={"center"}>
+                          <Col xs={{ flex: "20%" }} xl={{ flex: "20%" }}>
+                            <Avatar size={100} icon={<UserOutlined />} />
+                          </Col>
+                          <Col
+                            xs={{ flex: "100%" }}
+                            xl={{ flex: "100%" }}
+                            style={{ textAlign: "center" }}
+                          >
+                            <h3 className="comiTransTitulo">
+                              Secretario Técnico
+                            </h3>
+                            <p className="pCarta">
+                              L.A. Oscar Augusto Pérez Carrillo
+                            </p>
+                          </Col>
+                        </Row>
+                      </Card>
+                    </Col>
 
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "80%" }}
-                                >
-                                    <Card style={{ backgroundColor: "#e3effe" }}>
-                                        <Row gutter={[8, 8]} justify={"center"}>
-                                            <Col
-                                                xs={{ flex: "100%" }}
-                                                xl={{ flex: "60%" }}
-                                            >
-                                                <h2 className='tituloLinkT'>
-                                                    Información publicada
-                                                    del municipio de Paraíso
-                                                </h2>
-                                                <p className='pLinkT'>
-                                                    Ley de Transparencia y Acceso a la Información, artículos 76 y 78
-                                                </p>
-                                                <div style={{ display: "flex", justifyContent: "center" }}>
-                                                    <a
-                                                        className='aLinkT'
-                                                        target="_blank"
-                                                        href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio"
-                                                    >
-                                                        CONSULTAR
-                                                    </a>
-                                                </div>
-                                            </Col>
-                                            <Col
-                                                xs={{ flex: "100%" }}
-                                                xl={{ flex: "30%" }}
-                                            >
-                                                <img src="https://transparencia.comalcalco.gob.mx/src/transparencia_logo.png"
-                                                    width={"100%"}
-                                                    alt="" />
-                                            </Col>
-                                        </Row>
-                                    </Card>
-                                </Col>
+                    <Col xs={{ flex: "100%" }} xl={{ flex: "33%" }}>
+                      <Card style={{ height: "100%" }}>
+                        <Row gutter={[8, 8]} justify={"center"}>
+                          <Col xs={{ flex: "20%" }} xl={{ flex: "20%" }}>
+                            <Avatar size={100} icon={<UserOutlined />} />
+                          </Col>
+                          <Col
+                            xs={{ flex: "100%" }}
+                            xl={{ flex: "100%" }}
+                            style={{ textAlign: "center" }}
+                          >
+                            <h3 className="comiTransTitulo">
+                              Vocal del Comité
+                            </h3>
+                            <p className="pCarta">
+                              Lic. Ana Rosa Dominguez Pérez{" "}
+                            </p>
+                          </Col>
+                        </Row>
+                      </Card>
+                    </Col>
+                  </Row>
+                </div>
+              </Col>
+            </Row>
+            {/* Comite viejo */}
+            <Row gutter={[8, 8]}>
+              <Col xs={{ flex: "100%" }} xl={12}>
+                <h3 className="tituloSecundariInicio">
+                  Resoluciones del Comité de Transparencia
+                </h3>
+                <Table
+                  size="small"
+                  dataSource={dataUEDM}
+                  columns={columns}
+                  rowKey={(record) => record.nombre}
+                  scroll={{ x: "max-content" }}
+                />
+              </Col>
+              <Col xs={{ flex: "100%" }} xl={12}>
+                <h3 className="tituloSecundariInicio">Estrados Electrónicos</h3>
+                <Table
+                  size="small"
+                  dataSource={dataEE}
+                  columns={columns}
+                  rowKey={(record) => record.nombre}
+                  scroll={{ x: "max-content" }}
+                />
+              </Col>
+            </Row>
 
-                                <Col
-                                    xs={{ flex: "100%" }}
-                                    xl={{ flex: "100%" }}
-                                >
-
-                                    <Card style={{ height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                        <Statistic title="Cantidad de visitas" value={countVisit} prefix={<EyeOutlined />} />
-                                    </Card>
-
-                                </Col>
-
-
-                            </Row>
-                        </div>
+            <div style={{ marginBottom: 20 }}>
+              <Row gutter={[8, 8]} justify={"center"}>
+                <Col xs={{ flex: "100%" }} xl={{ flex: "20%" }}>
+                  <a
+                    target="_blank"
+                    href="https://tabasco.gob.mx/buen-gobierno"
+                  >
+                    <Card
+                      style={{
+                        height: "100%",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        background: "#981447",
+                      }}
+                    >
+                      <img
+                        src="https://tabasco.gob.mx/sites/default/files/inline-images/Logo_Cacao_Footer.png"
+                        alt="Buen-Gobierno"
+                        style={{ width: "100%" }}
+                      />
                     </Card>
+                  </a>
                 </Col>
 
-            </Row >
-        </ConfigProvider>
-    )
+                <Col xs={{ flex: "100%" }} xl={{ flex: "80%" }}>
+                  <Card style={{ backgroundColor: "#e3effe" }}>
+                    <Row gutter={[8, 8]} justify={"center"}>
+                      <Col xs={{ flex: "100%" }} xl={{ flex: "60%" }}>
+                        <h2 className="tituloLinkT">
+                          Información publicada del municipio de Paraíso
+                        </h2>
+                        <p className="pLinkT">
+                          Ley de Transparencia y Acceso a la Información,
+                          artículos 76 y 78
+                        </p>
+                        <div
+                          style={{ display: "flex", justifyContent: "center" }}
+                        >
+                          <a
+                            className="aLinkT"
+                            target="_blank"
+                            href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio"
+                          >
+                            CONSULTAR
+                          </a>
+                        </div>
+                      </Col>
+                      <Col xs={{ flex: "100%" }} xl={{ flex: "30%" }}>
+                        <img
+                          src="https://transparencia.comalcalco.gob.mx/src/transparencia_logo.png"
+                          width={"100%"}
+                          alt=""
+                        />
+                      </Col>
+                    </Row>
+                  </Card>
+                </Col>
+
+                <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                  <Card
+                    style={{
+                      height: "100%",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <Statistic
+                      title="Cantidad de visitas"
+                      value={countVisit}
+                      prefix={<EyeOutlined />}
+                    />
+                  </Card>
+                </Col>
+              </Row>
+            </div>
+          </Card>
+        </Col>
+      </Row>
+    </ConfigProvider>
+  );
 }
