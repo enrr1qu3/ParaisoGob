@@ -42,7 +42,7 @@ export const TransparenciaNormaMuncipal = () => {
         {
             nombre: "TABULADOR DE SUELDOS Y REMUNERACIONES",
             ano: "2024",
-            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/Tabulador%20de%20Sueldos%20y%20Remuneraciones%20de%20los%20Servidores%20Publicos%202024/TABULADOR%20DE%20SUELDOS%20Y%20REMUNERACIONES%20DE%20LOS%20SERVIDORES%20PUBLICOS%20EJERCICIO%20FISCAL%202024.pdf",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/Tabulador de Sueldos y Remuneraciones de los Servidores Publicos 2024/TABULADOR DE SUELDOS Y REMUNERACIONES.pdf",
         },
     ]
     const columns: ColumnsType<any> = [
