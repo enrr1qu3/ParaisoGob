@@ -11,8 +11,17 @@ export const TablaInfoAyudasSubsidios = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/AYUDAS Y SUBSIDIOS/AYUDAS Y SUBSIDIOS.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/Información Financiera/AYUDAS Y SUBSIDIOS 3ER TRIMESTRE 2025.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/Información Financiera/INFORMACION_FINANCIERA_09-02-2026/MONTO_PAGADOS_POR_AYUDAS_Y_SUBSIDIOS_PERIODO_ 4TO_TRIMESTRE_DEL_2025.pdf",
+            },
+            2026:{
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/AYUDAS Y SUBSIDIOS.pdf"
             }
         },
+        {
+            name: "CALENDARIO DE INGRESOS",
+            2026:{
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/CALENDARIO DE INGRESOS.pdf"
+            }
+        }
 
 
 
@@ -135,6 +144,63 @@ export const TablaInfoAyudasSubsidios = () => {
                         {
                             title: '4',
                             dataIndex: [2025, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                    ]
+                },
+                {
+                    title: '2026',
+                    children: [
+                        {
+                            title: '1',
+                            dataIndex: [2026, 1],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '2',
+                            dataIndex: [2026, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            dataIndex: [2026, 3],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            dataIndex: [2026, 4],
                             width: "10px",
                             render: (e: any) => (
                                 (e) && < Button

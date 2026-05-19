@@ -13,6 +13,9 @@ export const TablaInfoPresupuestaria = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PRESUPUESTARIA/ENDEUDAMIENTO NETO.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/ENDEUDAMIENTO NETO A 3ER TRIMESTRE 2025.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INFORMACION_PRESUPUESTARIA-01-10-2025-31-12-2025/ENDEUDAMIENTO_NETO_01-10-2025-31-12-2025.pdf"
+            },
+            2026:{
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ENDEUDAMIENTO NETO.pdf"
             }
         },
         {
@@ -22,6 +25,9 @@ export const TablaInfoPresupuestaria = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/ESTADO ANALITICO DE LOS INGRESOS.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INFORMACION_PRESUPUESTARIA-01-10-2025-31-12-2025/ESTADO_ANALITICO_DE_LOS_INGRESOS_01-12-2025-31-12-2025.pdf",
+            },
+            2026:{
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ESTADO ANALITICO DE LOS INGRESOS.pdf"
             }
         },
         {
@@ -34,6 +40,9 @@ export const TablaInfoPresupuestaria = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PRESUPUESTARIA/INTERESES DE LA DEUDA.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INTERESES DE LA DEUDA 3ER TRIMESTRE 2025.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INFORMACION_PRESUPUESTARIA-01-10-2025-31-12-2025/INTERESES_DE_LA_DEUDA_01-10-2025-31-12-2025.pdf",
+            },
+            2026:{
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/INTERESES DE LA DEUDA.pdf"
             }
         },
 
@@ -165,6 +174,63 @@ export const TablaInfoPresupuestaria = () => {
                         {
                             title: '4',
                              dataIndex: [2025, 4],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                    ]
+                },
+                {
+                    title: '2026',
+                    children: [
+                        {
+                            title: '1',
+                            dataIndex: [2026, 1],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '2',
+                            dataIndex: [2026, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            dataIndex: [2026, 3],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                             dataIndex: [2026, 4],
                             width: "10px",
                             render: (e: any) => (
                                 (e) && < Button
