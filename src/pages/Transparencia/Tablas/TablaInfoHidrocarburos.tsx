@@ -438,6 +438,34 @@ export const TablaInfoHidrocarburos = () => {
                 ]
             }
         },
+        {
+            proyecto: "KAM 01",
+            obra: 'MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN MEDIA Y BAJA TENSION EN LA RANCHERIA NICOLAS BRAVO TERCERA SECCION (UBIC EN ENTRADA DON CHUNCHO), DEL MUNICIPIO PARAISO, TABASCO.',
+            localidad: "270140036.  RANCHERIA NICOLAS BRAVO 3RA SECCIÓN.",
+            contrato: "CO-PA-R23MAR-033-2026",
+            2026:{
+                1: [
+                    { 
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Contto Firmado KAM01-2026.pdf",
+                        name: "Acta de entrega"
+                     }
+                ]
+            }
+        },
+        {
+            proyecto: "KAM 02",
+            obra:"MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN MEDIA Y BAJA TENSION EN LA RANCHERIA NICOLAS BRAVO 4TA SECCION (TILAPA) DEL MUNICIPIO DE PARAISO, TABASCO.",
+            localidad:"270140037.  RIA. NICOLAS BRAVO 4TA SECCION (TILAPA).",
+            contrato: "CO-PA-R23MAR-034-2026",
+            2026:{
+                1: [
+                    { 
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Contto Firmado KAM02-2026.pdf",
+                        name: "Acta de entrega"
+                     }
+                ]
+            }
+        }
     ];
     const columns: ColumnsType<any> = [
         {
@@ -689,6 +717,36 @@ export const TablaInfoHidrocarburos = () => {
                         },
                         {
                             title: '3',
+                            dataIndex: [2026, 3],
+                            width: "10px",
+                            render: (e: any) => (
+                                <>
+                                    <Row gutter={[5, 5]}>
+                                        <Col span={24}>
+                                            {e?.length >= 1 && (
+                                                <Tooltip title={e[0].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[0].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                        <Col span={24}>
+                                            {e?.length === 2 && (
+                                                <Tooltip title={e[1].name}>
+                                                    <Button
+                                                        icon={<FilePdfOutlined />}
+                                                        href={e[1].url}
+                                                        target="_blank"
+                                                    />
+                                                </Tooltip>
+                                            )}
+                                        </Col>
+                                    </Row>
+                                </>
+                            ),
                             align: 'center',
                         },
                         {
