@@ -158,7 +158,7 @@ export default function DirectorioPage() {
       direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
     },
     {
-      nombre: "Lic. Javier Pérez Villegas",
+      nombre: "Lic. Rafael Antonio Martinez Rabelo",
       puesto: "Coordinación de Comunicación Social",
       imagen: "/public/user.png",
       correo: "comunicacionsocial@paraiso2427.gob.mx",
@@ -200,8 +200,8 @@ export default function DirectorioPage() {
       direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
     },
     {
-      nombre: "L.A. Maria del Carmen Gonzalez Rabanales",
-      puesto: "Departamento de Mejora Regulatoria",
+      nombre: "L.A.E. Maria del Carmen Gonzalez Rabanales",
+      puesto: "Departamento de Simplificación y Digitalización",
       imagen: "/public/user.png",
       correo: "mejoraregulatoria@paraiso2427.gob.mx",
       direccion: "Palacio Municipal. Calle Ignacio Comonfort. La Candelaria. C.P. 86605"
@@ -291,7 +291,7 @@ export default function DirectorioPage() {
       direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
     },
     {
-      nombre: "Grisela del Carmen Sosa Gomez",
+      nombre: "L.C.P. Griselda del Carmen Sosa Gomez",
       puesto: "Departamento de Recursos Humanos",
       imagen: "/public/user.png",
       correo: "recursoshumanos@paraiso2427.gob.mx",

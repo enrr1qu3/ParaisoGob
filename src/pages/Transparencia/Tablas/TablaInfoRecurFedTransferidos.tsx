@@ -65,6 +65,13 @@ export const TablaInfoRecurFedTransferidos = () => {
           },
         ],
       },
+      2026:{
+        1:[
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/APLICACION%20DE%20LOS%20RECURSOS%20FORTAMUN.pdf",
+          }
+        ]
+      }
     },
     {
       name: "MONTOS, OBRAS Y ACCIONES A REALIZAR CON EL FAIS",
@@ -97,6 +104,13 @@ export const TablaInfoRecurFedTransferidos = () => {
           },
         ],
       },
+      2026:{
+        1:[
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/OBRAS%20Y%20ACCIONES%20A%20REALIZAR%20FAIS.pdf",
+          }
+        ]
+      }
     },
     {
       name: "SRFT",

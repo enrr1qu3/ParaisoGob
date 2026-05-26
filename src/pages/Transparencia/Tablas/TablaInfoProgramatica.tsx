@@ -11,6 +11,9 @@ export const TablaInfoProgramatica = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/programas y proyectos 2DOTRIM.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/PROGRAMAS Y PROYECTOS.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/4to semstre/PROGRAMAS Y PROYECTOS.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/PROGRAMAS Y PROYECTOS.pdf"
             }
         },
         {
@@ -20,12 +23,18 @@ export const TablaInfoProgramatica = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CLASIFICACION POR CATEGORIA PROGRAMATICA 2DOTRIM.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/GASTO POR CATEGORIA PROGRAMATICA.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/4to semstre/GASTO POR CATEGORIA PROGRAMATICA.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/CLASIFICACION POR CATEGORIA PROGRAMATICA.pdf"
             }
         },
         {
             name: "PROGRAMAS Y PROYECTOS DE INVERSIÓN",
             2025: {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/4to semstre/PROGRAMAS Y PROYECTOS DE INVERSION.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/PROGRAMAS Y PROYECTOS DE INVERSION.pdf"
             }
         },
         {
@@ -35,6 +44,9 @@ export const TablaInfoProgramatica = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FORTAMUN.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FORTAMUN TERCER TRIMESTRE.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONACFIV4TOTRIM2025.pdf"
+            },
+            2026:{
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/RECURSOS RECIBIDOS FORTAMUN.pdf"
             }
         },
         {
@@ -44,6 +56,9 @@ export const TablaInfoProgramatica = () => {
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/INFORMACION PROGRAMATICA/CONAC2DOTRIM2025FAIS.pdf",
                 3: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONAC FAIS TERCER TRIMESTRE.pdf",
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PROGRAMATICA/CONACFIII4TOTRIM2025.pdf"
+            },
+            2026: {
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/OBRAS Y ACCIONES A REALIZAR FAIS.pdf"
             }
         },
 
@@ -161,9 +176,9 @@ export const TablaInfoProgramatica = () => {
                             dataIndex: [2025, 2],
                             render: (e: any) => (
                                 (e) && <Button
-                                  icon={< FilePdfOutlined />}
-                                  href={e}
-                                  target="_blank"  
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
                                 />
                             ),
                             align: 'center',
@@ -173,9 +188,9 @@ export const TablaInfoProgramatica = () => {
                             dataIndex: [2025, 3],
                             render: (e: any) => (
                                 (e) && <Button
-                                  icon={< FilePdfOutlined />}
-                                  href={e}
-                                  target="_blank"  
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
                                 />
                             ),
                             align: 'center',
@@ -185,9 +200,63 @@ export const TablaInfoProgramatica = () => {
                             dataIndex: [2025, 4],
                             render: (e: any) => (
                                 (e) && <Button
-                                  icon={< FilePdfOutlined />}
-                                  href={e}
-                                  target="_blank"  
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                    ]
+                },
+                {
+                    title: '2026',
+                    children: [
+                        {
+                            title: '1',
+                            dataIndex: [2026, 1],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '2',
+                            dataIndex: [2026, 2],
+                            render: (e: any) => (
+                                (e) && <Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '3',
+                            dataIndex: [2026, 3],
+                            render: (e: any) => (
+                                (e) && <Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
+                            align: 'center',
+                        },
+                        {
+                            title: '4',
+                            dataIndex: [2026, 4],
+                            render: (e: any) => (
+                                (e) && <Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
                                 />
                             ),
                             align: 'center',
