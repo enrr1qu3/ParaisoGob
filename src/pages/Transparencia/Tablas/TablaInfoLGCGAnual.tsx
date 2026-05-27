@@ -44,13 +44,13 @@ export const TablaInfoLGCGAnual = () => {
             name: "LEY DE INGRESOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO DE INGRESOS APROBADO.pdf"
+            },
+            2026: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/LEY DE INGRESO 2026.pdf"
             }
         },
         {
             name: "CUENTA PÚBLICA ANUALIZADA",
-            2024: {
-                4: "https://gobparaiso.blob.core.windows.net/transparencia/CUENTA PUBLICA ANUALIZADA 2024.pdf"
-            },
             2020: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Cuenta Pública 2020_Censurado-1.pdf"
             },
@@ -63,6 +63,12 @@ export const TablaInfoLGCGAnual = () => {
             2023: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/CUENTA PUBLICA ANUALIZADA 2023.pdf"
             },
+            2024: {
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/CUENTA PUBLICA ANUALIZADA 2024.pdf"
+            },
+            2025: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/CUENTA PUBLICA ANUAL 2025.pdf"
+            }
 
         },
 
