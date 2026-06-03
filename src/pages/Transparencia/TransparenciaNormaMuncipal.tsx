@@ -44,6 +44,16 @@ export const TransparenciaNormaMuncipal = () => {
             ano: "2024",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/Tabulador de Sueldos y Remuneraciones de los Servidores Publicos 2024/TABULADOR DE SUELDOS Y REMUNERACIONES.pdf",
         },
+        {
+            nombre: "MANUAL DE ORGANIZACIÓN 2024 - 2027",
+            ano: "2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/MANUAL%20DE%20ORGANIZACI%C3%93N%20PARA%C3%8DSO%2024-27.pdf",
+        },
+        {
+            nombre: "MANUAL DE PROCEDIMIENTOS 2024 - 2027",
+            ano: "2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/MANUAL%20DE%20PROCEDIMIENTOS%20PARA%C3%8DSO%2024-27.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {
