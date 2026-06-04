@@ -110,6 +110,16 @@ export default function TransparenciaComite() {
       archivo:
         "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/270510800014125.pdf",
     },
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 510510800004026",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/4026.pdf",
+    },
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 510510800004126",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/4126.pdf",
+    },
   ];
   const columns: ColumnsType<any> = [
     {
