@@ -18,7 +18,10 @@
       "Bash(node -e ':*)",
       "Bash(curl -s -o /tmp/directorio.pdf \"https://gobparaiso.blob.core.windows.net/tramites-y-servicios/Tr%C3%A1mites%20de%20las%20Oficial%C3%ADas%20del%20Registro%20Civil/Directorio%20oficial%C3%ADas.pdf\")",
       "Read(//tmp/**)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(ls -la /d/workspace/RCPG/ParaisoGob/src/App*)",
+      "Bash(xargs grep:*)",
+      "Bash(find /d/workspace/RCPG/ParaisoGob/src -type f \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" \\\\\\) -exec grep -l \"bien\\\\|mueble\\\\|inventario\" {} \\\\;)"
     ]
   }
 }

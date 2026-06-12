@@ -6,6 +6,7 @@ import { TablaInfoPresupuestaria } from './Tablas/TablaInfoPresupuestaria';
 import { TablaInfoLDF } from './Tablas/TablaInfoLDF';
 import { TablaInfoProgramatica } from './Tablas/TablaInfoProgramatica';
 import { TablaInfoAyudasSubsidios } from './Tablas/TablaInfoAyudasSubsidios';
+import { TablaIndicadoresResultados } from './Tablas/TablaIndicadoresResultados';
 
 export default function TransparenciaPage() {
 
@@ -34,6 +35,11 @@ export default function TransparenciaPage() {
             key: '5',
             label: 'Información financiera',
             children: <TablaInfoAyudasSubsidios />,
+        },
+        {
+            key: '6',
+            label: 'Indicadores de resultados',
+            children: <TablaIndicadoresResultados />,
         },
     ];
 

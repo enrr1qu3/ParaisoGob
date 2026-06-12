@@ -37,7 +37,7 @@ const items: MenuItem[] = [
               key: '#-1'
             },
             {
-              label: <a href="https://gobparaiso.blob.core.windows.net/transparencia/TEM_PATXCT06TEOFANI_20260119110821.xlsx" target="_blank" >Inventario de Bienes Muebles (Segundo Semestre 2025)</a>,
+              label: <a href={`https://view.officeapps.live.com/op/view.aspx?src=${encodeURIComponent("https://gobparaiso.blob.core.windows.net/transparencia/TEM_PATXCT06TEOFANI_20260119110821.xlsx")}`} target="_blank" >Inventario de Bienes Muebles (Segundo Semestre 2025)</a>,
               key: '#-3'
             },
             { label: 'Rendición de Cuentas', key: 'rendicion-de-cuentas' },
