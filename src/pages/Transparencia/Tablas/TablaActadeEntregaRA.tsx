@@ -769,6 +769,187 @@ export const TablaActadeEntregaRA = () => {
         ],
       },
     },
+    // -----------------------------------------------------------------------------
+    {
+      proyecto: "KA 301",
+      description: "CONSTRUCCION A BASE DE CONCRETO ASFALTICO EN CALIENTE EN DIVERSAS CALLES (USUMACINTA, SAMARIA, PUXCATAN, GRIJALVA Y CONTINUACION GRIJALVA DEL MUNICIPIO DE PARAISO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-015-2026%20KA301_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "KA 303",
+      description: "CONSTRUCCION DE TECHUMBRE EN EL POLIDEPORTIVO DE LA CIUDAD DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20KA303.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 301",
+      description: "REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 \" 1/2\" A FINOS EN ENTRADA A BUENA VISTA EN LA RANCHERIA AQUILES SERDAN DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP301_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 311",
+      description: "REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE Y OBRA COMPLEMENTARIA, EN DIVERSAS CALLES DEL ESCRIBANO, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP311_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 315",
+      description: "REHABILITACION DEL SISTEMA DE AGUA POTABLE EN LA RANCHERIA NICOLAS BRAVO SEGUNDA SECCION (LA GLORIA), DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP315-1.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 318",
+      description: "REHABILITACION DE PISTA DE ATLETISMO Y CANCHA DEL FUTBOL DEL POLIDEPORTIVO EN LA CIUDAD DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-036-2026%20OP318_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 319",
+      description: "REHABILITACION DE CUBIERTA AUTOSOPORTANTE EN TECHADO DEL PALACIO DE LOS DEPORTES EN LA CIUDAD DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP319.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 320",
+      description: "REHABILITACION DE RED DE DRENAJE SANITARIO EN LA CALLE CARMEN URUETA EN EL EJIDO ORIENTE (SAN CAYETANO), DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-039-2026%20OP320%20(2)_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 321",
+      description: "REHABILITACION DE RED DE AGUA ENTUBADA EN LA CALLE CARMEN URUETA (SAN CAYETANO), EJIDO ORIENTE, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-040-2026%20OP321%20(2)_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 322",
+      description: "REHABILITACION DE RED DE AGUA ENTUBADA, EN ENTRADA LOS PESCADITOS DE LA RANCHERIA ORIENTE PRIMERA SECCION DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-041-2026%20OP322_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 323",
+      description: "REHABILITACION DE RED DE AGUA ENTUBADA EN ENTRADA MORALES ROMERO Y LOS DOMINGUEZ EN LA RANCHERIA LIBERTAD SEGUNDA SECCION, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-042-2026%20OP323_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 324",
+      description: "REHABILITACION A BASE DE GRAVA REVESTIMIENTO DE 1 1/2\" A FINOS, EN DIVERSOS CAMINOS (SAN ANTONIO DE PADUA, LOS RAMIREZ, LOS PAJARITOS Y DON BELI), Y OBRA COMPLEMENTARIA EN EL EJIDO AQUILES SERDAN, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-043-2026%20OP324.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 325",
+      description: "REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE, EN CAMINOS LOS CORDOBA PEREZ (LA KATY) Y LOS ANGULOS, DE LA COLONIA MOCTEZUMA, RIA. FRANCISCO Y MADERO 1A SECCION, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-044-2026%20OP325_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 326",
+      description: "REHABILITACION A BASE DE GRAVA DE REVESTIMIENTOS 1 1/2\", A FINOS, EN AVENIDA PALMA DE COCO, Y CALLE LOPEZ OBRADOR, PALMA HUACA, PALMA DE COCO, PALMA DE OROZCO, PALMA REAL, PALMA ARECA Y LAS PALMITA DE LA COLONIA LA MONTAÑITA, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-045-2026%20OP326_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 327",
+      description: "REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE, EN ENTRADA A UN COSTADO DE LA ESCUELA AUGUSTO HERNANDEZ OLIVE, DEL POBLADO FRANCISCO I. MADERO, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-046-2026%20OP327.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
   ];
 
 const columns: ColumnsType<any> = [
@@ -836,6 +1017,40 @@ const columns: ColumnsType<any> = [
           {
             title: "1",
             dataIndex: [2026, 1],
+            width: "80px",
+            render: (e: any) => (
+              <>
+                <Row gutter={[5, 5]}>
+                  <Col span={12}>
+                    {e?.length >= 1 && (
+                      <Tooltip title={e[0].name}>
+                        <Button
+                          icon={<FilePdfOutlined />}
+                          href={e[0].url}
+                          target="_blank"
+                        />
+                      </Tooltip>
+                    )}
+                  </Col>
+                  <Col span={12}>
+                    {e?.length === 2 && (
+                      <Tooltip title={e[1].name}>
+                        <Button
+                          icon={<FilePdfOutlined />}
+                          href={e[1].url}
+                          target="_blank"
+                        />
+                      </Tooltip>
+                    )}
+                  </Col>
+                </Row>
+              </>
+            ),
+            align: "center",
+          },
+          {
+            title: "2",
+            dataIndex: [2026, 2],
             width: "80px",
             render: (e: any) => (
               <>
