@@ -803,6 +803,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP301_redacted.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP301_RA.%20AQUILES%20SERDAN%20ENT%20BUENA%20VISTA.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -826,6 +830,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP315-1.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP315_NB%202DA%20LA%20GLORIA%20SISTEMA%20DE%20AGUA.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -875,6 +883,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-040-2026%20OP321%20(2)_redacted.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/ACTA%20ENTREGA%20OP321.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -886,6 +898,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-041-2026%20OP322_redacted.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP322-.PESCADITO.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
