@@ -646,6 +646,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP304.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP304_EJ%20ORIENTE%20SAN%20CAYETANO%20ASFALTO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -657,6 +661,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP305.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP305_RA%20AQUILES%20SERDAN%20HACIA%20EL%20CAMPO.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -670,6 +678,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP306.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP306%20_CHILTEPEC%20PENJAMO%20EN%20EL%20BRUJO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -681,6 +693,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP307.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP307_COL%20NVO%20TORNO%20LARGO.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -694,6 +710,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP308.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP308_ELOY%20CORDOVA%20POB%20MADERO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -705,6 +725,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP309.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP309_EJ%20PTO%20CEIBA%20CARRIZAL.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -718,6 +742,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP310.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP310_ESCRIBANO%20AGUA%20ENTUBADA.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -729,6 +757,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/KA302.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/KA302%20_CD%20DE%20PARAISO%20BANQUETAS%20GUANAJAY.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -742,6 +774,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP312.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP312_CD%20DE%20PARAISO%2018%20MTRS%20Y%205%20DE%20MAYO.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -753,6 +789,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP313.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP313.-%20EMBARCADERO.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -814,6 +854,12 @@ export const TablaActadeEntregaRA = () => {
       proyecto: "OP 311",
       description: "REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE Y OBRA COMPLEMENTARIA, EN DIVERSAS CALLES DEL ESCRIBANO, DEL MUNICIPIO DE PARAISO, TABASCO.",
       2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP311.-%20ESCRIBANO.pdf",
+            name: "Acta de entrega",
+          },
+        ],
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP311_redacted.pdf",
@@ -894,6 +940,12 @@ export const TablaActadeEntregaRA = () => {
       proyecto: "OP 322",
       description: "REHABILITACION DE RED DE AGUA ENTUBADA, EN ENTRADA LOS PESCADITOS DE LA RANCHERIA ORIENTE PRIMERA SECCION DEL MUNICIPIO DE PARAISO, TABASCO.",
       2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP322-.PESCADITO.pdf",
+            name: "Acta de entrega",
+          },
+        ],
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-041-2026%20OP322_redacted.pdf",
@@ -961,6 +1013,30 @@ export const TablaActadeEntregaRA = () => {
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-046-2026%20OP327.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 328",
+      description: "REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2\" FINOS, EN ENTRADA LOS MORALES ROMERO, LOS DIAZ, LOS DOMINGUEZ Y OBRA COMPLEMENTARIA EN RIA. LIBERTAD SEGUNDA SECCION, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-048-2026_redacted.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 329",
+      description: "REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2\" FINOS, EN ENTRADA LOS PESCADITOS, DE LA RANCHERIA ORIENTE PRIMERA SECCION, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-049-2026_redacted.pdf",
             name: "Contrato",
           },
         ],
