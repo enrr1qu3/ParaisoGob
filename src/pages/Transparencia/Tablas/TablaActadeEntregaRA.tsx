@@ -652,6 +652,12 @@ export const TablaActadeEntregaRA = () => {
           name: "Contrato",
         },
       ],
+      2: [
+        {
+          url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/acata%20entrega%20op302.pdf",
+          name: "Acta de entrega",
+        },
+      ],
     },
     },
     {
@@ -662,6 +668,12 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/R_F_T_13-04-2026/OP/OP303.pdf",
             name: "Contrato",
+          },
+        ],
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/acta%20entrega%20op303.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -914,6 +926,38 @@ export const TablaActadeEntregaRA = () => {
           },
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP315_NB%202DA%20LA%20GLORIA%20SISTEMA%20DE%20AGUA.pdf",
+            name: "Acta de entrega",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 316",
+      description: "REHABILITACION DE DRENAJE SANITARIO Y OBRA COMPLEMENTARIA EN DIVERSAS CALLES, (USUMACINTA, SAMARIA, PUXCATAN, GRIJALVA Y CONTINUACION GRIJALVA), EN LA CIUDAD DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP316.pdf",
+            name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP316_CD%20DE%20PARAISO%20CALLE%20USUMACINTA%20DRENAJE.pdf",
+            name: "Acta de entrega",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 317",
+      description: "REHABILITACION DE RED DE AGUA ENTUBADA EN DIVERSAS CALLES (USUMACINTA, SAMARIA, PUXCATAN, GRIJALVA Y CONTINUACION GRIJALVA), EN LA CIUDAD DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP317.pdf",
+            name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP317_CD%20DE%20PARAISO%20CALLE%20USUMACINTA%20AGUA%20ENTUBADA.pdf",
             name: "Acta de entrega",
           },
         ],
