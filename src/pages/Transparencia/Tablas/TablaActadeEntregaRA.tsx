@@ -452,6 +452,35 @@ export const TablaActadeEntregaRA = () => {
         ],
       },
     },
+    // -----------------------------------------------------------------------------
+    {
+      proyecto: "KA 401",
+      description: "SUMINISTRO E INSTALACION DE POSTES CONICOS PARA CAMARAS DE VIDEO VIGILANCIA PARA INHIBIR LOS DELITOS EN EL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20FIRMADO%20KA401%20-2026.pdf",
+            name: "Contrato",
+          },
+        ],
+      },
+    },
+    {
+      proyecto: "OP 411",
+      description: "REHABILITACION DE LA OFICINA DEL AREA JURIDICA DE LA DIRECCION DE SEGURIDAD PUBLICA DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20FIRMADO%20OP411%20-2025%20EDIF%20SEG%20PUBL.pdf",
+            name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/Actas/OP411%20ACTA%20ENTREGA-%20RECEPCION.pdf",
+            name: "Acta de entrega",
+          },
+        ],
+      },
+    },
     {
       proyecto: "OP 387",
       description: "REHABILITACION DE SISTEMA DE AGUA (UBIC. COLONIA LOS COCOS) EN LA CIUDAD DE PARAISO DEL MUNICIPIO DE PARAISO, TABASCO.",
@@ -826,6 +855,12 @@ export const TablaActadeEntregaRA = () => {
       proyecto: "KA 303",
       description: "CONSTRUCCION DE TECHUMBRE EN EL POLIDEPORTIVO DE LA CIUDAD DE PARAISO, TABASCO.",
       2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/KA303.pdf",
+            name: "Acta de entrega",
+          },
+        ],
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20KA303.pdf",
@@ -962,6 +997,12 @@ export const TablaActadeEntregaRA = () => {
       proyecto: "OP 323",
       description: "REHABILITACION DE RED DE AGUA ENTUBADA EN ENTRADA MORALES ROMERO Y LOS DOMINGUEZ EN LA RANCHERIA LIBERTAD SEGUNDA SECCION, DEL MUNICIPIO DE PARAISO, TABASCO.",
       2026: {
+        1: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/1/OP323.pdf",
+            name: "Acta de entrega",
+          },
+        ],
         2: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-042-2026%20OP323_redacted.pdf",
