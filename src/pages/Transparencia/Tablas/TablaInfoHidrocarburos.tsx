@@ -440,29 +440,51 @@ export const TablaInfoHidrocarburos = () => {
         },
         {
             proyecto: "KAM 01",
-            obra: 'MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN MEDIA Y BAJA TENSION EN LA RANCHERIA NICOLAS BRAVO TERCERA SECCION (UBIC EN ENTRADA DON CHUNCHO), DEL MUNICIPIO PARAISO, TABASCO.',
+            obra: 'En la Ranchería Nicolás Bravo, Tercera Sección (ubicada Entrada don Chuncho), del municipio de Paraíso, Tabasco. Marítima 2026).',
             localidad: "270140036.  RANCHERIA NICOLAS BRAVO 3RA SECCIÓN.",
             contrato: "CO-PA-R23MAR-033-2026",
             2026:{
                 1: [
-                    { 
+                    {
                         url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Contto Firmado KAM01-2026.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Actas/97.%20KAM01%20ACTA%20DE%20ENTREGA%20-%20%20RECEPCI%C3%93N%20%20(2).pdf",
                         name: "Acta de entrega"
-                     }
+                    }
                 ]
             }
         },
         {
             proyecto: "KAM 02",
-            obra:"MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA EN MEDIA Y BAJA TENSION EN LA RANCHERIA NICOLAS BRAVO 4TA SECCION (TILAPA) DEL MUNICIPIO DE PARAISO, TABASCO.",
+            obra:"En la Ranchería Nicolás Bravo, Cuarta Sección (Tilapa), del municipio de Paraíso, Tabasco. Marítima 2026).",
             localidad:"270140037.  RIA. NICOLAS BRAVO 4TA SECCION (TILAPA).",
             contrato: "CO-PA-R23MAR-034-2026",
             2026:{
                 1: [
-                    { 
+                    {
                         url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS FEDERALES TRANSFERIDOS/Contto Firmado KAM02-2026.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Actas/97.%20KAM02%20ACTA%20DE%20ENTREGA%20-%20%20RECEPCI%C3%93N.pdf",
                         name: "Acta de entrega"
-                     }
+                    }
+                ]
+            }
+        },
+        {
+            proyecto: "OPM03",
+            obra: "REHABILITACION A BASE DE CONCRETO HIDRAULICO EN LA CALLE CARMEN URUETA EN EL EJIDO ORIENTE SAN CAYETANO. PARAISO, TABASCO",
+            localidad: "270140024. EJ. ORIENTE SAN CAYETANO.",
+            contrato: "CO-PA-R23TERR-057-2026",
+            2026:{
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Contrato/Contrato%20OPM03%20Firmado%20Baluarte.pdf",
+                        name: "Contrato"
+                    }
                 ]
             }
         }
