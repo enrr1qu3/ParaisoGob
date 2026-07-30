@@ -94,18 +94,21 @@ export const TablaInfoRendiCuentas = () => {
       name: "CLASIFICACION ADMINISTRATIVA",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_ADMINISTRATIVA.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20ADMINISTRATIVA.pdf",
       },
     },
     {
       name: "CLASIFICACION ECONOMICA (POR TIPO DE GASTO)",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_ECONOMICA_(POR%20TIPO%20DE%20GASTO).pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20ECONOMICA.pdf",
       },
     },
     {
       name: "CLASIFICACION FUNCIONAL",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_FUNCIONAL.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20FUNCIONAL.pdf",
       },
     },
     {
@@ -118,12 +121,14 @@ export const TablaInfoRendiCuentas = () => {
       name: "CLASIFICACION POR OBJETO DEL GASTO",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_POR_OBJETO_DEL_GASTO.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20POR%20OBJETO%20DEL%20GASTO.pdf",
       },
     },
     {
       name: "GASTO POR CATEGORIA PROGRAMATICA",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/GASTO_POR_CATEGORIA_PROGRAMATICA.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/GASTO%20POR%20CATEGORIA%20PROGRAMATICA.pdf",
       },
     },
     {
@@ -261,6 +266,12 @@ export const TablaInfoRendiCuentas = () => {
             },
             {
               title: "2",
+              dataIndex: [2026, 2],
+              width: "10px",
+              render: (e: any) =>
+                e && (
+                  <Button icon={<FilePdfOutlined />} href={e} target="_blank" />
+                ),
               align: "center",
             },
             {

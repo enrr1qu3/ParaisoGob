@@ -71,6 +71,12 @@ export const TablaInfoLGCGAnual = () => {
             }
 
         },
+                {
+            name: "TABLA DE ANALITICO DE PLAZAS EJERCICIO FISCAL 2025",
+            2025: {
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Anual/2025/Trimestre%201/TABLA%20DE%20ANALITICO%20DE%20PLAZAS%20EJERCICIO%20FISCAL%202025.pdf"
+            }
+        },
 
 
     ];
