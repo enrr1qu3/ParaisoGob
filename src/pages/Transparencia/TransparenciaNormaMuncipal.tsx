@@ -55,7 +55,7 @@ export const TransparenciaNormaMuncipal = () => {
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/MANUAL%20DE%20PROCEDIMIENTOS%20PARA%C3%8DSO%2024-27.pdf",
         },
         {
-            nombre: "REGLAS DE OPERACIÓN Y/O SERVICIOS FUNERARIOS 2025",
+            nombre: "REGLAS DE OPERACIÓN DE ATAÚDES Y/O SERVICIOS FUNERARIOS 2025",
             ano: "2025",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/REGLAS%20DE%20OPERACION%20ATAUD%202025.pdf",
         },
