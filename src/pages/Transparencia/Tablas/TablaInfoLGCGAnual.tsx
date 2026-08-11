@@ -46,7 +46,8 @@ export const TablaInfoLGCGAnual = () => {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/DIRECCION PROGRAMATICA/INFORMACION FINANCIERA LGCG/ANUAL/PRESUPUESTO DE INGRESOS APROBADO.pdf"
             },
             2026: {
-                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/LEY DE INGRESO 2026.pdf"
+                1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/LEY DE INGRESO 2026.pdf",
+                2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Anual/2026/1.-%20LEY%20DE%20INGRESOS.pdf",
             }
         },
         {
@@ -292,6 +293,15 @@ export const TablaInfoLGCGAnual = () => {
                         },
                         {
                             title: '2',
+                            dataIndex: [2026, 2],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {

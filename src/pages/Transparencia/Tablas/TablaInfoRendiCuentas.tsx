@@ -115,6 +115,7 @@ export const TablaInfoRendiCuentas = () => {
       name: "CLASIFICACION POR FUENTE DE FINANCIAMIENTO",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_POR_FUENTE_DE_FINANCIAMIENTO.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20POR%20FUENTE%20DE%20FINANCIAMIENTO.pdf",
       },
     },
     {
@@ -135,12 +136,14 @@ export const TablaInfoRendiCuentas = () => {
       name: "PRESUPUESTO DE EGRESOS CLASIFICACION POR PARTIDA",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/PRESUPUESTO_DE_EGRESOS_CLASIFICACION_POR_PARTIDA.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/PRESUPUESTO%20DE%20EGRESOS%20CLASIFICACION%20POR%20PARTIDA.pdf",
       },
     },
     {
       name: "PROGRAMAS Y PROYECTOS",
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/PROGRAMAS_Y_PROYECTOS.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/PROGRAMAS%20Y%20PROYECTOS.pdf",
       },
     },
   ];

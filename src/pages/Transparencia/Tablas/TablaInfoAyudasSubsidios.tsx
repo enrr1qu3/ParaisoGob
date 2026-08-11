@@ -5,7 +5,7 @@ import type { ColumnsType } from 'antd/es/table';
 export const TablaInfoAyudasSubsidios = () => {
     const dataSource = [
         {
-            name: "AYUDAS Y SUBSIDIOS",
+            name: "MONTOS EFECTIVAMENTE PAGADOS AYUDAS Y SUBSIDIOS",
             2025: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2025/AYUDAS Y SUBSIDIOS/AYUDAS Y SUBSIDIOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2025/AYUDAS Y SUBSIDIOS/AYUDAS Y SUBSIDIOS.pdf",
@@ -13,13 +13,15 @@ export const TablaInfoAyudasSubsidios = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/Información Financiera/INFORMACION_FINANCIERA_09-02-2026/MONTO_PAGADOS_POR_AYUDAS_Y_SUBSIDIOS_PERIODO_ 4TO_TRIMESTRE_DEL_2025.pdf",
             },
             2026:{
-                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/AYUDAS Y SUBSIDIOS.pdf"
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/AYUDAS Y SUBSIDIOS.pdf",
+                2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20financiera/1.-%20MONTOS%20EFECTIVAMENTE%20PAGADOS%20AYUDAS%20Y%20SUBSIDIOS.pdf",
             }
         },
         {
             name: "CALENDARIO DE INGRESOS",
             2026:{
-                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/CALENDARIO DE INGRESOS.pdf"
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/CALENDARIO DE INGRESOS.pdf",
+                2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20financiera/2.-%20CALENDARIO%20DE%20INGRESOS.pdf",
             }
         }
 

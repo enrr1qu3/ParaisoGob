@@ -15,7 +15,8 @@ export const TablaInfoPresupuestaria = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INFORMACION_PRESUPUESTARIA-01-10-2025-31-12-2025/ENDEUDAMIENTO_NETO_01-10-2025-31-12-2025.pdf"
             },
             2026:{
-                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ENDEUDAMIENTO NETO.pdf"
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ENDEUDAMIENTO NETO.pdf",
+                2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20presupuestaria/1.-%20ENDEUDAMIENTO%20NETO.pdf",
             }
         },
         {
@@ -27,7 +28,8 @@ export const TablaInfoPresupuestaria = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INFORMACION_PRESUPUESTARIA-01-10-2025-31-12-2025/ESTADO_ANALITICO_DE_LOS_INGRESOS_01-12-2025-31-12-2025.pdf",
             },
             2026:{
-                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ESTADO ANALITICO DE LOS INGRESOS.pdf"
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ESTADO ANALITICO DE LOS INGRESOS.pdf",
+                2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20presupuestaria/2.-%20ESTADO%20ANALITICO%20DE%20LOS%20INGRESOS.pdf",
             }
         },
         {
@@ -42,7 +44,8 @@ export const TablaInfoPresupuestaria = () => {
                 4: "https://gobparaiso.blob.core.windows.net/transparencia/INFORMACION PRESUPUESTARIA/INFORMACION_PRESUPUESTARIA-01-10-2025-31-12-2025/INTERESES_DE_LA_DEUDA_01-10-2025-31-12-2025.pdf",
             },
             2026:{
-                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/INTERESES DE LA DEUDA.pdf"
+                1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/INTERESES DE LA DEUDA.pdf",
+                2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20presupuestaria/3.-%20INTERESES%20DE%20LA%20DEUDA.pdf",
             }
         },
 
