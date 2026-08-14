@@ -65,7 +65,7 @@ export const TablaInfoLGCGTrimestral = () => {
       },
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Trimestral/FORMATO DE OBLIGACIONES PAGADAS O GARANTIZADAS CON FONDOS FEDERA.pdf",
-        2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Segundo%20Trimestre%202026/INFORMACION%20RELATIVA%20A%20LAS%20OBLIGACIONES%20QUE%20SE%20PAGAN%20O%20GARANTIZAN%20CON%20RECURSOS%20DE%20%20FONDOS%20FEDERALES%20.pdf",
+        2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Segundo%20Trimestre%202026/INFORMACION%20RELATIVA%20A%20LAS%20OBLIGACIONES%20QUE%20SE%20PAGAN%20O%20GARANTIZAN%20CON%20RECURSOS%20FONDOS%20FEDERALES%20.pdf",
       },
     },
     {

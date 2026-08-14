@@ -65,6 +65,30 @@ export default function TransparenciaUEDMPage() {
             nombre: "TdR FORTAMUN 2026",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/TdR%20FORTAMUN%202026.pdf",
         },
+        {
+            nombre: "Evaluación de Consistencia y Resultados FORTAMUN 2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/Evaluaci%C3%B3n%20de%20Consistencia%20y%20Resultados%20FORTAMUN%202025.pdf",
+        },
+        {
+            nombre: "Evaluación de Indicadores FAISMUN 2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/Evaluaci%C3%B3n%20de%20Indicadores%20FAISMUN%202025.pdf",
+        },
+        {
+            nombre: "Formato Difusion Ev Indicadores 2025 Paraiso",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/Formato%20Difusion%20Ev%20Indicadores%202025%20Paraiso.pdf",
+        },
+        {
+            nombre: "Formato_Difusion _PARAISO_ EVALCYR FORTAMUN 2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/Formato_Difusion%20_PARAISO_%20EVALCYR%20FORTAMUN%202025.pdf",
+        },
+        {
+            nombre: "Resumen ejecutivo Ev Indicadores 2025 Paraiso",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/Resumen%20ejecutivo%20Ev%20Indicadores%202025%20Paraiso.pdf",
+        },
+        {
+            nombre: "Resumen Ejecutivo_FORTAMUN_PARAISO 2025",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/UNIDAD_EVALUACION_DESEMPE%C3%91O_MUNICIPAL/Resumen%20Ejecutivo_FORTAMUN_PARAISO%202025.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {
