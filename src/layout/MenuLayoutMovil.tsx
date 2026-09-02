@@ -23,8 +23,8 @@ export const MenuLayoutMovil = () => {
             key: 'GOBIERNO',
             children: [
 
-                { label: 'Cabildo', key: 'cabildo' },
-                { label: 'Directorio', key: 'directorio' },
+                // { label: 'Cabildo', key: 'cabildo' },
+                // { label: 'Directorio', key: 'directorio' },
                 // { label: 'Población', key: 'poblacion' },
 
             ],
