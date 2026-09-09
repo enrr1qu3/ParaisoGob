@@ -21,7 +21,10 @@
       "Bash(npx tsc:*)",
       "Bash(ls -la /d/workspace/RCPG/ParaisoGob/src/App*)",
       "Bash(xargs grep:*)",
-      "Bash(find /d/workspace/RCPG/ParaisoGob/src -type f \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" \\\\\\) -exec grep -l \"bien\\\\|mueble\\\\|inventario\" {} \\\\;)"
+      "Bash(find /d/workspace/RCPG/ParaisoGob/src -type f \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" \\\\\\) -exec grep -l \"bien\\\\|mueble\\\\|inventario\" {} \\\\;)",
+      "Bash(pip show:*)",
+      "Read(//d/OficiosParaiso/Bitacoras/Correo/**)",
+      "Read(//d/OficiosParaiso/Bitacoras/Web/**)"
     ]
   }
 }

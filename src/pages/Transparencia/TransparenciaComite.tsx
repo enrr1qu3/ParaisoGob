@@ -125,6 +125,16 @@ export default function TransparenciaComite() {
       archivo:
         "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA%20DE%20NOTIFICACION%20POR%20ESTRADO%2051051080009926.pdf",
     },
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 510510800010426",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA%20DE%20NOTIFICACION%20POR%20ESTRADO%20510510800010426.pdf",
+    },
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 510510800010526",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA%20DE%20NOTIFICACION%20POR%20ESTRADO%20ELECTRONICO%20510510800010526.pdf",
+    },
   ];
   const columns: ColumnsType<any> = [
     {
