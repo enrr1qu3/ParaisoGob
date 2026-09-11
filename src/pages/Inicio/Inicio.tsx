@@ -13,6 +13,12 @@ import { ReleaseComponent } from './components/ReleaseComponent';
 export default function Inicio() {
 
     const handleDownload = () => {
+        // Watchtower: registra la descarga programática del Plan de Desarrollo.
+        // w.js no puede detectar estas descargas automáticamente porque se
+        // crean dinámicamente con JavaScript, no son enlaces <a> en el DOM.
+        if (typeof window.wt === 'function') {
+            window.wt('track', 'descarga_documento', { documento: 'Plan de Desarrollo' })
+        }
         // Crea un elemento <a>
         const link = document.createElement('a');
         // Establece la ruta del archivo
@@ -24,6 +30,10 @@ export default function Inicio() {
         link.click();
     };
     const handleDownloadConvocatory = () => {
+        // Watchtower: registra la descarga programática de la Convocatoria.
+        if (typeof window.wt === 'function') {
+            window.wt('track', 'descarga_documento', { documento: 'Convocatoria Enajenación Bienes' })
+        }
         // Crea un elemento <a>
         const link = document.createElement('a');
         // Establece la ruta del archivo
@@ -35,6 +45,10 @@ export default function Inicio() {
         link.click();
     };
     const handleDownloadAtlas = () => {
+        // Watchtower: registra la descarga programática del Atlas de Peligros.
+        if (typeof window.wt === 'function') {
+            window.wt('track', 'descarga_documento', { documento: 'Atlas de Peligros' })
+        }
         // Crea un elemento <a>
         const link = document.createElement('a');
         // Establece la ruta del archivo

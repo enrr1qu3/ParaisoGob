@@ -24,7 +24,14 @@
       "Bash(find /d/workspace/RCPG/ParaisoGob/src -type f \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" \\\\\\) -exec grep -l \"bien\\\\|mueble\\\\|inventario\" {} \\\\;)",
       "Bash(pip show:*)",
       "Read(//d/OficiosParaiso/Bitacoras/Correo/**)",
-      "Read(//d/OficiosParaiso/Bitacoras/Web/**)"
+      "Read(//d/OficiosParaiso/Bitacoras/Web/**)",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 -c \" import sys, json for line in sys.stdin: try: obj = json.loads\\(line.strip\\(\\)\\) content = obj.get\\('message', {}\\).get\\('content', ''\\) if isinstance\\(content, str\\): print\\(content[:300]\\) elif isinstance\\(content, list\\): for item in content: if isinstance\\(item, dict\\) and item.get\\('type'\\) == 'text': print\\(item['text'][:300]\\) print\\('---'\\) except: pass \")",
+      "Read(//c/Users/Isabelino/watchtower-dashboard/**)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(C:/Users/Isabelino/watchtower-dashboard/node_modules/.bin/tsc --noEmit --project C:/Users/Isabelino/watchtower-dashboard/tsconfig.app.json)",
+      "Bash(node ./node_modules/.bin/vite build)"
     ]
   }
 }

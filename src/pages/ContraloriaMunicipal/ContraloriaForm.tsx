@@ -56,6 +56,11 @@ export default function ContraloriaForm() {
             });
 
             if (response.ok) {
+                // Watchtower: registra el envío confirmado del reporte ciudadano.
+                // Permite medir cuántos reportes se envían exitosamente.
+                if (typeof window.wt === 'function') {
+                    window.wt('track', 'reporte_ciudadano_enviado', { tipo: 'queja' })
+                }
                 form.resetFields();
                 setSubmitOk(true)
             } else {

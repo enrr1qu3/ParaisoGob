@@ -17,6 +17,17 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paraíso Tabasco</title>
+    <!-- Watchtower: cola para que wt() funcione antes de que w.js cargue.
+         Sin esta línea, wt('track', ...) lanzaría "wt is not defined" y
+         cortaría el código que viene después. -->
+    <script>window.wt=window.wt||function(){(window.wt.q=window.wt.q||[]).push(arguments)}</script>
+    <!-- Watchtower: script de analítica. Registra páginas vistas, clics
+         relevantes y eventos propios automáticamente. -->
+    <script defer
+            src="https://watchtower-backend.it-desarrollo2000.workers.dev/w.js"
+            data-key="wt_pk_a9b59c70de9625a4c2b7c867"
+            data-endpoint="https://watchtower-backend.it-desarrollo2000.workers.dev"
+            data-attribution="true"></script>
   </head>
   <body>
     <div id="root"></div>
