@@ -5,305 +5,133 @@ export default function DirectorioPage() {
 
   const inteDirecciones = [
     {
-      nombre: "Dr. Carlos Alberto Ramon Gûemes ",
-      puesto: " Secretario del Ayuntamiento",
+      nombre: "Mtra. María Eliza Hernández Flores",
+      puesto: "Presidencia Municipal Interina",
       imagen: "/public/user.png",
-      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-      direccion:
-        "Palacio Municipal. Calle Ignacio Comonfort S/N C.P. 86605",
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "C.P y A. Miguel Angel Cruz Sanchez.",
-      puesto: "Dirección de Finanzas",
-      // imagen: "https://gobparaiso.blob.core.windows.net/fotoscabildo/CP MIRELLA/CP MIRELLA 06.jpg"
+      nombre: "Ing. Otoniel Palma Santiago",
+      puesto: "Dirección de Administración",
       imagen: "/public/user.png",
-      correo: "finanzas@paraiso2427.gob.mx",
-      direccion:
-        "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86609",
+      correo: "",
+      direccion: "",
+    },
+    {
+      nombre: "Lic. Jesús Manuel Sánchez Ricárdez",
+      puesto: "Secretaría del Ayuntamiento",
+      imagen: "/public/user.png",
+      correo: "",
+      direccion: "",
+    },
+    {
+      nombre: "LIC. RAFAEL SANTIAGO RODRÍGUEZ",
+      puesto: "Contraloría Municipal",
+      imagen: "/public/user.png",
+      correo: "",
+      direccion: "",
+    },
+    {
+      nombre: "C.P. y A. Miguel Ángel Cruz Sánchez",
+      puesto: "Dirección de Finanzas",
+      imagen: "/public/user.png",
+      correo: "",
+      direccion: "",
     },
     {
       nombre: "Ing. Arturo Izquierdo Alejandro",
       puesto: "Dirección de Programación",
-      imagen:
-        "https://gobparaiso.blob.core.windows.net/fotoscabildo/LIC ARTURO IZQ/LIC ARTURO 06.jpg",
-      correo: "programaciónypresupuesto@paraiso2427.gob.mx",
-      direccion:
-        "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86611",
-    },
-    {
-      nombre: "C.P. Alfonso de la Cruz Garcia",
-      puesto: "Contraloría Municipal",
       imagen: "/public/user.png",
-      correo: "contraloria@paraiso.gob.mx",
-      direccion:
-        "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605",
+      correo: "",
+      direccion: "",
     },
     {
       nombre: "Lic. Santiago Magaña Burelo",
       puesto: "Dirección de Desarrollo",
       imagen: "/public/user.png",
-      correo: "desarrollo@paraiso2427.gob.mx",
-      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab.",
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Lic. Julio Cesar Jimenez Cruz.",
-      puesto: "Dirección de Fomento Económico y Turismo",
+      nombre: "Ing. Asunción López Veresaluses",
+      puesto: "Dirección de Obras, Ordenamiento Territorial y Servicios Municipales",
       imagen: "/public/user.png",
-      correo: "fomentoyturismo@paraiso2427.gob.mx",
-      direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab.",
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Ing. Edison García Wilzon",
-      puesto:
-        "Dirección de Obras, Ordenamiento Territorial y Servicios Municipales",
-      imagen: "/public/user.png",
-      correo: "obraspublicas@paraiso2427.gob.mx",
-      direccion:
-        "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86614",
-    },
-    {
-      nombre: "Lic. Marco Ernesto Pérez Torres",
+      nombre: "Mtro. Carmen Sánchez Jáuregui",
       puesto: "Dirección de Educación, Cultura y Recreación",
       imagen: "/public/user.png",
-      correo: "decur@paraiso2427.gob.mx",
-      direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab.",
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Lic. Demetrio Velázquez Castellanos",
-      puesto: "Dirección de Administración",
-      imagen: "/public/user.png",
-      correo: "administración@paraiso.gob.mx",
-      direccion:
-        "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86613",
-    },
-    // {
-    //   nombre: "Arq. Rafael Lezama Javier",
-    //   puesto: "Dirección de Seguridad Pública",
-    //   imagen: "/public/user.png",
-    //   correo: "seguridadpublica@paraiso2427.gob.mx",
-    //   direccion: "Benito Juárez 3, Centro, 86600 Paraíso, Tab.",
-    // },
-    // {
-    //   nombre: "Tec. Otilio Baeza Ocampo",
-    //   puesto: "Dirección de Tránsito",
-    //   imagen: "/public/user.png",
-    //   correo: "transito@paraiso2427.gob.mx",
-    //   direccion:
-    //     "La Central Comonera, Buenos Aires 1292, Centro, 86605 Paraíso, Tab.",
-    // },
-    {
-      nombre: "Lic. Javier Rodríguez Hernández",
+      nombre: "Lic. Juan Sibaja Contreras",
       puesto: "Dirección de Asuntos Jurídicos",
       imagen: "/public/user.png",
-      correo: "juridico@paraiso.gob.mx",
-      direccion:
-        "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86615",
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Ing. Daniel Pérez Angulo",
+      nombre: "Arq. Agustín López Buendía",
+      puesto: "Dirección de Fomento Económico y Turismo",
+      imagen: "/public/user.png",
+      correo: "",
+      direccion: "",
+    },
+    {
+      nombre: "Tec. Daniel Pérez Angulo",
       puesto: "Dirección de Atención Ciudadana",
       imagen: "/public/user.png",
-      correo: "atencionciudadana@paraiso2427.gob.mx",
-      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab.",
+      correo: "",
+      direccion: "",
     },
     {
       nombre: "Lic. Claudia Lorena Montalvo Wilson",
       puesto: "Dirección de Atención a las Mujeres",
       imagen: "/public/user.png",
-      correo: "dam@paraiso2427.gob.mx",
-      direccion: "Gregorio Méndez Magaña 218a, Centro, 86600 Paraíso, Tab.",
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Ing. Antonio Jehova Javier Angulo",
+      nombre: "Ing. Antonio Jehová Javier Angulo",
       puesto: "Dirección de Protección Ambiental y Desarrollo Sustentable",
       imagen: "/public/user.png",
-      correo: "proteccionambiental@paraiso2427.gob.mx",
-      direccion: "Calle Ignacio Comonfort 6, La Ceiba, 86607 Paraíso, Tab.",
+      correo: "",
+      direccion: "",
     },
   ];
   const inteUnidadesApoyo = [
     {
-      nombre: "Lic. Nelson Alonso Pérez Pérez",
-      puesto: "Secretaría Técnica",
-      imagen: "/public/user.png",
-      correo: "secretariotecnicco@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86608"
-    },
-    {
-      nombre: "Ing. Ronny Castellanos Magaña",
-      puesto: "Secretaría Particular",
-      imagen: "/public/user.png",
-      correo: "secretarioparticular@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
-    },
-    {
-      nombre: "Biol. Yuri Alberto Alamilla Schrunder",
+      nombre: "Lic. Yury Alberto Alamilla Schrunder",
       puesto: "Coordinación de Protección Civil",
       imagen: "/public/user.png",
-      correo: "proteccioncivil@paraiso2427.gob.mx",
-      direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Tec. Nelly Carrillo Carrillo",
+      nombre: "Tec. Nely Carrillo Carrillo",
       puesto: "Coordinación del DIF Municipal",
       imagen: "/public/user.png",
-      correo: "dif@paraiso.gob.mx",
-      direccion: "José María Morelos 704, Centro, 86600 Paraíso, Tab."
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Dr. Francisco Calderón Dorantes",
-      puesto: "Coordinación de Atención a la Salud",
+      nombre: "Dr. Irving Donaldo Pérez García",
+      puesto: "Coordinación de Salud",
       imagen: "/public/user.png",
-      correo: "salud@paraiso2427.gob.mx",
-      direccion: "Blvd. Manuel Antonio Romero Zurita s/n, Centro, 86605 Paraíso, Tab."
+      correo: "",
+      direccion: "",
     },
     {
-      nombre: "Lic. Rafael Antonio Martinez Rabelo",
-      puesto: "Coordinación de Comunicación Social",
-      imagen: "/public/user.png",
-      correo: "comunicacionsocial@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-    },
-    {
-      nombre: "Lic. Andrés Izquierdo Morales",
-      puesto: "Coordinación de Evaluación de Resultados",
-      imagen: "/public/user.png",
-      correo: "evaluacion@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-    },
-    //   {
-    //     nombre: "Arq. Emilio Gómez Gallegos",
-    //     puesto: "Instituto Municipal de Planeación",
-    //     imagen: "/public/user.png",
-    //     correo: "", // No aparece en la lista
-    //     direccion: "" // No aparece en la lista
-    //   },
-    //   {
-    //     nombre: "Biol. Jorge Enrique Oyosa Ortiz",
-    //     puesto: "Coordinación de Eventos Especiales",
-    //     imagen: "/public/user.png",
-    //     correo: "", // No aparece
-    //     direccion: "" // No aparece
-    //   },
-    {
-      nombre: "Lic. Marian Kayle Alejandro de la Cruz",
-      puesto: "Coordinación Administrativa",
-      imagen: "/public/user.png",
-      correo: "presidencia@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-    },
-    {
-      nombre: "Lic. Óscar Augusto Pérez Carrillo",
-      puesto: "Unidad de Transparencia y Protección de Datos Personales",
-      imagen: "/public/user.png",
-      correo: "transparencia@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
-    },
-    {
-      nombre: "L.A.E. Maria del Carmen Gonzalez Rabanales",
-      puesto: "Departamento de Simplificación y Digitalización",
-      imagen: "/public/user.png",
-      correo: "mejoraregulatoria@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal. Calle Ignacio Comonfort. La Candelaria. C.P. 86605"
-    },
-    {
-      nombre: "Lic. Ana Rosa Domínguez Pérez",
-      puesto: "Archivo Municipal",
-      imagen: "/public/user.png",
-      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
-    },
-    {
-      nombre: "Lic. Martín de la Cruz Carrillo",
-      puesto: "Registro Civil 01",
-      imagen: "/public/user.png",
-      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86607"
-    },
-    {
-      nombre: "Lic. Marta Angélica Mendiola Gutiérrez",
-      puesto: "Registro Civil 02",
-      imagen: "/public/user.png",
-      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-      direccion: "86610 Puerto Ceiba, Tab."
-    },
-    {
-      nombre: "Tec. Luis Lázaro Hernández",
-      puesto: "Departamento de Delegados",
-      imagen: "/public/user.png",
-      correo: "secretariodelayuntamiento@paraiso2427.gob.mx",
-      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
-    },
-    {
-      nombre: "Tec. Freddy Martínez Aguilar",
-      puesto: "Departamento de Asuntos Religiosos",
-      imagen: "/public/user.png",
-      correo: "decur@paraiso2427.gob.mx",
-      direccion: "Santos Degollado, El Carmen, 86605 Paraíso, Tab."
-    },
-    {
-      nombre: "Lic. Michelle Andrea Escobar Camacho",
+      nombre: "Lic. Flor del Mar Pérez Rosado",
       puesto: "Subdirección de Catastro",
       imagen: "/public/user.png",
-      correo: "catastro@paraiso2427.gob.mx",
-      direccion: "2 de Abril 210, El Carmen, 86605 Paraíso, Tab."
+      correo: "",
+      direccion: "",
     },
-    {
-      nombre: "Lic. Marco Arturo Javier Madrigal",
-      puesto: "Coordinación de Fiscalización y Normatividad",
-      imagen: "/public/user.png",
-      correo: "finanzas@paraiso2427.gob.mx",
-      direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
-    },
-    {
-      nombre: "Profr. Celso Fernando Cauich May",
-      puesto: "Coordinación de Cultura",
-      imagen: "/public/user.png",
-      correo: "decur@paraiso2427.gob.mx",
-      direccion: "Santos Degollado 406, Centro, 86605 Paraíso, Tab."
-    },
-    {
-      nombre: "Lic. Mariana Gomez Madrigal",
-      puesto: "Coordinación de Fomento Deportivo",
-      imagen: "/public/user.png",
-      correo: "decur@paraiso2427.gob.mx",
-      direccion: "Ignacio Comonfort 20, La Ceiba, 86607 Paraíso, Tab."
-    },
-    //   {
-    //     nombre: "",
-    //     puesto: "Coordinación de Recursos Materiales",
-    //     imagen: "/public/user.png",
-    //     correo: "", // No aparece
-    //     direccion: "" // No aparece
-    //   },
-    {
-      nombre: "Ing. Otoniel Palma Santiago",
-      puesto: "Departamento de Licitaciones",
-      imagen: "/public/user.png",
-      correo: "administracion@paraiso.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-    },
-    {
-      nombre: "Lic. María del Rosario Jesús Arias",
-      puesto: "Departamento de Bienes Patrimoniales",
-      imagen: "/public/user.png",
-      correo: "administracion@paraiso.gob.mx",
-      direccion: "Santos Degollado 87, El Carmen, 86605 Paraíso, Tab."
-    },
-    {
-      nombre: "L.C.P. Griselda del Carmen Sosa Gomez",
-      puesto: "Departamento de Recursos Humanos",
-      imagen: "/public/user.png",
-      correo: "recursoshumanos@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86606"
-    },
-    {
-      nombre: "Eladio Trujillo Alejandro",
-      puesto: "Ramo 33",
-      imagen: "/public/user.png",
-      correo: "obraspublicas@paraiso2427.gob.mx",
-      direccion: "Palacio Municipal, Calle Ignacio Comonfort S/N, La Candelaria 86605"
-    }
   ];
   return (
     <ConfigProvider
@@ -325,7 +153,6 @@ export default function DirectorioPage() {
           xl={{ flex: '100%' }}
         >
           <Card
-          // className='cardContainerTitulo'
           >
             <Breadcrumb
               separator=">"
@@ -402,17 +229,21 @@ export default function DirectorioPage() {
                       </div>
                       <div className="director-info">
                         <h4 className="puesto-director">{item.puesto}</h4>
-                        <p className="nombre-director">{item.nombre}</p>
+                        <p className="nombre-director">{item.nombre || "Vacante"}</p>
                         <Divider style={{ margin: "12px 0" }} />
                         <div className="contacto-info">
-                          <div className="contacto-item">
-                            <MailOutlined style={{ color: "#f26c0d", marginRight: "8px" }} />
-                            <span className="contacto-text">{item.correo}</span>
-                          </div>
-                          <div className="contacto-item">
-                            <EnvironmentOutlined style={{ color: "#f26c0d", marginRight: "8px" }} />
-                            <span className="contacto-text">{item.direccion}</span>
-                          </div>
+                          {item.correo && (
+                            <div className="contacto-item">
+                              <MailOutlined style={{ color: "#f26c0d", marginRight: "8px" }} />
+                              <span className="contacto-text">{item.correo}</span>
+                            </div>
+                          )}
+                          {item.direccion && (
+                            <div className="contacto-item">
+                              <EnvironmentOutlined style={{ color: "#f26c0d", marginRight: "8px" }} />
+                              <span className="contacto-text">{item.direccion}</span>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -468,17 +299,21 @@ export default function DirectorioPage() {
                       </div>
                       <div className="coordinador-info">
                         <h4 className="puesto-coordinador">{item.puesto}</h4>
-                        <p className="nombre-coordinador">{item.nombre}</p>
+                        <p className="nombre-coordinador">{item.nombre || "Vacante"}</p>
                         <Divider style={{ margin: "10px 0" }} />
                         <div className="contacto-info">
-                          <div className="contacto-item">
-                            <MailOutlined style={{ color: "#f26c0d", marginRight: "6px" }} />
-                            <span className="contacto-text-small">{item.correo}</span>
-                          </div>
-                          <div className="contacto-item">
-                            <EnvironmentOutlined style={{ color: "#f26c0d", marginRight: "6px" }} />
-                            <span className="contacto-text-small">{item.direccion}</span>
-                          </div>
+                          {item.correo && (
+                            <div className="contacto-item">
+                              <MailOutlined style={{ color: "#f26c0d", marginRight: "6px" }} />
+                              <span className="contacto-text-small">{item.correo}</span>
+                            </div>
+                          )}
+                          {item.direccion && (
+                            <div className="contacto-item">
+                              <EnvironmentOutlined style={{ color: "#f26c0d", marginRight: "6px" }} />
+                              <span className="contacto-text-small">{item.direccion}</span>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
