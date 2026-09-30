@@ -8,6 +8,7 @@ import {
   Button,
   Avatar,
   Statistic,
+  Collapse,
 } from "antd";
 import {
   EnvironmentOutlined,
@@ -321,6 +322,48 @@ export default function TransparenciaComite() {
                   columns={columns}
                   rowKey={(record) => record.nombre}
                   scroll={{ x: "max-content" }}
+                />
+              </Col>
+            </Row>
+
+            <Row gutter={[8, 8]} style={{ marginBottom: 16 }}>
+              <Col xs={{ flex: "100%" }} xl={{ flex: "100%" }}>
+                <Collapse
+                  size="large"
+                  items={[
+                    {
+                      key: "1",
+                      label: "Programa Anual de Adquisiciones",
+                      children: (
+                        <Row gutter={[16, 16]}>
+                          <Col xs={24} md={12}>
+                            <Card>
+                              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                <span style={{ fontWeight: "bold" }}>Programa Anual de Adquisiciones 2025</span>
+                                <Button
+                                  icon={<FilePdfOutlined />}
+                                  href="https://gobparaiso.blob.core.windows.net/transparencia/PROGRAMA%20ANUAL%20ADQUISICIONES/PROGRAMA%20ANUAL%20ADQUISICIONES%202025.pdf"
+                                  target="_blank"
+                                />
+                              </div>
+                            </Card>
+                          </Col>
+                          <Col xs={24} md={12}>
+                            <Card>
+                              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                <span style={{ fontWeight: "bold" }}>Programa Anual de Adquisiciones 2026</span>
+                                <Button
+                                  icon={<FilePdfOutlined />}
+                                  href="https://gobparaiso.blob.core.windows.net/transparencia/PROGRAMA%20ANUAL%20ADQUISICIONES/PROGRAMA%20ANUAL%20ADQUISICIONES%202026.pdf"
+                                  target="_blank"
+                                />
+                              </div>
+                            </Card>
+                          </Col>
+                        </Row>
+                      ),
+                    },
+                  ]}
                 />
               </Col>
             </Row>
