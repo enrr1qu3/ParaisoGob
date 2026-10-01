@@ -314,6 +314,176 @@ export const TablaInfoRecurFedTransferidos = () => {
       },
     },
     {
+      name: "OP326 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ A FINOS EN AVENIDA PALMA DE COCO Y CALLES LOPEZ OBRADOR, PALMA HUACA Y PALMA DE COCO, PALMA DE OROZCO Y PALMA REAL, PALMA ARECA Y LAS PALMITAS, DE LA COLONIA LA MONTAÑITA, EN LA CIUDAD DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-034-2026%20OP326.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "KA301 CONSTRUCCION A BASE DE CONCRETO ASFALTICO EN CALIENTE EN DIVERSAS CALLES, (USUMACINTA, SAMARIA, PUXCATAN, GRIJALVA Y CONTINUACION GRIJALVA) EN LA CIUDAD DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-036-2026%20KA301.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP328 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ A FINOS DE ENTRADA LOS MORALES ROMERO, LOS DIAZ, LOS DOMINGUEZ Y OBRA COMPLEMENTARIA EN LA RANCHERIA LIBERTAD SEGUNDA SECCION DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-038-2026%20OP328.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP329 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ A FINOS EN ENTRADA LOS PESCADITOS DE LA RANCHERIA ORIENTE PRIMERA SECCION DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-039-2026%20OP329.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP330 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ FINOS (PRIMERA CERRADA, SEGUNDA CERRADA, TERCERA CERRADA, CUARTA CERRADA Y QUINTA CERRADA) DE LA COLONIA MAGISTERIAL DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-050-2026%20OP330.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP331 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ A FINOS EN ENTRADA AL TEMPLO PAN DE VIDA DE LA COLONIA QUINTIN ARAUZ DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/Contrato%20OP331%20TEMPLO%20PAN%20Y%20VIDA.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP332 REHABILITACION DE RED DE AGUA ENTUBADA, EN CALLE LAS PILAS DE LA COLONIA QUINTIN ARAUZ, DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-042-2026%20OP332.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP333 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ A FINOS EN CALLE LAS PILAS, DE LA COLONIA QUINTIN ARAUZ, DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-043-2026%20OP333.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP334 REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE EN CARRETERA URIEL DE LA CRUZ, EN EL POBLADO NICOLAS BRAVO DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-045-2026%20OP334.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP335 REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE Y OBRA COMPLEMENTARIA EN DIVERSAS ENTRADAS, IGLESIA SANTA ROSA, EL POZO Y LOS GONZALEZ, EN LA RINCONADA DE LA RANCHERIA LAS FLORES PRIMERA SECCION DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/Contrato%20OP335%20RINCONADA.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP336 REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE EN TRAMOS AISLADOS CAMINO ISLA MAJAPA, HASTA EL ENTRONQUE DE LA T, EN LA RANCHERIA NICOLAS BRAVO QUINTA SECCION (PUNTA BRAVA), DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-046-2026%20OP336.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP337 REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE Y OBRA COMPLEMENTARIA, EN CARRETERA LA SIRENITA, LOS PIJIJES, AMPARO MAGAÑA VERA (POETISA), Y LOS MAGAÑAS EN COLONIA QUINTIN ARAUZ, DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-059-2026%20OP337.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP338 REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE EN CARRETERA CARLOS PELLICER DE LA RANCHERIA NICOLAS BRAVO QUINTA SECCION (PUNTA BRAVA), DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-060-2026%20OP338.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP339 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½, A FINOS DE DIVERSAS ENTRADAS, LAS FLORES, LAS PALMAS, LOS JUILES, MISHINGA Y TEMPLO JESUS LA LUZ DEL MUNDO, DE LA RANCHERIA ORIENTE SEGUNDA SECCION (PALMA HUACA), DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-063-2026%20OP339.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP340 REHABILITACION DE RED DE AGUA ENTUBADA EN DIVERSAS ENTRADAS, LAS FLORES, LAS PALMAS, LOS JUILES Y MISHINGA, DE LA RANCHERIA ORIENTE SEGUNDA SECCION, (PALMA HUACA), DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-061-2026%20OP340.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP341 CONSTRUCCION DE CARCAMO DE BOMBEO DE AGUAS NEGRAS (UBIC, CURVA DE GUANAJAY), EN LA CIUDAD DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-062-2026%20OP341.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP342 REHABILITACION DE RED DE AGUA ENTUBADA EN (PRIMERA CERRADA, SEGUNDA CERRADA, TERCERA CERRADA, CUARTA CERRADA Y QUINTA CERRADA), DE LA COLONIA MAGISTERIAL DEL MUNICIPIO DE PARAISO, TABASCO",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-064-2026%20OP342.pdf",
+          },
+        ],
+      },
+    },
+    {
       name: "CONAC FONDO III 1ER.TRIM2026",
       2026: {
         1: [
