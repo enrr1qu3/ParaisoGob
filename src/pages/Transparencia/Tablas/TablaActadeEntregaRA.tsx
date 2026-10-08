@@ -848,6 +848,12 @@ export const TablaActadeEntregaRA = () => {
             name: "Contrato",
           },
         ],
+        2: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP314.pdf",
+            name: "Acta de entrega",
+          },
+        ],
       },
     },
     // -----------------------------------------------------------------------------
@@ -972,6 +978,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-036-2026%20OP318_redacted.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP318.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -984,6 +994,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20OP319.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP319%20.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -995,6 +1009,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-039-2026%20OP320%20(2)_redacted.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP320.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -1064,6 +1082,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-043-2026%20OP324.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP324.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -1075,6 +1097,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-044-2026%20OP325_redacted.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP325.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -1099,6 +1125,10 @@ export const TablaActadeEntregaRA = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CO-PA-R33FIII-046-2026%20OP327.pdf",
             name: "Contrato",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/OP327.pdf",
+            name: "Acta de entrega",
           },
         ],
       },

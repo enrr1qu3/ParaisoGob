@@ -320,6 +320,10 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-034-2026%20OP326.pdf",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP326.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -329,6 +333,10 @@ export const TablaInfoRecurFedTransferidos = () => {
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-036-2026%20KA301.pdf",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/KA301.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -340,6 +348,10 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-038-2026%20OP328.pdf",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP328.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -349,6 +361,10 @@ export const TablaInfoRecurFedTransferidos = () => {
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-039-2026%20OP329.pdf",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP329.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -370,6 +386,10 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/Contrato%20OP331%20TEMPLO%20PAN%20Y%20VIDA.pdf",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP331.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -380,6 +400,10 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-042-2026%20OP332.pdf",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP332.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -389,6 +413,10 @@ export const TablaInfoRecurFedTransferidos = () => {
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-043-2026%20OP333.pdf",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP333.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -419,6 +447,10 @@ export const TablaInfoRecurFedTransferidos = () => {
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/PA-LI-AD-R33FIII-046-2026%20OP336.pdf",
+          },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP336.pdf",
+            name: "Acta de entrega",
           },
         ],
       },
@@ -460,6 +492,10 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-061-2026%20OP340.pdf",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP340.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
@@ -479,6 +515,26 @@ export const TablaInfoRecurFedTransferidos = () => {
         3: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-064-2026%20OP342.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP345 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 ½ A FINOS EN RIVERA DEL RIO SECO, ENTRADA PRINCIPAL (LA ISLITA), ENTRADA 1, ENTRADA 2 Y ENTRADA LAS PALMITAS, DE LA RANCHERIA MOCTEZUMA PRIMERA SECCION, DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP345.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP346 REHABILITACION A BASE DE CONCRETO ASFALTICO EN CALIENTE EN CARRETERA EL MANGO EJIDO LIBERTAD PRIMERA SECCION (EL CHIVERO), DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP346.pdf",
           },
         ],
       },

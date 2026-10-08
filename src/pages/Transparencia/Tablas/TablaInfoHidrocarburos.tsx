@@ -475,6 +475,24 @@ export const TablaInfoHidrocarburos = () => {
             }
         },
         {
+            proyecto: "KAM 03",
+            obra: "MEJORA DE RED DE DISTRIBUCION DE ENERGIA ELECTRICA, EN MEDIA Y BAJA TENSION EN DIVERSAS CALLES, EN EL EJIDO LIBERTAD PRIMERA SECCIÓN (EL CHIVERO), DEL MUNICIPIO DE PARAÍSO, TABASCO.",
+            localidad: "270140014. EJIDO LIBERTAD PRIMERA SECCIÓN (EL CHIVERO)",
+            contrato: "CO PAR-R23MAR-058-2026",
+            2026:{
+                1: [
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Contrato/KAM03%20.pdf",
+                        name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Actas/KAM03%20%20ACTA%20DE%20ENTREGA.pdf",
+                        name: "Acta de entrega"
+                    }
+                ]
+            }
+        },
+        {
             proyecto: "OPM03",
             obra: "REHABILITACION A BASE DE CONCRETO HIDRAULICO EN LA CALLE CARMEN URUETA EN EL EJIDO ORIENTE SAN CAYETANO. PARAISO, TABASCO",
             localidad: "270140024. EJ. ORIENTE SAN CAYETANO.",
