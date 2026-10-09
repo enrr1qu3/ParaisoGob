@@ -96,8 +96,8 @@ export default function Inicio() {
                         </Button>
                     </div>
                 </Card>
-                <Anuncios />
-                <CartasInicio />
+                {/* <Anuncios /> */}
+                {/* <CartasInicio /> */}
                 {/* <Card
                     style={{ margin: "3rem 0rem 0rem 0rem ", }}
                 >

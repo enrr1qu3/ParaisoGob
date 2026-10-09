@@ -165,7 +165,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                             Director de asuntos jurídicos
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
-                                            Lic. Javier Rodríguez Hernández
+                                            Lic. Juan Sibaja Contreras
                                         </p>
                                     </Col>
 
@@ -177,7 +177,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                             Director de programación
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
-                                            Ing. Arturo Izquierdo Alejandro
+                                            Ing. Andrés Izquierdo Morales
                                         </p>
                                     </Col>
 
@@ -189,7 +189,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                             Contralor Municipal
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
-                                            Ing. Isaac López Guerra
+                                            Lic. Rafael Santiago Rodríguez
                                         </p>
                                     </Col>
 
@@ -198,7 +198,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                         xl={{ flex: '33.3%' }}
                                     >
                                         <h3 style={{ color: "#1a4b8c" }}>
-                                            Titular del departamento de mejora regulatoria
+                                            Titular del Departamento de Simplificación y Digitalización
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
                                             Lic María Del Carmen Gonzalez Rabanales

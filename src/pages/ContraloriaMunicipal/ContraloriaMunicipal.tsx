@@ -175,7 +175,7 @@ export default function ContraloriaMunicipal() {
                                     fontSize: '0.95rem'
                                 }}>
                                     Atentamente:<br/>
-                                    <strong style={{ color: '#f26c0d' }}>Ing. Isaac López Guerra</strong><br/>
+                                    <strong style={{ color: '#f26c0d' }}>Lic. Rafael Santiago Rodríguez</strong><br/>
                                     <em style={{ color: '#1a4b8c' }}>Contralor Municipal</em>
                                 </p>
                             </div>

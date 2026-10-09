@@ -246,7 +246,7 @@ export default function TransparenciaComite() {
                               Presidente del Comité de Transparencia
                             </h3>
                             <p className="pCarta">
-                              CP. Alfonso de la Cruz Garcia
+                              Lic. Rafael Santiago Rodríguez
                             </p>
                           </Col>
                         </Row>
