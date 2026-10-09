@@ -3,8 +3,8 @@ import { Button, Card } from 'antd';
 import 'swiper/swiper-bundle.css';
 
 import { SwiperInicio } from './components/SwiperInicio';
-import { CartasInicio } from './components/CartasInicio';
-import { Anuncios } from './components/Anuncios';
+// import { CartasInicio } from './components/CartasInicio';
+// import { Anuncios } from './components/Anuncios';
 import {
     DownloadOutlined
 } from '@ant-design/icons';
