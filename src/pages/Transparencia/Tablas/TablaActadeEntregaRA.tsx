@@ -462,6 +462,10 @@ export const TablaActadeEntregaRA = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/2/CONTRATO%20FIRMADO%20KA401%20-2026.pdf",
             name: "Contrato",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/KA401%20%20%20ACTA%20DE%20ENTREGA%20-%20%20RECEPCI%C3%93N.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },

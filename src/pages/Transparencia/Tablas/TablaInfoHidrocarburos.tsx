@@ -502,6 +502,10 @@ export const TablaInfoHidrocarburos = () => {
                     {
                         url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Contrato/Contrato%20OPM03%20Firmado%20Baluarte.pdf",
                         name: "Contrato"
+                    },
+                    {
+                        url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Tercera%20Seccion/2026/Actas/OPM03%20%20ACTA%20DE%20ENTREGA%20-%20%20RECEPCI%C3%93N.pdf",
+                        name: "Acta de entrega"
                     }
                 ]
             }

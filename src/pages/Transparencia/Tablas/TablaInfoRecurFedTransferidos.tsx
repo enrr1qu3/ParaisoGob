@@ -516,6 +516,10 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Segunda%20Seccion/Trimestre%202026/3/CO-PA-R33FIII-064-2026%20OP342.pdf",
           },
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/OP342.pdf",
+            name: "Acta de entrega",
+          },
         ],
       },
     },
