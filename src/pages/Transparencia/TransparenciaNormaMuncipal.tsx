@@ -59,6 +59,51 @@ export const TransparenciaNormaMuncipal = () => {
             ano: "2025",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/REGLAS%20DE%20OPERACION%20ATAUD%202025.pdf",
         },
+        {
+            nombre: "CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS (CPEUM)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/CONSTITUCION%20POLITICA%20DE%20LOS%20ESTADOS%20UNIDOS%20MEXICANOS%20CPEUM%20ACTUAL.pdf",
+        },
+        {
+            nombre: "CONSTITUCIÓN POLÍTICA DEL ESTADO LIBRE Y SOBERANO DE TABASCO",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/Constitucion-Politica-del-Estado%20Libre%20y%20Soberano%20de%20Tabasco.pdf",
+        },
+        {
+            nombre: "LEY DE COORDINACIÓN FISCAL (LCF)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/LEY%20DE%20COORDINACI%C3%93N%20FISCAL%20LCF.pdf",
+        },
+        {
+            nombre: "LEY DE OBRAS PÚBLICAS Y SERVICIOS RELACIONADOS CON LAS MISMAS DEL ESTADO DE TABASCO (LOPSRM)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/LEY%20DE%20OBRAS%20PUBLICAS%20Y%20SERVICIOS%20RELACIONADOS%20CON%20LAS%20MISMAS%20%20DEL%20ESTADO%20DE%20TABASCO%20LOPSRM.pdf",
+        },
+        {
+            nombre: "LEY FEDERAL DE DERECHOS 2025 (LFD)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/LEY%20FEDERAL%20DE%20DERECHOS%202025%20LFD.pdf",
+        },
+        {
+            nombre: "LEY ORGÁNICA DE LOS MUNICIPIOS DEL ESTADO DE TABASCO",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/LEY%20ORGANICA%20DE%20LOS%20MUNICIPIOS%20DEL%20ESTADO%20DE%20TABASCO%20ACTUAL.pdf",
+        },
+        {
+            nombre: "PRESUPUESTO DE EGRESOS DE LA FEDERACIÓN PARA EJERCICIO FISCAL (PEF 2025)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/PRESUPUESTO%20DE%20EGRESOS%20DE%20LA%20FEDERACION%20PARA%20EJERCIO%20FISCAL%20PEF%202025.pdf",
+        },
+        {
+            nombre: "REGLAMENTO DE LA LEY DE OBRAS PÚBLICAS Y SERVICIOS RELACIONADOS CON LAS MISMAS (LOPSRM)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/REGLAMENTO%20DE%20LA%20LEY%20DE%20OBRAS%20PUBLICAS%20Y%20SERVICIOS%20RELACIONADOS%20CON%20LAS%20MISMAS%20LOPSRM.pdf",
+        },
+        {
+            nombre: "REGLAMENTO DE LA LEY DEL SECTOR DE HIDROCARBUROS (RSH)",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/REGLAMENTO%20DE%20LA%20LEY%20DE%20SECTOR%20DE%20HIDROCARBUROS%20RSH.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {
