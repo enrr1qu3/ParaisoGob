@@ -17,6 +17,7 @@ export const TablaInfoPresupuestaria = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ENDEUDAMIENTO NETO.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20presupuestaria/1.-%20ENDEUDAMIENTO%20NETO.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PRESUPUESTARIA/1.-%20ENDEUDAMIENTO%20NETO.pdf",
             }
         },
         {
@@ -30,6 +31,7 @@ export const TablaInfoPresupuestaria = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/ESTADO ANALITICO DE LOS INGRESOS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20presupuestaria/2.-%20ESTADO%20ANALITICO%20DE%20LOS%20INGRESOS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PRESUPUESTARIA/2.-%20ESTADO%20ANALITICO%20DE%20LOS%20INGRESOS.pdf",
             }
         },
         {
@@ -46,6 +48,7 @@ export const TablaInfoPresupuestaria = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información presupuestaria/INTERESES DE LA DEUDA.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20presupuestaria/3.-%20INTERESES%20DE%20LA%20DEUDA.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PRESUPUESTARIA/3.-%20INTERESES%20DE%20LA%20DEUDA.pdf",
             }
         },
 

@@ -14,6 +14,7 @@ export const TablaInfoContable = () => {
             2026: {
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado de actividades/ESTADO DE ACTIVIDADES.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/1.-%20ESTADO%20DE%20ACTIVIDADES.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/1.-%20ESTADO%20DE%20ACTIVIDADES.pdf",
             }
         },
         {
@@ -27,6 +28,7 @@ export const TablaInfoContable = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado analítico de la deuda y otros pasivos/ESTADO ANALÍTICO DE LA DEUDA Y OTROS PASIVOS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/2.-%20ESTADO%20ANALITICO%20DE%20LA%20DEUDA%20Y%20OTROS%20PASIVOS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/2.-%20ESTADO%20ANAL%C3%8DTICO%20DE%20LA%20DEUDA%20Y%20OTROS%20PASIVOS.pdf",
             }
         },
         {
@@ -40,6 +42,7 @@ export const TablaInfoContable = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado analítico del activo/ESTADO ANALÍTICO DEL ACTIVO.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/3.-%20%20ESTADO%20ANALITICO%20DEL%20ACTIVO.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/3.-%20ESTADO%20ANAL%C3%8DTICO%20DEL%20ACTIVO.pdf",
             }
         },
         {
@@ -53,6 +56,7 @@ export const TablaInfoContable = () => {
             2026: {
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado de cambios en la situación financiera/ESTADOS DE CAMBIOS EN LA SITUACIÓN FINANCIERA.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/4.-%20ESTADO%20DE%20CAMBIOS%20EN%20LA%20SITUACI%C3%93N%20FINANCIERA.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/4.-%20ESTADOS%20DE%20CAMBIOS%20EN%20LA%20SITUACI%C3%93N%20FINANCIERA.pdf",
             }
         },
         {
@@ -66,6 +70,7 @@ export const TablaInfoContable = () => {
             2026: {
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado de flujo de efectivo/ESTADO DE FLUJO DE EFECTIVO.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/5.-%20ESTADO%20DE%20FLUJOS%20DE%20EFECTIVO.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/5.-%20ESTADO%20DE%20FLUJO%20DE%20EFECTIVO.pdf",
             }
         },
         {
@@ -79,6 +84,7 @@ export const TablaInfoContable = () => {
             2026: {
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado de situación financiera/ESTADO DE SITUACION FINANCIERA.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/6.-%20ESTADO%20DE%20SITUACION%20FINANCIERA.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/6.-%20ESTADO%20DE%20SITUACION%20FINANCIERA.pdf",
             }
         },
         {
@@ -92,6 +98,7 @@ export const TablaInfoContable = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Estado de variación de la hacienda publica/ESTADO DE VARIACIÓN DE LA HACIENDA PÚBLICA.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/7.-%20ESTADO%20DE%20VARIACION%20EN%20LA%20HACIENDA%20PUBLICA.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/7.-%20ESTADO%20DE%20VARIACI%C3%93N%20DE%20LA%20HACIENDA%20P%C3%9ABLICA.pdf",
             }
         },
         {
@@ -105,6 +112,7 @@ export const TablaInfoContable = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Notas a los estados financieros/NOTA A LOS ESTADOS FINANCIEROS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/8.-%20NOTA%20A%20LOS%20ESTADOS%20FINANCIEROS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/8.-%20NOTA%20A%20LOS%20ESTADOS%20FINANCIEROS.pdf",
             }
         },
         {
@@ -121,6 +129,7 @@ export const TablaInfoContable = () => {
             2026: {
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Pasivos contingentes/PASIVOS CONTINGENTES.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/9.-%20PASIVOS%20CONTINGENTES.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/9.-%20PASIVOS%20CONTINGENTES.pdf",
             }
         },
         {
@@ -131,6 +140,7 @@ export const TablaInfoContable = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Cuentas activas de banco/CUENTAS ACTIVAS DE BANCOS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/10.-%20CUENTAS%20ACTIVAS%20DE%20BANCOS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/10.-%20CUENTAS%20ACTIVAS%20DE%20BANCOS.pdf",
             }
         },
 

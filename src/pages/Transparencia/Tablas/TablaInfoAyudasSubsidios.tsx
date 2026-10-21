@@ -15,6 +15,7 @@ export const TablaInfoAyudasSubsidios = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/AYUDAS Y SUBSIDIOS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20financiera/1.-%20MONTOS%20EFECTIVAMENTE%20PAGADOS%20AYUDAS%20Y%20SUBSIDIOS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20FINANCIERA/MONTOS%20EFECTIVAMENTE%20PAGADOS%20AYUDAS%20Y%20SUBSIDIOS.pdf",
             }
         },
         {
@@ -22,6 +23,7 @@ export const TablaInfoAyudasSubsidios = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información financiera/CALENDARIO DE INGRESOS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20financiera/2.-%20CALENDARIO%20DE%20INGRESOS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20FINANCIERA/2.-%20CALENDARIO%20DE%20INGRESOS.pdf",
             }
         }
 

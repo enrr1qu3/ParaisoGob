@@ -48,6 +48,7 @@ export const TablaInfoLGCGAnual = () => {
             2026: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/2026-01-27_2011/LEY DE INGRESO 2026.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Anual/2026/1.-%20LEY%20DE%20INGRESOS.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Anual/2026/1.-%20LEY%20DE%20INGRESOS3TRE.pdf",
             }
         },
         {
