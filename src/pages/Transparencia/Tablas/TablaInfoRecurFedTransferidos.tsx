@@ -544,6 +544,36 @@ export const TablaInfoRecurFedTransferidos = () => {
       },
     },
     {
+      name: "OP347 REHABILITACIÓN DE RED DE AGUA ENTUBADA EN CALLE EL RUISEÑOR DE LA COLONIA QUINTIN ARAUZ, PARAISO, TABASCO.",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/CONTRATO%20OP347_censurado.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP348 REHABILITACION DE RED DE AGUA ENTUBADA ENTRADA FRENTE A LA TIENDA SUPER SANCHEZ DE LA RANCHERIA LIBERTAD 2DA SECCION DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/CONTRATO%20OP348_censurado.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "OP349 REHABILITACION A BASE DE GRAVA DE REVESTIMIENTO DE 1 1/2 A FINOS, EN ENTRADA PARALELO AL TEJON (CHABLE), Y ENTRADA MEDIO METRO EN POB. FRANCISCO I. MADERO DEL MUNICIPIO DE PARAISO, TABASCO.",
+      2026: {
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/CONTRATO%20OP349_censurado.pdf",
+          },
+        ],
+      },
+    },
+    {
       name: "CONAC FONDO III 1ER.TRIM2026",
       2026: {
         1: [

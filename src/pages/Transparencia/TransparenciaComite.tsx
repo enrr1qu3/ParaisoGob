@@ -104,6 +104,11 @@ export default function TransparenciaComite() {
       archivo:
         "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/ACTA%20SO-10-2026.pdf",
     },
+    {
+      nombre: "SE/10/2026",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/RESOLUCIONES_COMITE_TRANSPARENCIA/SE102026.pdf",
+    },
   ];
   const dataEE = [
     {

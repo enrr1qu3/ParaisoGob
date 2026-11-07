@@ -307,6 +307,15 @@ export const TablaInfoLGCGAnual = () => {
                         },
                         {
                             title: '3',
+                            dataIndex: [2026, 3],
+                            width: "10px",
+                            render: (e: any) => (
+                                (e) && < Button
+                                    icon={< FilePdfOutlined />}
+                                    href={e}
+                                    target="_blank"
+                                />
+                            ),
                             align: 'center',
                         },
                         {
