@@ -135,13 +135,13 @@ export const TablaInfoContable = () => {
         {
             name: "CUENTAS ACTIVAS DE BANCOS",
             2025: {
-                3: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2025/INFORMACION_CONTABLE/CUENTAS ACTIVAS DE BANCOS.pdf"
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2025/INFORMACION_CONTABLE/CUENTAS ACTIVAS DE BANCOS.pdf",
+                4: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-4-2026/Informaci%C3%B3n%20contable/CUENTAS%20ACTIVAS%20DE%20BANCOS.pdf",
             },
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información contable/Cuentas activas de banco/CUENTAS ACTIVAS DE BANCOS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informacion%20Contable/10.-%20CUENTAS%20ACTIVAS%20DE%20BANCOS.pdf",
                 3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20CONTABLE/10.-%20CUENTAS%20ACTIVAS%20DE%20BANCOS.pdf",
-                4:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-4-2026/Informaci%C3%B3n%20contable/CUENTAS%20ACTIVAS%20DE%20BANCOS.pdf",
             }
         },
 

@@ -164,6 +164,11 @@ export const TablaInfoRecurFedTransferidos = () => {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Segundo%20Trimestre%202026/SRFT_2DO.%20TRIM.%202026.pdf",
           },
         ],
+        3: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/SRFT%203ER.%20TRIM.2026.pdf",
+          },
+        ],
       },
     },
     {
@@ -182,6 +187,16 @@ export const TablaInfoRecurFedTransferidos = () => {
         4: [
           {
             url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/SRFT_CIERRE%20DEFINITIVO%202025.pdf",
+          },
+        ],
+      },
+    },
+    {
+      name: "CIERRE DEFINITIVO 2026",
+      2026: {
+        4: [
+          {
+            url: "https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/SRFT%203ER.%20TRIM.2026.pdf",
           },
         ],
       },

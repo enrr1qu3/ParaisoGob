@@ -156,6 +156,11 @@ export default function TransparenciaComite() {
       archivo:
         "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/ACUERDO%2013426.pdf.pdf",
     },
+    {
+      nombre: "CÉDULA DE NOTIFICACIÓN POR ESTRADO ELECTRÓNICO 510510800014926",
+      archivo:
+        "https://gobparaiso.blob.core.windows.net/transparencia/ESTRADOS_ELECTRONICOS/CEDULA%20DE%20NOTIFICACION%20POR%20ESTRADO%20ELECTRONICO%20510510800014926.pdf",
+    },
   ];
   const columns: ColumnsType<any> = [
     {
