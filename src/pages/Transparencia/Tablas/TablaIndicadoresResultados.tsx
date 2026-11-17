@@ -41,6 +41,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/ADMINISTRACION.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_ADMINISTRACION_2T_2026%20(1).xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.2_DA_3T_2026%20ADMINISTRACION.xlsx" }],
       },
     },
     {
@@ -48,6 +49,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/ASUNTOS%20JUR%C3%8DDICOS.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_ASUNTOS%20JURIDICOS_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_DAJ_3T_2026%20JURIDICO.xlsx" }],
       },
     },
     {
@@ -55,6 +57,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/ATENCION%20CIUDADANA.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_ATENCION%20CIUDADANA_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_ATENCION%20CIUDADANA_3T_2026.xlsx" }],
       },
     },
     {
@@ -62,6 +65,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/ATENCI%C3%93N%20A%20LAS%20MUJERES.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_ATENCION%20A%20LAS%20MUJERES_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1%20ATENCION%20A%20LAS%20MUJERES_3T_2026.xlsx" }],
       },
     },
     {
@@ -69,6 +73,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/CATASTRO.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2%20CATASTRO_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_CATASTRO_3T_2026.xlsx" }],
       },
     },
     {
@@ -76,6 +81,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/COMUNICACI%C3%93N%20SOCIAL.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_COMUNICACION%20SOCIAL_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_COMUNICACION%20SOCIAL%20_3T_2026.xlsx" }],
       },
     },
     {
@@ -83,6 +89,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/CONTRALOR%C3%8DA.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_CONTRALORIA_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_CONTRALORIA%20M_3T_2026.xlsx" }],
       },
     },
     {
@@ -90,6 +97,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/COORDINACI%C3%93N%20DE%20SALUD.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_COORD%20DE%20SALUD_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_COORDINACION%20DE%20SALUD%20UBR_3T_2026.xlsx" }],
       },
     },
     {
@@ -97,6 +105,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/DECUR.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_DECUR_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_DECUR_3T_2026.xlsx" }],
       },
     },
     {
@@ -104,6 +113,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/DESARROLLO.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_DESARROLLO_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_DESARROLLO_2T_2026.xlsx" }],
       },
     },
     {
@@ -111,6 +121,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/DIF.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_DIF_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_DIF_3T_2026.xlsx" }],
       },
     },
     {
@@ -118,6 +129,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/FINANZAS.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2%20FINANZAS_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_FINANZAS_3T_2026.xlsx" }],
       },
     },
     {
@@ -125,6 +137,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/FOMENTO%20ECON%C3%93MICO.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_FOMENTO%20ECONOMICO_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_FOMENTO%20ECONOMICO_3T_2026.xlsx" }],
       },
     },
     {
@@ -132,6 +145,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/MEJORA%20REGULATORIA.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_MEJORA%20REGULATORIA_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.2_3T_2026%20MEJORA%20REGULATORIA.xlsx" }],
       },
     },
     {
@@ -139,6 +153,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/OBRAS%20P%C3%9ABLICAS.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_OBRAS%20PUBLICAS_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_OBRAS%20PUBLICAS_3T_2026.xlsx" }],
       },
     },
     {
@@ -146,6 +161,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/PROGRAMACI%C3%93N.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_PROGRAMACION_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1%20PROGRAMACION%20_2T_2026.xlsx" }],
       },
     },
     {
@@ -153,6 +169,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/PROTECCI%C3%93N%20AMBIENTAL.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_PROTECCION%20AMBIENTAL_1T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_PROTECCION%20AMBIENTAL%20_3T_2026.xlsx" }],
       },
     },
     {
@@ -160,6 +177,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/PROTECCI%C3%93N%20CIVIL.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_PROTECCION%20CIVIL_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_3T_2026%20PROTECCION%20CIVIL%20.xlsx" }],
       },
     },
     {
@@ -167,6 +185,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/SECRETAR%C3%8DA%20DEL%20AYUNTAMIENTO.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_SECRETARIA%20DEL%20AYUNTAMIENTO_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_SECRETARIA%20DEL%20AYUNTAMIENTO_3T_2026.xlsx" }],
       },
     },
     {
@@ -174,6 +193,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/SEGURIDAD%20P%C3%9ABLICA.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_SEGURIDAD%20PUBLICA_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1_SEGURIDAD%20PUBLICA_3T_2026.xlsx" }],
       },
     },
     {
@@ -181,6 +201,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/TECNOLOG%C3%8DA%20DE%20LA%20INFORMACI%C3%93N.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_TECNOLOGIA%20DE%20LA%20INFORMACION_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.2_K013_3T_2026%20TECNOLOGIA%20DE%20LA%20INFORMACION.xlsx" }],
       },
     },
     {
@@ -188,6 +209,7 @@ export const TablaIndicadoresResultados = () => {
       2026: {
         1: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Indicadores%20de%20Resultado/TRANSITO%20MUNICIPAL.xlsx" }],
         2: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Indicadores%20de%20resultados/LGT_65_V.2_MUNICIPAL%20DE%20TRANSITO_2T_2026.xlsx" }],
+        3: [{ url: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INDICADORES%20DE%20RESULTADO/LGT_65_V.1%20TRANSITO%20MUNICIPAL%20_3T_2026.xlsx" }],
       },
     },
   ];
