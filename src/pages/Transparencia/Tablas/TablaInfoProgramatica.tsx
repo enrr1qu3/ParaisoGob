@@ -15,6 +15,7 @@ export const TablaInfoProgramatica = () => {
             2026: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/PROGRAMAS Y PROYECTOS.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20programatica/CLASIFICACION%20DE%20PROGRAMAS%20Y%20PROYECTOS.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PROGRAMATICA/CLASIFICACION%20DE%20PROGRAMAS%20Y%20PROYECTOS.pdf",
             }
         },
         {
@@ -28,6 +29,7 @@ export const TablaInfoProgramatica = () => {
             2026: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/CLASIFICACION POR CATEGORIA PROGRAMATICA.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20programatica/CLASIFICACION%20POR%20CATEGORIA%20PROGRAMATICA.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PROGRAMATICA/Clasificacion%20Por%20Categoria%20Programatica.pdf",
             }
         },
         {
@@ -38,6 +40,7 @@ export const TablaInfoProgramatica = () => {
             2026: {
                 1: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/PROGRAMAS Y PROYECTOS DE INVERSION.pdf",
                 2: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20programatica/PROGRAMAS%20Y%20PROYECTOS%20DE%20INVERSION.pdf",
+                3: "https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PROGRAMATICA/Programas%20y%20Proyectos%20de%20Inversion.pdf",
             }
         },
         {

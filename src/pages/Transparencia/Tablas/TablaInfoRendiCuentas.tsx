@@ -81,6 +81,9 @@ export const TablaInfoRendiCuentas = () => {
       2025: {
         4: "https://gobparaiso.blob.core.windows.net/transparencia/rendición de cuentas 4t 2025/CLASIFICACION POR PARTIDA (1).pdf",
       },
+      2026: {
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/CLASIFICACION%20P%C3%93R%20PARTIDA%20.pdf",
+      },
     },
     {
       name: "CLASIFICACIÓN POR FUENTE DE FINANCIAMIENTO",
@@ -95,6 +98,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_ADMINISTRATIVA.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20ADMINISTRATIVA.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Clasificacion%20Administrativa.pdf",
       },
     },
     {
@@ -102,6 +106,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_ECONOMICA_(POR%20TIPO%20DE%20GASTO).pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20ECONOMICA.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Clasificacion%20Economica%20por%20tipo%20de%20gasto.pdf",
       },
     },
     {
@@ -109,6 +114,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_FUNCIONAL.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20FUNCIONAL.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Clasificacion%20Funcional.pdf",
       },
     },
     {
@@ -116,6 +122,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_POR_FUENTE_DE_FINANCIAMIENTO.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20POR%20FUENTE%20DE%20FINANCIAMIENTO.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Clasificacion%20Por%20fuente%20de%20Financiamiento.pdf",
       },
     },
     {
@@ -123,6 +130,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/CLASIFICACION_POR_OBJETO_DEL_GASTO.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/CLASIFICACION%20POR%20OBJETO%20DEL%20GASTO.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Clasificacion%20por%20Objeto%20de%20Gasto.pdf",
       },
     },
     {
@@ -130,6 +138,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/GASTO_POR_CATEGORIA_PROGRAMATICA.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/GASTO%20POR%20CATEGORIA%20PROGRAMATICA.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Clasificacion%20Por%20Categoria%20Programatica.pdf",
       },
     },
     {
@@ -137,6 +146,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/PRESUPUESTO_DE_EGRESOS_CLASIFICACION_POR_PARTIDA.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/PRESUPUESTO%20DE%20EGRESOS%20CLASIFICACION%20POR%20PARTIDA.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/Presupuesto%20de%20Egresos%20Calsificacion%20por%20Partida.pdf",
       },
     },
     {
@@ -144,6 +154,7 @@ export const TablaInfoRendiCuentas = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/PROGRAMAS_Y_PROYECTOS.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/SEGUNDO%20TRIMESTRE/PROGRAMAS%20Y%20PROYECTOS.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Rendicion%20de%20Cuentas/2026/TERCER%20TRIMESTRE/PROGRAMAS%20Y%20PROYECTOS.pdf",
       },
     },
   ];
@@ -279,6 +290,12 @@ export const TablaInfoRendiCuentas = () => {
             },
             {
               title: "3",
+              dataIndex: [2026, 3],
+              width: "10px",
+              render: (e: any) =>
+                e && (
+                  <Button icon={<FilePdfOutlined />} href={e} target="_blank" />
+                ),
               align: "center",
             },
             {

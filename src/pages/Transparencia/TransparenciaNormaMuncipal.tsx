@@ -104,6 +104,11 @@ export const TransparenciaNormaMuncipal = () => {
             ano: "2026",
             archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/REGLAMENTO%20DE%20LA%20LEY%20DE%20SECTOR%20DE%20HIDROCARBUROS%20RSH.pdf",
         },
+        {
+            nombre: "PROGRAMA MUNICIPAL DE DESARROLLO URBANO VIGENTE",
+            ano: "2026",
+            archivo: "https://gobparaiso.blob.core.windows.net/transparencia/NORMATIVIDAD%20MUNICIPAL/PROGRAMA%20MUNICIPAL%20DE%20DESARROLLO%20URBANO%20VIGENTE.pdf",
+        },
     ]
     const columns: ColumnsType<any> = [
         {

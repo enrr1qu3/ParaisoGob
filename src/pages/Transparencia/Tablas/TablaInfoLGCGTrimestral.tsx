@@ -18,6 +18,7 @@ export const TablaInfoLGCGTrimestral = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/FORMATO%20DE%20PROGRAMAS%20CON%20RECURSOS%20CONCURRENTE%20POR%20ORDEN%20DE%20GOBIE.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Segundo%20Trimestre%202026/INFORMACION%20DE%20LOS%20MONTOS%20PLENAMEINTE%20IDENTIFICADOS%20POR%20ORDEN%20DE%20GOBIERNO%20DE%20LOS%20PROG%20EN%20DONDE%20CONCURRAN%20REC%20FEDERALES%20.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Tercer%20Trimestre%202026/INFORMACION%20DE%20LOS%20MONTOS%20PLENAMENTE%20IDENTIFICADOS%20POR%20ORDEN%20DE%20GOBIERNO%20%20DE%20LOS%20PROGRAMAS%20CON%20RECURSOS%20CONCURRENTES%20POR%20ORDEN%20DE%20GOBIERNO.pdf",
       },
     },
     {
@@ -66,6 +67,7 @@ export const TablaInfoLGCGTrimestral = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe Financiero LGCG/Trimestral/FORMATO DE OBLIGACIONES PAGADAS O GARANTIZADAS CON FONDOS FEDERA.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Segundo%20Trimestre%202026/INFORMACION%20RELATIVA%20A%20LAS%20OBLIGACIONES%20QUE%20SE%20PAGAN%20O%20GARANTIZAN%20CON%20RECURSOS%20FONDOS%20FEDERALES%20.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Tercer%20Trimestre%202026/INFORMACION%20RELATIVA%20A%20LAS%20%20OBLIGACIONES%20PAGADAS%20O%20GARANTIZADAS%20CON%20FONDOS%20FEDERALES.pdf",
       },
     },
     {
@@ -82,6 +84,7 @@ export const TablaInfoLGCGTrimestral = () => {
       2026: {
         1: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/FORMATO%20DEL%20EJER%20Y%20DESTINO%20DE%20GASTO%20FEDERALIZADO%20Y%20REINTEGROS.pdf",
         2: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Segundo%20Trimestre%202026/INFORMACION%20TRIMESTRAL%20%20DEL%20EJERCICIO%20Y%20DESTINO%20DEL%20GASTO%20FEDERALIZADO%20Y%20REINTEGRO%20.pdf",
+        3: "https://gobparaiso.blob.core.windows.net/transparencia/Informe%20Financiero%20LGCG/Trimestral/Tercer%20Trimestre%202026/INFORMACION%20TRIMESTRAL%20DEL%20EJERCICIO%20Y%20DESTINO%20DEL%20GASTO%20FEDERALIZADO%20Y%20REINTEGROS.pdf",
       },
     },
     // {
@@ -223,7 +226,12 @@ export const TablaInfoLGCGTrimestral = () => {
             },
             {
               title: "3",
+              dataIndex: [2026, 3],
               width: "10px",
+              render: (e: any) =>
+                e && (
+                  <Button icon={<FilePdfOutlined />} href={e} target="_blank" />
+                ),
               align: "center",
             },
             {

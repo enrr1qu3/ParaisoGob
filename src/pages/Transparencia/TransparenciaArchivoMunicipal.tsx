@@ -223,7 +223,7 @@ export const TransparenciaArchivoMunicipal = () => {
                                             Titular del departamento de tecnologías de la información
                                         </h3>
                                         <p style={{ color: "#fd8108", fontWeight: "bold", }}>
-                                            L.I.A Miguel Ramón Domínguez
+                                            Ing. Adriana del Carmen Pérez de la Cruz
                                         </p>
                                     </Col>
                                 </Row>
