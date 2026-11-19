@@ -54,6 +54,7 @@ export const TablaInfoProgramatica = () => {
             2026:{
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/RECURSOS RECIBIDOS FORTAMUN.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20programatica/RECURSOS%20RECIBIDOS%20FORTAMUN%20.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PROGRAMATICA/RECURSOS%20RECIBIDOS%20FORTAMUN.pdf",
             }
         },
         {
@@ -67,6 +68,7 @@ export const TablaInfoProgramatica = () => {
             2026: {
                 1:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-1-2026/Información programatica/OBRAS Y ACCIONES A REALIZAR FAIS.pdf",
                 2:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-2-2026/Informaci%C3%B3n%20programatica/OBRAS,%20ACCIONES%20A%20REALIZAR%20FAIS.pdf",
+                3:"https://gobparaiso.blob.core.windows.net/transparencia/SEVAC/TRIMESTRE-3-2026/INFORMACION%20PROGRAMATICA/OBRAS%20Y%20ACCIONES%20A%20REALIZAR%20FAIS%20.pdf",
             }
         },
 

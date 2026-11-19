@@ -75,6 +75,11 @@ export const TablaInfoRecurFedTransferidos = () => {
           {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/APLICACION%20DE%20LOS%20RECURSOS%20FORTAMUN.pdf",
           }
+        ],
+        3:[
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/APLICACION%20DE%20LOS%20RECURSOS%20FORTAMUN%203ER.%20TRIM.%202026.pdf",
+          }
         ]
       }
     },
@@ -118,6 +123,11 @@ export const TablaInfoRecurFedTransferidos = () => {
         2:[
           {
             url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/MONTO,%20OBRAS,%20ACCIONES%20CON%20FAIS%20.pdf",
+          }
+        ],
+        3:[
+          {
+            url:"https://gobparaiso.blob.core.windows.net/transparencia/RECURSOS%20FEDERALES%20TRANSFERIDOS/Primer%20Seccion%20Trimestre%202026/Tercer%20Trimestre%202026/MONTOS,%20OBRAS%20Y%20ACCIONES%20CON%20EL%20FAIS%203ER.%20TRIM.%202026.pdf",
           }
         ]
       }
